@@ -1,0 +1,6 @@
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/omptbx/tst.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/omptbx/tst.py", line 5
+    if (omptbx.have_omp_h): print "omptbx.have_omp_h"
+                                                    ^
+SyntaxError: invalid syntax
+

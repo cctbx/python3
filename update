@@ -1,0 +1,27 @@
+#!/bin/bash
+
+module load dials/nightly
+. /dls/science/groups/scisoft/DIALS/Python3/setup 
+
+echo "# Python3 compatibility tests" > README.md
+for repository in $(libtbx.list_modules | sort)
+do
+  echo $repository
+  echo "## $repository" >> README.md
+
+  RP=$(libtbx.find_in_repositories $repository)
+  python3 -m compileall -x "\.git" -q $RP > $repository.log
+
+  FAILS=$(grep "^\*\*\*" $repository.log | wc -l)
+  if [ "$FAILS" == "0" ]; then
+    echo "all OK" >> README.md
+  else
+    echo "[$FAILS files]($repository.log) violate python3 syntax" >> README.md
+  fi
+
+  echo "" >> README.md
+done
+
+git add *.md *.log
+git commit -m "update"
+git push

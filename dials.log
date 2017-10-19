@@ -1,0 +1,1800 @@
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/indexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/indexer.py", line 720
+    except AssertionError, e:
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/nave_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/nave_parameters.py", line 31
+    print flex.max(delta_psi_deg), flex.min(delta_psi_deg)
+             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/refinement.py", line 46
+    print inlier_sel.size(), panel_ids.size()
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/stills_indexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/stills_indexer.py", line 304
+    except RuntimeError, e:
+                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/symmetry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/indexing/symmetry.py", line 208
+    except RuntimeError, e:
+                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/integration/kapton_correction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/integration/kapton_correction.py", line 209
+    print "fast and slow detector axes:", tuple(self.fast), tuple(self.slow)
+                                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/integration/stills_significance_filter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/integration/stills_significance_filter.py", line 41
+    print "*"*80
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "*"*80)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/profile_model/gaussian_rs/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/profile_model/gaussian_rs/__init__.py", line 32
+    print "WARNING: Stills partiality is currently a placeholder"
+                                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WARNING: Stills partiality is currently a placeholder")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/analysis/tst_vs_R.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/analysis/tst_vs_R.py", line 16
+    print "This script requires the rpy2 package to be installed."
+                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "This script requires the rpy2 package to be installed.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/outlier_detection/outlier_base.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/outlier_detection/outlier_base.py", line 409
+    print CentroidOutlierFactory.from_parameters_and_colnames(params, [1, 2, 3])
+                               ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/parameterisation/detector_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/parameterisation/detector_parameters.py", line 848
+    print "This detector does not have a hierarchy"
+                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "This detector does not have a hierarchy")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/parameterisation/prediction_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/parameterisation/prediction_parameters.py", line 732
+    print "(e X r).s0 too small:"
+                                ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/sparse_engine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/refinement/sparse_engine.py", line 19
+    except ImportError,e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/scaling/observation_manager.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/scaling/observation_manager.py", line 175
+    print "No Experiments found in the input"
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/simulation/generate_test_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/simulation/generate_test_reflections.py", line 379
+    print '%d overestimates, %d underestimates' % (len(overestimates),
+                                              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/simulation/utils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/algorithms/simulation/utils.py", line 31
+    print j, dx, dy, dz
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int j, dx, dy, dz)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/align_crystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/align_crystal.py", line 250
+    print 'Independent solutions:'
+                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Independent solutions:')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/analyse_background.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/analyse_background.py", line 64
+    print i
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/analyse_output.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/analyse_output.py", line 79
+    print " Skipping: following required fields not present:"
+                                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int " Skipping: following required fields not present:")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/apply_mask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/apply_mask.py", line 95
+    print "Writing datablock to %s" % params.output.datablock
+                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing datablock to %s" % params.output.datablock)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/background.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/background.py", line 73
+    print 'For frame %d:' % indx
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'For frame %d:' % indx)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/batch_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/batch_analysis.py", line 68
+    print 'nproc: %i' %params.nproc
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'nproc: %i' %params.nproc)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/calc_rmsds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/calc_rmsds.py", line 83
+    print rmsds
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsds)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/check_strategy.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/check_strategy.py", line 49
+    print "# shadowed reflections: %i/%i (%.2f%%)" %(
+                                                 ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/cluster_exec.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/cluster_exec.py", line 65
+    except Exception, exception:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/combine_experiments.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/combine_experiments.py", line 245
+    raise Sorry, "clustering is not configured"
+               ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_beam_spindle_angles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_beam_spindle_angles.py", line 63
+    print "No Experiments found in the input"
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_mosflm_dials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_mosflm_dials.py", line 62
+    print 'Reference: %d observations' % len(hkl)
+                                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_mosflm_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_mosflm_xds.py", line 40
+    print 'Reference: %d observations' % len(hkl)
+                                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_xds_dials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_xds_dials.py", line 42
+    print 'Reference: %d observations' % len(hkl)
+                                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_xds_dials2.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/compare_xds_dials2.py", line 49
+    print 'Reference: %d observations' % len(hkl)
+                                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/dials_import.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/dials_import.py", line 249
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/discover_better_experimental_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/discover_better_experimental_model.py", line 360
+    raise Sorry, 'input beam does not intersect detector'
+               ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/display_reference_profiles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/display_reference_profiles.py", line 36
+    print 'Slice %d' % k
+                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Slice %d' % k)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/duelling_profiles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/duelling_profiles.py", line 234
+    print 'hkl = %d %d %d' % hkl
+                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'hkl = %d %d %d' % hkl)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/dump_mtz_orientation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/dump_mtz_orientation.py", line 23
+    print b.num(), '%7.4f %7.4f %7.4f' % rxyz
+          ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/estimate_gain.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/estimate_gain.py", line 79
+    print "q1, q2, q3: %.2f, %.2f, %.2f" %(q1, q2, q3)
+                                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/estimate_resolution_limit.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/estimate_resolution_limit.py", line 101
+    print "estimated d_min: %.2f" %estimated_d_min
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "estimated d_min: %.2f" %estimated_d_min)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/export_bitmaps.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/export_bitmaps.py", line 202
+    print "Exporting %s" %path
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Exporting %s" %path)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/export_text.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/export_text.py", line 8
+    raise RuntimeError, '%s integrated.pickle'
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/extract_background_signal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/extract_background_signal.py", line 148
+    print flex.sum(data.select(data.as_1d() > 0))
+             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_dead_time.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_dead_time.py", line 98
+    print 'Rejecting %i reflections from image %i' %(sel.count(True), i)
+                                                 ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_good_intensities.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_good_intensities.py", line 11
+    print 'Removing %d reflections with negative variance' % \
+                                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Removing %d reflections with negative variance' % \)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/filter_reflections.py", line 114
+    print st.format()
+           ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_hot_pixels.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_hot_pixels.py", line 97
+    print 'Wrote hot pixel mask to %s' % params.output.mask
+                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Wrote hot pixel mask to %s' % params.output.mask)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_spots_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_spots_client.py", line 68
+    print response_to_xml(d)
+                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_spots_server.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/find_spots_server.py", line 155
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_bias_lookup_table.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_bias_lookup_table.py", line 75
+    print "%0.2f %0.7f" % (s, b)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_mask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_mask.py", line 99
+    print "Writing mask to %s" % params.output.mask
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing mask to %s" % params.output.mask)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_tutorial_text.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/generate_tutorial_text.py", line 12
+    print self.cmd
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/geometry_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/geometry_viewer.py", line 170
+    print "Predicted %i reflections in %.2f s" %(predicted.size(), (t1-t0))
+                                             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/goniometer_calibration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/goniometer_calibration.py", line 103
+    print "Goniometer axes and angles (ImgCIF coordinate system):"
+                                                                 ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/hot_pixel_mask_to_xy.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/hot_pixel_mask_to_xy.py", line 10
+    print 'Module %d: %d bad pixels' % (j, module.count(False))
+                                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/idials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/idials.py", line 20
+    except ImportError, e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/image_correlation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/image_correlation.py", line 95
+    print '%5d %5d %7d %.4f' % (img_a, img_b, n, cc)
+                           ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/import_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/import_xds.py", line 119
+    print 'Reindex matrix:\n%d %d %d\n%d %d %d\n%d %d %d' % (rdx.elems)
+                                                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/index.py", line 13
+    except ImportError, e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/make_sphinx_html.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/make_sphinx_html.py", line 40
+    print "Checking DIALS release status: ",
+                                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Checking DIALS release status: ", end=" ")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/merge_cbf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/merge_cbf.py", line 139
+    print '%s written' % out_image
+                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '%s written' % out_image)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/modify_geometry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/modify_geometry.py", line 66
+    print "Saving modified experiments to %s" %params.output.experiments
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Saving modified experiments to %s" %params.output.experiments)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_centroid_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_centroid_analysis.py", line 96
+    print "Saving {0}".format(fname)
+                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_detector_shifts.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_detector_shifts.py", line 141
+    print 'Panel: %d dFast %.3f dSlow %.3f dNorm %.3f' % (ipanel,
+                                                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_find_spots_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_find_spots_client.py", line 138
+    print 'Top %i images sorted by number of spots:' %n_rows
+                                                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Top %i images sorted by number of spots:' %n_rows)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_reflections.py", line 74
+    except AttributeError, e:
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_scan_varying_crystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/plot_scan_varying_crystal.py", line 120
+    print "Ignoring scan-static crystal"
+                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Ignoring scan-static crystal")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/print_test_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/print_test_reflections.py", line 14
+    print '-' * 80
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-' * 80)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rebin_images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rebin_images.py", line 15
+    raise RuntimeError, '%s in_\%04d.cbf out_\%04d.cbf start end' % \
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/reciprocal_lattice_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/reciprocal_lattice_viewer.py", line 371
+    except RuntimeError, e:
+                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/refine.py", line 217
+    print "No Experiments found in the input"
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/reindex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/reindex.py", line 105
+    print "discovered change_of_basis_op=%s" %(str(change_of_basis_op))
+                                           ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/remove_absent_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/remove_absent_reflections.py", line 39
+    print 'Removed %d absent reflections' % remove_absent_reflections(
+                                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/report.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/report.py", line 113
+    print " Skipping: following required fields not present:"
+                                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int " Skipping: following required fields not present:")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rfactor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rfactor.py", line 22
+    raise RuntimeError, 'Could not find column %s' % name
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rl_csv.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rl_csv.py", line 79
+    print 'Using format:', fmt.strip()
+                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rl_png.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rl_png.py", line 9
+    except ImportError,e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rs_mapper.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/rs_mapper.py", line 143
+    print "Oscillation range: %.1f - %.1f" % (osc_range[0], osc_range[1])
+                                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/saturation_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/saturation_analysis.py", line 42
+    print 'Keeping %d strong reflections of %d' % (strong.count(True),
+                                              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/scale_down_image.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/scale_down_image.py", line 10
+    raise RuntimeError, '%s in_image.cbf out_image.cbf scale_factor' % \
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/scale_down_images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/scale_down_images.py", line 12
+    print args[1]
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t args[1])?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/semisynthetic_variance_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/semisynthetic_variance_analysis.py", line 108
+    print '%.3f %.3f %.3f' % (weighted_mean / math.sqrt(weighted_variance), fit.slope(), chi2)
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/shadow_plot.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/shadow_plot.py", line 132
+    print 'Writing json output to %s' %params.output.json
+                                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Writing json output to %s' %params.output.json)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show.py", line 112
+    print show_experiments(
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_extensions.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_extensions.py", line 57
+    print '-' * 80
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '-' * 80)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_indexed_strong.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_indexed_strong.py", line 17
+    print '%d %d %d' % (b, len(batch.select(sel)), len(mi.select(sel)))
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_profiles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_profiles.py", line 10
+    print '%5d' % int(s[i,j,k]),
+              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_spots.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/show_spots.py", line 30
+    print '%8.2f %8.2f %8.2f %8.4f %8.4f %8.4f' % (x[j], y[j], z[j],
+                                              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simple_strategy.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simple_strategy.py", line 121
+    print "Goniometer settings to rotate crystal by %.2f degrees:" %rot_angle
+                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Goniometer settings to rotate crystal by %.2f degrees:" %rot_angle)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simulate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simulate.py", line 101
+    raise ValueError, 'missing'
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simulate_rs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/simulate_rs.py", line 81
+    print 'Simulating with the following parameters:'
+                                                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Simulating with the following parameters:')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/slice_sweep.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/slice_sweep.py", line 244
+    print "No suitable input provided"
+                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No suitable input provided")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/sort_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/sort_reflections.py", line 92
+    print "Sorting by %s with reverse=%r" % (params.key, params.reverse)
+                                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/split_experiments.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/split_experiments.py", line 74
+    print "No Experiments found in the input"
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/spot_counts_per_image.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/spot_counts_per_image.py", line 97
+    print table_utils.format(rows, has_header=True, prefix="| ", postfix=" |")
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/spot_resolution_shells.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/spot_resolution_shells.py", line 49
+    print '%d %f %d' % (j, d[j], n[j])
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/stills_detector_hybrid_refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/stills_detector_hybrid_refine.py", line 93
+    print "Refining detector at hierarchy_level=" + \
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Refining detector at hierarchy_level=" + \)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/stills_process.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/stills_process.py", line 452
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/sum_images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/sum_images.py", line 14
+    raise RuntimeError, '%s in_\%d_0001.cbf out_1_0001.cbf start end' % \
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/tutorial.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/tutorial.py", line 11
+    print 'Opening %s in web browser' % tutorial_html
+                                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('Opening %s in web browser' % tutorial_html)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/two_theta_offset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/two_theta_offset.py", line 94
+    print 'Axis: %8.5f %8.5f %8.5f' % axis.elems, 'angle: %7.4f' % angle
+                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Axis: %8.5f %8.5f %8.5f' % axis.elems, 'angle: %7.4f' % angle)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/two_theta_refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/two_theta_refine.py", line 439
+    print "No Experiments found in the input"
+                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/unify_setting.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/unify_setting.py", line 83
+    print '%s possible lattice ops' % len(reference_space_group.all_ops())
+                                  ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/version.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/command_line/version.py", line 8
+    print dials_version()
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/doc/examples/read_experiment_and_data/example_experiment_data.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/doc/examples/read_experiment_and_data/example_experiment_data.py", line 69
+    print 'Read %d reflections' % len(reflections)
+                              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/framework/dftbx/tst_dftbx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/framework/dftbx/tst_dftbx.py", line 8
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/framework/env.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/framework/env.py", line 36
+    print ' Adding %s to dials extension folders' % path
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int ' Adding %s to dials extension folders' % path)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/installer/dials_installer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/installer/dials_installer.py", line 65
+    print "Skipping", " " * 26, subdir
+                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Skipping", " " * 26, subdir)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/libtbx_refresh.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/libtbx_refresh.py", line 10
+    print "Cleaning up 'dials/extensions':"
+                                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Cleaning up 'dials/extensions':")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/real.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/real.py", line 92
+    print '{0:>16} {1:>24} {2:>24} {3:>24} {4:>6}'.format(hkl, str1, str2, str3, max_val)
+                                                 ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/simulate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/simulate.py", line 63
+    print normal_expected_n_sigma(30 * 30)
+                                ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_background_subtraction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_background_subtraction.py", line 36
+    print "Z: mean=%f, sdev=%f" % (meanz, sdevz)
+                              ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_creator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_creator.py", line 15
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_gmodel.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_gmodel.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_modeller.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_modeller.py", line 24
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_mosflm_outlier_rejector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_mosflm_outlier_rejector.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_normal_discriminator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_normal_discriminator.py", line 31
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_outlier_rejector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/background/tst_outlier_rejector.py", line 64
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/generate_test_reflections/tst_generate_test_refl.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/generate_test_reflections/tst_generate_test_refl.py", line 50
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/connected_components/tst_connected_components.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/connected_components/tst_connected_components.py", line 57
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/fill_holes/tst_simple_fill.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/fill_holes/tst_simple_fill.py", line 32
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_distance.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_distance.py", line 50
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_fano.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_fano.py", line 52
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_mean_and_variance.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_mean_and_variance.py", line 39
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_median.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_median.py", line 47
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_summed_area.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/filter/tst_summed_area.py", line 31
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/threshold/tst_local.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/threshold/tst_local.py", line 34
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/tst_centroid.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/image/tst_centroid.py", line 31
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_assign_indices.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_assign_indices.py", line 24
+    print 'SKIP: dials_regression not configured'
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'SKIP: dials_regression not configured')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_compare_orientation_matrices.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_compare_orientation_matrices.py", line 63
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_index.py", line 4
+    except ImportError, e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_index_synthetic.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_index_synthetic.py", line 57
+    print a, b, c, alpha, beta, gamma
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print a, b, c, alpha, beta, gamma)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_phi_scan.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_phi_scan.py", line 6
+    except ImportError, e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_symmetry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/indexing/tst_symmetry.py", line 67
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_circle_sampler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_circle_sampler.py", line 44
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_empirical_modeller.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_empirical_modeller.py", line 57
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_grid_sampler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_grid_sampler.py", line 44
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_multi_experiment_modeller.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_multi_experiment_modeller.py", line 68
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_profile_fitting.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_profile_fitting.py", line 63
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_single_sampler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_single_sampler.py", line 35
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_stereographic_projection_sampler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/profile/tst_stereographic_projection_sampler.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/test_integration_summation_2d.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/test_integration_summation_2d.py", line 60
+    print "testing inclined_background_subtractor"
+                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "testing inclined_background_subtractor")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_corrections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_corrections.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_filter_overlaps.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_filter_overlaps.py", line 58
+    print "Overlapping foreground found at indexed position (%d, %d), " % (f_abs, s_abs) \
+                                                                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_interface.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_interface.py", line 62
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_interpolate_profile2d.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_interpolate_profile2d.py", line 87
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_profile_fitting_rs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_profile_fitting_rs.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_shoebox_flattener.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_shoebox_flattener.py", line 107
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_summation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/integration/tst_summation.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/peak_finding/tst_merge_spot_lists.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/peak_finding/tst_merge_spot_lists.py", line 10
+    print "Skipping exercise_spotfinder: dials_regression not present"
+                                                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/polygon/clip/tst_clipping.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/polygon/clip/tst_clipping.py", line 103
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/polygon/tst_spatial_interpolation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/polygon/tst_spatial_interpolation.py", line 48
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/profile_model/tst_ewald_sphere_sampler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/profile_model/tst_ewald_sphere_sampler.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/profile_model/tst_profile_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/profile_model/tst_profile_model.py", line 34
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/setup_geometry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/setup_geometry.py", line 84
+    print msg % self._params.random_seed
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print msg % self._params.random_seed)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_angle_derivatives_wrt_vector_elts.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_angle_derivatives_wrt_vector_elts.py", line 109
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_beam_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_beam_parameters.py", line 55
+    print "for try", i
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_centroid_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_centroid_analysis.py", line 29
+    print "Skipping test1 in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test1 in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_constraints.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_constraints.py", line 118
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_crystal_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_crystal_parameters.py", line 108
+    print "for try", i
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_detector_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_detector_parameters.py", line 226
+    print "for try", i
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_dials-423.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_dials-423.py", line 62
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_finite_diffs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_finite_diffs.py", line 258
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py", line 219
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_multi_experiment_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_multi_experiment_refinement.py", line 265
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_multi_panel_detector_parameterisation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_multi_panel_detector_parameterisation.py", line 333
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_orientation_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_orientation_refinement.py", line 167
+    print "Reflections will be generated with the following geometry:"
+                                                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Reflections will be generated with the following geometry:")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_prediction_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_prediction_parameters.py", line 188
+    print "Time Taken: ",finish_time - start_time
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Time Taken: ",finish_time - start_time)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_ref_passage_categorisation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_ref_passage_categorisation.py", line 95
+    print "Total number of observations made", len(obs_refs)
+                                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refine_multi_stills.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refine_multi_stills.py", line 37
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refine_multi_wedges.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refine_multi_wedges.py", line 127
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refinement_regression.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_refinement_regression.py", line 260
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_restraints_gradients.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_restraints_gradients.py", line 48
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_restraints_parameterisation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_restraints_parameterisation.py", line 144
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_rotation_decomposition.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_rotation_decomposition.py", line 154
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_scan_varying_model_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_scan_varying_model_parameters.py", line 90
+    print "pyplot not available", e
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "pyplot not available", e)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_scan_varying_prediction_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_scan_varying_prediction_parameters.py", line 193
+    print "Failure for {0}".format(p_names[i])
+                          ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_prediction_parameters.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_prediction_parameters.py", line 181
+    print 'Testing derivatives for StillsPredictionParameterisation'
+                                                                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Testing derivatives for StillsPredictionParameterisation')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_refinement.py", line 212
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_spherical_relp_derivatives.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_stills_spherical_relp_derivatives.py", line 364
+    if verbose: print "\n\nParameter {0}: {1}". format(i,  fd_grad['name'])
+                                             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_sv_multi_panel_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_sv_multi_panel_refinement.py", line 86
+    print "Skipping tests in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_two_theta_refinement.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_two_theta_refinement.py", line 323
+    print "Skipping tests in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_xfel_metrology.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/refinement/tst_xfel_metrology.py", line 87
+    print "Skipping tests in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_beam_vector_map.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_beam_vector_map.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_coordinate_system.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_coordinate_system.py", line 37
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_grid_index_generator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_grid_index_generator.py", line 17
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_map_frames.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_map_frames.py", line 110
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_rebin_pixels.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_rebin_pixels.py", line 48
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_transform.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/reflection_basis/tst_transform.py", line 156
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_HRS_derivatives.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_HRS_derivatives.py", line 152
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_observation_manager.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_observation_manager.py", line 51
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_scale_parameterisation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/scaling/tst_scale_parameterisation.py", line 41
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_bbox_calculator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_bbox_calculator.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_find_overlapping.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_find_overlapping.py", line 45
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_mask_foreground.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_mask_foreground.py", line 15
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_mask_overlapping.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_mask_overlapping.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_partiality_calculator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/shoebox/tst_partiality_calculator.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spatial_indexing/tst_spatial_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spatial_indexing/tst_spatial_index.py", line 55
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_index_generator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_index_generator.py", line 12
+    print "Skipping test: dials_regression not available."
+                                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_pixel_to_miller_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_pixel_to_miller_index.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_ray_predictor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_ray_predictor.py", line 137
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_reeke.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_reeke.py", line 101
+    print "Generated indices were written to %s" % dat
+                                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Generated indices were written to %s" % dat)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_reeke_index_generator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_reeke_index_generator.py", line 51
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_rotation_angles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_rotation_angles.py", line 12
+    print "Skipping test: dials_regression not available."
+                                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_static_reflection_predictor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_static_reflection_predictor.py", line 9
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_varying_predictor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_varying_predictor.py", line 150
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_varying_reflection_predictor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_scan_varying_reflection_predictor.py", line 9
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_spot_prediction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_spot_prediction.py", line 94
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_stills_reflection_predictor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/spot_prediction/tst_stills_reflection_predictor.py", line 130
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/statistics/tst_fast_mcd.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/statistics/tst_fast_mcd.py", line 50
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/symmetry/tst_origin.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/algorithms/symmetry/tst_origin.py", line 16
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/array_family/tst_flex_shoebox.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/array_family/tst_flex_shoebox.py", line 50
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/array_family/tst_reflection_table.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/array_family/tst_reflection_table.py", line 46
+    print 'Ok'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Ok')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_align_crystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_align_crystal.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_apply_mask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_apply_mask.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_check_indexing_symmetry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_check_indexing_symmetry.py", line 46
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_combine_experiments.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_combine_experiments.py", line 221
+    print "Skipping tests in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_combine_found_spots.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_combine_found_spots.py", line 10
+    print "Skipping exercise_spotfinder: dials_regression not present"
+                                                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_compare.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_compare.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_compare_orientation_matrices.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_compare_orientation_matrices.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_create_profile_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_create_profile_model.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_discover_better_experimental_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_discover_better_experimental_model.py", line 12
+    except ImportError, e:
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_estimate_gain.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_estimate_gain.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_best.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_best.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_bitmaps.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_bitmaps.py", line 12
+    print 'Skipping exercise_export_bitmaps(): dials_regression not available'
+                                                                             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_mosflm.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_mosflm.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_export_xds.py", line 33
+    print command
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t command)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_filter_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_filter_reflections.py", line 45
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_find_hot_pixels.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_find_hot_pixels.py", line 15
+    print "Skipping: dials_regression not present"
+                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Skipping: dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_find_spots_server_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_find_spots_server_client.py", line 18
+    print "Skipping tst_find_spots_server_client: dials_regression not available."
+                                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tst_find_spots_server_client: dials_regression not available.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_generate_mask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_generate_mask.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_goniometer_calibration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_goniometer_calibration.py", line 15
+    print "Skipping tst_goniometer_calibration.py: dials_regression not available."
+                                                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tst_goniometer_calibration.py: dials_regression not available.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_hot_pixel_mask_to_xy.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_hot_pixel_mask_to_xy.py", line 15
+    print "Skipping exercise_hot_pixel_mask_to_xy(): dials_regression not available."
+                                                                                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_idials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_idials.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_import.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_import.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_import_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_import_xds.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_integrate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_integrate.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_kapton_correction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_kapton_correction.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_merge_cbf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_merge_cbf.py", line 18
+    print tmp_dir
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t tmp_dir)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_merge_reflection_lists.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_merge_reflection_lists.py", line 14
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_modify_geometry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_modify_geometry.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_plot_scan_varying_crystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_plot_scan_varying_crystal.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_predict.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_predict.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_refine.py", line 48
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_refine_bravais_settings.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_refine_bravais_settings.py", line 19
+    print "Skipping exercise_refine_bravais_settings(): dials_regression not available."
+                                                                                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_reindex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_reindex.py", line 19
+    print "Skipping tst_reindex: dials_regression not available."
+                                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tst_reindex: dials_regression not available.")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_rl_png.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_rl_png.py", line 61
+    print "Skipping tests in " + __file__ + " as dials_regression not present"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_rs_mapper.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_rs_mapper.py", line 54
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_show.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_show.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_show_extensions.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_show_extensions.py", line 12
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_slice_sweep.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_slice_sweep.py", line 43
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_sort_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_sort_reflections.py", line 11
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_spot_counts_per_image.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_spot_counts_per_image.py", line 10
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_spotfinder.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_spotfinder.py", line 12
+    print "Skipping exercise_spotfinder: dials_regression not present"
+                                                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stereographic_projections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stereographic_projections.py", line 9
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stills_detector_hybrid_refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stills_detector_hybrid_refine.py", line 101
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stills_process.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_stills_process.py", line 12
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_two_theta_refine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/command_line/tst_two_theta_refine.py", line 47
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/framework/tst_interface.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/framework/tst_interface.py", line 29
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_observation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_observation.py", line 54
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_pixel_list.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_pixel_list.py", line 42
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_prediction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_prediction.py", line 35
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_shoebox.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/model/data/tst_shoebox.py", line 44
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/nexus/tst_nexus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/nexus/tst_nexus.py", line 11
+    print nxmx[0].title
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t nxmx[0].title)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_libtbx_import.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_libtbx_import.py", line 9
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_phil.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_phil.py", line 54
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_plot_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_plot_reflections.py", line 8
+    print "Skipping test: dials_regression not available"
+                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_scan_varying_integration_bug.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/tst_scan_varying_integration_bug.py", line 19
+    print tmp_dir
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t tmp_dir)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_ascii_art.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_ascii_art.py", line 18
+    print 'Skipping exercise_spot_counts_per_image_plot(): dials_regression not available'
+                                                                                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_masking.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_masking.py", line 7
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_nexus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_nexus.py", line 13
+    except KeyError, e:
+                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_nexus_multi_experiment.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/test/util/tst_nexus_multi_experiment.py", line 25
+    except AssertionError, e:
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/add_hash.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/add_hash.py", line 43
+    raise RuntimeError, '%s strong.pickle' % sys.argv[0]
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/ascii_art.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/ascii_art.py", line 88
+    print arg
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int arg)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/cluster_map.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/cluster_map.py", line 146
+    print x
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_mtz.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_mtz.py", line 369
+    except AttributeError, e:
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_text.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_text.py", line 21
+    print '%4d %4d %4d %f %f' % (_h, _k, _l, _i, _v)
+                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_xds_ascii.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/export_xds_ascii.py", line 144
+    print 'Coordinate change:'
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Coordinate change:')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/idials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/idials.py", line 1623
+    print "Recovered state from %s" % state_filename
+                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Recovered state from %s" % state_filename)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/mask_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/mask_frame.py", line 517
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/spotfinder_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/spotfinder_frame.py", line 940
+    print "Circles: center of foreground masks for the %d spots actually integrated"%(len(vertices)//5)
+                                                                                   ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/spotfinder_wrap.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/image_viewer/spotfinder_wrap.py", line 8
+    print 'Memory usage: %.1f MB' % (int(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss) / 1024)
+                                ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/mosflm.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/mosflm.py", line 69
+    print "Exporting experiment to %s and %s" %(index_mat, mosflm_in)
+                                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/mp.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/mp.py", line 274
+    print x
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus/nx_mx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus/nx_mx.py", line 658
+    print "Dumping NXmx"
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Dumping NXmx")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus/nx_reflections.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus/nx_reflections.py", line 272
+    print "Dumping NXreflections"
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Dumping NXreflections")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus_old.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/nexus_old.py", line 172
+    print reflections['shoebox'][i].data.all()
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/options.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/options.py", line 811
+    print self.phil.as_str(
+             ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/picklez.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/picklez.py", line 104
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/pprint.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/pprint.py", line 96
+    print profile3d(a)
+                  ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/procrunner.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/procrunner.py", line 32
+    print to_print
+                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print to_print)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/pycbf_extra.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/pycbf_extra.py", line 37
+    print "Category:", i, category_name
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Category:", i, category_name)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/rebin_images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/rebin_images.py", line 89
+    print "Reading %s" % i
+                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reading %s" % i)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/show_version.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/show_version.py", line 19
+    print "%s-%d" % (BASE_VERSION, n_days)
+                ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/stream.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/stream.py", line 124
+    print conf
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int conf)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/util/xds.py", line 50
+    print "Exporting experiment to %s and %s" %(xds_inp, xparm_xds)
+                                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/boost_tst.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/boost_tst.py", line 41
+    print "testing new Cpp code"
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "testing new Cpp code")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/flex_3d_array_viewer_test.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/flex_3d_array_viewer_test.py", line 69
+    print "Test Done"
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Test Done")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/from_flex_to_wxbitmap.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/from_flex_to_wxbitmap.py", line 61
+    print "the two lists do NOT have the same size"
+                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "the two lists do NOT have the same size")?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/slice_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/slice_viewer.py", line 101
+    print "two_windows =", two_windows
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "two_windows =", two_windows)?
+
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/viewer_low_level_util.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/dials/viewer/viewer_low_level_util.py", line 195
+    print "using key=lambda x: int(x[col_to_sort])"
+                                                  ^
+SyntaxError: invalid syntax
+
