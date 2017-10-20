@@ -1,11 +1,11 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/simtbx/nanoBragg/brunger_example/run_example.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/simtbx/nanoBragg/brunger_example/run_example.py", line 50
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/simtbx/nanoBragg/brunger_example/run_example.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/simtbx/nanoBragg/brunger_example/run_example.py", line 50
     print "dispsteps=",SIM.dispsteps
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("dispsteps=",SIM.dispsteps)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/simtbx/nanoBragg/tst_nanoBragg_minimal.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/simtbx/nanoBragg/tst_nanoBragg_minimal.py", line 50
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/simtbx/nanoBragg/tst_nanoBragg_minimal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/simtbx/nanoBragg/tst_nanoBragg_minimal.py", line 50
     print "GOTHERE seed=",SIM.seed
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "GOTHERE seed=",SIM.seed)?

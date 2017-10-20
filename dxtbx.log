@@ -1,977 +1,977 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/debug_memory.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/debug_memory.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/debug_memory.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/debug_memory.py", line 16
     print j, mem
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print j, mem)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/detector_superpose.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/detector_superpose.py", line 135
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/detector_superpose.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/detector_superpose.py", line 135
     print "RMSD before fit: %.1f microns"%rmsd
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "RMSD before fit: %.1f microns"%rmsd)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/display_parallax_correction.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/display_parallax_correction.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/display_parallax_correction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/display_parallax_correction.py", line 17
     print "Mu: %f mm^-1 " % px_mm.mu()
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/export_bitmaps.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/export_bitmaps.py", line 121
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/export_bitmaps.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/export_bitmaps.py", line 121
     print "Exporting %s" %path
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Exporting %s" %path)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/image2pickle.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/image2pickle.py", line 114
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/image2pickle.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/image2pickle.py", line 114
     print "Reading %s"%(imgpath)
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/image_average.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/image_average.py", line 55
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/image_average.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/image_average.py", line 55
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/import_datablock.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/import_datablock.py", line 65
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/import_datablock.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/import_datablock.py", line 65
     print '-' * 80
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '-' * 80)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/install_format.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/install_format.py", line 68
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/install_format.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/install_format.py", line 68
     print "Copying %s -> %s" % (filename, target)
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/overload.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/overload.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/overload.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/overload.py", line 20
     print image_file
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print image_file)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/plot_detector_models.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/plot_detector_models.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/plot_detector_models.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/plot_detector_models.py", line 53
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_beam_centre.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_beam_centre.py", line 28
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_beam_centre.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_beam_centre.py", line 28
     print detector.get_ray_intersection(beam.get_s0())[1]
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_header.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_header.py", line 11
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_header.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_header.py", line 11
     print '=== %s ===' % arg
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '=== %s ===' % arg)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_matching_images.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_matching_images.py", line 7
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_matching_images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_matching_images.py", line 7
     print mi
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int mi)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_sweep.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_sweep.py", line 8
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_sweep.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_sweep.py", line 8
     print sweep.get_detector()
               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_sweep_check.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_sweep_check.py", line 8
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_sweep_check.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_sweep_check.py", line 8
     print s.get_detector()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_total.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/print_total.py", line 10
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_total.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/print_total.py", line 10
     print '=== %s ===' % arg
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '=== %s ===' % arg)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/radial_average.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/radial_average.py", line 66
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/radial_average.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/radial_average.py", line 66
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/read_sweep.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/read_sweep.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/read_sweep.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/read_sweep.py", line 13
     print sweep.get_detector()
               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/saturation.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/saturation.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/saturation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/saturation.py", line 22
     print '%6d %.6f' % (i, s)
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/serialize.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/serialize.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/serialize.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/serialize.py", line 34
     print parser.print_help()
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/show_matching_formats.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/show_matching_formats.py", line 6
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/show_matching_formats.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/show_matching_formats.py", line 6
     print _fmt.__name__, _fmt.understand(arg)
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/to_ewald_sphere.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/to_ewald_sphere.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/to_ewald_sphere.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/to_ewald_sphere.py", line 20
     print '%f %f %f %d' % (x[0], x[1], x[2], i)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/to_xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/command_line/to_xds.py", line 24
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/to_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/command_line/to_xds.py", line 24
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py", line 21
     if self._timestamp >= self._date_to_epoch(2015, 11, 01):
                                                          ^
 SyntaxError: invalid token
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/datablock.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/datablock.py", line 313
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/datablock.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/datablock.py", line 313
     print 'Using %s for %s' % (self._format_class.__name__, filename)
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/example/resolution_corners.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/example/resolution_corners.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/example/resolution_corners.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/example/resolution_corners.py", line 34
     print '%.3f' % (beam.get_wavelength() / (2 * math.sin(theta)))
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/example/to_xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/example/to_xds.py", line 35
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/example/to_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/example/to_xds.py", line 35
     raise RuntimeError, 'detector %s unknown' % xia2_name
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/filecache.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/filecache.py", line 90
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/filecache.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/filecache.py", line 90
     print "%s: %s" % (format(id(self), '#x'), string)
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/filecache_controller.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/filecache_controller.py", line 70
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/filecache_controller.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/filecache_controller.py", line 70
     print "Caching disabled for", tag
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Caching disabled for", tag)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/Format.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/Format.py", line 212
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/Format.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/Format.py", line 212
     except exceptions.Exception, e:
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBruker.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBruker.py", line 59
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBruker.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBruker.py", line 59
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBrukerFixedChi.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBrukerFixedChi.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBrukerFixedChi.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBrukerFixedChi.py", line 21
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBrukerPhotonII.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatBrukerPhotonII.py", line 23
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBrukerPhotonII.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatBrukerPhotonII.py", line 23
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBF.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBF.py", line 90
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBF.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBF.py", line 90
     print FormatCBF.understand(arg)
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFCspad.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFCspad.py", line 42
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFCspad.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFCspad.py", line 42
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFull.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFull.py", line 132
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFull.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFull.py", line 132
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatus.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatus.py", line 191
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatus.py", line 191
     print FormatCBFFullPilatus.understand(arg)
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusCdTe300K.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusCdTe300K.py", line 157
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusCdTe300K.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusCdTe300K.py", line 157
     print FormatCBFFullPilatus.understand(arg)
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py", line 29
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py", line 29
     except ImportError, e:
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py", line 31
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py", line 31
     except ImportError, e:
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMini.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMini.py", line 371
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMini.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMini.py", line 371
     print FormatCBFMini.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniADSCHF4M.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniADSCHF4M.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniADSCHF4M.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniADSCHF4M.py", line 34
     raise RuntimeError, 'timestamp %s not recognised' % timestamp
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniEiger.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniEiger.py", line 284
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniEiger.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniEiger.py", line 284
     print FormatCBFMiniEiger.understand(arg)
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniEigerPhotonFactory.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniEigerPhotonFactory.py", line 155
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniEigerPhotonFactory.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniEigerPhotonFactory.py", line 155
     print FormatCBFMiniEigerPhotonFactory.understand(arg)
                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus.py", line 139
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus.py", line 139
     print FormatCBFMiniPilatus.understand(arg)
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py", line 52
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py", line 52
     print FormatCBFMiniPilatus3AOS19ID6MSN132.understand(arg)
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py", line 48
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py", line 48
     print FormatCBFMiniPilatusDESY6MSN115.understand(arg)
                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS12M.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS12M.py", line 370
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS12M.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS12M.py", line 370
     print FormatCBFMiniPilatusDLS12M.understand(arg)
                                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py", line 353
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py", line 353
     print FormatCBFMiniPilatusDLS6MSN100.understand(arg)
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py", line 199
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py", line 199
     print FormatCBFMiniPilatusDLS6MSN100F.understand(arg)
                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py", line 98
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py", line 98
     print FormatCBFMiniPilatusDLS6MSN114.understand(arg)
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py", line 60
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py", line 60
     print FormatCBFMiniPilatusDLS6MSN114DMM.understand(arg)
                                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py", line 111
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py", line 111
     print FormatCBFMiniPilatusDLS6MSN119.understand(arg)
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py", line 303
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py", line 303
     print FormatCBFMiniPilatusDLS6MSN126.understand(arg)
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusHelpers.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusHelpers.py", line 32
     raise RuntimeError, 'timestamp %s not recognised' % timestamp
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py", line 106
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py", line 126
     print FormatCBFMiniPilatusSOLEILPX16MSN106.understand(arg)
                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusXXX.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusXXX.py", line 62
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusXXX.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMiniPilatusXXX.py", line 62
     print FormatCBFMiniPilatusDLS6MSN100F.understand(arg)
                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMultiTile.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMultiTile.py", line 47
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMultiTile.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMultiTile.py", line 47
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMultiTileHierarchy.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatCBFMultiTileHierarchy.py", line 38
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMultiTileHierarchy.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatCBFMultiTileHierarchy.py", line 38
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatDIP2030b.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatDIP2030b.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatDIP2030b.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatDIP2030b.py", line 17
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatEDFALS733.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatEDFALS733.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatEDFALS733.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatEDFALS733.py", line 16
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatGatanDM4.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatGatanDM4.py", line 251
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatGatanDM4.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatGatanDM4.py", line 251
     print prefix + "DIR: {0}".format(name)
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5.py", line 22
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5Dectris.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5Dectris.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5Dectris.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5Dectris.py", line 15
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5Lambda.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5Lambda.py", line 24
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5Lambda.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5Lambda.py", line 24
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5RawData.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDF5RawData.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5RawData.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDF5RawData.py", line 36
     print FormatRawData.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDFEigerNearlyNexus.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatHDFEigerNearlyNexus.py", line 140
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDFEigerNearlyNexus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatHDFEigerNearlyNexus.py", line 140
     except KeyError, e:
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatMarIP.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatMarIP.py", line 83
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatMarIP.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatMarIP.py", line 83
     print FormatMarIP.understand(arg)
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatNexus.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatNexus.py", line 41
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatNexus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatNexus.py", line 41
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatNexusExternalDataFile.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatNexusExternalDataFile.py", line 63
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatNexusExternalDataFile.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatNexusExternalDataFile.py", line 63
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPY.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPY.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPY.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPY.py", line 18
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYmultitile.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYmultitile.py", line 190
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYmultitile.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYmultitile.py", line 190
     print FormatPYmultitile.understand(arg)
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYunspecified.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYunspecified.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYunspecified.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYunspecified.py", line 17
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYunspecifiedStill.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatPYunspecifiedStill.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYunspecifiedStill.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatPYunspecifiedStill.py", line 21
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatRAXISII.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatRAXISII.py", line 11
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatRAXISII.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatRAXISII.py", line 11
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatRAXISIVSpring8.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatRAXISIVSpring8.py", line 30
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatRAXISIVSpring8.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatRAXISIVSpring8.py", line 30
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSER.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSER.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSER.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSER.py", line 34
     except IOError,e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSEReBIC.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSEReBIC.py", line 93
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSEReBIC.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSEReBIC.py", line 93
     print FormatSEReBIC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSC.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSC.py", line 193
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSC.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSC.py", line 193
     except KeyError, e:
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCDBG.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCDBG.py", line 67
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCDBG.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCDBG.py", line 67
     print FormatSMVADSCDBG.understand(arg)
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCNoDateStamp.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCNoDateStamp.py", line 77
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCNoDateStamp.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCNoDateStamp.py", line 77
     print FormatSMVADSCNoDateStamp.understand(arg)
                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN.py", line 92
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN.py", line 92
     print FormatSMVADSCSN.understand(arg)
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN445.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN445.py", line 105
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN445.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN445.py", line 105
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN457.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN457.py", line 56
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN457.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN457.py", line 56
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN905.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN905.py", line 104
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN905.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN905.py", line 104
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN915.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN915.py", line 112
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN915.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN915.py", line 112
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN920.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN920.py", line 104
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN920.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN920.py", line 104
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN926.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN926.py", line 85
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN926.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN926.py", line 85
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN928.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN928.py", line 69
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN928.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSN928.py", line 69
     print FormatSMVADSCSN928.understand(arg)
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSNAPSID19.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCSNAPSID19.py", line 97
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSNAPSID19.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCSNAPSID19.py", line 97
     print FormatSMVADSCSN.understand(arg)
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCmlfsom.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVADSCmlfsom.py", line 52
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCmlfsom.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVADSCmlfsom.py", line 52
     print FormatSMVADSCmlfsom.understand(arg)
                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVCMOS1.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVCMOS1.py", line 125
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVCMOS1.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVCMOS1.py", line 125
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVHamamatsu.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVHamamatsu.py", line 35
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVHamamatsu.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVHamamatsu.py", line 35
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVJHSim.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVJHSim.py", line 129
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVJHSim.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVJHSim.py", line 129
     except KeyError, e:
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVNOIR.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVNOIR.py", line 142
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVNOIR.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVNOIR.py", line 142
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigaku.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigaku.py", line 48
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigaku.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigaku.py", line 48
     except (KeyError,AttributeError,ValueError),e:
                                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuA200.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuA200.py", line 156
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuA200.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuA200.py", line 156
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger1M.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger1M.py", line 120
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger1M.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger1M.py", line 120
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger4M.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger4M.py", line 120
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger4M.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuEiger4M.py", line 120
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus200K.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus200K.py", line 117
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus200K.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus200K.py", line 117
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus300K.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus300K.py", line 117
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus300K.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuPilatus300K.py", line 117
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturn.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturn.py", line 157
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturn.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturn.py", line 157
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnNoTS.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnNoTS.py", line 151
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnNoTS.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnNoTS.py", line 151
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN07400090.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN07400090.py", line 100
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN07400090.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN07400090.py", line 100
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN09040159.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN09040159.py", line 95
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN09040159.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN09040159.py", line 95
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN11480296.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN11480296.py", line 99
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN11480296.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVRigakuSaturnSN11480296.py", line 99
     raise RuntimeError, 'unknown axis unit %s' % unit
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVTimePix_SU.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatSMVTimePix_SU.py", line 253
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVTimePix_SU.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatSMVTimePix_SU.py", line 253
     except KeyError, e:
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatStill.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatStill.py", line 33
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatStill.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatStill.py", line 33
     except exceptions.Exception, e:
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFBruker.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFBruker.py", line 200
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFBruker.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFBruker.py", line 200
     raise RuntimeError, 'cannot find distance in header'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFHelpers.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFHelpers.py", line 32
     raise RuntimeError, '%s not recognised as TIFF' % filename
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonix.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonix.py", line 199
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonix.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonix.py", line 199
     raise RuntimeError, 'cannot find distance in header'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixESRF.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixESRF.py", line 100
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixESRF.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixESRF.py", line 100
     print FormatTIFFRayonixESRF.understand(arg)
                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixSPring8.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixSPring8.py", line 127
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixSPring8.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixSPring8.py", line 127
     print FormatTIFFRayonixSPring8.understand(arg)
                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixXPP.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixXPP.py", line 118
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixXPP.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatTIFFRayonixXPP.py", line 118
     print FormatTIFFRayonixXPP.understand(arg)
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatXDS.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/FormatXDS.py", line 146
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatXDS.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/FormatXDS.py", line 146
     print FormatXDS.understand(arg)
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/Registry.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/Registry.py", line 83
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/Registry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/Registry.py", line 83
     raise IOError, 'no format support found for %s' % image_file
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/RegistryHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/RegistryHelpers.py", line 76
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/RegistryHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/RegistryHelpers.py", line 76
     except exceptions.Exception, e:
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI31.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI31.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI31.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI31.py", line 22
     print FormatPYCXI31.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI32.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI32.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI32.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI32.py", line 22
     print FormatPYCXI32.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI41.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI41.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI41.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI41.py", line 22
     print FormatPYCXI41.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI51.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI51.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI51.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI51.py", line 22
     print FormatPYCXI51.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI61.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI61.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI61.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI61.py", line 22
     print FormatPYCXI61.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI71.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI71.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI71.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI71.py", line 22
     print FormatPYCXI71.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI7d.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/TemplatePYCXI7d.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI7d.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/TemplatePYCXI7d.py", line 22
     print FormatPYCXI7d.understand(arg)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/nexus.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/format/nexus.py", line 225
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/nexus.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/format/nexus.py", line 225
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/imageset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/imageset.py", line 674
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/imageset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/imageset.py", line 674
     raise RuntimeError, 'unknown argument passed to ImageSetFactory'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/crystal.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/crystal.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/crystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/crystal.py", line 34
     print "Warning, two kinds of mosaicity found. Using Sauter2014 model"
                                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/detector.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/detector.py", line 494
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/detector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/detector.py", line 494
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/detector_helpers_types.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/detector_helpers_types.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/detector_helpers_types.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/detector_helpers_types.py", line 32
     raise RuntimeError, 'detector library not found'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/experiment_list.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/experiment_list.py", line 390
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/experiment_list.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/experiment_list.py", line 390
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/scan.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/scan.py", line 177
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/scan.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/scan.py", line 177
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/scan_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/model/scan_helpers.py", line 120
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/scan_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/model/scan_helpers.py", line 120
     raise RuntimeError, 'number too big for template'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/serialize/xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/serialize/xds.py", line 156
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/serialize/xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/serialize/xds.py", line 156
     raise RuntimeError, 'detector %s unknown' % dxtbx_name
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/command_line/tst_to_xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/command_line/tst_to_xds.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/command_line/tst_to_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/command_line/tst_to_xds.py", line 16
     print "Skipping test: dials not present"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/experiment/tst_experiment_list.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/experiment/tst_experiment_list.py", line 57
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/experiment/tst_experiment_list.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/experiment/tst_experiment_list.py", line 57
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_beam.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_beam.py", line 28
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_beam.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_beam.py", line 28
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_crystal_model.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_crystal_model.py", line 356
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_crystal_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_crystal_model.py", line 356
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_detector.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_detector.py", line 9
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_detector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_detector.py", line 9
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_detector2.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_detector2.py", line 59
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_detector2.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_detector2.py", line 59
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_parallax_correction.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_parallax_correction.py", line 33
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_parallax_correction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_parallax_correction.py", line 33
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_pickle.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_pickle.py", line 26
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_pickle.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_pickle.py", line 26
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_pixel_to_millimeter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_pixel_to_millimeter.py", line 44
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_pixel_to_millimeter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_pixel_to_millimeter.py", line 44
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_profile.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_profile.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_profile.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_profile.py", line 36
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_ray_intersection.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_ray_intersection.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_ray_intersection.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_ray_intersection.py", line 18
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_scan_data.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_scan_data.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_scan_data.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_scan_data.py", line 15
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_scan_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_scan_helpers.py", line 57
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_scan_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_scan_helpers.py", line 57
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_to_from_dict.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/model/tst_to_from_dict.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_to_from_dict.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/model/tst_to_from_dict.py", line 21
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_crystal_model_serialize.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_crystal_model_serialize.py", line 47
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_crystal_model_serialize.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_crystal_model_serialize.py", line 47
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_filename.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_filename.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_filename.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_filename.py", line 22
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_serialize.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_serialize.py", line 38
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_serialize.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_serialize.py", line 38
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/serialize/tst_xds.py", line 14
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/serialize/tst_xds.py", line 14
     print "Skipping test: dials not present"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_beam.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_beam.py", line 24
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_beam.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_beam.py", line 24
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_detector.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_detector.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_detector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_detector.py", line 36
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_goniometer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_goniometer.py", line 105
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_goniometer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_goniometer.py", line 105
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_scan.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/test_scan.py", line 72
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_scan.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/test_scan.py", line 72
     print sum(xscans[1:], xscans[0])
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tstFormatCBFFull.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tstFormatCBFFull.py", line 8
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tstFormatCBFFull.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tstFormatCBFFull.py", line 8
     print "Skipping tstFormatCBFFull.py: dials not present"
                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tstFormatCBFFull.py: dials not present")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_beamline_definitions.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_beamline_definitions.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_beamline_definitions.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_beamline_definitions.py", line 20
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_datablock.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_datablock.py", line 109
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_datablock.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_datablock.py", line 109
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_dials_226.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_dials_226.py", line 9
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_dials_226.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_dials_226.py", line 9
     print "Skipping tst_dials_226.py: dials_regression not present"
                                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tst_dials_226.py: dials_regression not present")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_dxtbx.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_dxtbx.py", line 5
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_dxtbx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_dxtbx.py", line 5
     print "Skipping test: dials not present"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_filecache.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_filecache.py", line 88
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_filecache.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_filecache.py", line 88
     print "Running test for parameters %d %d" % (random_a, random_b)
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_image_readers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_image_readers.py", line 8
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_image_readers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_image_readers.py", line 8
     except KeyError, e:
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_imageset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/dxtbx/tests/tst_imageset.py", line 92
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_imageset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/dxtbx/tests/tst_imageset.py", line 92
     print image
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print image)?

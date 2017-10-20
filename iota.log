@@ -1,101 +1,101 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_bulletproof.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_bulletproof.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_bulletproof.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_bulletproof.py", line 32
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_filter_pickles.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_filter_pickles.py", line 62
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_filter_pickles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_filter_pickles.py", line 62
     print "WARNING: Problem creating folder. If the folder exists, it will get overwritten."
                                                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WARNING: Problem creating folder. If the folder exists, it will get overwritten.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_process.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_process.py", line 64
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_process.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_process.py", line 64
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_run.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/command_line/iota_run.py", line 84
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_run.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/command_line/iota_run.py", line 84
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_analysis.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_analysis.py", line 119
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_analysis.py", line 119
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_cctbx.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_cctbx.py", line 262
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_cctbx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_cctbx.py", line 262
     print tmppath
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tmppath)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_controls.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_controls.py", line 169
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_controls.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_controls.py", line 169
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_dials.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_dials.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_dials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_dials.py", line 53
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_frames.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_frames.py", line 754
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_frames.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_frames.py", line 754
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_gui_init.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_gui_init.py", line 196
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_gui_init.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_gui_init.py", line 196
     print self.input_window.input.all_data_images
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.input_window.input.all_data_images)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_image.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_image.py", line 146
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_image.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_image.py", line 146
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_init.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_init.py", line 105
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_init.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_init.py", line 105
     print "\nERROR: No data found!"
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nERROR: No data found!")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_input.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_input.py", line 364
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_input.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_input.py", line 364
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_misc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_misc.py", line 93
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_misc.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_misc.py", line 93
     print entry
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entry)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_threads.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_threads.py", line 109
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_threads.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_threads.py", line 109
     except SpfTermination, e:
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_tracker.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_tracker.py", line 403
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_tracker.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_tracker.py", line 403
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_utils.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171019/modules/cctbx_project/iota/components/iota_utils.py", line 313
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_utils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/iota/components/iota_utils.py", line 313
     print 'ERROR: Need image or datablock for Radial Average Calculator'
                                                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: Need image or datablock for Radial Average Calculator')?
