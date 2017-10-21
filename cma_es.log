@@ -1,11 +1,11 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/cma_es/cma_es_interface.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/cma_es/cma_es_interface.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/cma_es/cma_es_interface.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/cma_es/cma_es_interface.py", line 53
     print 'Ok'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Ok')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/cma_es/tst_cma_es.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/cma_es/tst_cma_es.py", line 70
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/cma_es/tst_cma_es.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/cma_es/tst_cma_es.py", line 70
     print list(m.get_result())
              ^
 SyntaxError: invalid syntax

@@ -24,13 +24,13 @@ all OK
 [12 files](crys3d.log) violate python3 syntax
 
 ## dials
-[300 files](dials.log) violate python3 syntax
+[286 files](dials.log) violate python3 syntax
 
 ## dlstbx
-[53 files](dlstbx.log) violate python3 syntax
+[52 files](dlstbx.log) violate python3 syntax
 
 ## dxtbx
-[163 files](dxtbx.log) violate python3 syntax
+[150 files](dxtbx.log) violate python3 syntax
 
 ## fable
 [19 files](fable.log) violate python3 syntax

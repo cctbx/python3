@@ -1,77 +1,77 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/heuristic_tbx/spotreporter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/heuristic_tbx/spotreporter.py", line 206
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/heuristic_tbx/spotreporter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/heuristic_tbx/spotreporter.py", line 206
     if self.original_binning: print legend
                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.original_binning: print legend)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/practical_heuristics.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/practical_heuristics.py", line 297
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/practical_heuristics.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/practical_heuristics.py", line 297
     except Sorry, e:
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/signal_strength.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/signal_strength.py", line 43
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/signal_strength.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/signal_strength.py", line 43
     print "Number of focus spots on image #%d within the input resolution range: %d"%(
                                                                                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/stats_distl.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/stats_distl.py", line 77
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/stats_distl.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/stats_distl.py", line 77
     print "%25s : None"%item[1]
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%25s : None"%item[1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/correction_vector_plot.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/correction_vector_plot.py", line 26
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/correction_vector_plot.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/correction_vector_plot.py", line 26
     print "Plotting all %d spots one graph."%len(x)
                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/cxi_phil.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/cxi_phil.py", line 76
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/cxi_phil.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/cxi_phil.py", line 76
     print "cxi_versioned_extract()::cxi_version:", cxi_version
                                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/cxi_run3.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/applications/xfel/cxi_run3.py", line 70
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/cxi_run3.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/applications/xfel/cxi_run3.py", line 70
     print "The center is %7.2f %7.2f; "%(self.x[0],self.x[1]),
                                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/find_active_area.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/find_active_area.py", line 40
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/find_active_area.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/find_active_area.py", line 40
     print len(sources),len(sinks)
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/image_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/image_viewer.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/image_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/image_viewer.py", line 15
     print "usage:   %s image_filename [parameter=value ...]" % command_name
                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s image_filename [parameter=value ...]" % command_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/mp_spotfinder_server_read_file.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/mp_spotfinder_server_read_file.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/mp_spotfinder_server_read_file.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/mp_spotfinder_server_read_file.py", line 13
     print "usage:   %s [parameter=value ...]" % command_name
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s [parameter=value ...]" % command_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/signal_strength.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/signal_strength.py", line 138
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/signal_strength.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/signal_strength.py", line 138
     print "usage:   %s image_filename [parameter=value ...]" % command_name
                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s image_filename [parameter=value ...]" % command_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/sweep_strength.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/sweep_strength.py", line 176
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/sweep_strength.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/sweep_strength.py", line 176
     print "usage:   %s image_prefix_*.img [parameter=value ...]" % command_name
                                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s image_prefix_*.img [parameter=value ...]" % command_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/thin_client.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/command_line/thin_client.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/thin_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/command_line/thin_client.py", line 19
     print """
 Usage:
 distl.thin_client <filepath> <host> <port>
@@ -97,122 +97,122 @@ Three mandatory arguments:
   port: port number of image analyzer http service
 """)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/__init__.py", line 58
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/__init__.py", line 58
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/boost_python/tst_small_image.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/boost_python/tst_small_image.py", line 149
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/boost_python/tst_small_image.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/boost_python/tst_small_image.py", line 149
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/close_spots_detail.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/core_toolbox/close_spots_detail.py", line 65
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/close_spots_detail.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/core_toolbox/close_spots_detail.py", line 65
     print "all maxima:",self.pmax
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "all maxima:",self.pmax)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/diffraction/geometry.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/diffraction/geometry.py", line 56
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/diffraction/geometry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/diffraction/geometry.py", line 56
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/diffraction/imagefiles.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/diffraction/imagefiles.py", line 89
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/diffraction/imagefiles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/diffraction/imagefiles.py", line 89
     if self.ext.lower() in FileName.exts: print self.template;return 1
                                                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/dxtbx_toolbox/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/dxtbx_toolbox/__init__.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/dxtbx_toolbox/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/dxtbx_toolbox/__init__.py", line 34
     print special_vendortype
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print special_vendortype)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/dxtbx_toolbox/practical_heuristics.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/dxtbx_toolbox/practical_heuristics.py", line 39
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/dxtbx_toolbox/practical_heuristics.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/dxtbx_toolbox/practical_heuristics.py", line 39
     print scan
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int scan)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/math_support/sphere_formulae.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/math_support/sphere_formulae.py", line 85
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/math_support/sphere_formulae.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/math_support/sphere_formulae.py", line 85
     print "R     K      Vsph  Vewld     D      S      V    Xroid  Vobs   o/s    S/V  Xroid/R"
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "R     K      Vsph  Vewld     D      S      V    Xroid  Vobs   o/s    S/V  Xroid/R")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/adsc_client.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/adsc_client.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/adsc_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/adsc_client.py", line 36
     print "length of data in ints",stop_index
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "length of data in ints",stop_index)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache.py", line 52
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache.py", line 52
     print "Image: %s"%params.distl.image
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image: %s"%params.distl.image)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache_bcsb.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache_bcsb.py", line 77
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache_bcsb.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache_bcsb.py", line 77
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache_dials.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/apache_dials.py", line 45
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache_dials.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/apache_dials.py", line 45
     print "Image: %s\n"%params.file_name
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image: %s\n"%params.file_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/bcsb_client_example.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/bcsb_client_example.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/bcsb_client_example.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/bcsb_client_example.py", line 17
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/general_client_example.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/general_client_example.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/general_client_example.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/general_client_example.py", line 15
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/mp_spotfinder_server_is_alive.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/mp_spotfinder_server_is_alive.py", line 12
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/mp_spotfinder_server_is_alive.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/mp_spotfinder_server_is_alive.py", line 12
     print Response.status,Response.reason
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t Response.status,Response.reason)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/pilatus_client.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/pilatus_client.py", line 34
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/pilatus_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/pilatus_client.py", line 34
     print "length of data in ints",stop_index
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "length of data in ints",stop_index)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/specific_client_example.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/specific_client_example.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/specific_client_example.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/specific_client_example.py", line 17
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/spotfinder_server_client_push.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/spotfinder_server_client_push.py", line 40
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/spotfinder_server_client_push.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/spotfinder_server_client_push.py", line 40
     print "%63s : None"%item[1]
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%63s : None"%item[1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/spotfinder_server_read_file.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/spotfinder_server_read_file.py", line 45
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/spotfinder_server_read_file.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/spotfinder_server_read_file.py", line 45
     print "%63s : None"%item[1]
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%63s : None"%item[1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/thin_client.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171020/modules/cctbx_project/spotfinder/servers/thin_client.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/thin_client.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171021/modules/cctbx_project/spotfinder/servers/thin_client.py", line 19
     print Response.getresponse().read()
                  ^
 SyntaxError: invalid syntax
