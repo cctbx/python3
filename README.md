@@ -48,10 +48,10 @@ all OK
 [221 files](iotbx.log) violate python3 syntax
 
 ## libtbx
-[168 files](libtbx.log) violate python3 syntax
+[167 files](libtbx.log) violate python3 syntax
 
 ## mmtbx
-[478 files](mmtbx.log) violate python3 syntax
+[479 files](mmtbx.log) violate python3 syntax
 
 ## omptbx
 [1 files](omptbx.log) violate python3 syntax
@@ -84,5 +84,5 @@ all OK
 [158 files](xfel.log) violate python3 syntax
 
 ## xia2
-[148 files](xia2.log) violate python3 syntax
+[146 files](xia2.log) violate python3 syntax
 
