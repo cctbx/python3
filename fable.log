@@ -1,113 +1,113 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/cout.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/cout.py", line 101
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/cout.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/cout.py", line 101
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/fem_include_search_paths.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/fem_include_search_paths.py", line 9
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/fem_include_search_paths.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/fem_include_search_paths.py", line 9
     print comp_env.assemble_include_search_paths(
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/insert_write_at_start_of_each_procedure.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/insert_write_at_start_of_each_procedure.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/insert_write_at_start_of_each_procedure.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/insert_write_at_start_of_each_procedure.py", line 17
     print "WARNING: no executable statements in %s" % fproc.name.value
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "WARNING: no executable statements in %s" % fproc.name.value)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/read.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/read.py", line 11
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/read.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/read.py", line 11
     print "FAILING:", file_name
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "FAILING:", file_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/show_calls.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/show_calls.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/show_calls.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/show_calls.py", line 22
     print "Dependency cycles:", len(dep_cycles)
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/split.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/command_line/split.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/split.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/command_line/split.py", line 18
     print out.name
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print out.name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/cout.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/cout.py", line 171
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/cout.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/cout.py", line 171
     print traceback.format_exc(limit=None)
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/read.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/read.py", line 2155
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/read.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/read.py", line 2155
     print O.name.value
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int O.name.value)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/simple_compilation.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/simple_compilation.py", line 159
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/simple_compilation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/simple_compilation.py", line 159
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/sf_times.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/sf_times.py", line 187
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/sf_times.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/sf_times.py", line 187
     print build_cmd
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_command_line.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_command_line.py", line 42
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_command_line.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_command_line.py", line 42
     print command
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int command)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_io.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_io.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_io.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_io.py", line 20
     if (opts.verbose): print cmd
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_separate_files.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_separate_files.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_separate_files.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_separate_files.py", line 18
     if (verbose): print "next exercise"
                                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_show_calls.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/test/tst_show_calls.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_show_calls.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/test/tst_show_calls.py", line 20
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_cout.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_cout.py", line 31
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_cout.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_cout.py", line 31
     print "exercise_simple:", file_name
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "exercise_simple:", file_name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_cout_compile.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_cout_compile.py", line 59
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_cout_compile.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_cout_compile.py", line 59
     print "Unexpected output:"
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Unexpected output:")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_equivalence.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_equivalence.py", line 80
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_equivalence.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_equivalence.py", line 80
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_ext.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_ext.py", line 7
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_ext.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_ext.py", line 7
     except TypeError, e: pass
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_read.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/fable/tst_read.py", line 60
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_read.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/fable/tst_read.py", line 60
     except Error, e:
                 ^
 SyntaxError: invalid syntax

@@ -1,71 +1,71 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/model_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/model_viewer.py", line 51
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/model_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/model_viewer.py", line 51
     print "Please specify a PDB file (and optional CIFs) on the command line."
                                                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/multiplicity_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/multiplicity_viewer.py", line 108
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/multiplicity_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/multiplicity_viewer.py", line 108
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/qttbx.view_structure.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/qttbx.view_structure.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/qttbx.view_structure.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/qttbx.view_structure.py", line 17
     print "%s not found" % name
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%s not found" % name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/visualize_r_factors.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/command_line/visualize_r_factors.py", line 27
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/visualize_r_factors.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/command_line/visualize_r_factors.py", line 27
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/hklview/comparison.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/hklview/comparison.py", line 23
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/hklview/comparison.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/hklview/comparison.py", line 23
     print hkl, value_1, value_2
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl, value_1, value_2)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/hklview/frames.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/hklview/frames.py", line 204
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/hklview/frames.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/hklview/frames.py", line 204
     print hkl, value
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl, value)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/libtbx_refresh.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/libtbx_refresh.py", line 9
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/libtbx_refresh.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/libtbx_refresh.py", line 9
     print '  Processing *.ui files in "%s"' % ui_dir
                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '  Processing *.ui files in "%s"' % ui_dir)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/reverse_selection.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/reverse_selection.py", line 199
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/reverse_selection.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/reverse_selection.py", line 199
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/ribbon.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/ribbon.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/ribbon.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/ribbon.py", line 53
     print "%d segments" % len(self._segments)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_extra.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_extra.py", line 321
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_extra.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_extra.py", line 321
     print "Click in 'Header'"
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Click in 'Header'")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_model_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_model_viewer.py", line 653
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_model_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_model_viewer.py", line 653
     print model_id, show_object
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print model_id, show_object)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_selection_editor.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171022/modules/cctbx_project/crys3d/wx_selection_editor.py", line 426
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_selection_editor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/crys3d/wx_selection_editor.py", line 426
     print "%s (%s)" % (selection_string, atom_selection.iselection().size())
                   ^
 SyntaxError: invalid syntax

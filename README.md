@@ -84,5 +84,5 @@ all OK
 [158 files](xfel.log) violate python3 syntax
 
 ## xia2
-[146 files](xia2.log) violate python3 syntax
+[141 files](xia2.log) violate python3 syntax
 
