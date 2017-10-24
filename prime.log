@@ -1,191 +1,191 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/change_basis.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/change_basis.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/change_basis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/change_basis.py", line 20
     print 'Output file saved to', hklout
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Output file saved to', hklout)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/change_path_indexing_ambiguity.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/change_path_indexing_ambiguity.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/change_path_indexing_ambiguity.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/change_path_indexing_ambiguity.py", line 17
     print txt_help
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/cluster_isoform.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/cluster_isoform.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/cluster_isoform.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/cluster_isoform.py", line 18
     print txt_out
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t txt_out)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/compare_solution_pickles.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/compare_solution_pickles.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/compare_solution_pickles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/compare_solution_pickles.py", line 16
     print key, sol_pickle[key], ind_pickle[key]
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print key, sol_pickle[key], ind_pickle[key])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/comparestats.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/comparestats.py", line 12
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/comparestats.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/comparestats.py", line 12
     print 'Use prime.comparestats to compare stats from different log files.'
                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.comparestats to compare stats from different log files.')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/explore_twin_operators.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/explore_twin_operators.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/explore_twin_operators.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/explore_twin_operators.py", line 19
     print "Warning:", e
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning:", e)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/frame_extractor_by_scan.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/frame_extractor_by_scan.py", line 56
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/frame_extractor_by_scan.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/frame_extractor_by_scan.py", line 56
     print scan_no, len(self.reflections)
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/iotacc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/iotacc.py", line 192
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/iotacc.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/iotacc.py", line 192
     print data, ' - no pickle file found.'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print data, ' - no pickle file found.')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/mpi_run.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/mpi_run.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/mpi_run.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/mpi_run.py", line 46
     print "Merging with %d batch size"%(n_batch)
                                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/mpi_scale.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/mpi_scale.py", line 42
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/mpi_scale.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/mpi_scale.py", line 42
     print "Merging with %d batch size"%(n_batch)
                                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/plot_energy_spectrum.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/plot_energy_spectrum.py", line 14
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/plot_energy_spectrum.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/plot_energy_spectrum.py", line 14
     print 'Usage: prime.plot_energy_spectrum energy_as_comma_separated.file'
                                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Usage: prime.plot_energy_spectrum energy_as_comma_separated.file')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/plotstats.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/plotstats.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/plotstats.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/plotstats.py", line 13
     print 'Use prime.plotstats to view different stats along post-refinement cycles.'
                                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.plotstats to view different stats along post-refinement cycles.')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/postrefine.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/postrefine.py", line 90
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/postrefine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/postrefine.py", line 90
     print txt_merge_mean_table
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_merge_mean_table)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/print_integration_pickle.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/print_integration_pickle.py", line 70
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/print_integration_pickle.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/print_integration_pickle.py", line 70
     print "prime.print_integration_pickle: for viewing systematic absences and beam xy position from integration pickles."
                                                                                                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "prime.print_integration_pickle: for viewing systematic absences and beam xy position from integration pickles.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/r_mtz_mtz.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/r_mtz_mtz.py", line 35
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/r_mtz_mtz.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/r_mtz_mtz.py", line 35
     print "Please provide input hkl files."
                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Please provide input hkl files.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/ray_trace.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/ray_trace.py", line 24
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/ray_trace.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/ray_trace.py", line 24
     print "prime.ray_trace: read integration pickles and ray trace the reflections"
                                                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "prime.ray_trace: read integration pickles and ray trace the reflections")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/run.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/run.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/run.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/run.py", line 16
     print "Submitting prime job to ", iparams.queue.qname
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting prime job to ", iparams.queue.qname)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/solve_indexing_ambiguity.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/solve_indexing_ambiguity.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/solve_indexing_ambiguity.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/solve_indexing_ambiguity.py", line 19
     print txt_out
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t txt_out)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/view_fineslices.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/view_fineslices.py", line 27
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/view_fineslices.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/view_fineslices.py", line 27
     print "Please input all parameters"
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Please input all parameters")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/viewstats.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/command_line/viewstats.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/viewstats.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/command_line/viewstats.py", line 13
     print 'Use prime.viewstats to view convergence of post-refined parameters.'
                                                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.viewstats to view convergence of post-refined parameters.')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/index_ambiguity/mod_indexing_ambiguity.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/index_ambiguity/mod_indexing_ambiguity.py", line 56
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/index_ambiguity/mod_indexing_ambiguity.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/index_ambiguity/mod_indexing_ambiguity.py", line 56
     print 'Error reading input pickle.'
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Error reading input pickle.')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_gui_dialogs.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_gui_dialogs.py", line 250
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_gui_dialogs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_gui_dialogs.py", line 250
     print "method: ", method
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "method: ", method)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_gui_frames.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_gui_frames.py", line 615
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_gui_frames.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_gui_frames.py", line 615
     print 'killing PID {}'.format(i)
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_input.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_input.py", line 399
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_input.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_input.py", line 399
     print txt_help
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_merge_data.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_merge_data.py", line 95
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_merge_data.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_merge_data.py", line 95
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_misc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_misc.py", line 193
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_misc.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_misc.py", line 193
     print "Warning: error importing matplotlib.pyplot"
                                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning: error importing matplotlib.pyplot")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_outlier.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_outlier.py", line 47
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_outlier.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_outlier.py", line 47
     print 'Acentric outliers:'
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Acentric outliers:')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_pdb.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_pdb.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_pdb.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_pdb.py", line 21
     print line
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print line)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_perf.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_perf.py", line 14
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_perf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_perf.py", line 14
     print self.module_name, self.t_st.strftime("%d/%m/%Y %H:%M:%S"), self.t_en.strftime("%d/%m/%Y %H:%M:%S"), self.t_spent.microseconds
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_run.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_run.py", line 16
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_run.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_run.py", line 16
     print "Done. You can view your results and log file in ", iparams.run_no
                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done. You can view your results and log file in ", iparams.run_no)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_util.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/mod_util.py", line 333
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_util.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/mod_util.py", line 333
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/postrefine.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/prime/postrefine/postrefine.py", line 79
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/postrefine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/prime/postrefine/postrefine.py", line 79
     print txt_exception
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_exception)?

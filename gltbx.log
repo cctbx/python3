@@ -1,83 +1,83 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/command_line/try_imports.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/command_line/try_imports.py", line 6
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/command_line/try_imports.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/command_line/try_imports.py", line 6
     try: exec "import gltbx."+module
                             ^
 SyntaxError: Missing parentheses in call to 'exec'
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/extract_opengl_specs.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/extract_opengl_specs.py", line 81
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/extract_opengl_specs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/extract_opengl_specs.py", line 81
     print define
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int define)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/generate_fonts_ucs_cpp.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/generate_fonts_ucs_cpp.py", line 237
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/generate_fonts_ucs_cpp.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/generate_fonts_ucs_cpp.py", line 237
     print "      Info: Re-using existing font cpp files."
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "      Info: Re-using existing font cpp files.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/gl_managed.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/gl_managed.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/gl_managed.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/gl_managed.py", line 13
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/images.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/images.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/images.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/images.py", line 20
     print encoded[:78]+"\\"
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int encoded[:78]+"\\")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/libtbx_refresh.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/libtbx_refresh.py", line 8
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/libtbx_refresh.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/libtbx_refresh.py", line 8
     print '  Generating C++ files in:\n    "%s"' % target_dir
                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '  Generating C++ files in:\n    "%s"' % target_dir)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst.py", line 22
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst_ellipsoids.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst_ellipsoids.py", line 52
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst_ellipsoids.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst_ellipsoids.py", line 52
     print "Skipping gltbx/tst_ellipsoids.py: gltbx.gl module not available."
                                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping gltbx/tst_ellipsoids.py: gltbx.gl module not available.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst_fonts.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/tst_fonts.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst_fonts.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/tst_fonts.py", line 19
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/util.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/util.py", line 14
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/util.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/util.py", line 14
     print "GL_VENDOR:", gl.glGetString(gl.GL_VENDOR)
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/viewer_utils.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/viewer_utils.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/viewer_utils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/viewer_utils.py", line 46
     print "%.2f fps" % (10 / t_elapsed)
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_motion_on_tab.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_motion_on_tab.py", line 87
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_motion_on_tab.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_motion_on_tab.py", line 87
     print [point.elems for point in points]
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print [point.elems for point in points])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_scene.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_scene.py", line 140
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_scene.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_scene.py", line 140
     print "HELLO"
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "HELLO")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171023/modules/cctbx_project/gltbx/wx_viewer.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/gltbx/wx_viewer.py", line 17
     except ImportError, e:
                       ^
 SyntaxError: invalid syntax

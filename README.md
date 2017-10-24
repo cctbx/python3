@@ -27,7 +27,7 @@ all OK
 [286 files](dials.log) violate python3 syntax
 
 ## dlstbx
-[52 files](dlstbx.log) violate python3 syntax
+[42 files](dlstbx.log) violate python3 syntax
 
 ## dxtbx
 [150 files](dxtbx.log) violate python3 syntax
@@ -84,5 +84,5 @@ all OK
 [158 files](xfel.log) violate python3 syntax
 
 ## xia2
-[141 files](xia2.log) violate python3 syntax
+[138 files](xia2.log) violate python3 syntax
 
