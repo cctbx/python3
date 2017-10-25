@@ -10,7 +10,7 @@ do
   echo "## $repository" >> README.md
 
   RP=$(libtbx.find_in_repositories $repository)
-  python3 -m compileall -x "\.git" -q $RP > $repository.log
+  python3 -m compileall -x "\.git" -q $RP | perl -pe "s#$RP#$repository#" > $repository.log
 
   FAILS=$(grep "^\*\*\*" $repository.log | wc -l)
   if [ "$FAILS" == "0" ]; then
