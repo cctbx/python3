@@ -1,65 +1,65 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/fix_not_defined.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/fix_not_defined.py", line 8
+*** Error compiling 'i19/command_line/fix_not_defined.py'...
+  File "i19/command_line/fix_not_defined.py", line 8
     print '"%s" -> %f in %d files' % (undefined, value, len(sys.argv[2:]))
                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/screen.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/screen.py", line 59
+*** Error compiling 'i19/command_line/screen.py'...
+  File "i19/command_line/screen.py", line 59
     map(lambda (x,y,z):z if x!=y else None, \
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/stability_fft.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/stability_fft.py", line 85
+*** Error compiling 'i19/command_line/stability_fft.py'...
+  File "i19/command_line/stability_fft.py", line 85
     print 'Read data for %d images in %.1fs' % (len(indices), t1 - t0)
                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/sync.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/sync.py", line 26
+*** Error compiling 'i19/command_line/sync.py'...
+  File "i19/command_line/sync.py", line 26
     print "Destination %s exists." % self._destination
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Destination %s exists." % self._destination)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/verify-image.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/verify-image.py", line 106
+*** Error compiling 'i19/command_line/verify-image.py'...
+  File "i19/command_line/verify-image.py", line 106
     print "\nFile %s failed the following checks:" % filename
                                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\nFile %s failed the following checks:" % filename)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/watch_pattern.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/watch_pattern.py", line 21
+*** Error compiling 'i19/command_line/watch_pattern.py'...
+  File "i19/command_line/watch_pattern.py", line 21
     print "Image %s arrived after %.2f seconds" % (file, wait)
                                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/write_absorption_correction_cif.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/command_line/write_absorption_correction_cif.py", line 71
+*** Error compiling 'i19/command_line/write_absorption_correction_cif.py'...
+  File "i19/command_line/write_absorption_correction_cif.py", line 71
     print "Finding AIMLESS log...",
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Finding AIMLESS log...", end=" ")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/libtbx_refresh.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/libtbx_refresh.py", line 5
+*** Error compiling 'i19/libtbx_refresh.py'...
+  File "i19/libtbx_refresh.py", line 5
     print version.i19_version()
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/tests/tst_legacy.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/tests/tst_legacy.py", line 10
+*** Error compiling 'i19/tests/tst_legacy.py'...
+  File "i19/tests/tst_legacy.py", line 10
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/tests/tst_legacy_mult.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/tests/tst_legacy_mult.py", line 10
+*** Error compiling 'i19/tests/tst_legacy_mult.py'...
+  File "i19/tests/tst_legacy_mult.py", line 10
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/util/time_analysis.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/i19/util/time_analysis.py", line 40
+*** Error compiling 'i19/util/time_analysis.py'...
+  File "i19/util/time_analysis.py", line 40
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?

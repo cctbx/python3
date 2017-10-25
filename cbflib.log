@@ -1,132 +1,132 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/TestDrel.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/TestDrel.py", line 26
+*** Error compiling 'cbflib/dREL-ply-0.5/TestDrel.py'...
+  File "cbflib/dREL-ply-0.5/TestDrel.py", line 26
     exec realfunc
                 ^
 SyntaxError: Missing parentheses in call to 'exec'
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_lex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_lex.py", line 50
+*** Error compiling 'cbflib/dREL-ply-0.5/drel_lex.py'...
+  File "cbflib/dREL-ply-0.5/drel_lex.py", line 50
     print 'Illegal character %s' % repr(t.value[0])
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_prep.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_prep.py", line 9
+*** Error compiling 'cbflib/dREL-ply-0.5/drel_prep.py'...
+  File "cbflib/dREL-ply-0.5/drel_prep.py", line 9
     print valuename
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t valuename)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_yacc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drel_yacc.py", line 53
+*** Error compiling 'cbflib/dREL-ply-0.5/drel_yacc.py'...
+  File "cbflib/dREL-ply-0.5/drel_yacc.py", line 53
     print "Simple statement: " + p[0]
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Simple statement: " + p[0])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/dREL-ply-0.5/drelc.py'...
+*** Error compiling 'cbflib/dREL-ply-0.5/drelc.py'...
 Sorry: TabError: inconsistent use of tabs and spaces in indentation (drelc.py, line 20)
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/TestDrel.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/TestDrel.py", line 26
+*** Error compiling 'cbflib/drel-ply/TestDrel.py'...
+  File "cbflib/drel-ply/TestDrel.py", line 26
     exec realfunc
                 ^
 SyntaxError: Missing parentheses in call to 'exec'
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/drel-gu.py'...
+*** Error compiling 'cbflib/drel-ply/drel-gu.py'...
 Sorry: TabError: inconsistent use of tabs and spaces in indentation (drel-gu.py, line 15)
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/drel_lex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/drel_lex.py", line 50
+*** Error compiling 'cbflib/drel-ply/drel_lex.py'...
+  File "cbflib/drel-ply/drel_lex.py", line 50
     print 'Illegal character %s' % repr(t.value[0])
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/drel_yacc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/drel-ply/drel_yacc.py", line 53
+*** Error compiling 'cbflib/drel-ply/drel_yacc.py'...
+  File "cbflib/drel-ply/drel_yacc.py", line 53
     print "Simple statement: " + p[0]
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Simple statement: " + p[0])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/ply-3.2/build/lib/ply/cpp.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/ply-3.2/build/lib/ply/cpp.py", line 196
+*** Error compiling 'cbflib/ply-3.2/build/lib/ply/cpp.py'...
+  File "cbflib/ply-3.2/build/lib/ply/cpp.py", line 196
     print "Couldn't determine identifier type"
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Couldn't determine identifier type")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/ply-3.2/ply/cpp.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/ply-3.2/ply/cpp.py", line 196
+*** Error compiling 'cbflib/ply-3.2/ply/cpp.py'...
+  File "cbflib/ply-3.2/ply/cpp.py", line 196
     print "Couldn't determine identifier type"
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Couldn't determine identifier type")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/cbf_autoscrolled_window.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/cbf_autoscrolled_window.py", line 73
+*** Error compiling 'cbflib/pycbf/cbf_autoscrolled_window.py'...
+  File "cbflib/pycbf/cbf_autoscrolled_window.py", line 73
     print "CBF: cbf_autoscrolled_window requires Tkinter"
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "CBF: cbf_autoscrolled_window requires Tkinter")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/cbf_axis_text.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/cbf_axis_text.py", line 79
+*** Error compiling 'cbflib/pycbf/cbf_axis_text.py'...
+  File "cbflib/pycbf/cbf_axis_text.py", line 79
     print "Unable to open ",cbf
                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Unable to open ",cbf)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/make_pycbf.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/make_pycbf.py", line 2
+*** Error compiling 'cbflib/pycbf/make_pycbf.py'...
+  File "cbflib/pycbf/make_pycbf.py", line 2
     print "\\begin{verbatim}"
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("\\begin{verbatim}")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test1.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test1.py", line 6
+*** Error compiling 'cbflib/pycbf/pycbf_test1.py'...
+  File "cbflib/pycbf/pycbf_test1.py", line 6
     print "Found",object.count_datablocks(),"blocks"
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test2.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test2.py", line 7
+*** Error compiling 'cbflib/pycbf/pycbf_test2.py'...
+  File "cbflib/pycbf/pycbf_test2.py", line 7
     print "Rotation axis is",g.get_rotation_axis()
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test4.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_test4.py", line 7
+*** Error compiling 'cbflib/pycbf/pycbf_test4.py'...
+  File "cbflib/pycbf/pycbf_test4.py", line 7
     print "Found",object.count_datablocks(),"blocks"
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_testfelaxes.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/pycbf_testfelaxes.py", line 11
+*** Error compiling 'cbflib/pycbf/pycbf_testfelaxes.py'...
+  File "cbflib/pycbf/pycbf_testfelaxes.py", line 11
     print "element:", element
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "element:", element)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/xmas/readmarheader.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/pycbf/xmas/readmarheader.py", line 53
+*** Error compiling 'cbflib/pycbf/xmas/readmarheader.py'...
+  File "cbflib/pycbf/xmas/readmarheader.py", line 53
     print "Please decode",decl
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Please decode",decl)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/TestDrel.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/TestDrel.py", line 26
+*** Error compiling 'cbflib/src/TestDrel.py'...
+  File "cbflib/src/TestDrel.py", line 26
     exec realfunc
                 ^
 SyntaxError: Missing parentheses in call to 'exec'
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_lex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_lex.py", line 50
+*** Error compiling 'cbflib/src/drel_lex.py'...
+  File "cbflib/src/drel_lex.py", line 50
     print 'Illegal character %s' % repr(t.value[0])
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_prep.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_prep.py", line 9
+*** Error compiling 'cbflib/src/drel_prep.py'...
+  File "cbflib/src/drel_prep.py", line 9
     print valuename
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t valuename)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_yacc.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drel_yacc.py", line 53
+*** Error compiling 'cbflib/src/drel_yacc.py'...
+  File "cbflib/src/drel_yacc.py", line 53
     print "Simple statement: " + p[0]
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Simple statement: " + p[0])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cbflib/src/drelc.py'...
+*** Error compiling 'cbflib/src/drelc.py'...
 Sorry: TabError: inconsistent use of tabs and spaces in indentation (drelc.py, line 20)
