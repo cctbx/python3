@@ -24,7 +24,7 @@ all OK
 [12 files](crys3d.log) violate python3 syntax
 
 ## dials
-[286 files](dials.log) violate python3 syntax
+[284 files](dials.log) violate python3 syntax
 
 ## dlstbx
 [42 files](dlstbx.log) violate python3 syntax
@@ -51,7 +51,7 @@ all OK
 [167 files](libtbx.log) violate python3 syntax
 
 ## mmtbx
-[479 files](mmtbx.log) violate python3 syntax
+[480 files](mmtbx.log) violate python3 syntax
 
 ## omptbx
 [1 files](omptbx.log) violate python3 syntax

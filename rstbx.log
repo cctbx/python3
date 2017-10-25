@@ -1,481 +1,481 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/dual_resolution_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/dual_resolution_helpers.py", line 55
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/dual_resolution_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/dual_resolution_helpers.py", line 55
     print "len obs",len(obs_tt_sort)
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/slip_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/slip_helpers.py", line 23
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/slip_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/slip_helpers.py", line 23
     print "staerting params",list(self.x)
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/spot_markup.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/spot_markup.py", line 51
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/spot_markup.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/spot_markup.py", line 51
     print "BLUE: plotting %d integrated spots"%count_integrated
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "BLUE: plotting %d integrated spots"%count_integrated)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/dials_refinement_preceding_integration.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/dials_refinement_preceding_integration.py", line 39
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/dials_refinement_preceding_integration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/dials_refinement_preceding_integration.py", line 39
     print "Testing isoform %s"%isoform.name,isoform.cell.parameters()
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/simple_integration.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/simple_integration.py", line 29
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/simple_integration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/simple_integration.py", line 29
     print average_profile.focus()
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/stills_integration.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/apps/stills/stills_integration.py", line 89
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/stills_integration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/apps/stills/stills_integration.py", line 89
     print "Deltaphi is",float(inputpd['deltaphi'])
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bandpass/simulated_annealing.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bandpass/simulated_annealing.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bandpass/simulated_annealing.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bandpass/simulated_annealing.py", line 21
     print self.format%tuple(self.x)
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/compare_mosflm_xds.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/compare_mosflm_xds.py", line 111
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/compare_mosflm_xds.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/compare_mosflm_xds.py", line 111
     raise RuntimeError, 'spacegroup missing'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/detector.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/detector.py", line 68
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/detector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/detector.py", line 68
     raise RuntimeError, 'overload me'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/instrument_specifics.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/instrument_specifics.py", line 106
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/instrument_specifics.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/instrument_specifics.py", line 106
     raise RuntimeError, '%s configuration-file' % sys.argv[0]
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/tst_detector_model.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/detector_model/tst_detector_model.py", line 23
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/tst_detector_model.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/detector_model/tst_detector_model.py", line 23
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/ersatz_misset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/ersatz_misset.py", line 43
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/ersatz_misset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/ersatz_misset.py", line 43
     print '%7.3f %7.3f %7.3f' % tuple(xyz_angles(ub.inverse() * ub0))
                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2.py", line 244
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2.py", line 244
     print '%5d %5d %5d' % hkl, '%11.4f %11.4f %9.2f' % (
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_positions.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_positions.py", line 139
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_positions.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_positions.py", line 139
     print x, y, z, dx, dy, dz
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print x, y, z, dx, dy, dz)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_positions_idx.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_positions_idx.py", line 140
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_positions_idx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_positions_idx.py", line 140
     print x, y, z, dx, dy, dz
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print x, y, z, dx, dy, dz)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_validate.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2_validate.py", line 141
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_validate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2_validate.py", line 141
     print observations[c][2][0], predictions[j][2][0]
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print observations[c][2][0], predictions[j][2][0])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2a.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/bpcx/uc1_2a.py", line 330
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2a.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/bpcx/uc1_2a.py", line 330
     print 'XDS:', ranges(xyz_to_hkl_xds)
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/coordinate_frame_converter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/coordinate_frame_converter.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/coordinate_frame_converter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/coordinate_frame_converter.py", line 46
     raise RuntimeError, 'unknown configuration file %s' % \
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/coordinate_frame_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/coordinate_frame_helpers.py", line 93
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/coordinate_frame_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/coordinate_frame_helpers.py", line 93
     raise RuntimeError, 'no parameter %s' % parameter_name
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/tst_coordinate_frame_converter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/cftbx/tst_coordinate_frame_converter.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/tst_coordinate_frame_converter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/cftbx/tst_coordinate_frame_converter.py", line 15
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/command_line/example_viewer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/command_line/example_viewer.py", line 25
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/command_line/example_viewer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/command_line/example_viewer.py", line 25
     print "Use phenix.example_viewer <data file name[s]>"
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Use phenix.example_viewer <data file name[s]>")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/command_line/simage.create.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/command_line/simage.create.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/command_line/simage.create.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/command_line/simage.create.py", line 17
     print "%3d %3d %3d" % h, "(%8.2f, %8.2f)" % tuple(x[:2]), "%.6g" % s
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/detectors/silicon.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/detectors/silicon.py", line 41
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/detectors/silicon.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/detectors/silicon.py", line 41
     print eV, "%.2f"%Si_mass_attenuation().from_energy_eV(eV)
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/fastbragg/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/fastbragg/__init__.py", line 9
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/fastbragg/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/fastbragg/__init__.py", line 9
     print "Detector with %d x %d square pixels each with %5.3f mm edge"%(
                                                                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/fastbragg/tst_bragg_minimal.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/fastbragg/tst_bragg_minimal.py", line 330
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/fastbragg/tst_bragg_minimal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/fastbragg/tst_bragg_minimal.py", line 330
     print "Skipping some tests: annlib not available."
                                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping some tests: annlib not available.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_ewald_sphere.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_ewald_sphere.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_ewald_sphere.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_ewald_sphere.py", line 46
     raise RuntimeError, 'length error for %d %d %d' % hkl
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_partial_derivatives.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_partial_derivatives.py", line 38
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_partial_derivatives.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_partial_derivatives.py", line 38
     raise RuntimeError, 'length error for %d %d %d' % hkl
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_predict.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/diffraction/tst_predict.py", line 2000
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_predict.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/diffraction/tst_predict.py", line 2000
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/__init__.py", line 73
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/__init__.py", line 73
     print message,"%.4f %8.2f %8.2f kmax=%2d kval=%5.1f kval2=%5.1f kval3=%5.1f"%(
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/basis_choice.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/basis_choice.py", line 41
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/basis_choice.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/basis_choice.py", line 41
     print "There are systematic absences. Applying transformation",invS.transpose().elems
                                                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/tst_iotbx_converter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/tst_iotbx_converter.py", line 771
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/tst_iotbx_converter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/tst_iotbx_converter.py", line 771
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/zuoreduction.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/dps_core/zuoreduction.py", line 41
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/zuoreduction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/dps_core/zuoreduction.py", line 41
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing/do_index.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing/do_index.py", line 44
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing/do_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing/do_index.py", line 44
     print subgroup.short_digest()
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing/tst_dataset1.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing/tst_dataset1.py", line 65
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing/tst_dataset1.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing/tst_dataset1.py", line 65
     print "Test autoindexing on synthetic reciprocal space positions"
                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Test autoindexing on synthetic reciprocal space positions")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/basis_choice.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/basis_choice.py", line 78
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/basis_choice.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/basis_choice.py", line 78
     except (FewSpots),f:
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/force_cell.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/force_cell.py", line 40
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/force_cell.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/force_cell.py", line 40
     print "N candidates:",index_engine.n_candidates()
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/lattice.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/lattice.py", line 136
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/lattice.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/lattice.py", line 136
     print "MINIMUM=",list(MIN.x)
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/outlier_detection.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/outlier_detection.py", line 140
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/outlier_detection.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/outlier_detection.py", line 140
     print """After indexing on a subset of %d spots (from all images), %d were reclassified as
       either lying on the spindle, or potential overlapped spots or ice rings."""%(
                                                                                               
                                                                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/outlier_procedure.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/outlier_procedure.py", line 40
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/outlier_procedure.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/outlier_procedure.py", line 40
     if verbose: print "Before outlier rejection, triclinic rmsd %.3f on %d spots"%(
                                                                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/test_dps.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/test_dps.py", line 137
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/test_dps.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/test_dps.py", line 137
     print "Finishing"
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Finishing")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/tools.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/indexing_api/tools.py", line 174
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/tools.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/indexing_api/tools.py", line 174
     print count,m
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print count,m)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/index.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/index.py", line 11
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/index.py", line 11
     print "Importing DISTL"
                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Importing DISTL")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/oscillation_shots.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/oscillation_shots.py", line 25
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/oscillation_shots.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/oscillation_shots.py", line 25
     print A
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int A)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/pixel_spread.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/pixel_spread.py", line 80
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/pixel_spread.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/pixel_spread.py", line 80
     print "point_projection",point_projection,
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "point_projection",point_projection, end=" ")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/speckfinder.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/speckfinder.py", line 25
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/speckfinder.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/speckfinder.py", line 25
     print "The mean is ",flex.mean(active_data),"on %d pixels"%len(active_data)
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/spot_shape.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/spot_shape.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/spot_shape.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/spot_shape.py", line 53
     print "%5d Johan radial %6.2f px, Johan azimuthal %6.2f px"%(ipidx, radial, azimuthal),
                                                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/stats_index.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/new_horizons/stats_index.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/stats_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/new_horizons/stats_index.py", line 46
     print "Comparing old count %d new count %d, difference %d"%(old_count,new_count,new_count-old_count)
                                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/outlier_spots/fit_distribution.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/outlier_spots/fit_distribution.py", line 39
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/outlier_spots/fit_distribution.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/outlier_spots/fit_distribution.py", line 39
     print "The cumulative distribution function (y_data) should only have values be between 0 and 1."
                                                                                                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/phil/phil_preferences.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/phil/phil_preferences.py", line 366
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/phil/phil_preferences.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/phil/phil_preferences.py", line 366
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/phil/preferences.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/phil/preferences.py", line 63
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/phil/preferences.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/phil/preferences.py", line 63
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/run_tests.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/run_tests.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/run_tests.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/run_tests.py", line 19
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/explore_completeness.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/explore_completeness.py", line 48
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/explore_completeness.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/explore_completeness.py", line 48
     print "Complete with %d images." % (len(O.completeness_history)-1)
                                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/refine_uc_cr.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/refine_uc_cr.py", line 39
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/refine_uc_cr.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/refine_uc_cr.py", line 39
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/run_labelit_index.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/run_labelit_index.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/run_labelit_index.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/run_labelit_index.py", line 21
     print "Highest-resolution of spots: %.3f" % result
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Highest-resolution of spots: %.3f" % result)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/run_spotfinder.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/run_spotfinder.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/run_spotfinder.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/run_spotfinder.py", line 32
     print "Time spot finding: %.2f" % (time.time()-t0)
                                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/solver.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/solver.py", line 10
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/solver.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/solver.py", line 10
     print msg
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t msg)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/tst.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/tst.py", line 165
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/tst.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/tst.py", line 165
     print "Skipping some tests due to missing file: %s" % relative_path
                                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping some tests due to missing file: %s" % relative_path)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/wx_display.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simage/wx_display.py", line 68
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/wx_display.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simage/wx_display.py", line 68
     print "WARNING:"
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "WARNING:")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/__init__.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/__init__.py", line 13
     print "In XFEL1 simulation"
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "In XFEL1 simulation")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/sim_pdf.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/sim_pdf.py", line 44
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/sim_pdf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/sim_pdf.py", line 44
     print text
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int text)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/sim_utils.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/simulation/sim_utils.py", line 38
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/sim_utils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/simulation/sim_utils.py", line 38
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/calibration_frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/calibration_frame.py", line 96
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/calibration_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/calibration_frame.py", line 96
     print "Not implemented"
                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not implemented")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/frame.py", line 69
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/frame.py", line 69
     print "Loaded plugins: " + ", ".join(plugin_names)
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/pyslip.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/pyslip.py", line 444
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/pyslip.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/pyslip.py", line 444
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/ring_frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/ring_frame.py", line 187
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/ring_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/ring_frame.py", line 187
     print "r: % 3.1f, i: % 3.1f, j: % 3.1f, best: %f"%(r, i, j, best)
                                                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/score_frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/score_frame.py", line 125
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/score_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/score_frame.py", line 125
     print "Dumped scores to", path
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Dumped scores to", path)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/slip_viewer_image_factory.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/slip_viewer_image_factory.py", line 10
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/slip_viewer_image_factory.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/slip_viewer_image_factory.py", line 10
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/tile_generation.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/tile_generation.py", line 109
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/tile_generation.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/tile_generation.py", line 109
     except RuntimeError, e: # catch DXTBX_ASSERT for no intersection
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/uc_frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/slip_viewer/uc_frame.py", line 280
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/uc_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/slip_viewer/uc_frame.py", line 280
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/symmetry/constraints/parameter_reduction.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/symmetry/constraints/parameter_reduction.py", line 109
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/symmetry/constraints/parameter_reduction.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/symmetry/constraints/parameter_reduction.py", line 109
     print orient,cs,symmetry.space_group().type().lookup_symbol()
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/symmetry/subgroup.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/symmetry/subgroup.py", line 104
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/symmetry/subgroup.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/symmetry/subgroup.py", line 104
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/__init__.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/__init__.py", line 235
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/__init__.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/__init__.py", line 235
     except ImageException, e :
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/calibration.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/calibration.py", line 75
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/calibration.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/calibration.py", line 75
     print self.hkl_list[rev_order[x]], spacings[rev_order[x]]
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.hkl_list[rev_order[x]], spacings[rev_order[x]])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/calibration_frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/calibration_frame.py", line 107
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/calibration_frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/calibration_frame.py", line 107
     print "DISTANCE",self.GetParent().GetParent().viewer._img
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/dataset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/dataset.py", line 84
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/dataset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/dataset.py", line 84
     print self.stack_ctrl.GetSelection()
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/display.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/display.py", line 187
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/display.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/display.py", line 187
     except IndexError, e :
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/drivers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/drivers.py", line 42
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/drivers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/drivers.py", line 42
     print "Will index on images %d and %d..." % (start, frame2)
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/frame.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/frame.py", line 134
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/frame.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/frame.py", line 134
     except TypeError, e: pass
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/results_base.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/results_base.py", line 102
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/results_base.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/results_base.py", line 102
     print "integration file: %s" % file_path
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "integration file: %s" % file_path)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/tst.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/cctbx_project/rstbx/viewer/tst.py", line 32
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/tst.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/cctbx_project/rstbx/viewer/tst.py", line 32
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?

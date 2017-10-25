@@ -1,71 +1,71 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/dist/create_build.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/dist/create_build.py", line 31
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/dist/create_build.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/dist/create_build.py", line 31
     raise RuntimeError, 'Error creating EXE'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/CppParser.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/CppParser.py", line 82
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/CppParser.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/CppParser.py", line 82
     raise RuntimeError, 'Header file "%s" not found!' % name
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/Exporter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/Exporter.py", line 68
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/Exporter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/Exporter.py", line 68
     raise RuntimeError, 'no %s declaration found!' % fullname
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/GCCXMLParser.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/GCCXMLParser.py", line 86
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/GCCXMLParser.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/GCCXMLParser.py", line 86
     raise InvalidXMLError, 'Not a XML file: %s' % filename
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/SingleCodeUnit.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/SingleCodeUnit.py", line 48
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/SingleCodeUnit.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/SingleCodeUnit.py", line 48
     raise RuntimeError, 'Invalid CodeUnit section: %s' % section
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/VarExporter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/VarExporter.py", line 27
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/VarExporter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/VarExporter.py", line 27
     print msg % self.info.name
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print msg % self.info.name)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/exporterutils.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/exporterutils.py", line 69
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/exporterutils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/exporterutils.py", line 69
     print warning
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print warning)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/policies.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/policies.py", line 13
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/policies.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/policies.py", line 13
     raise RuntimeError, "Can't create an instance of the class Policy"
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/pyste.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/pyste.py", line 102
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/pyste.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/pyste.py", line 102
     print __doc__ % __version__
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print __doc__ % __version__)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/utils.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/src/Pyste/utils.py", line 29
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/utils.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/src/Pyste/utils.py", line 29
     print type(name), name
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/tests/GCCXMLParserUT.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/tests/GCCXMLParserUT.py", line 277
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/tests/GCCXMLParserUT.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/tests/GCCXMLParserUT.py", line 277
     raise RuntimeError, 'Error executing GCCXML.'
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/tests/test_all.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/boost/libs/python/pyste/tests/test_all.py", line 74
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/tests/test_all.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/boost/libs/python/pyste/tests/test_all.py", line 74
     raise RuntimeError, 'tests failed'
                       ^
 SyntaxError: invalid syntax

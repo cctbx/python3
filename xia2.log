@@ -1,827 +1,827 @@
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2_helpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2_helpers.py", line 83
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2_helpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2_helpers.py", line 83
     print line
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print line)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2ccp4i.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2ccp4i.py", line 249
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2ccp4i.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2ccp4i.py", line 249
     print str(err)
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2merger.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Applications/xia2merger.py", line 45
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2merger.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Applications/xia2merger.py", line 45
     print 'COMPLETENESS %f' % m.resolution_completeness(
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Background/Background.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Background/Background.py", line 101
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Background/Background.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Background/Background.py", line 101
     print factor(j)
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Decorators/CCP4Decorator.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Decorators/CCP4Decorator.py", line 457
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Decorators/CCP4Decorator.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Decorators/CCP4Decorator.py", line 457
     print help(d.__class__)
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Decorators/DecoratorHelper.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Decorators/DecoratorHelper.py", line 43
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Decorators/DecoratorHelper.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Decorators/DecoratorHelper.py", line 43
     print 'ok'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'ok')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/DefaultDriver.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/DefaultDriver.py", line 505
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/DefaultDriver.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/DefaultDriver.py", line 505
     print 'You should never see this message'
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'You should never see this message')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/DriverHelper.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/DriverHelper.py", line 394
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/DriverHelper.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/DriverHelper.py", line 394
     print '"%s"' % generate_random_name()
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/PythonDriver.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/PythonDriver.py", line 121
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/PythonDriver.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/PythonDriver.py", line 121
     print record[:-1]
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int record[:-1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/QSubDriver.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/QSubDriver.py", line 268
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/QSubDriver.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/QSubDriver.py", line 268
     print line.strip()
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/SunGridEngineClusterDriver.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Driver/SunGridEngineClusterDriver.py", line 120
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/SunGridEngineClusterDriver.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Driver/SunGridEngineClusterDriver.py", line 120
     print line.strip()
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/Filenames.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/Filenames.py", line 66
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/Filenames.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/Filenames.py", line 66
     print expand_path(r'%USERPROFILE%\test')
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/LatticeExpert.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/LatticeExpert.py", line 177
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/LatticeExpert.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/LatticeExpert.py", line 177
     print cell, dist
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell, dist)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/MatrixExpert.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/MatrixExpert.py", line 530
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/MatrixExpert.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/MatrixExpert.py", line 530
     print r[:-1]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int r[:-1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/MissetExpert.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/MissetExpert.py", line 77
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/MissetExpert.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/MissetExpert.py", line 77
     print '%8.2f %8.2f %8.2f %8.2f' % (j + 1, x, y, z)
                                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/ResolutionExperts.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/ResolutionExperts.py", line 294
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/ResolutionExperts.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/ResolutionExperts.py", line 294
     print 1.0 / math.sqrt(sum(s) / len(s)), c, len(bin), mean, sd, mf / ms
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/SymmetryExpert.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/SymmetryExpert.py", line 120
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/SymmetryExpert.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/SymmetryExpert.py", line 120
     print i,
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i, end=" ")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/WedgeExpert.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Experts/WedgeExpert.py", line 137
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/WedgeExpert.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Experts/WedgeExpert.py", line 137
     print gr
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int gr)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/GUI/dataset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/GUI/dataset.py", line 95
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/GUI/dataset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/GUI/dataset.py", line 95
     print self.stack_ctrl.GetSelections()
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Citations.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Citations.py", line 150
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Citations.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Citations.py", line 150
     print Citations.find_citations(program='xia2')
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/CommandLine.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/CommandLine.py", line 150
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/CommandLine.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/CommandLine.py", line 150
     print "***\nCommand line option %s is deprecated.\nPlease use %s instead\n***" % (k, v)
                                                                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Environment.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Environment.py", line 164
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Environment.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Environment.py", line 164
     print get_number_cpus()
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/PipelineSelection.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/PipelineSelection.py", line 123
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/PipelineSelection.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/PipelineSelection.py", line 123
     print search_for_preferences()
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Syminfo.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/Syminfo.py", line 214
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Syminfo.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/Syminfo.py", line 214
     print Syminfo.get_pointgroup(arg)
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/XInfo.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Handlers/XInfo.py", line 437
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/XInfo.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Handlers/XInfo.py", line 437
     print xi
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/CCP4InterRadiationDamageDetector.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/CCP4InterRadiationDamageDetector.py", line 157
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/CCP4InterRadiationDamageDetector.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/CCP4InterRadiationDamageDetector.py", line 157
     print '%s %s' % s
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s %s' % s)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/CctbxFrenchWilson.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/CctbxFrenchWilson.py", line 21
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/CctbxFrenchWilson.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/CctbxFrenchWilson.py", line 21
     print 'Reading reflections from %s' %mtz_file
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Reading reflections from %s' %mtz_file)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/DeltaCcHalf.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/DeltaCcHalf.py", line 189
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/DeltaCcHalf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/DeltaCcHalf.py", line 189
     print 'Saving histogram to %s' %hist_filename
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Saving histogram to %s' %hist_filename)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/DoseAccumulate.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/DoseAccumulate.py", line 169
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/DoseAccumulate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/DoseAccumulate.py", line 169
     print 'batch %d time %f dose %f' % \
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'batch %d time %f dose %f' % \)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/FindFreeFlag.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/FindFreeFlag.py", line 64
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/FindFreeFlag.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/FindFreeFlag.py", line 64
     print FindFreeFlag(sys.argv[1])
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/GainEstimater.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/GainEstimater.py", line 55
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/GainEstimater.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/GainEstimater.py", line 55
     print gain(os.path.join(directory, '12287_1_E1_001.img'))
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/IndexerFactory.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/IndexerFactory.py", line 206
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/IndexerFactory.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/IndexerFactory.py", line 206
     print 'Refined beam is: %6.2f %6.2f' % i.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmCheckIndexerSolution.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmCheckIndexerSolution.py", line 297
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmCheckIndexerSolution.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmCheckIndexerSolution.py", line 297
     print 'Refined beam is: %6.2f %6.2f' % i.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmIndexer.py", line 199
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmIndexer.py", line 199
     print str(e) #XXX this should disappear!
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmIntegrateAbsences.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/MosflmIntegrateAbsences.py", line 48
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmIntegrateAbsences.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/MosflmIntegrateAbsences.py", line 48
     print 'A: %f' % (sum(absent) / len(absent))
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/XDSIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/XDSIndexer.py", line 736
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/XDSIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/XDSIndexer.py", line 736
     print 'Refined beam is: %6.2f %6.2f' % xi.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/XDSIndexerSum.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Indexer/XDSIndexerSum.py", line 139
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/XDSIndexerSum.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Indexer/XDSIndexerSum.py", line 139
     print " ".join(tokens)
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/LabelitBeamCentre.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/LabelitBeamCentre.py", line 71
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/LabelitBeamCentre.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/LabelitBeamCentre.py", line 71
     print '%6.2f %6.2f' % compute_beam_centre(s)
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Mtzdump.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Mtzdump.py", line 168
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Mtzdump.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Mtzdump.py", line 168
     print m.get_spacegroup()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChef.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChef.py", line 243
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChef.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChef.py", line 243
     print 'Reading in data from %s/%s' % (crystal_name, dataset_name)
                                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChefHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChefHelpers.py", line 67
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChefHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChefHelpers.py", line 67
     print crystal.name(), dataset.name()
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChefMain.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef/PyChefMain.py", line 33
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChefMain.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef/PyChefMain.py", line 33
     print '#' * 60
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '#' * 60)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef2/PyChef.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/PyChef2/PyChef.py", line 431
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef2/PyChef.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/PyChef2/PyChef.py", line 431
     print table_completeness.format_loggraph()
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Resolutionizer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Resolutionizer.py", line 39
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Resolutionizer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Resolutionizer.py", line 39
     print "[%7.3f] %s" % (time.time() - start_time, message)
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/CCP4ScalerHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 628
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/CCP4ScalerHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 628
     print '%s: %.3f %.3f' % (os.path.split(arg)[-1], df_f, di_sigdi)
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/CommonScaler.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/CommonScaler.py", line 736
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/CommonScaler.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/CommonScaler.py", line 736
     print 'Change of basis to reference setting: %s' % cb_op
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Change of basis to reference setting: %s' % cb_op)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/rebatch.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Scaler/rebatch.py", line 25
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/rebatch.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Scaler/rebatch.py", line 25
     lambda (i,x):i-x)]
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/TTT.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/TTT.py", line 195
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/TTT.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/TTT.py", line 195
     print r
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int r)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/UnitCellErrors.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/UnitCellErrors.py", line 91
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/UnitCellErrors.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/UnitCellErrors.py", line 91
     print "(%2d, %2d, %2d)" % h, "%6.2f - %6.2f = %6.2f" % (o, c, o-c)
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/UnpackByteOffset.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/UnpackByteOffset.py", line 85
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/UnpackByteOffset.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/UnpackByteOffset.py", line 85
     print min(values), max(values)
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/Canary.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/Canary.py", line 1287
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/Canary.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/Canary.py", line 1287
     print d.render()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/Magpie.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/Magpie.py", line 195
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/Magpie.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/Magpie.py", line 195
     if self.__verbose: print text
                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.__verbose: print text)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/baubles.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/baubles.py", line 441
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/baubles.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/baubles.py", line 441
     print "len(fragment)="+str(len(fragment))
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/smartie.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Modules/Xia2html/smartie.py", line 1219
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/smartie.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Modules/Xia2html/smartie.py", line 1219
     print "Unable to parse table - too many data items (or not enough)?"
                                                                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/Interfaces/FrameProcessor.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/Interfaces/FrameProcessor.py", line 386
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/Interfaces/FrameProcessor.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/Interfaces/FrameProcessor.py", line 386
     print fp.get_beam_centre()
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/Sweep.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/Sweep.py", line 175
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/Sweep.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/Sweep.py", line 175
     print 'Data collection took %s seconds' % (t[1] - t[0])
                                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/XCrystal.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Schema/XCrystal.py", line 224
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/XCrystal.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Schema/XCrystal.py", line 224
     print 'Cell: %6.2f %6.2f %6.2f %6.2f %6.2f %6.2f' % lattice['cell']
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Cell: %6.2f %6.2f %6.2f %6.2f %6.2f %6.2f' % lattice['cell'])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Dials/Platform.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Dials/Platform.py", line 31
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Dials/Platform.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Dials/Platform.py", line 31
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstDialsIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstDialsIndexer.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstDialsIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstDialsIndexer.py", line 18
     print "Skipping exercise_dials_indexer(): dials_regression not configured"
                                                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py", line 70
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py", line 70
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstLabelitIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstLabelitIndexer.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstLabelitIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstLabelitIndexer.py", line 17
     print "Skipping exercise_labelit_indexer(): dials_regression not configured"
                                                                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstLabelitIndexerII.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstLabelitIndexerII.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstLabelitIndexerII.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstLabelitIndexerII.py", line 17
     print "Skipping exercise_labelit_indexerii(): dials_regression not configured"
                                                                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstMosflmIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstMosflmIndexer.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstMosflmIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstMosflmIndexer.py", line 19
     print "Skipping exercise_mosflm_indexer(): dials_regression not configured"
                                                                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstXDSIndexer.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstXDSIndexer.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstXDSIndexer.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstXDSIndexer.py", line 18
     print "Skipping exercise_xds_indexer(): dials_regression not configured"
                                                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstXDSIndexerII.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Indexer/TstXDSIndexerII.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstXDSIndexerII.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Indexer/TstXDSIndexerII.py", line 18
     print "Skipping exercise_xds_indexer(): dials_regression not configured"
                                                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Integrater/TstDialsIntegrater.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Integrater/TstDialsIntegrater.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Integrater/TstDialsIntegrater.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Integrater/TstDialsIntegrater.py", line 18
     print "Skipping exercise_dials_integrater(): dials_regression not configured"
                                                                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Integrater/TstXDSIntegrater.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Integrater/TstXDSIntegrater.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Integrater/TstXDSIntegrater.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Integrater/TstXDSIntegrater.py", line 18
     print "Skipping exercise_xds_integrater(): dials_regression not configured"
                                                                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Refiner/TstDialsRefiner.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Refiner/TstDialsRefiner.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Refiner/TstDialsRefiner.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Refiner/TstDialsRefiner.py", line 19
     print "Skipping exercise_dials_refiner(): xia2_regression not configured"
                                                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Scaler/TstCCP4ScalerA.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Scaler/TstCCP4ScalerA.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Scaler/TstCCP4ScalerA.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Scaler/TstCCP4ScalerA.py", line 18
     print "Skipping exercise_ccp4_scaler(): dials_regression not configured"
                                                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Scaler/TstXDSScalerA.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Modules/Scaler/TstXDSScalerA.py", line 18
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Scaler/TstXDSScalerA.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Modules/Scaler/TstXDSScalerA.py", line 18
     print "Skipping exercise_xds_scaler(): dials_regression not configured"
                                                                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Labelit/TstLabelitIndex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Labelit/TstLabelitIndex.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Labelit/TstLabelitIndex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Labelit/TstLabelitIndex.py", line 17
     print "Skipping exercise_labelit_index(): dials_regression not configured"
                                                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py", line 17
     print "Skipping exercise_mosflm_index(): dials_regression not configured"
                                                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py", line 17
     print "Skipping exercise_mosflm_integrate(): dials_regression not configured"
                                                                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py", line 17
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py", line 17
     print "Skipping exercise_mosflm_refine_cell(): dials_regression not configured"
                                                                                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/AimlessSurface.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/AimlessSurface.py", line 15
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/AimlessSurface.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/AimlessSurface.py", line 15
     print nsssphe.spherical_harmonic(2, 1, 1, 1)
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/BackstopMask.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/BackstopMask.py", line 408
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/BackstopMask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/BackstopMask.py", line 408
     print format_limits(bm.calculate_mask_mosflm(header))
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/E4.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/E4.py", line 7
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/E4.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/E4.py", line 7
     print E4_mtz(argv)
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/FrameCC.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/FrameCC.py", line 29
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/FrameCC.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/FrameCC.py", line 29
     print '%4d %4d %.6e %.6e' % (k[0] + 1, k[1] + 1, results[k],
                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/Merger.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/Merger.py", line 965
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/Merger.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/Merger.py", line 965
     print 'Resolutions:'
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Resolutions:')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/MtzFactory.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/MtzFactory.py", line 173
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/MtzFactory.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/MtzFactory.py", line 173
     print 'Reading file: %s' % hklin
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Reading file: %s' % hklin)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/PolyFitter.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Toolkit/PolyFitter.py", line 163
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/PolyFitter.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Toolkit/PolyFitter.py", line 163
     print x[j], y[j], m[j]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x[j], y[j], m[j])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Aimless.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Aimless.py", line 904
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Aimless.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Aimless.py", line 904
     print 'The following loggraphs were found'
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'The following loggraphs were found')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Blend.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Blend.py", line 313
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Blend.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Blend.py", line 313
     print "".join(b.get_all_output())
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Chooch.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Chooch.py", line 190
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Chooch.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Chooch.py", line 190
     print '%s %6.2f %6.2f %8.6f' % (key,
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Ctruncate.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Ctruncate.py", line 216
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Ctruncate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Ctruncate.py", line 216
     print ctruncate.get_nref_in(), ctruncate.get_nref_out(), \
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Matthews_coef.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Matthews_coef.py", line 114
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Matthews_coef.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Matthews_coef.py", line 114
     print m.get_solvent()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/MosflmHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/MosflmHelpers.py", line 237
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/MosflmHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/MosflmHelpers.py", line 237
     print '%4d %5.3f %5d %5d %5d %4.2f %6.2f %5.2f' % \
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d %5.3f %5d %5d %5d %4.2f %6.2f %5.2f' % \)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Mtzdump.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Mtzdump.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Mtzdump.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Mtzdump.py", line 36
     print m.get_spacegroup()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Pointless.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Pointless.py", line 687
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Pointless.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Pointless.py", line 687
     print cell
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Reindex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Reindex.py", line 210
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Reindex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Reindex.py", line 210
     print r.reindex()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Scaleit.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Scaleit.py", line 263
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Scaleit.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Scaleit.py", line 263
     print s.find_columns()
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Truncate.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/CCP4/Truncate.py", line 220
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Truncate.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/CCP4/Truncate.py", line 220
     print truncate.get_nref_in(), truncate.get_nref_out(), \
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Cctbx/BrehmDiederichs.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Cctbx/BrehmDiederichs.py", line 81
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Cctbx/BrehmDiederichs.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Cctbx/BrehmDiederichs.py", line 81
     print f, cb_op
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int f, cb_op)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/DetectBlanks.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/DetectBlanks.py", line 105
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/DetectBlanks.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/DetectBlanks.py", line 105
     print sweep.get_detector()
               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/ExportSpotXDS.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/ExportSpotXDS.py", line 75
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/ExportSpotXDS.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/ExportSpotXDS.py", line 75
     print "".join(output)
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/Import.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Dials/Import.py", line 154
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/Import.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Dials/Import.py", line 154
     print sweep.get_detector()
               ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/EMBL/Best.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/EMBL/Best.py", line 269
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/EMBL/Best.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/EMBL/Best.py", line 269
     print 'Native'
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Native')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/DistlSignalStrength.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/DistlSignalStrength.py", line 142
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/DistlSignalStrength.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/DistlSignalStrength.py", line 142
     print '%6.1f %6.1f %6.1f' % m
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%6.1f %6.1f %6.1f' % m)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/DistlSweepStrength.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/DistlSweepStrength.py", line 108
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/DistlSweepStrength.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/DistlSweepStrength.py", line 108
     print "".join(output)
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitDistl.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitDistl.py", line 141
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitDistl.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitDistl.py", line 141
     print image, stats['spots_good'], stats['spots']
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int image, stats['spots_good'], stats['spots'])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitIndex.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitIndex.py", line 370
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitIndex.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitIndex.py", line 370
     print ''.join(indexer.get_all_output())
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitMosflmMatrix.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitMosflmMatrix.py", line 83
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitMosflmMatrix.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitMosflmMatrix.py", line 83
     print m[:-1]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int m[:-1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitMosflmScript.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitMosflmScript.py", line 80
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitMosflmScript.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitMosflmScript.py", line 80
     print m[:-1]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int m[:-1])?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitStats_distl.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Labelit/LabelitStats_distl.py", line 122
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitStats_distl.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Labelit/LabelitStats_distl.py", line 122
     print 'Fraction of good spots: %4.2f' % (float(stats['spots_good']) /
                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Phenix/LatticeSymmetry.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Phenix/LatticeSymmetry.py", line 238
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Phenix/LatticeSymmetry.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Phenix/LatticeSymmetry.py", line 238
     print '%s %.3f %.3f %.3f %.3f %.3f %.3f' % tuple(
                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Phenix/Xtriage.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/Phenix/Xtriage.py", line 53
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Phenix/Xtriage.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/Phenix/Xtriage.py", line 53
     print ''.join(xtriage.get_all_output())
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/Cellparm.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/Cellparm.py", line 115
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/Cellparm.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/Cellparm.py", line 115
     print cellparm.get_cell()
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/Merge2cbf.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/Merge2cbf.py", line 158
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/Merge2cbf.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/Merge2cbf.py", line 158
     print """;\n%s\n;\n""" %minicbf_header_content
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print """;\n%s\n;\n""" %minicbf_header_content)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSCorrectHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSCorrectHelpers.py", line 157
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSCorrectHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSCorrectHelpers.py", line 157
     print _parse_correct_lp(correct_lp)
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSIdxrefHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSIdxrefHelpers.py", line 162
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSIdxrefHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSIdxrefHelpers.py", line 162
     print k, v
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int k, v)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSIntegrateHelpers.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XDS/XDSIntegrateHelpers.py", line 162
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSIntegrateHelpers.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XDS/XDSIntegrateHelpers.py", line 162
     print '%4d %5.3f %5d %5d %5d %4.2f %6.2f' % \
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d %5.3f %5d %5d %5d %4.2f %6.2f' % \)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Diffdump.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Diffdump.py", line 706
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Diffdump.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Diffdump.py", line 706
     print '! all diffdump output follows'
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '! all diffdump output follows')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/FrenchWilson.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/FrenchWilson.py", line 137
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/FrenchWilson.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/FrenchWilson.py", line 137
     print fw.get_nref_in(), fw.get_nref_out(), \
            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Merger.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Merger.py", line 125
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Merger.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Merger.py", line 125
     print 'Resolutions:'
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Resolutions:')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Printpeaks.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/Printpeaks.py", line 196
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Printpeaks.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/Printpeaks.py", line 196
     print len(peaks), max(peaks)
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/PrintpeaksMosflm.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/Wrappers/XIA/PrintpeaksMosflm.py", line 194
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/PrintpeaksMosflm.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/Wrappers/XIA/PrintpeaksMosflm.py", line 194
     print '%6.1f %6.1f %6.1f' % m
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%6.1f %6.1f %6.1f' % m)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/XIA2Version.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/XIA2Version.py", line 68
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/XIA2Version.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/XIA2Version.py", line 68
     print 'This is XIA 2 version %s' % VersionNumber
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'This is XIA 2 version %s' % VersionNumber)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/add_free_set.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/add_free_set.py", line 54
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/add_free_set.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/add_free_set.py", line 54
     print '%d observations / %d free' % (len(mi), free)
                                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/bugreport.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/bugreport.py", line 20
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/bugreport.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/bugreport.py", line 20
     print "Bug report submitted"
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Bug report submitted")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/check_mosaic.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/check_mosaic.py", line 36
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/check_mosaic.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/check_mosaic.py", line 36
     print 'X:', fmt % tuple(data)
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/compare_merging_stats.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/compare_merging_stats.py", line 46
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/compare_merging_stats.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/compare_merging_stats.py", line 46
     print mtz
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int mtz)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/create_mask.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/create_mask.py", line 27
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/create_mask.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/create_mask.py", line 27
     print 'Mask written to %s' % filename
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Mask written to %s' % filename)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/file_statistics.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/file_statistics.py", line 24
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/file_statistics.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/file_statistics.py", line 24
     print 'Removing %d absent reflections' % absent.count(True)
                                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/get_image_number.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/get_image_number.py", line 54
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/get_image_number.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/get_image_number.py", line 54
     print "The first image number is 1. Image number 0 is disallowed"
                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "The first image number is 1. Image number 0 is disallowed")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/gui.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/gui.py", line 125
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/gui.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/gui.py", line 125
     print 'other'
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'other')?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/html.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/html.py", line 107
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/html.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/html.py", line 107
     print "Xtriage output not available: %s" % str(e)
                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/make_sphinx_html.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/make_sphinx_html.py", line 22
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/make_sphinx_html.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/make_sphinx_html.py", line 22
     print "Moving HTML pages to", dest_dir
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Moving HTML pages to", dest_dir)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/multi_crystal_analysis.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/multi_crystal_analysis.py", line 151
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/multi_crystal_analysis.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/multi_crystal_analysis.py", line 151
     print i
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/npp.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/npp.py", line 52
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/npp.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/npp.py", line 52
     print '%3d %3d %3d' % hkl, '%.2f %.2f %.2f' % (i, v, i/math.sqrt(v)), \
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/overload.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/overload.py", line 103
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/overload.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/overload.py", line 103
     print "Processing %d images in %d processes using %s\n" % (image_count, nproc, \
                                                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/pea_in_box.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/pea_in_box.py", line 56
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/pea_in_box.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/pea_in_box.py", line 56
     print "Collecting shoeboxes for %d reflections" % len(reflections)
                                                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/report.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/report.py", line 816
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/report.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/report.py", line 816
     print 'Estimated d_min for CHEF analysis: %.2f' %d_min
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Estimated d_min for CHEF analysis: %.2f' %d_min)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/rogues_gallery.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/rogues_gallery.py", line 113
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/rogues_gallery.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/rogues_gallery.py", line 113
     print 'Extracted %d rogue reflections for %s to %s' % \
                                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Extracted %d rogue reflections for %s to %s' % \)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/show_mtz_cells.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/show_mtz_cells.py", line 11
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/show_mtz_cells.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/show_mtz_cells.py", line 11
     print f
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int f)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/to_amber.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/to_amber.py", line 19
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/to_amber.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/to_amber.py", line 19
     print "Error: xia2.to_shelx must be run on unmerged data."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Error: xia2.to_shelx must be run on unmerged data.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/to_shelx.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/to_shelx.py", line 108
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/to_shelx.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/to_shelx.py", line 108
     print "Error: xia2.to_shelx must be run on unmerged data."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Error: xia2.to_shelx must be run on unmerged data.")?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/xia2_main.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/command_line/xia2_main.py", line 297
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/xia2_main.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/command_line/xia2_main.py", line 297
     print xia2.XIA2Version.Version
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int xia2.XIA2Version.Version)?
 
-*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/lib/SymmetryLib.py'...
-  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171024/modules/xia2/lib/SymmetryLib.py", line 299
+*** Error compiling '/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/lib/SymmetryLib.py'...
+  File "/dls/science/groups/scisoft/DIALS/CD/nightly/dials-dev20171025/modules/xia2/lib/SymmetryLib.py", line 299
     print lauegroup_to_lattice('I m m m')
                              ^
 SyntaxError: invalid syntax
