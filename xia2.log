@@ -22,18 +22,6 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Decorators/CCP4Decorator.py'...
-  File "xia2/Decorators/CCP4Decorator.py", line 457
-    print help(d.__class__)
-             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Decorators/DecoratorHelper.py'...
-  File "xia2/Decorators/DecoratorHelper.py", line 43
-    print 'ok'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'ok')?
-
 *** Error compiling 'xia2/Driver/DefaultDriver.py'...
   File "xia2/Driver/DefaultDriver.py", line 505
     print 'You should never see this message'
@@ -388,18 +376,6 @@ SyntaxError: invalid syntax
                                                                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Test/Modules/Integrater/TstDialsIntegrater.py'...
-  File "xia2/Test/Modules/Integrater/TstDialsIntegrater.py", line 18
-    print "Skipping exercise_dials_integrater(): dials_regression not configured"
-                                                                                ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Modules/Integrater/TstXDSIntegrater.py'...
-  File "xia2/Test/Modules/Integrater/TstXDSIntegrater.py", line 18
-    print "Skipping exercise_xds_integrater(): dials_regression not configured"
-                                                                              ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Test/Modules/Refiner/TstDialsRefiner.py'...
   File "xia2/Test/Modules/Refiner/TstDialsRefiner.py", line 19
     print "Skipping exercise_dials_refiner(): xia2_regression not configured"
@@ -424,22 +400,10 @@ SyntaxError: invalid syntax
                                                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py'...
-  File "xia2/Test/Wrappers/Mosflm/TstMosflmIndex.py", line 17
-    print "Skipping exercise_mosflm_index(): dials_regression not configured"
-                                                                            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py'...
   File "xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py", line 17
     print "Skipping exercise_mosflm_integrate(): dials_regression not configured"
                                                                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py'...
-  File "xia2/Test/Wrappers/Mosflm/TstMosflmRefineCell.py", line 17
-    print "Skipping exercise_mosflm_refine_cell(): dials_regression not configured"
-                                                                                  ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Toolkit/AimlessSurface.py'...

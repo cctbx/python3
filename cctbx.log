@@ -768,9 +768,9 @@ SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/refine_sharpening.py'...
   File "cctbx/maptbx/refine_sharpening.py", line 58
-    print "Reading from %s" %(file_name)
-                          ^
-SyntaxError: invalid syntax
+    print "Norms:"
+                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Norms:")?
 
 *** Error compiling 'cctbx/maptbx/resolution_from_map_and_model.py'...
   File "cctbx/maptbx/resolution_from_map_and_model.py", line 148
@@ -779,7 +779,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/segment_and_split_map.py'...
-  File "cctbx/maptbx/segment_and_split_map.py", line 2795
+  File "cctbx/maptbx/segment_and_split_map.py", line 2823
     print "CENTROID OF DENSITY: (%7.2f, %7.2f, %7.2f) (grid units) " %(
                                                                    ^
 SyntaxError: invalid syntax
