@@ -688,11 +688,23 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Loading
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
+*** Error compiling 'cctbx/geometry_restraints/auto_linking_types.py'...
+  File "cctbx/geometry_restraints/auto_linking_types.py", line 54
+    print bond_origin_ids
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t bond_origin_ids)?
+
 *** Error compiling 'cctbx/geometry_restraints/distance_least_squares.py'...
   File "cctbx/geometry_restraints/distance_least_squares.py", line 257
     except RuntimeError, lbfgs_error:
                        ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'cctbx/geometry_restraints/linking_class.py'...
+  File "cctbx/geometry_restraints/linking_class.py", line 27
+    print lc
+           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t lc)?
 
 *** Error compiling 'cctbx/geometry_restraints/nonbonded_overlaps.py'...
   File "cctbx/geometry_restraints/nonbonded_overlaps.py", line 96

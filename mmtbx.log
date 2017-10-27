@@ -572,7 +572,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t hb_dat
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'WARNING',i, sym_chis)?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/mcl_sf4_coordination.py'...
-  File "mmtbx/conformation_dependent_library/mcl_sf4_coordination.py", line 57
+  File "mmtbx/conformation_dependent_library/mcl_sf4_coordination.py", line 59
     if verbose: print '%s-aa' % resname,sf4.quote(),aa.quote(),dist
                             ^
 SyntaxError: invalid syntax
@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model.py'...
-  File "mmtbx/model.py", line 1012
+  File "mmtbx/model.py", line 1030
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1341,7 +1341,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_i
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t " !!! %-78s !!!" % s)?
 
 *** Error compiling 'mmtbx/monomer_library/pdb_interpretation.py'...
-  File "mmtbx/monomer_library/pdb_interpretation.py", line 706
+  File "mmtbx/monomer_library/pdb_interpretation.py", line 709
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3105,13 +3105,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/nucleic_acids.py'...
-  File "mmtbx/secondary_structure/nucleic_acids.py", line 415
+  File "mmtbx/secondary_structure/nucleic_acids.py", line 417
     print "Warning, Cannot make NA restraints for %s residue" % resname
                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Warning, Cannot make NA restraints for %s residue" % resname)?
 
 *** Error compiling 'mmtbx/secondary_structure/proteins.py'...
-  File "mmtbx/secondary_structure/proteins.py", line 240
+  File "mmtbx/secondary_structure/proteins.py", line 243
     print "limit: %.2f" % limit
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "limit: %.2f" % limit)?

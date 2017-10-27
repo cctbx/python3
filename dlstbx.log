@@ -1,23 +1,11 @@
-*** Error compiling 'dlstbx/algorithms/integration/fit_image/algorithm.py'...
-  File "dlstbx/algorithms/integration/fit_image/algorithm.py", line 73
-    print 'Saving debugging information to %s' % filename
-                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Saving debugging information to %s' % filename)?
-
-*** Error compiling 'dlstbx/command_line/adsc_streamer.py'...
-  File "dlstbx/command_line/adsc_streamer.py", line 47
-    print "file not there yet..."
-                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "file not there yet...")?
-
 *** Error compiling 'dlstbx/command_line/compare_screening_results.py'...
-  File "dlstbx/command_line/compare_screening_results.py", line 22
+  File "dlstbx/command_line/compare_screening_results.py", line 24
     print sessionid
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t sessionid)?
 
 *** Error compiling 'dlstbx/command_line/eiger_emulator.py'...
-  File "dlstbx/command_line/eiger_emulator.py", line 46
+  File "dlstbx/command_line/eiger_emulator.py", line 50
     print "Use -f to point to an image file. Use --help to see command line options"
                                                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Use -f to point to an image file. Use --help to see command line options")?
@@ -47,19 +35,19 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\nR
 SyntaxError: invalid syntax
 
 *** Error compiling 'dlstbx/command_line/get_pia_results.py'...
-  File "dlstbx/command_line/get_pia_results.py", line 44
+  File "dlstbx/command_line/get_pia_results.py", line 46
     print ispyb_conn.dc_info_to_filename(dc_info)
                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dlstbx/command_line/get_processing_statistics.py'...
-  File "dlstbx/command_line/get_processing_statistics.py", line 39
+  File "dlstbx/command_line/get_processing_statistics.py", line 41
     print table_utils.format(rows=rows, has_header=True)
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dlstbx/command_line/get_screening_results.py'...
-  File "dlstbx/command_line/get_screening_results.py", line 24
+  File "dlstbx/command_line/get_screening_results.py", line 26
     print table_utils.format(rows=rows, has_header=True)
                     ^
 SyntaxError: invalid syntax
@@ -119,7 +107,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dlstbx/command_line/super_test_cluster_runner.py'...
-  File "dlstbx/command_line/super_test_cluster_runner.py", line 27
+  File "dlstbx/command_line/super_test_cluster_runner.py", line 29
     print identifier
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int identifier)?
@@ -142,14 +130,8 @@ SyntaxError: invalid syntax
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "A wrapper object must be specified.")?
 
-*** Error compiling 'dlstbx/ispybtbx/__init__.py'...
-  File "dlstbx/ispybtbx/__init__.py", line 632
-    print i.get_space_group_and_cell(dc_id)
-          ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dlstbx/scratch/jmp/profile/montecarlo/simple_2d.py'...
-  File "dlstbx/scratch/jmp/profile/montecarlo/simple_2d.py", line 78
+  File "dlstbx/scratch/jmp/profile/montecarlo/simple_2d.py", line 80
     print "Max Phi: ", maxphi * 180.0 / pi
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Max Phi: ", maxphi * 180.0 / pi)?
@@ -173,7 +155,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t sss)?
 
 *** Error compiling 'dlstbx/scratch/jmp/profile/montecarlo/test_skew.py'...
-  File "dlstbx/scratch/jmp/profile/montecarlo/test_skew.py", line 46
+  File "dlstbx/scratch/jmp/profile/montecarlo/test_skew.py", line 47
     print flex.max(flex.abs(data1 - data2))
              ^
 SyntaxError: invalid syntax
@@ -190,20 +172,14 @@ SyntaxError: invalid syntax
                                   ^
 SyntaxError: invalid token
 
-*** Error compiling 'dlstbx/services/run_xia2.py'...
-  File "dlstbx/services/run_xia2.py", line 31
-    print "Working directory:", working_directory
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Working directory:", working_directory)?
-
 *** Error compiling 'dlstbx/test/algorithms/profile_model/nave/tst_model.py'...
-  File "dlstbx/test/algorithms/profile_model/nave/tst_model.py", line 26
+  File "dlstbx/test/algorithms/profile_model/nave/tst_model.py", line 27
     print 'FAIL: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
 
 *** Error compiling 'dlstbx/test/algorithms/profile_model/nave/tst_profile_model_support.py'...
-  File "dlstbx/test/algorithms/profile_model/nave/tst_profile_model_support.py", line 26
+  File "dlstbx/test/algorithms/profile_model/nave/tst_profile_model_support.py", line 27
     print 'FAIL: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
@@ -237,12 +213,6 @@ SyntaxError: invalid syntax
     print "Running test in %s" % self.directory
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Running test in %s" % self.directory)?
-
-*** Error compiling 'dlstbx/util/cluster.py'...
-  File "dlstbx/util/cluster.py", line 119
-    print result
-               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print result)?
 
 *** Error compiling 'dlstbx/zocalo/controller/test_strategyenvironment.py'...
   File "dlstbx/zocalo/controller/test_strategyenvironment.py", line 127

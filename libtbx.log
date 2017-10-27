@@ -142,12 +142,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
                               ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/command_line/clean_clutter.py'...
-  File "libtbx/command_line/clean_clutter.py", line 67
-    except RuntimeError, err:
-                       ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/command_line/create_selfx.py'...
   File "libtbx/command_line/create_selfx.py", line 84
     print run.__doc__
