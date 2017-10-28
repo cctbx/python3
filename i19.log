@@ -1,6 +1,0 @@
-*** Error compiling 'i19/command_line/screen.py'...
-  File "i19/command_line/screen.py", line 61
-    map(lambda (x,y,z):z if x!=y else None, \
-               ^
-SyntaxError: invalid syntax
-

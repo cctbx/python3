@@ -113,7 +113,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/Environment.py'...
-  File "xia2/Handlers/Environment.py", line 164
+  File "xia2/Handlers/Environment.py", line 171
     print get_number_cpus()
                         ^
 SyntaxError: invalid syntax

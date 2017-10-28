@@ -17,9 +17,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/algorithms/indexing/stills_indexer.py'...
-  File "dials/algorithms/indexing/stills_indexer.py", line 471
-    print "Cannot convert to target symmetry, candidate %d/%d"%(icm, n_cand)
-                                                             ^
+  File "dials/algorithms/indexing/stills_indexer.py", line 158
+    except Exception, e:
+                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/algorithms/integration/kapton_correction.py'...
