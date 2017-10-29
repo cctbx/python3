@@ -334,12 +334,6 @@ SyntaxError: invalid syntax
                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("The answer is: [2, -5, 500] ")?
 
-*** Error compiling 'scitbx/lbfgs/tst_lbfgs_fem.py'...
-  File "scitbx/lbfgs/tst_lbfgs_fem.py", line 44
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
 *** Error compiling 'scitbx/lbfgsb/boost_python/tst_fit_cdf.py'...
   File "scitbx/lbfgsb/boost_python/tst_fit_cdf.py", line 176
     print "cycle sigma", self.sigma

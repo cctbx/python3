@@ -3,7 +3,7 @@
 module | result
 --- | ---
 annlib | :white_check_mark:&nbsp; all OK
-boost | :red_circle:&nbsp; [12 files](boost.log) violate python3 syntax
+boost | :red_circle:&nbsp; [1 files](boost.log) violate python3 syntax
 cbflib | :red_circle:&nbsp; [24 files](cbflib.log) violate python3 syntax
 ccp4io | :white_check_mark:&nbsp; all OK
 cctbx | :red_circle:&nbsp; [286 files](cctbx.log) violate python3 syntax
@@ -23,7 +23,7 @@ mmtbx | :red_circle:&nbsp; [480 files](mmtbx.log) violate python3 syntax
 omptbx | :red_circle:&nbsp; [1 files](omptbx.log) violate python3 syntax
 prime | :red_circle:&nbsp; [32 files](prime.log) violate python3 syntax
 rstbx | :red_circle:&nbsp; [80 files](rstbx.log) violate python3 syntax
-scitbx | :red_circle:&nbsp; [156 files](scitbx.log) violate python3 syntax
+scitbx | :red_circle:&nbsp; [155 files](scitbx.log) violate python3 syntax
 simtbx | :red_circle:&nbsp; [2 files](simtbx.log) violate python3 syntax
 smtbx | :red_circle:&nbsp; [23 files](smtbx.log) violate python3 syntax
 spotfinder | :red_circle:&nbsp; [33 files](spotfinder.log) violate python3 syntax
