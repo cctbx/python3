@@ -382,6 +382,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int mess
                      ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'xfel/command_line/riso.py'...
+  File "xfel/command_line/riso.py", line 89
+    print "%6d indices in common in the range %.2f-%.2f Angstroms"%\
+                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%6d indices in common in the range %.2f-%.2f Angstroms"%\)?
+
 *** Error compiling 'xfel/command_line/runs_sentinel.py'...
   File "xfel/command_line/runs_sentinel.py", line 65
     except Exception, e:
