@@ -12,8 +12,8 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WAR
 
 *** Error compiling 'iota/command_line/iota_process.py'...
   File "iota/command_line/iota_process.py", line 64
-    except Exception, e:
-                    ^
+    except IOTATermination, e:
+                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_run.py'...
@@ -47,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "col
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 754
+  File "iota/components/iota_frames.py", line 755
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
@@ -83,9 +83,9 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entry)?
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 109
-    except SpfTermination, e:
-                         ^
+  File "iota/components/iota_threads.py", line 111
+    except IOTATermination, e:
+                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
