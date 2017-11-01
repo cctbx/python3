@@ -371,10 +371,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int message)?
 
 *** Error compiling 'xfel/command_line/quadrants_cbf.py'...
-  File "xfel/command_line/quadrants_cbf.py", line 29
-    print message
-                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int message)?
+  File "xfel/command_line/quadrants_cbf.py", line 35
+    print "Usage: %s [-p] files"%libtbx.env.dispatcher_name
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Usage: %s [-p] files"%libtbx.env.dispatcher_name)?
 
 *** Error compiling 'xfel/command_line/radial_average.py'...
   File "xfel/command_line/radial_average.py", line 77
@@ -745,7 +745,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/metrology/quadrant.py'...
-  File "xfel/metrology/quadrant.py", line 13
+  File "xfel/metrology/quadrant.py", line 14
     print list( self.tiling[4*self.sensor[0]:4+4*self.sensor[0]] )
              ^
 SyntaxError: invalid syntax
