@@ -197,7 +197,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/XDSIndexer.py'...
-  File "xia2/Modules/Indexer/XDSIndexer.py", line 738
+  File "xia2/Modules/Indexer/XDSIndexer.py", line 736
     print 'Refined beam is: %6.2f %6.2f' % xi.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
@@ -251,7 +251,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Scaler/CCP4ScalerHelpers.py'...
-  File "xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 627
+  File "xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 628
     print '%s: %.3f %.3f' % (os.path.split(arg)[-1], df_f, di_sigdi)
                         ^
 SyntaxError: invalid syntax
