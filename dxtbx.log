@@ -257,7 +257,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS12M.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS12M.py", line 370
+  File "dxtbx/format/FormatCBFMiniPilatusDLS12M.py", line 355
     print FormatCBFMiniPilatusDLS12M.understand(arg)
                                    ^
 SyntaxError: invalid syntax
