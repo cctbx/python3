@@ -52,41 +52,11 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dlstbx/command_line/go.py'...
-  File "dlstbx/command_line/go.py", line 51
-    print "Error: %s\n" % str(e)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/it_status.py'...
-  File "dlstbx/command_line/it_status.py", line 53
-    print "Database successfully pruned"
-                                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Database successfully pruned")?
-
-*** Error compiling 'dlstbx/command_line/jenkins_status.py'...
-  File "dlstbx/command_line/jenkins_status.py", line 134
-    print " " + job + progress + teststatus
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print " " + job + progress + teststatus)?
-
 *** Error compiling 'dlstbx/command_line/plot_reflections.py'...
   File "dlstbx/command_line/plot_reflections.py", line 30
     print len(sweeps)
             ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/recipe.py'...
-  File "dlstbx/command_line/recipe.py", line 27
-    print ' '.join(message['default_recipe'])
-            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/shutdown.py'...
-  File "dlstbx/command_line/shutdown.py", line 42
-    print "Need to specify one or more services to shut down."
-                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Need to specify one or more services to shut down.")?
 
 *** Error compiling 'dlstbx/command_line/submit_ispyb.py'...
   File "dlstbx/command_line/submit_ispyb.py", line 49
@@ -111,24 +81,6 @@ SyntaxError: invalid syntax
     print identifier
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int identifier)?
-
-*** Error compiling 'dlstbx/command_line/swirly_eyes.py'...
-  File "dlstbx/command_line/swirly_eyes.py", line 39
-    print l
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t l)?
-
-*** Error compiling 'dlstbx/command_line/version.py'...
-  File "dlstbx/command_line/version.py", line 5
-    print dlstbx_version()
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/wrap.py'...
-  File "dlstbx/command_line/wrap.py", line 129
-    print "A wrapper object must be specified."
-                                              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "A wrapper object must be specified.")?
 
 *** Error compiling 'dlstbx/scratch/jmp/profile/montecarlo/simple_2d.py'...
   File "dlstbx/scratch/jmp/profile/montecarlo/simple_2d.py", line 80
@@ -165,12 +117,6 @@ SyntaxError: invalid syntax
     map(lambda (x,y):list(y), itertools.groupby(enumerate(l),
                ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/services/dispatcher.py'...
-  File "dlstbx/services/dispatcher.py", line 39
-    os.makedirs(self._logbook, 0775)
-                                  ^
-SyntaxError: invalid token
 
 *** Error compiling 'dlstbx/test/algorithms/profile_model/nave/tst_model.py'...
   File "dlstbx/test/algorithms/profile_model/nave/tst_model.py", line 27
@@ -215,8 +161,8 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Running test in %s" % self.directory)?
 
 *** Error compiling 'dlstbx/zocalo/controller/test_strategyenvironment.py'...
-  File "dlstbx/zocalo/controller/test_strategyenvironment.py", line 127
-    assert [ instances[k] for k in 4,1,3,0,2 ] == se.order_instances(instances)
+  File "dlstbx/zocalo/controller/test_strategyenvironment.py", line 128
+    assert [ instances[k] for k in 2,0,3,1,4 ] == se.order_instances(instances, reverse=True)
                                     ^
 SyntaxError: invalid syntax
 

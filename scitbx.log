@@ -317,7 +317,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'scitbx/lbfgs/tst_curvatures.py'...
-  File "scitbx/lbfgs/tst_curvatures.py", line 41
+  File "scitbx/lbfgs/tst_curvatures.py", line 42
     print "x,f,d:", tuple(x), f, tuple(d)
                  ^
 SyntaxError: invalid syntax
