@@ -65,7 +65,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.build_dir)?
 
 *** Error compiling 'libtbx/auto_build/installer_utils.py'...
-  File "libtbx/auto_build/installer_utils.py", line 18
+  File "libtbx/auto_build/installer_utils.py", line 19
     print '\nChecking python version of %s' % sys.executable
                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '\nChecking python version of %s' % sys.executable)?
@@ -567,7 +567,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/env_config.py'...
-  File "libtbx/env_config.py", line 101
+  File "libtbx/env_config.py", line 94
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

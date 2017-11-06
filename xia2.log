@@ -640,12 +640,6 @@ SyntaxError: invalid syntax
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%6.1f %6.1f %6.1f' % m)?
 
-*** Error compiling 'xia2/XIA2Version.py'...
-  File "xia2/XIA2Version.py", line 68
-    print 'This is XIA 2 version %s' % VersionNumber
-                                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'This is XIA 2 version %s' % VersionNumber)?
-
 *** Error compiling 'xia2/command_line/add_free_set.py'...
   File "xia2/command_line/add_free_set.py", line 54
     print '%d observations / %d free' % (len(mi), free)
@@ -765,10 +759,4 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "E
     print xia2.XIA2Version.Version
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int xia2.XIA2Version.Version)?
-
-*** Error compiling 'xia2/lib/SymmetryLib.py'...
-  File "xia2/lib/SymmetryLib.py", line 299
-    print lauegroup_to_lattice('I m m m')
-                             ^
-SyntaxError: invalid syntax
 

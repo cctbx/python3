@@ -362,7 +362,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 1088
+  File "mmtbx/command_line/model_idealization.py", line 1043
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model.py'...
-  File "mmtbx/model.py", line 1032
+  File "mmtbx/model.py", line 1058
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
