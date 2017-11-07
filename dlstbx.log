@@ -1,69 +1,3 @@
-*** Error compiling 'dlstbx/command_line/compare_screening_results.py'...
-  File "dlstbx/command_line/compare_screening_results.py", line 24
-    print sessionid
-                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t sessionid)?
-
-*** Error compiling 'dlstbx/command_line/eiger_emulator.py'...
-  File "dlstbx/command_line/eiger_emulator.py", line 50
-    print "Use -f to point to an image file. Use --help to see command line options"
-                                                                                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Use -f to point to an image file. Use --help to see command line options")?
-
-*** Error compiling 'dlstbx/command_line/eiger_slurper.py'...
-  File "dlstbx/command_line/eiger_slurper.py", line 23
-    print "Receiving data stream, '%s' format:" % header['header_detail']
-                                              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Receiving data stream, '%s' format:" % header['header_detail'])?
-
-*** Error compiling 'dlstbx/command_line/find_in_ispyb.py'...
-  File "dlstbx/command_line/find_in_ispyb.py", line 57
-    print json.dumps(d, indent=2)
-             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/gda_listen.py'...
-  File "dlstbx/command_line/gda_listen.py", line 31
-    print "\nReceived on %s:" % header['destination']
-                            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\nReceived on %s:" % header['destination'])?
-
-*** Error compiling 'dlstbx/command_line/gda_write.py'...
-  File "dlstbx/command_line/gda_write.py", line 123
-    print "Sending message %d: %s" % (msgno, message)
-                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/get_pia_results.py'...
-  File "dlstbx/command_line/get_pia_results.py", line 46
-    print ispyb_conn.dc_info_to_filename(dc_info)
-                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/get_processing_statistics.py'...
-  File "dlstbx/command_line/get_processing_statistics.py", line 41
-    print table_utils.format(rows=rows, has_header=True)
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/get_screening_results.py'...
-  File "dlstbx/command_line/get_screening_results.py", line 26
-    print table_utils.format(rows=rows, has_header=True)
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/plot_reflections.py'...
-  File "dlstbx/command_line/plot_reflections.py", line 30
-    print len(sweeps)
-            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dlstbx/command_line/submit_ispyb.py'...
-  File "dlstbx/command_line/submit_ispyb.py", line 49
-    print "You need to specify something to be sent to ISPyB."
-                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "You need to specify something to be sent to ISPyB.")?
-
 *** Error compiling 'dlstbx/command_line/summed_test.py'...
   File "dlstbx/command_line/summed_test.py", line 121
     print "Loaded %d datasets" % len(datasets)
@@ -159,10 +93,4 @@ SyntaxError: invalid syntax
     print "Running test in %s" % self.directory
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Running test in %s" % self.directory)?
-
-*** Error compiling 'dlstbx/zocalo/controller/test_strategyenvironment.py'...
-  File "dlstbx/zocalo/controller/test_strategyenvironment.py", line 128
-    assert [ instances[k] for k in 2,0,3,1,4 ] == se.order_instances(instances, reverse=True)
-                                    ^
-SyntaxError: invalid syntax
 
