@@ -374,7 +374,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Atoms with B=0:")?
 
 *** Error compiling 'mmtbx/command_line/model_vs_map.py'...
-  File "mmtbx/command_line/model_vs_map.py", line 389
+  File "mmtbx/command_line/model_vs_map.py", line 371
     print "Time:", round(time.time()-t0, 3)
                 ^
 SyntaxError: invalid syntax
@@ -2305,6 +2305,12 @@ SyntaxError: invalid syntax
     print cc1, cc2
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cc1, cc2)?
+
+*** Error compiling 'mmtbx/regression/tst_model_vs_map.py'...
+  File "mmtbx/regression/tst_model_vs_map.py", line 137
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'mmtbx/regression/tst_msa.py'...
   File "mmtbx/regression/tst_msa.py", line 10
