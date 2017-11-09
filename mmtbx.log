@@ -1311,9 +1311,19 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/glyco_utils.py'...
-  File "mmtbx/monomer_library/glyco_utils.py", line 393
-    print anomeric_carbon.quote()
-                        ^
+  File "mmtbx/monomer_library/glyco_utils.py", line 126
+    print '''
+  self.anomeric_carbon %s
+  self.link_oxygen     %s
+  self.ring_carbon     %s
+  self.link_carbon     %s
+''' % (self.anomeric_carbon.quote(),
+             
+                         
+                         
+                         
+                         
+  ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/hydrogen_restrictions.py'...
@@ -1401,7 +1411,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%5s"%aac_, "bonds     : %5.3f %5.3f %5.3f"%b, \)?
 
 *** Error compiling 'mmtbx/monomer_library/tst_linking.py'...
-  File "mmtbx/monomer_library/tst_linking.py", line 2310
+  File "mmtbx/monomer_library/tst_linking.py", line 2347
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?

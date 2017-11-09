@@ -4,6 +4,12 @@
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.Fbg_vs_stol[1])?
 
+*** Error compiling 'simtbx/nanoBragg/tst_gaussian_mosaicity.py'...
+  File "simtbx/nanoBragg/tst_gaussian_mosaicity.py", line 55
+    print "%27s"%(str(RLP.elems)),"Vector length:%8.6f"%(RLP.length()),
+               ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_basic.py'...
   File "simtbx/nanoBragg/tst_nanoBragg_basic.py", line 50
     print "GOTHERE seed=",SIM.seed
