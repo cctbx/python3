@@ -1351,7 +1351,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_i
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t " !!! %-78s !!!" % s)?
 
 *** Error compiling 'mmtbx/monomer_library/pdb_interpretation.py'...
-  File "mmtbx/monomer_library/pdb_interpretation.py", line 713
+  File "mmtbx/monomer_library/pdb_interpretation.py", line 718
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax

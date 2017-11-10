@@ -47,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ce
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/clustering/cluster.py'...
-  File "xfel/clustering/cluster.py", line 151
+  File "xfel/clustering/cluster.py", line 155
     print path, "ends with .pickle"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print path, "ends with .pickle")?
@@ -59,7 +59,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print pa
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/clustering/command_line/cluster_unit_cell.py'...
-  File "xfel/clustering/command_line/cluster_unit_cell.py", line 24
+  File "xfel/clustering/command_line/cluster_unit_cell.py", line 28
     print unit_cell_info(clusters)
                        ^
 SyntaxError: invalid syntax
