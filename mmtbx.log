@@ -1268,8 +1268,8 @@ SyntaxError: invalid syntax
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
-*** Error compiling 'mmtbx/model.py'...
-  File "mmtbx/model.py", line 1062
+*** Error compiling 'mmtbx/model/model.py'...
+  File "mmtbx/model/model.py", line 1062
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1333,7 +1333,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/linking_mixins.py'...
-  File "mmtbx/monomer_library/linking_mixins.py", line 220
+  File "mmtbx/monomer_library/linking_mixins.py", line 222
     print atom1.quote(),atom2.quote()
               ^
 SyntaxError: invalid syntax
