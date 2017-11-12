@@ -281,10 +281,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int run.
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Processing:", file_name)?
 
 *** Error compiling 'iotbx/command_line/mtz_as_cif.py'...
-  File "iotbx/command_line/mtz_as_cif.py", line 346
-    print "checking names"
-                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "checking names")?
+  File "iotbx/command_line/mtz_as_cif.py", line 199
+    print key
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print key)?
 
 *** Error compiling 'iotbx/command_line/patterson_map.py'...
   File "iotbx/command_line/patterson_map.py", line 70
