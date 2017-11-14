@@ -11,8 +11,8 @@ chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
 crys3d | :red_circle:&nbsp; [12 files](crys3d.log) violate python3 syntax
 dials | :red_circle:&nbsp; [283 files](dials.log) violate python3 syntax
-dlstbx | :red_circle:&nbsp; [16 files](dlstbx.log) violate python3 syntax
-dxtbx | :red_circle:&nbsp; [150 files](dxtbx.log) violate python3 syntax
+dlstbx | :red_circle:&nbsp; [15 files](dlstbx.log) violate python3 syntax
+dxtbx | :red_circle:&nbsp; [151 files](dxtbx.log) violate python3 syntax
 fable | :red_circle:&nbsp; [19 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [14 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK

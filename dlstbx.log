@@ -46,12 +46,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t sss)?
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dlstbx/services/archiver.py'...
-  File "dlstbx/services/archiver.py", line 34
-    map(lambda (x,y):list(y), itertools.groupby(enumerate(l),
-               ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dlstbx/test/algorithms/profile_model/nave/tst_model.py'...
   File "dlstbx/test/algorithms/profile_model/nave/tst_model.py", line 27
     print 'FAIL: dials_regression not configured'

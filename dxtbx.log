@@ -209,7 +209,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py'...
-  File "dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py", line 242
+  File "dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py", line 118
+    print FormatCBFFullPilatus.understand(arg)
+                             ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'dxtbx/format/FormatCBFFullPilatusDLS6MSN126.py'...
+  File "dxtbx/format/FormatCBFFullPilatusDLS6MSN126.py", line 89
     print FormatCBFFullPilatus.understand(arg)
                              ^
 SyntaxError: invalid syntax
