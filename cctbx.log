@@ -107,7 +107,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/development/cl_template/cl_app.py'...
-  File "cctbx/development/cl_template/cl_app.py", line 45
+  File "cctbx/development/cl_template/cl_app.py", line 43
     print "In parent, running parse_cl"
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "In parent, running parse_cl")?
@@ -701,7 +701,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t bond_o
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/geometry_restraints/linking_class.py'...
-  File "cctbx/geometry_restraints/linking_class.py", line 27
+  File "cctbx/geometry_restraints/linking_class.py", line 28
     print lc
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t lc)?
@@ -773,7 +773,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/minimization.py'...
-  File "cctbx/maptbx/minimization.py", line 16
+  File "cctbx/maptbx/minimization.py", line 15
     print "%8.3f - %8.3f: %5d" % (lc_1,hc_1,n_1)
                              ^
 SyntaxError: invalid syntax
@@ -1097,7 +1097,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "bond:", proxy.i_seqs, delta)?
 
 *** Error compiling 'cctbx/regression/tst_grm.py'...
-  File "cctbx/regression/tst_grm.py", line 142
+  File "cctbx/regression/tst_grm.py", line 140
     print "Can not initialize monomer_library, skipping test."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
@@ -1133,7 +1133,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print inp)?
 
 *** Error compiling 'cctbx/regression/tst_loc_res.py'...
-  File "cctbx/regression/tst_loc_res.py", line 410
+  File "cctbx/regression/tst_loc_res.py", line 408
     print "\nBvalues (resolutions): for %s: %s" %(method,str(b_values))
                                               ^
 SyntaxError: invalid syntax

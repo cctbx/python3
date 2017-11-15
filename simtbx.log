@@ -11,13 +11,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.Fbg_
 SyntaxError: invalid syntax
 
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_basic.py'...
-  File "simtbx/nanoBragg/tst_nanoBragg_basic.py", line 50
+  File "simtbx/nanoBragg/tst_nanoBragg_basic.py", line 46
     print "GOTHERE seed=",SIM.seed
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "GOTHERE seed=",SIM.seed)?
 
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_minimal.py'...
-  File "simtbx/nanoBragg/tst_nanoBragg_minimal.py", line 17
+  File "simtbx/nanoBragg/tst_nanoBragg_minimal.py", line 18
     print SIM.missets_deg
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.missets_deg)?
