@@ -874,6 +874,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("OK")?
 
+*** Error compiling 'dials/test/algorithms/refinement/tst_goniometer_parameters.py'...
+  File "dials/test/algorithms/refinement/tst_goniometer_parameters.py", line 62
+    print "for try", i
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
+
 *** Error compiling 'dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py'...
   File "dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py", line 219
     print "OK"

@@ -517,6 +517,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usa
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "-"*79)?
 
+*** Error compiling 'mmtbx/command_line/validate_H_cl_app.py'...
+  File "mmtbx/command_line/validate_H_cl_app.py", line 100
+    print item[0][5:-1]
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print item[0][5:-1])?
+
 *** Error compiling 'mmtbx/command_line/verify_mon_lib_data.py'...
   File "mmtbx/command_line/verify_mon_lib_data.py", line 17
     print "OK"
@@ -1209,7 +1215,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 186
+  File "mmtbx/maps/mtriage.py", line 187
     print prefix, ":", time.time()-t0
                ^
 SyntaxError: invalid syntax
