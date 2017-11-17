@@ -125,7 +125,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid token
 
 *** Error compiling 'dxtbx/datablock.py'...
-  File "dxtbx/datablock.py", line 313
+  File "dxtbx/datablock.py", line 321
     print 'Using %s for %s' % (self._format_class.__name__, filename)
                           ^
 SyntaxError: invalid syntax
@@ -713,7 +713,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/model/experiment_list.py'...
-  File "dxtbx/model/experiment_list.py", line 522
+  File "dxtbx/model/experiment_list.py", line 559
     if verbose: print 'Loaded experiments from %s' % filename
                                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose: print 'Loaded experiments from %s' % filename)?
