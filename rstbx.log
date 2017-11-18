@@ -221,7 +221,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/indexing_api/outlier_detection.py'...
-  File "rstbx/indexing_api/outlier_detection.py", line 140
+  File "rstbx/indexing_api/outlier_detection.py", line 141
     print """After indexing on a subset of %d spots (from all images), %d were reclassified as
       either lying on the spindle, or potential overlapped spots or ice rings."""%(
                                                                                               
