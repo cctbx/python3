@@ -47,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ce
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/clustering/cluster.py'...
-  File "xfel/clustering/cluster.py", line 155
+  File "xfel/clustering/cluster.py", line 156
     print path, "ends with .pickle"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print path, "ends with .pickle")?
@@ -62,6 +62,12 @@ SyntaxError: invalid syntax
   File "xfel/clustering/command_line/cluster_unit_cell.py", line 28
     print unit_cell_info(clusters)
                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/clustering/singleframe.py'...
+  File "xfel/clustering/singleframe.py", line 352
+    raise Exception("unable to process:"), importer.unhandled
+                                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/FEE_average_plot.py'...
