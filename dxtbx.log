@@ -701,7 +701,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ""
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
 
 *** Error compiling 'dxtbx/model/detector.py'...
-  File "dxtbx/model/detector.py", line 495
+  File "dxtbx/model/detector.py", line 504
     print e
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?

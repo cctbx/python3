@@ -65,7 +65,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/clustering/singleframe.py'...
-  File "xfel/clustering/singleframe.py", line 352
+  File "xfel/clustering/singleframe.py", line 346
     raise Exception("unable to process:"), importer.unhandled
                                          ^
 SyntaxError: invalid syntax
@@ -107,7 +107,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "pickle may not be an integration pickle! skipping...")?
 
 *** Error compiling 'xfel/command_line/cspad_cbf_metrology.py'...
-  File "xfel/command_line/cspad_cbf_metrology.py", line 109
+  File "xfel/command_line/cspad_cbf_metrology.py", line 113
     print "Parsing input..."
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Parsing input...")?
@@ -388,6 +388,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Usa
                      ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'xfel/command_line/recompute_mosaicity.py'...
+  File "xfel/command_line/recompute_mosaicity.py", line 84
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/command_line/riso.py'...
   File "xfel/command_line/riso.py", line 90
     print "%6d indices in common in the range %.2f-%.2f Angstroms"%\
@@ -419,7 +425,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?
 
 *** Error compiling 'xfel/command_line/striping.py'...
-  File "xfel/command_line/striping.py", line 239
+  File "xfel/command_line/striping.py", line 264
     print "processing trial %s" % trial
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "processing trial %s" % trial)?

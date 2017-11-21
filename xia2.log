@@ -131,7 +131,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/XInfo.py'...
-  File "xia2/Handlers/XInfo.py", line 438
+  File "xia2/Handlers/XInfo.py", line 445
     print xi
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?

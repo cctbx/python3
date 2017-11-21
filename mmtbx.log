@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1051
+  File "mmtbx/model/model.py", line 1095
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2299,7 +2299,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1343
+  File "mmtbx/regression/tst_model.py", line 1345
     print format_cpu_times()
                          ^
 SyntaxError: invalid syntax

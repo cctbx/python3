@@ -634,8 +634,8 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling 'dials/test/algorithms/image/filter/tst_fano.py'...
-  File "dials/test/algorithms/image/filter/tst_fano.py", line 52
+*** Error compiling 'dials/test/algorithms/image/filter/tst_index_of_dispersion.py'...
+  File "dials/test/algorithms/image/filter/tst_index_of_dispersion.py", line 52
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
