@@ -215,10 +215,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t result)?
 
 *** Error compiling 'libtbx/command_line/find_untested.py'...
-  File "libtbx/command_line/find_untested.py", line 31
-    print "     run_tests.py vs actual:", len(from_run_tests), len(from_dirs)
-                                       ^
-SyntaxError: invalid syntax
+  File "libtbx/command_line/find_untested.py", line 50
+    print "  Number of tests in:"
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Number of tests in:")?
 
 *** Error compiling 'libtbx/command_line/find_unused_imports.py'...
   File "libtbx/command_line/find_unused_imports.py", line 28

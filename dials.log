@@ -130,6 +130,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsds)
                                                  ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'dials/command_line/cluster_unit_cell.py'...
+  File "dials/command_line/cluster_unit_cell.py", line 79
+    print unit_cell_info(clusters)
+                       ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'dials/command_line/combine_experiments.py'...
   File "dials/command_line/combine_experiments.py", line 264
     print unit_cell_info(self.clusters)
