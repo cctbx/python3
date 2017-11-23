@@ -2502,12 +2502,6 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int resname, tor_id, atom_names, annotation)?
 
-*** Error compiling 'mmtbx/rotamer/tst_ramachandran_eval_old.py'...
-  File "mmtbx/rotamer/tst_ramachandran_eval_old.py", line 14
-    print "Skipping exercise(): rotarama_data directory not available"
-                                                                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/rotamer/tst_rotamer_eval.py'...
   File "mmtbx/rotamer/tst_rotamer_eval.py", line 129
     print residue.resname, residue.resseq, rotamer_name

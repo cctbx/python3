@@ -803,7 +803,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "ccp4 symop.lib setting leads to pdb CRYST1 overflow:",\)?
 
 *** Error compiling 'iotbx/mtz/tst_unmerged.py'...
-  File "iotbx/mtz/tst_unmerged.py", line 15
+  File "iotbx/mtz/tst_unmerged.py", line 19
     print "asu:%17s    orig:%17s    M/ISYM:%4d"%(h[idx],j[idx],misym.data[idx])
                                               ^
 SyntaxError: invalid syntax

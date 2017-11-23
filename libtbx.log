@@ -674,12 +674,6 @@ SyntaxError: invalid syntax
                                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/pkg_utils.py'...
-  File "libtbx/pkg_utils.py", line 39
-    print "requires %s, has %s" % (requirestring, pkg_resources.require(requirestring)[0].version)
-                              ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/progress.py'...
   File "libtbx/progress.py", line 67
     raise TimeoutError, "Timeout (%s s) exceeded" % timeout
