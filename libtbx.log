@@ -286,12 +286,6 @@ SyntaxError: invalid syntax
                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/command_line/obfuscate.py'...
-  File "libtbx/command_line/obfuscate.py", line 8
-    print "Interleaves string with random digits."
-                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Interleaves string with random digits.")?
-
 *** Error compiling 'libtbx/command_line/parallel_simple.py'...
   File "libtbx/command_line/parallel_simple.py", line 47
     print "command:", cmd_info.cmd
