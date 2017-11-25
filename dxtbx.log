@@ -383,7 +383,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatNexus.py'...
-  File "dxtbx/format/FormatNexus.py", line 179
+  File "dxtbx/format/FormatNexus.py", line 186
     print FormatNexus.understand(arg)
                     ^
 SyntaxError: invalid syntax
