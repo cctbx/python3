@@ -59,7 +59,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "This detector does not have a hierarchy")?
 
 *** Error compiling 'dials/algorithms/refinement/parameterisation/prediction_parameters.py'...
-  File "dials/algorithms/refinement/parameterisation/prediction_parameters.py", line 732
+  File "dials/algorithms/refinement/parameterisation/prediction_parameters.py", line 771
     print "(e X r).s0 too small:"
                                 ^
 SyntaxError: invalid syntax
@@ -911,7 +911,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Reflections will be generated with the following geometry:")?
 
 *** Error compiling 'dials/test/algorithms/refinement/tst_prediction_parameters.py'...
-  File "dials/test/algorithms/refinement/tst_prediction_parameters.py", line 188
+  File "dials/test/algorithms/refinement/tst_prediction_parameters.py", line 192
     print "Time Taken: ",finish_time - start_time
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Time Taken: ",finish_time - start_time)?
@@ -965,7 +965,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "pyplot not available", e)?
 
 *** Error compiling 'dials/test/algorithms/refinement/tst_scan_varying_prediction_parameters.py'...
-  File "dials/test/algorithms/refinement/tst_scan_varying_prediction_parameters.py", line 193
+  File "dials/test/algorithms/refinement/tst_scan_varying_prediction_parameters.py", line 199
     print "Failure for {0}".format(p_names[i])
                           ^
 SyntaxError: invalid syntax
