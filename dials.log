@@ -263,7 +263,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing mask to %s" % params.output.mask)?
 
 *** Error compiling 'dials/command_line/generate_tutorial_text.py'...
-  File "dials/command_line/generate_tutorial_text.py", line 12
+  File "dials/command_line/generate_tutorial_text.py", line 26
     print self.cmd
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.cmd)?
@@ -1203,6 +1203,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'S
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling 'dials/test/command_line/tst_combine_datablocks.py'...
+  File "dials/test/command_line/tst_combine_datablocks.py", line 16
+    print 'FAIL: dials_regression not configured'
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
 
 *** Error compiling 'dials/test/command_line/tst_combine_experiments.py'...
   File "dials/test/command_line/tst_combine_experiments.py", line 221

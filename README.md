@@ -10,7 +10,7 @@ cctbx | :red_circle:&nbsp; [286 files](cctbx.log) violate python3 syntax
 chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
 crys3d | :red_circle:&nbsp; [12 files](crys3d.log) violate python3 syntax
-dials | :red_circle:&nbsp; [285 files](dials.log) violate python3 syntax
+dials | :red_circle:&nbsp; [286 files](dials.log) violate python3 syntax
 dlstbx | :white_check_mark:&nbsp; all OK
 dxtbx | :red_circle:&nbsp; [151 files](dxtbx.log) violate python3 syntax
 fable | :red_circle:&nbsp; [19 files](fable.log) violate python3 syntax
@@ -29,5 +29,5 @@ smtbx | :red_circle:&nbsp; [23 files](smtbx.log) violate python3 syntax
 spotfinder | :red_circle:&nbsp; [33 files](spotfinder.log) violate python3 syntax
 tbxx | :white_check_mark:&nbsp; all OK
 ucif | :white_check_mark:&nbsp; all OK
-xfel | :red_circle:&nbsp; [162 files](xfel.log) violate python3 syntax
+xfel | :red_circle:&nbsp; [168 files](xfel.log) violate python3 syntax
 xia2 | :red_circle:&nbsp; [127 files](xia2.log) violate python3 syntax

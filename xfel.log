@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 330
+  File "xfel/command_line/cxi_merge.py", line 336
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -371,10 +371,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/print_pickle.py'...
-  File "xfel/command_line/print_pickle.py", line 34
-    print "Not a file:", path
-                      ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not a file:", path)?
+  File "xfel/command_line/print_pickle.py", line 20
+    print int(len(data[key])/4), "active areas, first one: ", list(data[key][0:4])
+            ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/quadrants.py'...
   File "xfel/command_line/quadrants.py", line 39
@@ -661,7 +661,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Cur
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "XFEL processing: %s"%path)?
 
 *** Error compiling 'xfel/cxi/merging_database.py'...
-  File "xfel/cxi/merging_database.py", line 67
+  File "xfel/cxi/merging_database.py", line 131
     print "testing for tables"
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "testing for tables")?
@@ -719,6 +719,42 @@ SyntaxError: invalid syntax
     print "  Creating cxi_user directory"
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Creating cxi_user directory")?
+
+*** Error compiling 'xfel/merging/command_line/mpi_cluster_merge.py'...
+  File "xfel/merging/command_line/mpi_cluster_merge.py", line 223
+    print "SETUP START RANK=%d TIME=%f"%(rank,tt())
+                                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/mpi_cluster_two_merge.py'...
+  File "xfel/merging/command_line/mpi_cluster_two_merge.py", line 224
+    print "SETUP START RANK=%d TIME=%f"%(rank,tt())
+                                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/mpi_cluster_two_merge_cs.py'...
+  File "xfel/merging/command_line/mpi_cluster_two_merge_cs.py", line 151
+    print "INSTANCE=%d START RANK=%d TIME=%f"%(count,rank,tt())
+                                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/mpi_merge.py'...
+  File "xfel/merging/command_line/mpi_merge.py", line 81
+    print "reports",reports
+                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "reports",reports)?
+
+*** Error compiling 'xfel/merging/command_line/single_node_merge.py'...
+  File "xfel/merging/command_line/single_node_merge.py", line 22
+    except Exception,e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/worker2.py'...
+  File "xfel/merging/command_line/worker2.py", line 23
+    print "Rank %d processing %s"%(rank, file_names[ix])
+                                ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/general_fcalc.py'...
   File "xfel/merging/general_fcalc.py", line 98
