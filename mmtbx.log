@@ -314,7 +314,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Minimization:", xxx.f)?
 
 *** Error compiling 'mmtbx/command_line/fix_rotamer_outliers.py'...
-  File "mmtbx/command_line/fix_rotamer_outliers.py", line 46
+  File "mmtbx/command_line/fix_rotamer_outliers.py", line 43
     print help_msg
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
@@ -915,7 +915,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/geometry_restraints/tst_reference_coordinate2.py'...
-  File "mmtbx/geometry_restraints/tst_reference_coordinate2.py", line 161
+  File "mmtbx/geometry_restraints/tst_reference_coordinate2.py", line 153
     print "%s: overall CC: %6.4f rmsd_bonds=%6.3f rmsd_angles=%6.3f"%(
                                                                    ^
 SyntaxError: invalid syntax
@@ -945,19 +945,19 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_1.py'...
-  File "mmtbx/hydrogens/tst_parameterization_1.py", line 426
+  File "mmtbx/hydrogens/tst_parameterization_1.py", line 425
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_2.py'...
-  File "mmtbx/hydrogens/tst_parameterization_2.py", line 346
+  File "mmtbx/hydrogens/tst_parameterization_2.py", line 344
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_3.py'...
-  File "mmtbx/hydrogens/tst_parameterization_3.py", line 215
+  File "mmtbx/hydrogens/tst_parameterization_3.py", line 213
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -969,19 +969,19 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'use_ideal_bonds_angles =', use_ideal_bonds_angles)?
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_5.py'...
-  File "mmtbx/hydrogens/tst_parameterization_5.py", line 320
+  File "mmtbx/hydrogens/tst_parameterization_5.py", line 319
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_6.py'...
-  File "mmtbx/hydrogens/tst_parameterization_6.py", line 190
+  File "mmtbx/hydrogens/tst_parameterization_6.py", line 188
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_7.py'...
-  File "mmtbx/hydrogens/tst_parameterization_7.py", line 258
+  File "mmtbx/hydrogens/tst_parameterization_7.py", line 257
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1263,7 +1263,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1098
+  File "mmtbx/model/model.py", line 1111
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2005,7 +2005,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print fn
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tls/tst_tls_refinement_fft.py'...
-  File "mmtbx/regression/tls/tst_tls_refinement_fft.py", line 115
+  File "mmtbx/regression/tls/tst_tls_refinement_fft.py", line 114
     print "*"*80
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "*"*80)?
@@ -2059,7 +2059,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%s %4.2f"%M2[0], "%s %4.2f"%M2_corr[0])?
 
 *** Error compiling 'mmtbx/regression/tst_add_h_to_water.py'...
-  File "mmtbx/regression/tst_add_h_to_water.py", line 92
+  File "mmtbx/regression/tst_add_h_to_water.py", line 89
     print "Reduce not installed, needed for model.add_hydrogens(). skipping"
                                                                            ^
 SyntaxError: invalid syntax
@@ -2233,7 +2233,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_geometry_minimization.py'...
-  File "mmtbx/regression/tst_geometry_minimization.py", line 134
+  File "mmtbx/regression/tst_geometry_minimization.py", line 118
     print "Can not initialize monomer_library, skipping test."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
@@ -2293,7 +2293,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1270
+  File "mmtbx/regression/tst_model.py", line 1269
     print format_cpu_times()
                          ^
 SyntaxError: invalid syntax

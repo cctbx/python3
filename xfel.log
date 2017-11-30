@@ -660,24 +660,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Cur
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "XFEL processing: %s"%path)?
 
-*** Error compiling 'xfel/cxi/merging_database.py'...
-  File "xfel/cxi/merging_database.py", line 131
-    print "testing for tables"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "testing for tables")?
-
-*** Error compiling 'xfel/cxi/merging_database_flex.py'...
-  File "xfel/cxi/merging_database_flex.py", line 47
-    print "FRAME",rows_frame,"OBS",X['rows'].get_obj()[0]
-                ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/cxi/merging_database_fs.py'...
-  File "xfel/cxi/merging_database_fs.py", line 119
-    print self.params.postrefinement.algorithm
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.params.postrefinement.algorithm)?
-
 *** Error compiling 'xfel/cxi/postrefinement_hybrid_rs.py'...
   File "xfel/cxi/postrefinement_hybrid_rs.py", line 168
     raise ValueError, "< 3 near-fulls after refinement"
@@ -755,6 +737,24 @@ SyntaxError: invalid syntax
     print "Rank %d processing %s"%(rank, file_names[ix])
                                 ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/database/merging_database.py'...
+  File "xfel/merging/database/merging_database.py", line 131
+    print "testing for tables"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "testing for tables")?
+
+*** Error compiling 'xfel/merging/database/merging_database_flex.py'...
+  File "xfel/merging/database/merging_database_flex.py", line 47
+    print "FRAME",rows_frame,"OBS",X['rows'].get_obj()[0]
+                ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/database/merging_database_fs.py'...
+  File "xfel/merging/database/merging_database_fs.py", line 119
+    print self.params.postrefinement.algorithm
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.params.postrefinement.algorithm)?
 
 *** Error compiling 'xfel/merging/general_fcalc.py'...
   File "xfel/merging/general_fcalc.py", line 98
