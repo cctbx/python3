@@ -1204,12 +1204,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'S
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'dials/test/command_line/tst_combine_datablocks.py'...
-  File "dials/test/command_line/tst_combine_datablocks.py", line 16
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
-
 *** Error compiling 'dials/test/command_line/tst_combine_experiments.py'...
   File "dials/test/command_line/tst_combine_experiments.py", line 221
     print "Skipping tests in " + __file__ + " as dials_regression not present"

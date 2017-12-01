@@ -362,7 +362,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 1040
+  File "mmtbx/command_line/model_idealization.py", line 1047
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -936,12 +936,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "@@@@@
   File "mmtbx/hydrogens/tst.py", line 582
     if(debug): print "-"*70, i
                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/hydrogens/tst_connectivity_m.py'...
-  File "mmtbx/hydrogens/tst_connectivity_m.py", line 136
-    print "OK. Time: %8.3f"%(time.time()-t0)
-                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_1.py'...
@@ -3073,7 +3067,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/__init__.py'...
-  File "mmtbx/secondary_structure/build/__init__.py", line 139
+  File "mmtbx/secondary_structure/build/__init__.py", line 140
     print "min, max, mean, sd hbond lenghts", hbondlen.min_max_mean().as_tuple(),\
                                            ^
 SyntaxError: invalid syntax

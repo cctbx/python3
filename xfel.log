@@ -702,6 +702,18 @@ SyntaxError: invalid syntax
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Creating cxi_user directory")?
 
+*** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...
+  File "xfel/merging/command_line/dev_cxi_merge.py", line 121
+    except Exception, e :
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge.py'...
+  File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 72
+    if timing: print "SETUP START RANK=%d TIME=%f"%(rank,tt())
+                                                 ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/merging/command_line/mpi_cluster_merge.py'...
   File "xfel/merging/command_line/mpi_cluster_merge.py", line 223
     print "SETUP START RANK=%d TIME=%f"%(rank,tt())

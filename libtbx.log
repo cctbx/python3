@@ -232,12 +232,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'I
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/command_line/git_avoid_merges.py'...
-  File "libtbx/command_line/git_avoid_merges.py", line 47
-    print "Git repository found:", module
-                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Git repository found:", module)?
-
 *** Error compiling 'libtbx/command_line/import_all_ext.py'...
   File "libtbx/command_line/import_all_ext.py", line 49
     print full_module
