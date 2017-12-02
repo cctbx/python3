@@ -939,49 +939,49 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "@@@@@
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_1.py'...
-  File "mmtbx/hydrogens/tst_parameterization_1.py", line 425
+  File "mmtbx/hydrogens/tst_parameterization_1.py", line 419
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_2.py'...
-  File "mmtbx/hydrogens/tst_parameterization_2.py", line 344
+  File "mmtbx/hydrogens/tst_parameterization_2.py", line 340
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_3.py'...
-  File "mmtbx/hydrogens/tst_parameterization_3.py", line 213
+  File "mmtbx/hydrogens/tst_parameterization_3.py", line 208
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_4.py'...
-  File "mmtbx/hydrogens/tst_parameterization_4.py", line 191
+  File "mmtbx/hydrogens/tst_parameterization_4.py", line 182
     print 'use_ideal_bonds_angles =', use_ideal_bonds_angles
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'use_ideal_bonds_angles =', use_ideal_bonds_angles)?
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_5.py'...
-  File "mmtbx/hydrogens/tst_parameterization_5.py", line 319
+  File "mmtbx/hydrogens/tst_parameterization_5.py", line 315
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_6.py'...
-  File "mmtbx/hydrogens/tst_parameterization_6.py", line 188
+  File "mmtbx/hydrogens/tst_parameterization_6.py", line 184
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_7.py'...
-  File "mmtbx/hydrogens/tst_parameterization_7.py", line 257
+  File "mmtbx/hydrogens/tst_parameterization_7.py", line 254
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_8.py'...
-  File "mmtbx/hydrogens/tst_parameterization_8.py", line 402
+  File "mmtbx/hydrogens/tst_parameterization_8.py", line 390
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax

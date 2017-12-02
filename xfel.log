@@ -703,9 +703,15 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Creating cxi_user directory")?
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...
-  File "xfel/merging/command_line/dev_cxi_merge.py", line 121
+  File "xfel/merging/command_line/dev_cxi_merge.py", line 120
     except Exception, e :
                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/dev_cxi_merge_refltable.py'...
+  File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 58
+    print "Miller %20s n-obs=%4d  sum-I=%10.0f"%(index, N, m)
+                                              ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge.py'...
@@ -715,40 +721,40 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/mpi_cluster_merge.py'...
-  File "xfel/merging/command_line/mpi_cluster_merge.py", line 223
-    print "SETUP START RANK=%d TIME=%f"%(rank,tt())
-                                      ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/mpi_cluster_merge.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/command_line/mpi_cluster_two_merge.py'...
-  File "xfel/merging/command_line/mpi_cluster_two_merge.py", line 224
-    print "SETUP START RANK=%d TIME=%f"%(rank,tt())
-                                      ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/mpi_cluster_two_merge.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/command_line/mpi_cluster_two_merge_cs.py'...
-  File "xfel/merging/command_line/mpi_cluster_two_merge_cs.py", line 151
-    print "INSTANCE=%d START RANK=%d TIME=%f"%(count,rank,tt())
-                                            ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/mpi_cluster_two_merge_cs.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/command_line/mpi_merge.py'...
-  File "xfel/merging/command_line/mpi_merge.py", line 81
-    print "reports",reports
-                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "reports",reports)?
+  File "xfel/merging/command_line/mpi_merge.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/command_line/single_node_merge.py'...
-  File "xfel/merging/command_line/single_node_merge.py", line 22
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/single_node_merge.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/command_line/worker2.py'...
-  File "xfel/merging/command_line/worker2.py", line 23
-    print "Rank %d processing %s"%(rank, file_names[ix])
-                                ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/worker2.py", line 4
+    print "Deprecated on 12/01/17. Code will be removed at a later date"
+                                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Deprecated on 12/01/17. Code will be removed at a later date")?
 
 *** Error compiling 'xfel/merging/database/merging_database.py'...
   File "xfel/merging/database/merging_database.py", line 131
