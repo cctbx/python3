@@ -3096,6 +3096,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/secondary_structure/build/tst_ss_id_ncs.py'...
+  File "mmtbx/secondary_structure/build/tst_ss_id_ncs.py", line 273
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'mmtbx/secondary_structure/find_ss_from_ca.py'...
   File "mmtbx/secondary_structure/find_ss_from_ca.py", line 629
     except Exception,e: # the helix needs to be deleted
