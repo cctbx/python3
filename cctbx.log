@@ -791,9 +791,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "N
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/segment_and_split_map.py'...
-  File "cctbx/maptbx/segment_and_split_map.py", line 2831
-    print "CENTROID OF DENSITY: (%7.2f, %7.2f, %7.2f) (grid units) " %(
-                                                                   ^
+  File "cctbx/maptbx/segment_and_split_map.py", line 2597
+    except Exception,e:
+                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/tst_asymmetric_map.py'...

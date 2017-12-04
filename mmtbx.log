@@ -986,6 +986,12 @@ SyntaxError: invalid syntax
                           ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/hydrogens/tst_riding_coefficients.py'...
+  File "mmtbx/hydrogens/tst_riding_coefficients.py", line 124
+    print "OK. Time: %8.3f"%(time.time()-t0)
+                          ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_1.py'...
   File "mmtbx/hydrogens/tst_riding_fd_1.py", line 262
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
@@ -1257,7 +1263,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1111
+  File "mmtbx/model/model.py", line 1110
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2280,6 +2286,12 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
+*** Error compiling 'mmtbx/regression/tst_metal_link_1.py'...
+  File "mmtbx/regression/tst_metal_link_1.py", line 131
+    print "Time: %6.3f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'mmtbx/regression/tst_minimize_chain.py'...
   File "mmtbx/regression/tst_minimize_chain.py", line 541
     print "\nTesting merge_model\n"
@@ -2287,16 +2299,16 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1269
-    print format_cpu_times()
-                         ^
+  File "mmtbx/regression/tst_model.py", line 1060
+    print mmm.as_tuple()
+            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_2.py'...
   File "mmtbx/regression/tst_model_2.py", line 115
-    print "Reduce not installed, needed for model.idealize_h(). skipping"
-                                                                        ^
-SyntaxError: invalid syntax
+    print "use_neutron_distances:", use_neutron_distances, "*"*30
+                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "use_neutron_distances:", use_neutron_distances, "*"*30)?
 
 *** Error compiling 'mmtbx/regression/tst_model_map.py'...
   File "mmtbx/regression/tst_model_map.py", line 111
