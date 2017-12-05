@@ -981,7 +981,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_8.py'...
-  File "mmtbx/hydrogens/tst_parameterization_8.py", line 390
+  File "mmtbx/hydrogens/tst_parameterization_8.py", line 394
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1020,6 +1020,12 @@ SyntaxError: invalid syntax
   File "mmtbx/hydrogens/tst_riding_fd_5.py", line 333
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/hydrogens/tst_riding_manager.py'...
+  File "mmtbx/hydrogens/tst_riding_manager.py", line 194
+    print "OK. Time: %8.3f"%(time.time()-t0)
+                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_minimize.py'...
