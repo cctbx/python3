@@ -269,7 +269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "***********************************")?
 
 *** Error compiling 'iotbx/command_line/mtrix_reconstruction.py'...
-  File "iotbx/command_line/mtrix_reconstruction.py", line 16
+  File "iotbx/command_line/mtrix_reconstruction.py", line 17
     print run.__doc__
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int run.__doc__)?

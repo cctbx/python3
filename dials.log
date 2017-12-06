@@ -304,12 +304,6 @@ SyntaxError: invalid syntax
                                                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials/command_line/make_sphinx_html.py'...
-  File "dials/command_line/make_sphinx_html.py", line 40
-    print "Checking DIALS release status: ",
-                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Checking DIALS release status: ", end=" ")?
-
 *** Error compiling 'dials/command_line/merge_cbf.py'...
   File "dials/command_line/merge_cbf.py", line 139
     print '%s written' % out_image
@@ -467,7 +461,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "G
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Simulating with the following parameters:')?
 
 *** Error compiling 'dials/command_line/slice_sweep.py'...
-  File "dials/command_line/slice_sweep.py", line 244
+  File "dials/command_line/slice_sweep.py", line 245
     print "No suitable input provided"
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No suitable input provided")?
@@ -1407,12 +1401,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAI
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dials/test/command_line/tst_slice_sweep.py'...
-  File "dials/test/command_line/tst_slice_sweep.py", line 43
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'dials/test/command_line/tst_sort_reflections.py'...
   File "dials/test/command_line/tst_sort_reflections.py", line 12
