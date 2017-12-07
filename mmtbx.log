@@ -362,7 +362,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 1047
+  File "mmtbx/command_line/model_idealization.py", line 851
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -2305,22 +2305,28 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1060
-    print mmm.as_tuple()
-            ^
+  File "mmtbx/regression/tst_model.py", line 1276
+    print format_cpu_times()
+                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_2.py'...
   File "mmtbx/regression/tst_model_2.py", line 115
-    print "use_neutron_distances:", use_neutron_distances, "*"*30
-                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "use_neutron_distances:", use_neutron_distances, "*"*30)?
+    print "Reduce not installed, needed for model.idealize_h(). skipping"
+                                                                        ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_map.py'...
   File "mmtbx/regression/tst_model_map.py", line 111
     print cc1, cc2
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cc1, cc2)?
+
+*** Error compiling 'mmtbx/regression/tst_model_mtrix.py'...
+  File "mmtbx/regression/tst_model_mtrix.py", line 123
+    print format_cpu_times()
+                         ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_vs_map.py'...
   File "mmtbx/regression/tst_model_vs_map.py", line 136

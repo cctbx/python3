@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 336
+  File "xfel/command_line/cxi_merge.py", line 352
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -661,7 +661,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Cur
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "XFEL processing: %s"%path)?
 
 *** Error compiling 'xfel/cxi/postrefinement_hybrid_rs.py'...
-  File "xfel/cxi/postrefinement_hybrid_rs.py", line 168
+  File "xfel/cxi/postrefinement_hybrid_rs.py", line 169
     raise ValueError, "< 3 near-fulls after refinement"
                     ^
 SyntaxError: invalid syntax
@@ -715,7 +715,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge.py'...
-  File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 72
+  File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 75
     if timing: print "SETUP START RANK=%d TIME=%f"%(rank,tt())
                                                  ^
 SyntaxError: invalid syntax
