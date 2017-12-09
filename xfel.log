@@ -709,7 +709,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Cre
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge_refltable.py'...
-  File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 63
+  File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 76
     print "Miller %20s n-obs=%4d  sum-I=%10.0f"%(index, N, m)
                                               ^
 SyntaxError: invalid syntax

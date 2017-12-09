@@ -993,31 +993,31 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_1.py'...
-  File "mmtbx/hydrogens/tst_riding_fd_1.py", line 262
+  File "mmtbx/hydrogens/tst_riding_fd_1.py", line 258
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_2.py'...
-  File "mmtbx/hydrogens/tst_riding_fd_2.py", line 553
+  File "mmtbx/hydrogens/tst_riding_fd_2.py", line 550
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_3.py'...
-  File "mmtbx/hydrogens/tst_riding_fd_3.py", line 410
+  File "mmtbx/hydrogens/tst_riding_fd_3.py", line 403
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_4.py'...
-  File "mmtbx/hydrogens/tst_riding_fd_4.py", line 344
+  File "mmtbx/hydrogens/tst_riding_fd_4.py", line 343
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_riding_fd_5.py'...
-  File "mmtbx/hydrogens/tst_riding_fd_5.py", line 333
+  File "mmtbx/hydrogens/tst_riding_fd_5.py", line 312
     print "OK. Time:", round(time.time()-t0, 2), "seconds"
                     ^
 SyntaxError: invalid syntax
@@ -1591,7 +1591,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print a,
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "rms difference start vs. final: %.3f" % \)?
 
 *** Error compiling 'mmtbx/refinement/minimization.py'...
-  File "mmtbx/refinement/minimization.py", line 137
+  File "mmtbx/refinement/minimization.py", line 151
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
