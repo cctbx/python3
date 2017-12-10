@@ -386,7 +386,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/molprobity.py'...
-  File "mmtbx/command_line/molprobity.py", line 259
+  File "mmtbx/command_line/molprobity.py", line 269
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
@@ -3127,7 +3127,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/secondary_structure/find_ss_from_ca.py'...
-  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 629
+  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 657
     except Exception,e: # the helix needs to be deleted
                     ^
 SyntaxError: invalid syntax
@@ -3363,7 +3363,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 401
+  File "mmtbx/validation/molprobity/__init__.py", line 402
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
