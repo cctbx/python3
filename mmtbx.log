@@ -1339,7 +1339,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/linking_setup.py'...
-  File "mmtbx/monomer_library/linking_setup.py", line 134
+  File "mmtbx/monomer_library/linking_setup.py", line 147
     print skip_if_both
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_if_both)?
@@ -1471,7 +1471,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Missing file:", chem_comp_from_list_file.id)?
 
 *** Error compiling 'mmtbx/monomer_library/tst_superpose_ideal.py'...
-  File "mmtbx/monomer_library/tst_superpose_ideal.py", line 63
+  File "mmtbx/monomer_library/tst_superpose_ideal.py", line 65
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int cmd)?
