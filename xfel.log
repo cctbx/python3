@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 352
+  File "xfel/command_line/cxi_merge.py", line 354
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -703,7 +703,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Creating cxi_user directory")?
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...
-  File "xfel/merging/command_line/dev_cxi_merge.py", line 120
+  File "xfel/merging/command_line/dev_cxi_merge.py", line 121
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
@@ -713,6 +713,12 @@ SyntaxError: invalid syntax
     print "Miller %20s n-obs=%4d  sum-I=%10.0f"%(index, N, m)
                                               ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/command_line/dev_cxi_mpi_merge_refltable.py'...
+  File "xfel/merging/command_line/dev_cxi_mpi_merge_refltable.py", line 23
+    print "DONE"
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "DONE")?
 
 *** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge.py'...
   File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 75
