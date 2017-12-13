@@ -386,7 +386,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/molprobity.py'...
-  File "mmtbx/command_line/molprobity.py", line 269
+  File "mmtbx/command_line/molprobity.py", line 270
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
@@ -3363,7 +3363,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 402
+  File "mmtbx/validation/molprobity/__init__.py", line 403
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

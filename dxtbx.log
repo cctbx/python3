@@ -383,10 +383,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatNexus.py'...
-  File "dxtbx/format/FormatNexus.py", line 186
-    print FormatNexus.understand(arg)
-                    ^
-SyntaxError: invalid syntax
+  File "dxtbx/format/FormatNexus.py", line 196
+    print beam
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print beam)?
 
 *** Error compiling 'dxtbx/format/FormatPY.py'...
   File "dxtbx/format/FormatPY.py", line 35
