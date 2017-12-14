@@ -497,10 +497,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Refining detector at hierarchy_level=" + \)?
 
 *** Error compiling 'dials/command_line/stills_process.py'...
-  File "dials/command_line/stills_process.py", line 448
-    print "Error spotfinding", tag, str(e)
-                            ^
-SyntaxError: invalid syntax
+  File "dials/command_line/stills_process.py", line 381
+    print "Some processes failed excecution. Not all images may have processed. Error messages:"
+                                                                                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Some processes failed excecution. Not all images may have processed. Error messages:")?
 
 *** Error compiling 'dials/command_line/tutorial.py'...
   File "dials/command_line/tutorial.py", line 11

@@ -617,7 +617,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Sorry: CIF does not contain an appropriate miller array")?
 
 *** Error compiling 'iotbx/examples/iotbx_cif.py'...
-  File "iotbx/examples/iotbx_cif.py", line 51
+  File "iotbx/examples/iotbx_cif.py", line 77
     print "%s:" % scatterer.label, "%8.4f %8.4f %8.4f" % scatterer.site
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "%s:" % scatterer.label, "%8.4f %8.4f %8.4f" % scatterer.site)?
