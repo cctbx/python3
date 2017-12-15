@@ -431,7 +431,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVADSC.py'...
-  File "dxtbx/format/FormatSMVADSC.py", line 245
+  File "dxtbx/format/FormatSMVADSC.py", line 250
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax
@@ -485,7 +485,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVADSCSN926.py'...
-  File "dxtbx/format/FormatSMVADSCSN926.py", line 83
+  File "dxtbx/format/FormatSMVADSCSN926.py", line 88
     print FormatSMVADSC.understand(arg)
                       ^
 SyntaxError: invalid syntax

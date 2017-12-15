@@ -556,12 +556,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int ' Ad
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Skipping", " " * 26, subdir)?
 
-*** Error compiling 'dials/test/algorithms/background/real.py'...
-  File "dials/test/algorithms/background/real.py", line 92
-    print '{0:>16} {1:>24} {2:>24} {3:>24} {4:>6}'.format(hkl, str1, str2, str3, max_val)
-                                                 ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dials/test/algorithms/background/simulate.py'...
   File "dials/test/algorithms/background/simulate.py", line 63
     print normal_expected_n_sigma(30 * 30)
@@ -1473,12 +1467,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dials/test/nexus/tst_nexus.py'...
-  File "dials/test/nexus/tst_nexus.py", line 11
-    print nxmx[0].title
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t nxmx[0].title)?
 
 *** Error compiling 'dials/test/tst_libtbx_import.py'...
   File "dials/test/tst_libtbx_import.py", line 9
