@@ -963,7 +963,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'use_ideal_bonds_angles =', use_ideal_bonds_angles)?
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_5.py'...
-  File "mmtbx/hydrogens/tst_parameterization_5.py", line 315
+  File "mmtbx/hydrogens/tst_parameterization_5.py", line 334
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1131
+  File "mmtbx/model/model.py", line 1136
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1489,7 +1489,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1493
+  File "mmtbx/ncs/ncs.py", line 1497
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -3327,7 +3327,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 313
+  File "mmtbx/validation/chain_comparison.py", line 318
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -3363,7 +3363,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 403
+  File "mmtbx/validation/molprobity/__init__.py", line 411
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
