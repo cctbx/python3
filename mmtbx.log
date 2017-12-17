@@ -3127,7 +3127,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/secondary_structure/find_ss_from_ca.py'...
-  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 657
+  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 671
     except Exception,e: # the helix needs to be deleted
                     ^
 SyntaxError: invalid syntax
