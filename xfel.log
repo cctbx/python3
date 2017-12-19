@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 359
+  File "xfel/command_line/cxi_merge.py", line 355
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -721,7 +721,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "DONE")?
 
 *** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge.py'...
-  File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 78
+  File "xfel/merging/command_line/dev_mpi_cluster_two_merge.py", line 80
     if timing: print "SETUP START RANK=%d TIME=%f"%(rank,tt())
                                                  ^
 SyntaxError: invalid syntax
