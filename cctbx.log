@@ -839,7 +839,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/tst_real_space_refinement_simple.py'...
-  File "cctbx/maptbx/tst_real_space_refinement_simple.py", line 84
+  File "cctbx/maptbx/tst_real_space_refinement_simple.py", line 86
     print format_cpu_times()
                          ^
 SyntaxError: invalid syntax
