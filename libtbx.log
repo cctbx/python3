@@ -861,10 +861,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Fai
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/sphinx/phil.py'...
-  File "libtbx/sphinx/phil.py", line 57
-    print import_path
+  File "libtbx/sphinx/phil.py", line 62
+    except Exception, e:
                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print import_path)?
+SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/subprocess_with_fixes.py'...
   File "libtbx/subprocess_with_fixes.py", line 797
