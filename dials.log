@@ -1564,12 +1564,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Wri
                                                                                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials/util/image_viewer/spotfinder_wrap.py'...
-  File "dials/util/image_viewer/spotfinder_wrap.py", line 8
-    print 'Memory usage: %.1f MB' % (int(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss) / 1024)
-                                ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dials/util/mosflm.py'...
   File "dials/util/mosflm.py", line 69
     print "Exporting experiment to %s and %s" %(index_mat, mosflm_in)
