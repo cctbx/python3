@@ -866,12 +866,6 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/subprocess_with_fixes.py'...
-  File "libtbx/subprocess_with_fixes.py", line 797
-    if (GetVersion() >= 0x80000000L or
-                                  ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/subversion.py'...
   File "libtbx/subversion.py", line 22
     print "\n".join(marked_for_commit())

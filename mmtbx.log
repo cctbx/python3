@@ -3458,6 +3458,12 @@ SyntaxError: invalid syntax
                                                                           ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/validation/regression/tst_ramalyze2.py'...
+  File "mmtbx/validation/regression/tst_ramalyze2.py", line 172
+    print "OK. Time: %8.3f"%(time.time()-t0)
+                          ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'mmtbx/validation/regression/tst_restraints.py'...
   File "mmtbx/validation/regression/tst_restraints.py", line 115
     print "OK"
