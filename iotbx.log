@@ -694,6 +694,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Num
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "PDB id:", cif_block["_entry.id"])?
 
+*** Error compiling 'iotbx/examples/prepare_model_for_rsr.py'...
+  File "iotbx/examples/prepare_model_for_rsr.py", line 21
+    print "Number of helices:", ss.get_n_helices()
+                             ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'iotbx/examples/recalculate_phenix_refine_r_factors.py'...
   File "iotbx/examples/recalculate_phenix_refine_r_factors.py", line 23
     print "r_work = %.4f" % r_work

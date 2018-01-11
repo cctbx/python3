@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1136
+  File "mmtbx/model/model.py", line 1128
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2314,6 +2314,12 @@ SyntaxError: invalid syntax
   File "mmtbx/regression/tst_model_2.py", line 115
     print "Reduce not installed, needed for model.idealize_h(). skipping"
                                                                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/tst_model_biomt_mtrix.py'...
+  File "mmtbx/regression/tst_model_biomt_mtrix.py", line 424
+    print "Total time: %8.3f"%(time.time() - t0)
+                            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_map.py'...

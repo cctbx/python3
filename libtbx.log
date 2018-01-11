@@ -239,7 +239,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print full_module)?
 
 *** Error compiling 'libtbx/command_line/import_all_python.py'...
-  File "libtbx/command_line/import_all_python.py", line 69
+  File "libtbx/command_line/import_all_python.py", line 67
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
@@ -506,12 +506,6 @@ SyntaxError: invalid syntax
                                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Please use this command only in an empty directory.")?
 
-*** Error compiling 'libtbx/configure.py'...
-  File "libtbx/configure.py", line 9
-    print "*" * 78
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "*" * 78)?
-
 *** Error compiling 'libtbx/crossmingw.py'...
   File "libtbx/crossmingw.py", line 56
     raise SCons.Errors.UserError, "A shared library should have exactly one target with the suffix: %s" % env.subst("$SHLIBSUFFIX")
@@ -666,12 +660,6 @@ SyntaxError: invalid syntax
   File "libtbx/progress.py", line 67
     raise TimeoutError, "Timeout (%s s) exceeded" % timeout
                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/pythonpath/deep_thought.py'...
-  File "libtbx/pythonpath/deep_thought.py", line 6
-    print len(s)
-            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/queuing_system_utils/__init__.py'...

@@ -262,12 +262,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int tab.
                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'cctbx/eltbx/distance_based_connectivity.py'...
-  File "cctbx/eltbx/distance_based_connectivity.py", line 88
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'cctbx/eltbx/gaussian_fit.py'...
   File "cctbx/eltbx/gaussian_fit.py", line 32
     print "%24s: %s n_terms=%-4s stol=%.2f, d_min=%.2f, e=%.4f" % (

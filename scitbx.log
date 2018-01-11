@@ -11,7 +11,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'scitbx/array_family/boost_python/tst_flex.py'...
-  File "scitbx/array_family/boost_python/tst_flex.py", line 231
+  File "scitbx/array_family/boost_python/tst_flex.py", line 232
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
@@ -95,16 +95,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'scitbx/differential_evolution.py'...
-  File "scitbx/differential_evolution.py", line 206
+  File "scitbx/differential_evolution.py", line 207
     print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")?
-
-*** Error compiling 'scitbx/direct_search_simulated_annealing.py'...
-  File "scitbx/direct_search_simulated_annealing.py", line 244
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'scitbx/error/tst_error.py'...
   File "scitbx/error/tst_error.py", line 22
@@ -237,12 +231,6 @@ SyntaxError: invalid syntax
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'scitbx/golden_section_search.py'...
-  File "scitbx/golden_section_search.py", line 69
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'scitbx/graph/rigidity.py'...
   File "scitbx/graph/rigidity.py", line 307
@@ -461,7 +449,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'scitbx/math/superpose.py'...
-  File "scitbx/math/superpose.py", line 208
+  File "scitbx/math/superpose.py", line 207
     print min_target,mean_target,list(best_vector), txt
                    ^
 SyntaxError: invalid syntax
@@ -850,12 +838,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Pre
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'scitbx/simplex.py'...
-  File "scitbx/simplex.py", line 253
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'scitbx/source_generators/array_family/generate_all.py'...
   File "scitbx/source_generators/array_family/generate_all.py", line 14
     print '  Generating C++ header files in:\n    "%s"' % array_family
@@ -904,20 +886,26 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'scitbx/tst_cubicle_neighbors.py'...
-  File "scitbx/tst_cubicle_neighbors.py", line 72
+*** Error compiling 'scitbx/tests/differential_evolution.py'...
+  File "scitbx/tests/differential_evolution.py", line 13
+    print list(self.x)
+             ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'scitbx/tests/tst_cubicle_neighbors.py'...
+  File "scitbx/tests/tst_cubicle_neighbors.py", line 72
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'scitbx/tst_r3_utils.py'...
-  File "scitbx/tst_r3_utils.py", line 21
+*** Error compiling 'scitbx/tests/tst_r3_utils.py'...
+  File "scitbx/tests/tst_r3_utils.py", line 21
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'scitbx/tst_smoothing.py'...
-  File "scitbx/tst_smoothing.py", line 32
+*** Error compiling 'scitbx/tests/tst_smoothing.py'...
+  File "scitbx/tests/tst_smoothing.py", line 29
     print "Skipping numpy compatibility..."
                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping numpy compatibility...")?
