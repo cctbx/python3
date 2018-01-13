@@ -53,7 +53,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'crys3d/wx_extra.py'...
-  File "crys3d/wx_extra.py", line 321
+  File "crys3d/wx_extra.py", line 329
     print "Click in 'Header'"
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Click in 'Header'")?

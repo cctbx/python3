@@ -1,9 +1,3 @@
-*** Error compiling 'libtbx/__init__.py'...
-  File "libtbx/__init__.py", line 10
-    print "STOP: %s(%d)" % (f.f_code.co_filename, f.f_lineno)
-                       ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/assert_utils.py'...
   File "libtbx/assert_utils.py", line 51
     print 'OK'
@@ -987,7 +981,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'libtbx/tst_utils.py'...
-  File "libtbx/tst_utils.py", line 44
+  File "libtbx/tst_utils.py", line 37
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
