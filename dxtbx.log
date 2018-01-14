@@ -694,12 +694,6 @@ SyntaxError: invalid syntax
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "")?
 
-*** Error compiling 'dxtbx/model/crystal.py'...
-  File "dxtbx/model/crystal.py", line 34
-    print "Warning, two kinds of mosaicity found. Using Sauter2014 model"
-                                                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
-
 *** Error compiling 'dxtbx/model/detector.py'...
   File "dxtbx/model/detector.py", line 504
     print e
