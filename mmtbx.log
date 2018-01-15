@@ -3333,7 +3333,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 365
+  File "mmtbx/validation/chain_comparison.py", line 367
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
