@@ -34,12 +34,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl,
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl, value)?
 
-*** Error compiling 'crys3d/libtbx_refresh.py'...
-  File "crys3d/libtbx_refresh.py", line 9
-    print '  Processing *.ui files in "%s"' % ui_dir
-                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '  Processing *.ui files in "%s"' % ui_dir)?
-
 *** Error compiling 'crys3d/reverse_selection.py'...
   File "crys3d/reverse_selection.py", line 204
     except Exception, e :

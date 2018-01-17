@@ -646,6 +646,24 @@ SyntaxError: invalid syntax
                   ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'dxtbx/format/FormatXTC.py'...
+  File "dxtbx/format/FormatXTC.py", line 36
+    except Exception,e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
+  File "dxtbx/format/FormatXTCCspad.py", line 33
+    except Exception,e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'dxtbx/format/FormatXTCRayonix.py'...
+  File "dxtbx/format/FormatXTCRayonix.py", line 33
+    except Exception,e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'dxtbx/format/TemplatePYCXI31.py'...
   File "dxtbx/format/TemplatePYCXI31.py", line 22
     print FormatPYCXI31.understand(arg)
@@ -693,6 +711,12 @@ SyntaxError: invalid syntax
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "")?
+
+*** Error compiling 'dxtbx/model/crystal.py'...
+  File "dxtbx/model/crystal.py", line 34
+    print "Warning, two kinds of mosaicity found. Using Sauter2014 model"
+                                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
 
 *** Error compiling 'dxtbx/model/detector.py'...
   File "dxtbx/model/detector.py", line 504

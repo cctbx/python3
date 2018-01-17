@@ -28,12 +28,6 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int encoded[:78]+"\\")?
 
-*** Error compiling 'gltbx/libtbx_refresh.py'...
-  File "gltbx/libtbx_refresh.py", line 8
-    print '  Generating C++ files in:\n    "%s"' % target_dir
-                                               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '  Generating C++ files in:\n    "%s"' % target_dir)?
-
 *** Error compiling 'gltbx/tst.py'...
   File "gltbx/tst.py", line 22
     except RuntimeError, e:

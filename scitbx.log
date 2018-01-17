@@ -334,12 +334,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "cyc
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'scitbx/libtbx_refresh.py'...
-  File "scitbx/libtbx_refresh.py", line 20
-    print "  Generating C++ files in:\n    %s" % show_string(target_dir)
-                                             ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'scitbx/linalg/tests/tst_cholesky.py'...
   File "scitbx/linalg/tests/tst_cholesky.py", line 80
     print "condition number: ", lambda_[0]/lambda_[-1]

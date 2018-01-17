@@ -473,7 +473,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Wrappers/CCP4/Pointless.py'...
-  File "xia2/Wrappers/CCP4/Pointless.py", line 683
+  File "xia2/Wrappers/CCP4/Pointless.py", line 688
     print cell
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell)?

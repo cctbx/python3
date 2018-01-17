@@ -760,12 +760,6 @@ SyntaxError: invalid syntax
                          ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iotbx/libtbx_refresh.py'...
-  File "iotbx/libtbx_refresh.py", line 12
-    print "  Using fable to convert", tail_levels(f, 3)
-                                   ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iotbx/logfiles.py'...
   File "iotbx/logfiles.py", line 9
     except ValueError, e :

@@ -40,12 +40,6 @@ SyntaxError: invalid syntax
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print cls.__name__)?
 
-*** Error compiling 'smtbx/libtbx_refresh.py'...
-  File "smtbx/libtbx_refresh.py", line 9
-    print message_template % target_dir
-                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t message_template % target_dir)?
-
 *** Error compiling 'smtbx/refinement/constraints/tests/tst_constrained_structure.py'...
   File "smtbx/refinement/constraints/tests/tst_constrained_structure.py", line 54
     print "Warning: incomplete test coverage for H constraint types"

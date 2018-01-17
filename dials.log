@@ -269,7 +269,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Wri
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.cmd)?
 
 *** Error compiling 'dials/command_line/geometry_viewer.py'...
-  File "dials/command_line/geometry_viewer.py", line 170
+  File "dials/command_line/geometry_viewer.py", line 173
     print "Predicted %i reflections in %.2f s" %(predicted.size(), (t1-t0))
                                              ^
 SyntaxError: invalid syntax

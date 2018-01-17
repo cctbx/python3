@@ -543,9 +543,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/env_config.py'...
-  File "libtbx/env_config.py", line 94
-    except Exception, e :
-                    ^
+  File "libtbx/env_config.py", line 223
+    print info, path.basename()
+             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/file_clutter.py'...

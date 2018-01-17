@@ -473,7 +473,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print st
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Event #",i," has id:",id)?
 
 *** Error compiling 'xfel/command_line/xtc_process.py'...
-  File "xfel/command_line/xtc_process.py", line 423
+  File "xfel/command_line/xtc_process.py", line 430
     print string
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int string)?
@@ -695,12 +695,6 @@ SyntaxError: invalid syntax
     print is_odd_numbered("int_fake_19989.img")
                         ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/libtbx_refresh.py'...
-  File "xfel/libtbx_refresh.py", line 8
-    print "  Creating cxi_user directory"
-                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Creating cxi_user directory")?
 
 *** Error compiling 'xfel/merging/algorithms/error_model/sdfac_propagate.py'...
   File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 280

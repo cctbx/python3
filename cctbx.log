@@ -736,12 +736,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'cctbx/libtbx_refresh.py'...
-  File "cctbx/libtbx_refresh.py", line 18
-    print message_template % target_dir
-                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t message_template % target_dir)?
-
 *** Error compiling 'cctbx/macro_mol/rotation_parameters.py'...
   File "cctbx/macro_mol/rotation_parameters.py", line 104
     raise ArgumentError, "Either parameters or matrix required."
