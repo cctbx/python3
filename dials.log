@@ -275,7 +275,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/command_line/goniometer_calibration.py'...
-  File "dials/command_line/goniometer_calibration.py", line 103
+  File "dials/command_line/goniometer_calibration.py", line 108
     print "Goniometer axes and angles (ImgCIF coordinate system):"
                                                                  ^
 SyntaxError: invalid syntax

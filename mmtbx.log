@@ -1035,7 +1035,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 210
+  File "mmtbx/hydrogens/tst_validate_H.py", line 458
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1489,7 +1489,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1513
+  File "mmtbx/ncs/ncs.py", line 1545
     except Exception,e:
                     ^
 SyntaxError: invalid syntax

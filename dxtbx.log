@@ -648,8 +648,8 @@ SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTC.py'...
   File "dxtbx/format/FormatXTC.py", line 36
-    except Exception,e:
-                    ^
+    except ImportError,e:
+                      ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
