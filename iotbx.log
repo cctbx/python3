@@ -839,7 +839,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/fetch.py'...
-  File "iotbx/pdb/fetch.py", line 44
+  File "iotbx/pdb/fetch.py", line 48
     except RuntimeError, e :
                        ^
 SyntaxError: invalid syntax
@@ -875,7 +875,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/pdb/tst_atom_selection.py'...
-  File "iotbx/pdb/tst_atom_selection.py", line 213
+  File "iotbx/pdb/tst_atom_selection.py", line 215
     except pdb.atom_selection.AtomSelectionError, e:
                                                 ^
 SyntaxError: invalid syntax
