@@ -221,7 +221,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatCBFMini.py'...
-  File "dxtbx/format/FormatCBFMini.py", line 369
+  File "dxtbx/format/FormatCBFMini.py", line 375
     print FormatCBFMini.understand(arg)
                       ^
 SyntaxError: invalid syntax
