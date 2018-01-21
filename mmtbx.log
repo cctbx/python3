@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1113
+  File "mmtbx/model/model.py", line 1120
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1957,7 +1957,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_s
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_restraints_2.py'...
-  File "mmtbx/regression/ncs/tst_restraints_2.py", line 392
+  File "mmtbx/regression/ncs/tst_restraints_2.py", line 394
     print "Skipping exercise(): input files not available"
                                                          ^
 SyntaxError: invalid syntax
