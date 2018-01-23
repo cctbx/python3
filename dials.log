@@ -502,12 +502,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Refin
                                                                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Some processes failed excecution. Not all images may have processed. Error messages:")?
 
-*** Error compiling 'dials/command_line/stills_process_mpi.py'...
-  File "dials/command_line/stills_process_mpi.py", line 65
-    print diff_phil
-                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print diff_phil)?
-
 *** Error compiling 'dials/command_line/tutorial.py'...
   File "dials/command_line/tutorial.py", line 11
     print 'Opening %s in web browser' % tutorial_html

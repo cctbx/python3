@@ -1035,7 +1035,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 640
+  File "mmtbx/hydrogens/tst_validate_H.py", line 864
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1185,13 +1185,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/map_tools.py'...
-  File "mmtbx/map_tools.py", line 559
+  File "mmtbx/map_tools.py", line 548
     print "b_sharp:", b_sharp_best, t
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "b_sharp:", b_sharp_best, t)?
 
 *** Error compiling 'mmtbx/maps/__init__.py'...
-  File "mmtbx/maps/__init__.py", line 556
+  File "mmtbx/maps/__init__.py", line 535
     print "b_sharp: %6.1f skewness: %6.4f kurtosis: %6.4f"%(b_sharp,
                                                          ^
 SyntaxError: invalid syntax
@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1120
+  File "mmtbx/model/model.py", line 1115
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
