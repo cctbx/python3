@@ -1,9 +1,3 @@
-*** Error compiling 'dials/algorithms/indexing/indexer.py'...
-  File "dials/algorithms/indexing/indexer.py", line 1375
-    except (RuntimeError, ValueError, Sorry), e:
-                                            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dials/algorithms/indexing/nave_parameters.py'...
   File "dials/algorithms/indexing/nave_parameters.py", line 31
     print flex.max(delta_psi_deg), flex.min(delta_psi_deg)
@@ -17,9 +11,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/algorithms/indexing/stills_indexer.py'...
-  File "dials/algorithms/indexing/stills_indexer.py", line 158
-    except Exception, e:
-                    ^
+  File "dials/algorithms/indexing/stills_indexer.py", line 474
+    print "Cannot convert to target symmetry, candidate %d/%d"%(icm, n_cand)
+                                                             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/algorithms/integration/kapton_correction.py'...
@@ -419,7 +413,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Writing json output to %s' %params.output.json)?
 
 *** Error compiling 'dials/command_line/show.py'...
-  File "dials/command_line/show.py", line 112
+  File "dials/command_line/show.py", line 142
     print show_experiments(
                          ^
 SyntaxError: invalid syntax

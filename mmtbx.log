@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1115
+  File "mmtbx/model/model.py", line 1116
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1487,6 +1487,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
     except KeyError, e :
                    ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/ncs/cartesian_restraints.py'...
+  File "mmtbx/ncs/cartesian_restraints.py", line 253
+    print n_excessive
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
   File "mmtbx/ncs/ncs.py", line 1545
@@ -1954,12 +1960,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_s
   File "mmtbx/regression/ncs/tst_restraints.py", line 124
     except RuntimeError, e:
                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/regression/ncs/tst_restraints_2.py'...
-  File "mmtbx/regression/ncs/tst_restraints_2.py", line 394
-    print "Skipping exercise(): input files not available"
-                                                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/real_space_refine_chain/tst_00.py'...
@@ -3321,7 +3321,7 @@ file or the model will be used.
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/utils/__init__.py'...
-  File "mmtbx/utils/__init__.py", line 371
+  File "mmtbx/utils/__init__.py", line 370
     except reflection_file_utils.Sorry_No_array_of_the_required_type, e:
                                                                     ^
 SyntaxError: invalid syntax

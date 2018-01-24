@@ -17,28 +17,16 @@ SyntaxError: invalid token
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Using '%s' as repository directory" % repositories)?
 
 *** Error compiling 'libtbx/auto_build/create_installer.py'...
-  File "libtbx/auto_build/create_installer.py", line 75
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/auto_build/create_mac_app.py'...
-  File "libtbx/auto_build/create_mac_app.py", line 10
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
+  File "libtbx/auto_build/create_installer.py", line 76
+    print "Directory already exists: %s"%path
+                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Directory already exists: %s"%path)?
 
 *** Error compiling 'libtbx/auto_build/create_mac_pkg.py'...
   File "libtbx/auto_build/create_mac_pkg.py", line 22
     print "ERROR: this program can only be run on Macintosh systems."
                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "ERROR: this program can only be run on Macintosh systems.")?
-
-*** Error compiling 'libtbx/auto_build/create_windows_exe.py'...
-  File "libtbx/auto_build/create_windows_exe.py", line 15
-    except ImportError, e :
-                      ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/auto_build/create_windows_installer.py'...
   File "libtbx/auto_build/create_windows_installer.py", line 73
@@ -47,9 +35,9 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Creating windows installer in", options.outdir)?
 
 *** Error compiling 'libtbx/auto_build/install_base_packages.py'...
-  File "libtbx/auto_build/install_base_packages.py", line 397
-    except (OSError, RuntimeError), e:
-                                  ^
+  File "libtbx/auto_build/install_base_packages.py", line 416
+    except RuntimeError, e:
+                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/auto_build/install_distribution.py'...
@@ -191,10 +179,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print fp
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t result)?
 
 *** Error compiling 'libtbx/command_line/find_non_ascii.py'...
-  File "libtbx/command_line/find_non_ascii.py", line 15
-    except IOError, e:
-                  ^
-SyntaxError: invalid syntax
+  File "libtbx/command_line/find_non_ascii.py", line 21
+    print '-'*80
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '-'*80)?
 
 *** Error compiling 'libtbx/command_line/find_old_style_classes.py'...
   File "libtbx/command_line/find_old_style_classes.py", line 21
@@ -233,10 +221,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print full_module)?
 
 *** Error compiling 'libtbx/command_line/import_all_python.py'...
-  File "libtbx/command_line/import_all_python.py", line 67
-    except ImportError, e :
-                      ^
-SyntaxError: invalid syntax
+  File "libtbx/command_line/import_all_python.py", line 95
+    print import_name
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print import_name)?
 
 *** Error compiling 'libtbx/command_line/line_count.py'...
   File "libtbx/command_line/line_count.py", line 32
@@ -542,12 +530,6 @@ SyntaxError: invalid syntax
                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/env_config.py'...
-  File "libtbx/env_config.py", line 223
-    print info, path.basename()
-             ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/file_clutter.py'...
   File "libtbx/file_clutter.py", line 146
     print msg
@@ -567,10 +549,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/log.py'...
-  File "libtbx/log.py", line 61
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "libtbx/log.py", line 130
+    print "Check set_debug"
+                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Check set_debug")?
 
 *** Error compiling 'libtbx/metric_prefixes.py'...
   File "libtbx/metric_prefixes.py", line 34
@@ -589,18 +571,6 @@ SyntaxError: invalid syntax
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'libtbx/path.py'...
-  File "libtbx/path.py", line 216
-    except OSError, e :
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/pexpect.py'...
-  File "libtbx/pexpect.py", line 80
-    except ImportError, e:
-                      ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/phil/__init__.py'...
   File "libtbx/phil/__init__.py", line 726

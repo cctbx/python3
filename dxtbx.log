@@ -533,9 +533,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVRigaku.py'...
-  File "dxtbx/format/FormatSMVRigaku.py", line 48
-    except (KeyError,AttributeError,ValueError),e:
-                                               ^
+  File "dxtbx/format/FormatSMVRigaku.py", line 123
+    print FormatSMVRigaku.understand(arg)
+                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVRigakuA200.py'...
@@ -647,21 +647,21 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTC.py'...
-  File "dxtbx/format/FormatXTC.py", line 36
-    except ImportError,e:
-                      ^
-SyntaxError: invalid syntax
+  File "dxtbx/format/FormatXTC.py", line 50
+    print 'This is an XTC file and can be read by PSANA'
+                                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'This is an XTC file and can be read by PSANA')?
 
 *** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
-  File "dxtbx/format/FormatXTCCspad.py", line 33
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "dxtbx/format/FormatXTCCspad.py", line 138
+    print 'No beam object initialized. Returning CSPAD detector without parallax corrections'
+                                                                                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No beam object initialized. Returning CSPAD detector without parallax corrections')?
 
 *** Error compiling 'dxtbx/format/FormatXTCRayonix.py'...
-  File "dxtbx/format/FormatXTCRayonix.py", line 33
-    except Exception,e:
-                    ^
+  File "dxtbx/format/FormatXTCRayonix.py", line 82
+    print FormatXTCRayonix.understand(arg)
+                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/TemplatePYCXI31.py'...
@@ -839,7 +839,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/serialize/tst_serialize.py'...
-  File "dxtbx/tests/serialize/tst_serialize.py", line 38
+  File "dxtbx/tests/serialize/tst_serialize.py", line 40
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
