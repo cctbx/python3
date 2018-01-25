@@ -755,7 +755,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/model/tst_beam.py'...
-  File "dxtbx/tests/model/tst_beam.py", line 28
+  File "dxtbx/tests/model/tst_beam.py", line 29
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -767,7 +767,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'dxtbx/tests/model/tst_detector.py'...
-  File "dxtbx/tests/model/tst_detector.py", line 9
+  File "dxtbx/tests/model/tst_detector.py", line 10
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
@@ -779,7 +779,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/model/tst_parallax_correction.py'...
-  File "dxtbx/tests/model/tst_parallax_correction.py", line 33
+  File "dxtbx/tests/model/tst_parallax_correction.py", line 34
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
@@ -791,7 +791,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dxtbx/tests/model/tst_pixel_to_millimeter.py'...
-  File "dxtbx/tests/model/tst_pixel_to_millimeter.py", line 44
+  File "dxtbx/tests/model/tst_pixel_to_millimeter.py", line 45
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
@@ -809,7 +809,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dxtbx/tests/model/tst_scan_data.py'...
-  File "dxtbx/tests/model/tst_scan_data.py", line 15
+  File "dxtbx/tests/model/tst_scan_data.py", line 16
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -833,13 +833,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/serialize/tst_filename.py'...
-  File "dxtbx/tests/serialize/tst_filename.py", line 22
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dxtbx/tests/serialize/tst_serialize.py'...
-  File "dxtbx/tests/serialize/tst_serialize.py", line 40
+  File "dxtbx/tests/serialize/tst_filename.py", line 23
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
@@ -875,37 +869,37 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/tests/tstFormatCBFFull.py'...
-  File "dxtbx/tests/tstFormatCBFFull.py", line 8
+  File "dxtbx/tests/tstFormatCBFFull.py", line 9
     print "Skipping tstFormatCBFFull.py: dials not present"
                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tstFormatCBFFull.py: dials not present")?
 
 *** Error compiling 'dxtbx/tests/tst_beamline_definitions.py'...
-  File "dxtbx/tests/tst_beamline_definitions.py", line 20
+  File "dxtbx/tests/tst_beamline_definitions.py", line 21
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'dxtbx/tests/tst_datablock.py'...
-  File "dxtbx/tests/tst_datablock.py", line 109
+  File "dxtbx/tests/tst_datablock.py", line 111
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/tst_dials_226.py'...
-  File "dxtbx/tests/tst_dials_226.py", line 9
+  File "dxtbx/tests/tst_dials_226.py", line 11
     print "Skipping tst_dials_226.py: dials_regression not present"
                                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tst_dials_226.py: dials_regression not present")?
 
 *** Error compiling 'dxtbx/tests/tst_dxtbx.py'...
-  File "dxtbx/tests/tst_dxtbx.py", line 5
+  File "dxtbx/tests/tst_dxtbx.py", line 6
     print "Skipping test: dials not present"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
 *** Error compiling 'dxtbx/tests/tst_filecache.py'...
-  File "dxtbx/tests/tst_filecache.py", line 88
+  File "dxtbx/tests/tst_filecache.py", line 89
     print "Running test for parameters %d %d" % (random_a, random_b)
                                             ^
 SyntaxError: invalid syntax
@@ -917,7 +911,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'SKIP: dials_regression not configured')?
 
 *** Error compiling 'dxtbx/tests/tst_imageset.py'...
-  File "dxtbx/tests/tst_imageset.py", line 92
+  File "dxtbx/tests/tst_imageset.py", line 93
     print image
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print image)?

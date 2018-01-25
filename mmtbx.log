@@ -1035,7 +1035,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 864
+  File "mmtbx/hydrogens/tst_validate_H.py", line 915
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1116
+  File "mmtbx/model/model.py", line 1115
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1933,7 +1933,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 186
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 185
     print "start r_factor: %6.4f" % r_start
                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "start r_factor: %6.4f" % r_start)?
@@ -1948,6 +1948,12 @@ SyntaxError: invalid syntax
   File "mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py", line 190
     print "Time: %6.4f"%(time.time()-t0)
                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/ncs/tst_ncs_restraints_group_list.py'...
+  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 257
+    print "OK. Time: %8.3f"%(time()-t0)
+                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_ncs_search_flips.py'...

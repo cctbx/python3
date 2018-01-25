@@ -773,7 +773,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "n_real:", n_real)?
 
 *** Error compiling 'iotbx/mtz/__init__.py'...
-  File "iotbx/mtz/__init__.py", line 513
+  File "iotbx/mtz/__init__.py", line 541
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -809,7 +809,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ncs/__init__.py'...
-  File "iotbx/ncs/__init__.py", line 2355
+  File "iotbx/ncs/__init__.py", line 2356
     raise IOError,'Phil selection strings are not unique !!!'
                  ^
 SyntaxError: invalid syntax
