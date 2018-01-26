@@ -35,7 +35,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tmppath)?
 
 *** Error compiling 'iota/components/iota_controls.py'...
-  File "iota/components/iota_controls.py", line 171
+  File "iota/components/iota_controls.py", line 185
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
@@ -89,13 +89,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entr
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 403
+  File "iota/components/iota_tracker.py", line 401
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 316
+  File "iota/components/iota_utils.py", line 320
     print 'ERROR: Need image or datablock for Radial Average Calculator'
                                                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: Need image or datablock for Radial Average Calculator')?

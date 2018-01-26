@@ -59,7 +59,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Experts/LatticeExpert.py'...
-  File "xia2/Experts/LatticeExpert.py", line 178
+  File "xia2/Experts/LatticeExpert.py", line 177
     print cell, dist
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell, dist)?
@@ -100,12 +100,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int gr)?
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Handlers/Citations.py'...
-  File "xia2/Handlers/Citations.py", line 151
-    print Citations.find_citations(program='xia2')
-                  ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Handlers/CommandLine.py'...
   File "xia2/Handlers/CommandLine.py", line 150
     print "***\nCommand line option %s is deprecated.\nPlease use %s instead\n***" % (k, v)
@@ -125,7 +119,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/Syminfo.py'...
-  File "xia2/Handlers/Syminfo.py", line 215
+  File "xia2/Handlers/Syminfo.py", line 214
     print Syminfo.get_pointgroup(arg)
                 ^
 SyntaxError: invalid syntax
@@ -137,7 +131,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?
 
 *** Error compiling 'xia2/Modules/CCP4InterRadiationDamageDetector.py'...
-  File "xia2/Modules/CCP4InterRadiationDamageDetector.py", line 157
+  File "xia2/Modules/CCP4InterRadiationDamageDetector.py", line 156
     print '%s %s' % s
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s %s' % s)?
@@ -155,7 +149,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Rea
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Saving histogram to %s' %hist_filename)?
 
 *** Error compiling 'xia2/Modules/DoseAccumulate.py'...
-  File "xia2/Modules/DoseAccumulate.py", line 170
+  File "xia2/Modules/DoseAccumulate.py", line 168
     print 'batch %d time %f dose %f' % \
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'batch %d time %f dose %f' % \)?
@@ -257,15 +251,15 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Scaler/CommonScaler.py'...
-  File "xia2/Modules/Scaler/CommonScaler.py", line 734
+  File "xia2/Modules/Scaler/CommonScaler.py", line 733
     print 'Change of basis to reference setting: %s' % cb_op
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Change of basis to reference setting: %s' % cb_op)?
 
 *** Error compiling 'xia2/Modules/Scaler/rebatch.py'...
-  File "xia2/Modules/Scaler/rebatch.py", line 24
-    lambda (i,x):i-x)]
-           ^
+  File "xia2/Modules/Scaler/rebatch.py", line 174
+    print column.label()
+               ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/TTT.py'...
@@ -461,7 +455,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Wrappers/CCP4/MosflmHelpers.py'...
-  File "xia2/Wrappers/CCP4/MosflmHelpers.py", line 238
+  File "xia2/Wrappers/CCP4/MosflmHelpers.py", line 237
     print '%4d %5.3f %5d %5d %5d %4.2f %6.2f %5.2f' % \
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d %5.3f %5d %5d %5d %4.2f %6.2f %5.2f' % \)?
@@ -605,7 +599,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int k, v)?
 
 *** Error compiling 'xia2/Wrappers/XDS/XDSIntegrateHelpers.py'...
-  File "xia2/Wrappers/XDS/XDSIntegrateHelpers.py", line 162
+  File "xia2/Wrappers/XDS/XDSIntegrateHelpers.py", line 161
     print '%4d %5.3f %5d %5d %5d %4.2f %6.2f' % \
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d %5.3f %5d %5d %5d %4.2f %6.2f' % \)?
@@ -629,13 +623,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Resolutions:')?
 
 *** Error compiling 'xia2/Wrappers/XIA/Printpeaks.py'...
-  File "xia2/Wrappers/XIA/Printpeaks.py", line 195
+  File "xia2/Wrappers/XIA/Printpeaks.py", line 194
     print len(peaks), max(peaks)
             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Wrappers/XIA/PrintpeaksMosflm.py'...
-  File "xia2/Wrappers/XIA/PrintpeaksMosflm.py", line 193
+  File "xia2/Wrappers/XIA/PrintpeaksMosflm.py", line 192
     print '%6.1f %6.1f %6.1f' % m
                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%6.1f %6.1f %6.1f' % m)?

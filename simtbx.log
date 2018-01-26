@@ -4,14 +4,32 @@
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.Fbg_vs_stol[1])?
 
-*** Error compiling 'simtbx/nanoBragg/tst_gaussian_mosaicity.py'...
-  File "simtbx/nanoBragg/tst_gaussian_mosaicity.py", line 55
-    print "%27s"%(str(RLP.elems)),"Vector length:%8.6f"%(RLP.length()),
-               ^
+*** Error compiling 'simtbx/nanoBragg/nanoBragg_gui_frames.py'...
+  File "simtbx/nanoBragg/nanoBragg_gui_frames.py", line 259
+    print 'TOTAL TIME = ', time.time() - self.start_timer
+                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'simtbx/nanoBragg/nanoBragg_gui_init.py'...
+  File "simtbx/nanoBragg/nanoBragg_gui_init.py", line 152
+    for i in self.input_list: print i
+                                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(for i in self.input_list: print i)?
+
+*** Error compiling 'simtbx/nanoBragg/nanoBragg_input.py'...
+  File "simtbx/nanoBragg/nanoBragg_input.py", line 113
+    except TypeError, e:
+                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'simtbx/nanoBragg/nanoBragg_threads.py'...
+  File "simtbx/nanoBragg/nanoBragg_threads.py", line 77
+    print 'DEBUG: GENERATING FCALC OF {}'.format(self.SIM.default_F)
+                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_basic.py'...
-  File "simtbx/nanoBragg/tst_nanoBragg_basic.py", line 46
+  File "simtbx/nanoBragg/tst_nanoBragg_basic.py", line 48
     print "GOTHERE seed=",SIM.seed
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "GOTHERE seed=",SIM.seed)?

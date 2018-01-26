@@ -1951,7 +1951,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_ncs_restraints_group_list.py'...
-  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 257
+  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 286
     print "OK. Time: %8.3f"%(time()-t0)
                           ^
 SyntaxError: invalid syntax

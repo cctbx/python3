@@ -929,7 +929,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/tst_read_mtrix_records_from_cif.py'...
-  File "iotbx/pdb/tst_read_mtrix_records_from_cif.py", line 13
+  File "iotbx/pdb/tst_read_mtrix_records_from_cif.py", line 12
     print 'Running ',sys._getframe().f_code.co_name
                    ^
 SyntaxError: invalid syntax
