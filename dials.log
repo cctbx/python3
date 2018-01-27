@@ -1493,7 +1493,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t tmp_di
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/test/util/tst_masking.py'...
-  File "dials/test/util/tst_masking.py", line 25
+  File "dials/test/util/tst_masking.py", line 51
     print 'SKIP: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'SKIP: dials_regression not configured')?
