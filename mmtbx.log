@@ -1209,7 +1209,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 187
+  File "mmtbx/maps/mtriage.py", line 256
     print prefix, ":", time.time()-t0
                ^
 SyntaxError: invalid syntax

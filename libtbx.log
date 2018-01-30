@@ -963,7 +963,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'libtbx/utils.py'...
-  File "libtbx/utils.py", line 367
+  File "libtbx/utils.py", line 368
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
