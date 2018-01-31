@@ -1495,9 +1495,15 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1545
+  File "mmtbx/ncs/ncs.py", line 1550
     except Exception,e:
                     ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/ncs/ncs_restraints_group_list.py'...
+  File "mmtbx/ncs/ncs_restraints_group_list.py", line 295
+    print list(group.master_iselection)
+             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/tncs.py'...
@@ -1951,7 +1957,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_ncs_restraints_group_list.py'...
-  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 286
+  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 335
     print "OK. Time: %8.3f"%(time()-t0)
                           ^
 SyntaxError: invalid syntax
