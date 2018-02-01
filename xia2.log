@@ -17,7 +17,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Background/Background.py'...
-  File "xia2/Background/Background.py", line 101
+  File "xia2/Background/Background.py", line 100
     print factor(j)
                ^
 SyntaxError: invalid syntax
@@ -107,7 +107,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/Environment.py'...
-  File "xia2/Handlers/Environment.py", line 176
+  File "xia2/Handlers/Environment.py", line 174
     print get_number_cpus()
                         ^
 SyntaxError: invalid syntax
@@ -203,7 +203,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/LabelitBeamCentre.py'...
-  File "xia2/Modules/LabelitBeamCentre.py", line 71
+  File "xia2/Modules/LabelitBeamCentre.py", line 70
     print '%6.2f %6.2f' % compute_beam_centre(s)
                       ^
 SyntaxError: invalid syntax
@@ -437,7 +437,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'The f
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Wrappers/CCP4/Chooch.py'...
-  File "xia2/Wrappers/CCP4/Chooch.py", line 190
+  File "xia2/Wrappers/CCP4/Chooch.py", line 189
     print '%s %6.2f %6.2f %8.6f' % (key,
                                ^
 SyntaxError: invalid syntax
@@ -605,7 +605,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int k, v
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d %5.3f %5d %5d %5d %4.2f %6.2f' % \)?
 
 *** Error compiling 'xia2/Wrappers/XIA/Diffdump.py'...
-  File "xia2/Wrappers/XIA/Diffdump.py", line 708
+  File "xia2/Wrappers/XIA/Diffdump.py", line 707
     print '! all diffdump output follows'
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '! all diffdump output follows')?
@@ -695,7 +695,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Moving HTML pages to", dest_dir)?
 
 *** Error compiling 'xia2/command_line/multi_crystal_analysis.py'...
-  File "xia2/command_line/multi_crystal_analysis.py", line 149
+  File "xia2/command_line/multi_crystal_analysis.py", line 148
     print i
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i)?
@@ -749,7 +749,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "E
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Error: xia2.to_shelx must be run on unmerged data.")?
 
 *** Error compiling 'xia2/command_line/xia2_main.py'...
-  File "xia2/command_line/xia2_main.py", line 295
+  File "xia2/command_line/xia2_main.py", line 294
     print xia2.XIA2Version.Version
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int xia2.XIA2Version.Version)?

@@ -731,7 +731,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/model/experiment_list.py'...
-  File "dxtbx/model/experiment_list.py", line 559
+  File "dxtbx/model/experiment_list.py", line 575
     if verbose: print 'Loaded experiments from %s' % filename
                                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose: print 'Loaded experiments from %s' % filename)?

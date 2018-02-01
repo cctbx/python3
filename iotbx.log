@@ -809,7 +809,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ncs/__init__.py'...
-  File "iotbx/ncs/__init__.py", line 2340
+  File "iotbx/ncs/__init__.py", line 2332
     raise IOError,'Phil selection strings are not unique !!!'
                  ^
 SyntaxError: invalid syntax
