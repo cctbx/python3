@@ -1150,6 +1150,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Ok')?
 
+*** Error compiling 'dials/test/command_line/test_cluster_unit_cell.py'...
+  File "dials/test/command_line/test_cluster_unit_cell.py", line 9
+    print "Skipping, no scipy"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping, no scipy")?
+
 *** Error compiling 'dials/test/command_line/tst_align_crystal.py'...
   File "dials/test/command_line/tst_align_crystal.py", line 11
     print 'FAIL: dials_regression not configured'

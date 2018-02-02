@@ -809,7 +809,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ncs/__init__.py'...
-  File "iotbx/ncs/__init__.py", line 2332
+  File "iotbx/ncs/__init__.py", line 1592
     raise IOError,'Phil selection strings are not unique !!!'
                  ^
 SyntaxError: invalid syntax
@@ -929,10 +929,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/tst_read_mtrix_records_from_cif.py'...
-  File "iotbx/pdb/tst_read_mtrix_records_from_cif.py", line 12
-    print 'Running ',sys._getframe().f_code.co_name
-                   ^
-SyntaxError: invalid syntax
+  File "iotbx/pdb/tst_read_mtrix_records_from_cif.py", line 166
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/pdb/tst_rna_dna_atom_names.py'...
   File "iotbx/pdb/tst_rna_dna_atom_names.py", line 275
@@ -1007,9 +1007,9 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "file_type:", file_type)?
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_groups_preprocessing.py'...
-  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 65
-    print "phenix not available, skipping test_create_ncs_domain_pdb_files()"
-                                                                            ^
+  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 140
+    print "phenix not available, skipping test_spec_reading()"
+                                                             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_input.py'...
