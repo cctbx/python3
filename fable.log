@@ -1,5 +1,5 @@
 *** Error compiling 'fable/command_line/cout.py'...
-  File "fable/command_line/cout.py", line 101
+  File "fable/command_line/cout.py", line 100
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?

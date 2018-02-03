@@ -10,12 +10,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print li
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Applications/xia2merger.py'...
-  File "xia2/Applications/xia2merger.py", line 46
-    print 'COMPLETENESS %f' % m.resolution_completeness(
-                          ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Background/Background.py'...
   File "xia2/Background/Background.py", line 100
     print factor(j)
@@ -125,7 +119,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/XInfo.py'...
-  File "xia2/Handlers/XInfo.py", line 445
+  File "xia2/Handlers/XInfo.py", line 442
     print xi
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?
@@ -346,34 +340,10 @@ SyntaxError: invalid syntax
                                                                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Test/Modules/Indexer/TstMosflmIndexer.py'...
-  File "xia2/Test/Modules/Indexer/TstMosflmIndexer.py", line 19
-    print "Skipping exercise_mosflm_indexer(): dials_regression not configured"
-                                                                              ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Test/Modules/Refiner/TstDialsRefiner.py'...
   File "xia2/Test/Modules/Refiner/TstDialsRefiner.py", line 19
     print "Skipping exercise_dials_refiner(): xia2_regression not configured"
                                                                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Modules/Scaler/TstCCP4ScalerA.py'...
-  File "xia2/Test/Modules/Scaler/TstCCP4ScalerA.py", line 18
-    print "Skipping exercise_ccp4_scaler(): dials_regression not configured"
-                                                                           ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Modules/Scaler/TstXDSScalerA.py'...
-  File "xia2/Test/Modules/Scaler/TstXDSScalerA.py", line 18
-    print "Skipping exercise_xds_scaler(): dials_regression not configured"
-                                                                          ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Wrappers/Labelit/TstLabelitIndex.py'...
-  File "xia2/Test/Wrappers/Labelit/TstLabelitIndex.py", line 17
-    print "Skipping exercise_labelit_index(): dials_regression not configured"
-                                                                             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Test/Wrappers/Mosflm/TstMosflmIntegrate.py'...
@@ -467,7 +437,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%4d
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Wrappers/CCP4/Pointless.py'...
-  File "xia2/Wrappers/CCP4/Pointless.py", line 688
+  File "xia2/Wrappers/CCP4/Pointless.py", line 695
     print cell
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell)?
@@ -683,7 +653,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "T
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'other')?
 
 *** Error compiling 'xia2/command_line/html.py'...
-  File "xia2/command_line/html.py", line 103
+  File "xia2/command_line/html.py", line 104
     print "Xtriage output not available: %s" % str(e)
                                            ^
 SyntaxError: invalid syntax

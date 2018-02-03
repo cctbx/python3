@@ -1269,7 +1269,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1115
+  File "mmtbx/model/model.py", line 1113
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1495,16 +1495,16 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1550
+  File "mmtbx/ncs/ncs.py", line 1593
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs_restraints_group_list.py'...
-  File "mmtbx/ncs/ncs_restraints_group_list.py", line 295
-    print list(group.master_iselection)
-             ^
-SyntaxError: invalid syntax
+  File "mmtbx/ncs/ncs_restraints_group_list.py", line 332
+    print "debugging output of ncs_restraints_group_list"
+                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "debugging output of ncs_restraints_group_list")?
 
 *** Error compiling 'mmtbx/ncs/tncs.py'...
   File "mmtbx/ncs/tncs.py", line 38
@@ -1939,7 +1939,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 190
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 188
     print "start r_factor: %6.4f" % r_start
                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "start r_factor: %6.4f" % r_start)?

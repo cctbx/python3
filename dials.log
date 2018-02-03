@@ -77,7 +77,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int j, dx, dy, dz)?
 
 *** Error compiling 'dials/command_line/align_crystal.py'...
-  File "dials/command_line/align_crystal.py", line 250
+  File "dials/command_line/align_crystal.py", line 251
     print 'Independent solutions:'
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Independent solutions:')?
@@ -1149,12 +1149,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
     print 'Ok'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Ok')?
-
-*** Error compiling 'dials/test/command_line/test_cluster_unit_cell.py'...
-  File "dials/test/command_line/test_cluster_unit_cell.py", line 9
-    print "Skipping, no scipy"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping, no scipy")?
 
 *** Error compiling 'dials/test/command_line/tst_align_crystal.py'...
   File "dials/test/command_line/tst_align_crystal.py", line 11

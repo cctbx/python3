@@ -370,6 +370,12 @@ SyntaxError: invalid syntax
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'dxtbx/format/FormatHDF5SaclaMPCCD.py'...
+  File "dxtbx/format/FormatHDF5SaclaMPCCD.py", line 301
+    print FormatHDF5SaclaMPCCD.understand(sys.argv[1])
+                             ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'dxtbx/format/FormatHDFEigerNearlyNexus.py'...
   File "dxtbx/format/FormatHDFEigerNearlyNexus.py", line 396
     print f.get_raw_data(i)
