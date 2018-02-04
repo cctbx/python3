@@ -975,7 +975,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/hydrogens/tst_parameterization_7.py'...
-  File "mmtbx/hydrogens/tst_parameterization_7.py", line 254
+  File "mmtbx/hydrogens/tst_parameterization_7.py", line 354
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1501,7 +1501,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs_restraints_group_list.py'...
-  File "mmtbx/ncs/ncs_restraints_group_list.py", line 332
+  File "mmtbx/ncs/ncs_restraints_group_list.py", line 397
     print "debugging output of ncs_restraints_group_list"
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "debugging output of ncs_restraints_group_list")?

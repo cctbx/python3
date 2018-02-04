@@ -328,18 +328,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'xia2/Test/Modules/Indexer/TstLabelitIndexer.py'...
-  File "xia2/Test/Modules/Indexer/TstLabelitIndexer.py", line 17
-    print "Skipping exercise_labelit_indexer(): dials_regression not configured"
-                                                                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xia2/Test/Modules/Indexer/TstLabelitIndexerII.py'...
-  File "xia2/Test/Modules/Indexer/TstLabelitIndexerII.py", line 17
-    print "Skipping exercise_labelit_indexerii(): dials_regression not configured"
-                                                                                 ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Test/Modules/Refiner/TstDialsRefiner.py'...
   File "xia2/Test/Modules/Refiner/TstDialsRefiner.py", line 19
     print "Skipping exercise_dials_refiner(): xia2_regression not configured"
