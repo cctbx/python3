@@ -34,12 +34,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "*
                                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WARNING: Stills partiality is currently a placeholder")?
 
-*** Error compiling 'dials/algorithms/refinement/analysis/tst_vs_R.py'...
-  File "dials/algorithms/refinement/analysis/tst_vs_R.py", line 16
-    print "This script requires the rpy2 package to be installed."
-                                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "This script requires the rpy2 package to be installed.")?
-
 *** Error compiling 'dials/algorithms/refinement/outlier_detection/outlier_base.py'...
   File "dials/algorithms/refinement/outlier_detection/outlier_base.py", line 409
     print CentroidOutlierFactory.from_parameters_and_colnames(params, [1, 2, 3])
@@ -808,12 +802,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
 
-*** Error compiling 'dials/test/algorithms/refinement/tst_centroid_analysis.py'...
-  File "dials/test/algorithms/refinement/tst_centroid_analysis.py", line 29
-    print "Skipping test1 in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test1 in " + __file__ + " as dials_regression not present")?
-
 *** Error compiling 'dials/test/algorithms/refinement/tst_constraints.py'...
   File "dials/test/algorithms/refinement/tst_constraints.py", line 118
     print "OK"
@@ -1565,7 +1553,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Dumpi
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/util/options.py'...
-  File "dials/util/options.py", line 811
+  File "dials/util/options.py", line 814
     print self.phil.as_str(
              ^
 SyntaxError: invalid syntax

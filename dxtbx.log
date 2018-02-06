@@ -827,7 +827,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dxtbx/tests/model/tst_to_from_dict.py'...
-  File "dxtbx/tests/model/tst_to_from_dict.py", line 21
+  File "dxtbx/tests/model/tst_to_from_dict.py", line 23
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?

@@ -622,6 +622,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Sor
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "%s:" % scatterer.label, "%8.4f %8.4f %8.4f" % scatterer.site)?
 
+*** Error compiling 'iotbx/examples/libtbx_phil_examples.py'...
+  File "iotbx/examples/libtbx_phil_examples.py", line 45
+    print working_params.minimization.input.file_name
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t working_params.minimization.input.file_name)?
+
 *** Error compiling 'iotbx/examples/mtz_convert_free_to_work.py'...
   File "iotbx/examples/mtz_convert_free_to_work.py", line 10
     print "Reading file:", input_file_name
@@ -806,12 +812,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
   File "iotbx/mtz/tst_unmerged.py", line 19
     print "asu:%17s    orig:%17s    M/ISYM:%4d"%(h[idx],j[idx],misym.data[idx])
                                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'iotbx/ncs/__init__.py'...
-  File "iotbx/ncs/__init__.py", line 1675
-    raise IOError,'Phil selection strings are not unique !!!'
-                 ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/option_parser.py'...
@@ -1007,13 +1007,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "file_type:", file_type)?
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_groups_preprocessing.py'...
-  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 133
+  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 102
     print "phenix not available, skipping test_spec_reading()"
                                                              ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_input.py'...
-  File "iotbx/regression/ncs/tst_ncs_input.py", line 1613
+  File "iotbx/regression/ncs/tst_ncs_input.py", line 1589
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

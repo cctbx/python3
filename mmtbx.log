@@ -332,7 +332,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Loa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
 
 *** Error compiling 'mmtbx/command_line/map_model_cc.py'...
-  File "mmtbx/command_line/map_model_cc.py", line 156
+  File "mmtbx/command_line/map_model_cc.py", line 157
     print fmt%(r.chain_id, r.cc, r.b_iso_mean, r.occ_mean, r.n_atoms)
             ^
 SyntaxError: invalid syntax
@@ -1209,9 +1209,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 256
-    print prefix, ":", time.time()-t0
-               ^
+  File "mmtbx/maps/mtriage.py", line 236
+    print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
+                            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/maps/superpose.py'...
@@ -1501,7 +1501,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs_restraints_group_list.py'...
-  File "mmtbx/ncs/ncs_restraints_group_list.py", line 397
+  File "mmtbx/ncs/ncs_restraints_group_list.py", line 419
     print "debugging output of ncs_restraints_group_list"
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "debugging output of ncs_restraints_group_list")?
@@ -1951,7 +1951,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "sta
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py", line 188
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py", line 182
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax

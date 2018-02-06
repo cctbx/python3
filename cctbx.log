@@ -743,7 +743,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/__init__.py'...
-  File "cctbx/maptbx/__init__.py", line 1401
+  File "cctbx/maptbx/__init__.py", line 1415
     print "d_fsc_model:", d_fsc_model
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "d_fsc_model:", d_fsc_model)?
@@ -773,7 +773,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Norms:")?
 
 *** Error compiling 'cctbx/maptbx/resolution_from_map_and_model.py'...
-  File "cctbx/maptbx/resolution_from_map_and_model.py", line 145
+  File "cctbx/maptbx/resolution_from_map_and_model.py", line 143
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
@@ -833,10 +833,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/tst_resolution_from_map_and_model.py'...
-  File "cctbx/maptbx/tst_resolution_from_map_and_model.py", line 484
-    print b, d_min, "<>", b_result, result, "<>", cc
+  File "cctbx/maptbx/tst_resolution_from_map_and_model.py", line 480
+    print b, d_min, "<>", b_result, result, d_fsc_model
           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print b, d_min, "<>", b_result, result, "<>", cc)?
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print b, d_min, "<>", b_result, result, d_fsc_model)?
 
 *** Error compiling 'cctbx/masks/tests/tst_flood_fill.py'...
   File "cctbx/masks/tests/tst_flood_fill.py", line 71
