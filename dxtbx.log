@@ -149,7 +149,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'DET
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/filecache_controller.py'...
-  File "dxtbx/filecache_controller.py", line 70
+  File "dxtbx/filecache_controller.py", line 83
     print "Caching disabled for", tag
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Caching disabled for", tag)?
@@ -815,7 +815,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dxtbx/tests/model/tst_scan_data.py'...
-  File "dxtbx/tests/model/tst_scan_data.py", line 16
+  File "dxtbx/tests/model/tst_scan_data.py", line 14
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?

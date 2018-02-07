@@ -772,12 +772,6 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Norms:")?
 
-*** Error compiling 'cctbx/maptbx/resolution_from_map_and_model.py'...
-  File "cctbx/maptbx/resolution_from_map_and_model.py", line 143
-    except RuntimeError, e:
-                       ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'cctbx/maptbx/segment_and_split_map.py'...
   File "cctbx/maptbx/segment_and_split_map.py", line 3039
     except Exception,e:

@@ -1501,7 +1501,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs_restraints_group_list.py'...
-  File "mmtbx/ncs/ncs_restraints_group_list.py", line 419
+  File "mmtbx/ncs/ncs_restraints_group_list.py", line 422
     print "debugging output of ncs_restraints_group_list"
                                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "debugging output of ncs_restraints_group_list")?
@@ -1957,7 +1957,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_ncs_restraints_group_list.py'...
-  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 340
+  File "mmtbx/regression/ncs/tst_ncs_restraints_group_list.py", line 292
     print "OK. Time: %8.3f"%(time()-t0)
                           ^
 SyntaxError: invalid syntax
