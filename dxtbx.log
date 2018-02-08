@@ -605,9 +605,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVTimePix_SU.py'...
-  File "dxtbx/format/FormatSMVTimePix_SU.py", line 305
-    print FormatSMVTimePix_SU.understand(arg)
-                            ^
+  File "dxtbx/format/FormatSMVTimePix_SU.py", line 414
+    print "FormatSMVTimePix_SU:", FormatSMVTimePix_SU.understand(arg)
+                               ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatTIFFBruker.py'...

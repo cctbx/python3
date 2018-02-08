@@ -1,9 +1,3 @@
-*** Error compiling 'mmtbx/alignment.py'...
-  File "mmtbx/alignment.py", line 526
-    print "score=%.1f" % obj.score()
-                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/building/alternate_conformations/conformer_generation.py'...
   File "mmtbx/building/alternate_conformations/conformer_generation.py", line 243
     print "TODO set shear_rotate i_seqs automatically if not provided"
@@ -2086,6 +2080,12 @@ SyntaxError: invalid syntax
   File "mmtbx/regression/tst_adp_restraints.py", line 46
     print format_cpu_times()
                          ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/tst_alignment.py'...
+  File "mmtbx/regression/tst_alignment.py", line 65
+    print "score=%.1f" % obj.score()
+                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_altloc_chain_break.py'...
