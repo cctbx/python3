@@ -383,7 +383,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Readi
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x[j], y[j], m[j])?
 
 *** Error compiling 'xia2/Wrappers/CCP4/Aimless.py'...
-  File "xia2/Wrappers/CCP4/Aimless.py", line 872
+  File "xia2/Wrappers/CCP4/Aimless.py", line 839
     print 'The following loggraphs were found'
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'The following loggraphs were found')?

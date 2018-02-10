@@ -467,7 +467,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No Experiments found in the input")?
 
 *** Error compiling 'dials/command_line/spot_counts_per_image.py'...
-  File "dials/command_line/spot_counts_per_image.py", line 97
+  File "dials/command_line/spot_counts_per_image.py", line 98
     print table_utils.format(rows, has_header=True, prefix="| ", postfix=" |")
                     ^
 SyntaxError: invalid syntax

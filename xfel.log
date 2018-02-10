@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 358
+  File "xfel/command_line/cxi_merge.py", line 365
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -697,7 +697,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/algorithms/error_model/sdfac_propagate.py'...
-  File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 280
+  File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 321
     print "Showing finite differences and derivatives for each parameter (first few reflections only)"
                                                                                                      ^
 SyntaxError: invalid syntax
