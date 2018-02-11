@@ -1933,7 +1933,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 188
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 190
     print "start r_factor: %6.4f" % r_start
                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "start r_factor: %6.4f" % r_start)?
@@ -1957,7 +1957,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_ncs_search_flips.py'...
-  File "mmtbx/regression/ncs/tst_ncs_search_flips.py", line 577
+  File "mmtbx/regression/ncs/tst_ncs_search_flips.py", line 579
     print rmsd_smart
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_smart)?
@@ -2883,7 +2883,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "no help available")?
 
 *** Error compiling 'mmtbx/scaling/xtriage.py'...
-  File "mmtbx/scaling/xtriage.py", line 402
+  File "mmtbx/scaling/xtriage.py", line 408
     print """
 --------------------------------------------------------------------------------
 Usage: %(appl)s file_name=myfile.sca <options>
@@ -2899,10 +2899,12 @@ The program options are summarized below
    keys: * n_residues :: Number of residues per monomer/unit
          * n_bases :: Number of nucleotides per monomer/unit
          * n_copies_per_asu :: Number of copies in the ASU.
+         * n_sites :: Number of atoms in anomalous sub-structure
 
    These keywords control the determination of the absolute scale.
    If the number of residues/bases is not specified, a solvent content of 50%%
-   is assumed.
+   is assumed.  n_sites is used in analysis of probability of
+   finding the sub-structure
 
 
 2a.scope: xray_data
@@ -3007,10 +3009,12 @@ Example usage:
                                                             
                                                             
                                                            
+                                                                
 
                                                                   
                                                                               
-              
+                                                             
+                            
 
 
                    

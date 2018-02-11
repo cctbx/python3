@@ -743,7 +743,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/__init__.py'...
-  File "cctbx/maptbx/__init__.py", line 1415
+  File "cctbx/maptbx/__init__.py", line 1423
     print "d_fsc_model:", d_fsc_model
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "d_fsc_model:", d_fsc_model)?
@@ -755,7 +755,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "d_fsc
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/boost_python/tst_maptbx.py'...
-  File "cctbx/maptbx/boost_python/tst_maptbx.py", line 516
+  File "cctbx/maptbx/boost_python/tst_maptbx.py", line 520
     if (timing): print msg
                          ^
 SyntaxError: invalid syntax
@@ -805,6 +805,18 @@ SyntaxError: invalid syntax
 *** Error compiling 'cctbx/maptbx/tst_get_percentile_cutoffs.py'...
   File "cctbx/maptbx/tst_get_percentile_cutoffs.py", line 111
     print "Time: %6.4f" % (time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'cctbx/maptbx/tst_interpolation.py'...
+  File "cctbx/maptbx/tst_interpolation.py", line 93
+    print fmt%(O.step[0], tl,gxl,gyl,gzl, tq,gxq,gyq,gzq, tt,gxt,gyt,gzt)
+            ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'cctbx/maptbx/tst_interpolation_2.py'...
+  File "cctbx/maptbx/tst_interpolation_2.py", line 88
+    print "Time: %6.2f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
 

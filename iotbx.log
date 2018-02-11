@@ -1007,7 +1007,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "file_type:", file_type)?
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_groups_preprocessing.py'...
-  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 102
+  File "iotbx/regression/ncs/tst_ncs_groups_preprocessing.py", line 106
     print "phenix not available, skipping test_spec_reading()"
                                                              ^
 SyntaxError: invalid syntax
@@ -1019,7 +1019,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t str_sel)?
 
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_user_selections.py'...
-  File "iotbx/regression/ncs/tst_ncs_user_selections.py", line 1223
+  File "iotbx/regression/ncs/tst_ncs_user_selections.py", line 1229
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
