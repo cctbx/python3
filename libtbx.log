@@ -35,7 +35,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "ERR
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Creating windows installer in", options.outdir)?
 
 *** Error compiling 'libtbx/auto_build/install_base_packages.py'...
-  File "libtbx/auto_build/install_base_packages.py", line 416
+  File "libtbx/auto_build/install_base_packages.py", line 422
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
