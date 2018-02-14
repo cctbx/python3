@@ -1263,7 +1263,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1113
+  File "mmtbx/model/model.py", line 1120
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3385,7 +3385,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 411
+  File "mmtbx/validation/molprobity/__init__.py", line 422
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

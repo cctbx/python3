@@ -815,7 +815,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/tst_interpolation_2.py'...
-  File "cctbx/maptbx/tst_interpolation_2.py", line 88
+  File "cctbx/maptbx/tst_interpolation_2.py", line 91
     print "Time: %6.2f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
