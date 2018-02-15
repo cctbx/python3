@@ -1,0 +1,18 @@
+*** Error compiling 'dials_research/command_line/magic_filter.py'...
+  File "dials_research/command_line/magic_filter.py", line 20
+    print len(reflections)
+            ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'dials_research/command_line/multi_index.py'...
+  File "dials_research/command_line/multi_index.py", line 126
+    except Sorry, e:
+                ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'dials_research/cosym/coset.py'...
+  File "dials_research/cosym/coset.py", line 10
+    print t_op
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int t_op)?
+

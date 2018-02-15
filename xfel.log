@@ -697,7 +697,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/algorithms/error_model/sdfac_propagate.py'...
-  File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 321
+  File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 320
     print "Showing finite differences and derivatives for each parameter (first few reflections only)"
                                                                                                      ^
 SyntaxError: invalid syntax
