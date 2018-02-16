@@ -233,7 +233,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Wrote
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/command_line/find_spots_server.py'...
-  File "dials/command_line/find_spots_server.py", line 282
+  File "dials/command_line/find_spots_server.py", line 288
     print time.asctime(), 'Serving %d processes on port %d' % (nproc, port)
              ^
 SyntaxError: invalid syntax

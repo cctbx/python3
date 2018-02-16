@@ -154,12 +154,6 @@ SyntaxError: invalid syntax
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Caching disabled for", tag)?
 
-*** Error compiling 'dxtbx/format/Format.py'...
-  File "dxtbx/format/Format.py", line 270
-    print "Overload detectorbase_start"
-                                      ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Overload detectorbase_start")?
-
 *** Error compiling 'dxtbx/format/FormatBruker.py'...
   File "dxtbx/format/FormatBruker.py", line 138
     print FormatBruker.understand(arg)
@@ -713,7 +707,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/nexus.py'...
-  File "dxtbx/format/nexus.py", line 872
+  File "dxtbx/format/nexus.py", line 865
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "")?
