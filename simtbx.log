@@ -1,8 +1,8 @@
 *** Error compiling 'simtbx/nanoBragg/brunger_example/run_example.py'...
-  File "simtbx/nanoBragg/brunger_example/run_example.py", line 67
-    print SIM.Fbg_vs_stol[1]
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.Fbg_vs_stol[1])?
+  File "simtbx/nanoBragg/brunger_example/run_example.py", line 16
+    print "SPEEDING UP! "
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "SPEEDING UP! ")?
 
 *** Error compiling 'simtbx/nanoBragg/nanoBragg_gui_frames.py'...
   File "simtbx/nanoBragg/nanoBragg_gui_frames.py", line 259
