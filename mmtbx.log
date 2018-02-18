@@ -469,12 +469,6 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
-*** Error compiling 'mmtbx/command_line/secondary_structure_validation.py'...
-  File "mmtbx/command_line/secondary_structure_validation.py", line 56
-    print help_msg
-                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
-
 *** Error compiling 'mmtbx/command_line/show_suspicious_residues.py'...
   File "mmtbx/command_line/show_suspicious_residues.py", line 86
     print "Wrote maps to %s" % map_file
@@ -1263,7 +1257,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1124
+  File "mmtbx/model/model.py", line 1131
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
