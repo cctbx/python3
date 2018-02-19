@@ -525,7 +525,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/easy_run.py'...
-  File "libtbx/easy_run.py", line 229
+  File "libtbx/easy_run.py", line 219
     if (verbose): print result.stdout_lines
                              ^
 SyntaxError: invalid syntax
