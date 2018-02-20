@@ -14,7 +14,7 @@ dials | :red_circle:&nbsp; [273 files](dials.log) violate python3 syntax
 dials_research | :red_circle:&nbsp; [3 files](dials_research.log) violate python3 syntax
 dlstbx | :white_check_mark:&nbsp; all OK
 dxtbx | :red_circle:&nbsp; [153 files](dxtbx.log) violate python3 syntax
-fable | :red_circle:&nbsp; [19 files](fable.log) violate python3 syntax
+fable | :red_circle:&nbsp; [18 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [13 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK
 iota | :red_circle:&nbsp; [17 files](iota.log) violate python3 syntax

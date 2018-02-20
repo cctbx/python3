@@ -1,5 +1,5 @@
 *** Error compiling 'fable/command_line/cout.py'...
-  File "fable/command_line/cout.py", line 100
+  File "fable/command_line/cout.py", line 98
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
@@ -23,7 +23,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "W
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "FAILING:", file_name)?
 
 *** Error compiling 'fable/command_line/show_calls.py'...
-  File "fable/command_line/show_calls.py", line 22
+  File "fable/command_line/show_calls.py", line 20
     print "Dependency cycles:", len(dep_cycles)
                              ^
 SyntaxError: invalid syntax
@@ -59,16 +59,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cm
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
 
 *** Error compiling 'fable/test/tst_command_line.py'...
-  File "fable/test/tst_command_line.py", line 42
+  File "fable/test/tst_command_line.py", line 40
     print command
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int command)?
-
-*** Error compiling 'fable/test/tst_io.py'...
-  File "fable/test/tst_io.py", line 20
-    if (opts.verbose): print cmd
-                               ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'fable/test/tst_separate_files.py'...
   File "fable/test/tst_separate_files.py", line 18

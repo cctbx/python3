@@ -1197,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 236
+  File "mmtbx/maps/mtriage.py", line 240
     print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
                             ^
 SyntaxError: invalid syntax
