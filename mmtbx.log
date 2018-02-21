@@ -326,7 +326,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Loa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
 
 *** Error compiling 'mmtbx/command_line/map_model_cc.py'...
-  File "mmtbx/command_line/map_model_cc.py", line 157
+  File "mmtbx/command_line/map_model_cc.py", line 187
     print fmt%(r.chain_id, r.cc, r.b_iso_mean, r.occ_mean, r.n_atoms)
             ^
 SyntaxError: invalid syntax
@@ -392,7 +392,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/command_line/pdb_atom_selection.py'...
-  File "mmtbx/command_line/pdb_atom_selection.py", line 46
+  File "mmtbx/command_line/pdb_atom_selection.py", line 47
     print selection_string
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int selection_string)?
@@ -1197,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 240
+  File "mmtbx/maps/mtriage.py", line 108
     print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
                             ^
 SyntaxError: invalid syntax
@@ -1257,7 +1257,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1131
+  File "mmtbx/model/model.py", line 1157
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax

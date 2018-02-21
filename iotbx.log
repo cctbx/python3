@@ -850,12 +850,6 @@ SyntaxError: invalid syntax
                                      ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iotbx/pdb/misc_records_output.py'...
-  File "iotbx/pdb/misc_records_output.py", line 22
-    print 'none identity %s sym. op. not written' % key
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'none identity %s sym. op. not written' % key)?
-
 *** Error compiling 'iotbx/pdb/mmcif.py'...
   File "iotbx/pdb/mmcif.py", line 83
     except ValueError, e:
