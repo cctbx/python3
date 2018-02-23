@@ -391,12 +391,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'mmtbx/command_line/pdb_atom_selection.py'...
-  File "mmtbx/command_line/pdb_atom_selection.py", line 47
-    print selection_string
-                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int selection_string)?
-
 *** Error compiling 'mmtbx/command_line/pdb_interpretation.py'...
   File "mmtbx/command_line/pdb_interpretation.py", line 50
     print "Processing CIF file: %s" % show_string(file_name)

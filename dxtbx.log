@@ -707,7 +707,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/nexus.py'...
-  File "dxtbx/format/nexus.py", line 865
+  File "dxtbx/format/nexus.py", line 861
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "")?
@@ -911,7 +911,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'SKIP: dials_regression not configured')?
 
 *** Error compiling 'dxtbx/tests/tst_imageset.py'...
-  File "dxtbx/tests/tst_imageset.py", line 93
+  File "dxtbx/tests/tst_imageset.py", line 91
     print image
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print image)?
