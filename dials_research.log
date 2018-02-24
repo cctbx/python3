@@ -1,3 +1,9 @@
+*** Error compiling 'dials_research/command_line/filter_spots_per_image.py'...
+  File "dials_research/command_line/filter_spots_per_image.py", line 30
+    print len(image_no), to_filter
+            ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'dials_research/command_line/magic_filter.py'...
   File "dials_research/command_line/magic_filter.py", line 20
     print len(reflections)

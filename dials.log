@@ -335,7 +335,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "I
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-' * 80)?
 
 *** Error compiling 'dials/command_line/reciprocal_lattice_viewer.py'...
-  File "dials/command_line/reciprocal_lattice_viewer.py", line 714
+  File "dials/command_line/reciprocal_lattice_viewer.py", line 715
     def draw_cross_at(self, (x,y,z), color=(1,1,1), f=None):
                             ^
 SyntaxError: invalid syntax
@@ -359,7 +359,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/command_line/report.py'...
-  File "dials/command_line/report.py", line 113
+  File "dials/command_line/report.py", line 114
     print " Skipping: following required fields not present:"
                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int " Skipping: following required fields not present:")?
@@ -407,7 +407,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Writing json output to %s' %params.output.json)?
 
 *** Error compiling 'dials/command_line/show.py'...
-  File "dials/command_line/show.py", line 142
+  File "dials/command_line/show.py", line 144
     print show_experiments(
                          ^
 SyntaxError: invalid syntax

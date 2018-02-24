@@ -419,13 +419,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSER.py'...
-  File "dxtbx/format/FormatSER.py", line 177
+  File "dxtbx/format/FormatSER.py", line 191
     print FormatSER.understand(arg)
                   ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSEReBIC.py'...
-  File "dxtbx/format/FormatSEReBIC.py", line 93
+  File "dxtbx/format/FormatSEReBIC.py", line 99
     print FormatSEReBIC.understand(arg)
                       ^
 SyntaxError: invalid syntax
@@ -719,7 +719,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ""
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
 
 *** Error compiling 'dxtbx/model/detector.py'...
-  File "dxtbx/model/detector.py", line 504
+  File "dxtbx/model/detector.py", line 508
     print e
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?
