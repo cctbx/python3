@@ -1933,7 +1933,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "sta
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py", line 182
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints_real_space.py", line 162
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
