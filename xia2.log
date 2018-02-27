@@ -707,7 +707,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "E
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Error: xia2.to_shelx must be run on unmerged data.")?
 
 *** Error compiling 'xia2/command_line/xia2_main.py'...
-  File "xia2/command_line/xia2_main.py", line 294
+  File "xia2/command_line/xia2_main.py", line 295
     print xia2.XIA2Version.Version
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int xia2.XIA2Version.Version)?

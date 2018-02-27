@@ -407,7 +407,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Writing json output to %s' %params.output.json)?
 
 *** Error compiling 'dials/command_line/show.py'...
-  File "dials/command_line/show.py", line 144
+  File "dials/command_line/show.py", line 142
     print show_experiments(
                          ^
 SyntaxError: invalid syntax
@@ -1353,12 +1353,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dials/test/tst_libtbx_import.py'...
-  File "dials/test/tst_libtbx_import.py", line 9
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dials/test/tst_phil.py'...
   File "dials/test/tst_phil.py", line 54

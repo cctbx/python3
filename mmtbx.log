@@ -3438,6 +3438,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phe
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
+*** Error compiling 'mmtbx/validation/regression/tst_molprobity_4.py'...
+  File "mmtbx/validation/regression/tst_molprobity_4.py", line 46
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'mmtbx/validation/regression/tst_molprobity_arguments.py'...
   File "mmtbx/validation/regression/tst_molprobity_arguments.py", line 27
     print line
