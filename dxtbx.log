@@ -106,12 +106,6 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dxtbx/command_line/show_matching_formats.py'...
-  File "dxtbx/command_line/show_matching_formats.py", line 6
-    print _fmt.__name__, _fmt.understand(arg)
-             ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/command_line/to_ewald_sphere.py'...
   File "dxtbx/command_line/to_ewald_sphere.py", line 20
     print '%f %f %f %d' % (x[0], x[1], x[2], i)
