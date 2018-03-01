@@ -912,6 +912,12 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'xfel/ui/command_line/plot_run_stats_in_gui.py'...
+  File "xfel/ui/command_line/plot_run_stats_in_gui.py", line 12
+    print plot_run_stats(stats_tuple, d_min, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
+                       ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/ui/command_line/plot_uc_cloud.py'...
   File "xfel/ui/command_line/plot_uc_cloud.py", line 33
     except Exception, e:
