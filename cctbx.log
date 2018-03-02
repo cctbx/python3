@@ -772,6 +772,12 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Norms:")?
 
+*** Error compiling 'cctbx/maptbx/resolution_from_map_and_model.py'...
+  File "cctbx/maptbx/resolution_from_map_and_model.py", line 56
+    print "%5d %10.6f %10.6f"%(i_bin, dm,  math.log(m))
+                            ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'cctbx/maptbx/segment_and_split_map.py'...
   File "cctbx/maptbx/segment_and_split_map.py", line 3039
     except Exception,e:

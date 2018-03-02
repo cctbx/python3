@@ -837,7 +837,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
 
 *** Error compiling 'libtbx/test_utils/parallel.py'...
-  File "libtbx/test_utils/parallel.py", line 478
+  File "libtbx/test_utils/parallel.py", line 482
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
