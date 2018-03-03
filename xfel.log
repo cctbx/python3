@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 365
+  File "xfel/command_line/cxi_merge.py", line 368
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -700,6 +700,12 @@ SyntaxError: invalid syntax
   File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 314
     print "Showing finite differences and derivatives for each parameter (first few reflections only)"
                                                                                                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/merging/algorithms/error_model/sdfac_refine_lbfgs.py'...
+  File "xfel/merging/algorithms/error_model/sdfac_refine_lbfgs.py", line 62
+    print self.modeler.normal_probability_plot(all_sigmas_normalized, (-0.5, 0.5), plot = True)
+             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...

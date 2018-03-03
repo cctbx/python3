@@ -1,14 +1,8 @@
 *** Error compiling 'fable/command_line/cout.py'...
-  File "fable/command_line/cout.py", line 98
+  File "fable/command_line/cout.py", line 97
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
-
-*** Error compiling 'fable/command_line/fem_include_search_paths.py'...
-  File "fable/command_line/fem_include_search_paths.py", line 9
-    print comp_env.assemble_include_search_paths(
-                 ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'fable/command_line/insert_write_at_start_of_each_procedure.py'...
   File "fable/command_line/insert_write_at_start_of_each_procedure.py", line 17
@@ -17,7 +11,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "WARNING: no executable statements in %s" % fproc.name.value)?
 
 *** Error compiling 'fable/command_line/read.py'...
-  File "fable/command_line/read.py", line 11
+  File "fable/command_line/read.py", line 15
     print "FAILING:", file_name
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "FAILING:", file_name)?
@@ -57,24 +51,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cm
     print build_cmd
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
-
-*** Error compiling 'fable/test/tst_command_line.py'...
-  File "fable/test/tst_command_line.py", line 40
-    print command
-                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int command)?
-
-*** Error compiling 'fable/test/tst_separate_files.py'...
-  File "fable/test/tst_separate_files.py", line 18
-    if (verbose): print "next exercise"
-                                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'fable/test/tst_show_calls.py'...
-  File "fable/test/tst_show_calls.py", line 20
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'fable/tst_cout.py'...
   File "fable/tst_cout.py", line 31

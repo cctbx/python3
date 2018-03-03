@@ -95,7 +95,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t args)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Strange input to starting conformations!!!")?
 
 *** Error compiling 'mmtbx/building/loop_idealization.py'...
-  File "mmtbx/building/loop_idealization.py", line 132
+  File "mmtbx/building/loop_idealization.py", line 137
     print "n_bad_omegas", n_bad_omegas
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "n_bad_omegas", n_bad_omegas)?
@@ -308,7 +308,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Minimization:", xxx.f)?
 
 *** Error compiling 'mmtbx/command_line/fix_rotamer_outliers.py'...
-  File "mmtbx/command_line/fix_rotamer_outliers.py", line 43
+  File "mmtbx/command_line/fix_rotamer_outliers.py", line 44
     print help_msg
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
@@ -356,7 +356,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 852
+  File "mmtbx/command_line/model_idealization.py", line 861
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -1609,7 +1609,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/fit_residues.py'...
-  File "mmtbx/refinement/real_space/fit_residues.py", line 154
+  File "mmtbx/refinement/real_space/fit_residues.py", line 176
     print r.residue.resseq, i_res
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print r.residue.resseq, i_res)?
@@ -3101,7 +3101,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/__init__.py'...
-  File "mmtbx/secondary_structure/build/__init__.py", line 140
+  File "mmtbx/secondary_structure/build/__init__.py", line 143
     print "min, max, mean, sd hbond lenghts", hbondlen.min_max_mean().as_tuple(),\
                                            ^
 SyntaxError: invalid syntax
