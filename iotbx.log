@@ -173,7 +173,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/command_line/cif_as_pdb.py'...
-  File "iotbx/command_line/cif_as_pdb.py", line 12
+  File "iotbx/command_line/cif_as_pdb.py", line 14
     print "Converting %s to PDB format." %file_name
                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Converting %s to PDB format." %file_name)?

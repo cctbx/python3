@@ -71,7 +71,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Usa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.plotstats to view different stats along post-refinement cycles.')?
 
 *** Error compiling 'prime/command_line/postrefine.py'...
-  File "prime/command_line/postrefine.py", line 90
+  File "prime/command_line/postrefine.py", line 103
     print txt_merge_mean_table
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_merge_mean_table)?
@@ -131,7 +131,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'E
 SyntaxError: invalid syntax
 
 *** Error compiling 'prime/postrefine/mod_input.py'...
-  File "prime/postrefine/mod_input.py", line 399
+  File "prime/postrefine/mod_input.py", line 402
     print txt_help
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?

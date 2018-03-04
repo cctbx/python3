@@ -356,7 +356,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 861
+  File "mmtbx/command_line/model_idealization.py", line 858
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -1017,7 +1017,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 920
+  File "mmtbx/hydrogens/tst_validate_H.py", line 952
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1609,7 +1609,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/fit_residues.py'...
-  File "mmtbx/refinement/real_space/fit_residues.py", line 176
+  File "mmtbx/refinement/real_space/fit_residues.py", line 160
     print r.residue.resseq, i_res
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print r.residue.resseq, i_res)?
@@ -3113,7 +3113,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/tst_2.py'...
-  File "mmtbx/secondary_structure/build/tst_2.py", line 1080
+  File "mmtbx/secondary_structure/build/tst_2.py", line 1079
     print "minmaxmean sd", dmmm, abs(d2-d1).standard_deviation_of_the_sample()
                         ^
 SyntaxError: invalid syntax
@@ -3373,7 +3373,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 422
+  File "mmtbx/validation/molprobity/__init__.py", line 442
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
