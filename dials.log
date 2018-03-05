@@ -293,7 +293,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/command_line/merge_cbf.py'...
-  File "dials/command_line/merge_cbf.py", line 139
+  File "dials/command_line/merge_cbf.py", line 180
     print '%s written' % out_image
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '%s written' % out_image)?

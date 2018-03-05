@@ -519,7 +519,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "sta
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/easy_mp.py'...
-  File "libtbx/easy_mp.py", line 152
+  File "libtbx/easy_mp.py", line 156
     print "CAUGHT EXCEPTION: (argument #%d)" % index
                                            ^
 SyntaxError: invalid syntax
