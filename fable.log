@@ -52,33 +52,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cm
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
 
-*** Error compiling 'fable/tst_cout.py'...
-  File "fable/tst_cout.py", line 31
-    print "exercise_simple:", file_name
-                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "exercise_simple:", file_name)?
-
-*** Error compiling 'fable/tst_cout_compile.py'...
-  File "fable/tst_cout_compile.py", line 59
+*** Error compiling 'fable/test/test_cout_compile.py'...
+  File "fable/test/test_cout_compile.py", line 59
     print "Unexpected output:"
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Unexpected output:")?
-
-*** Error compiling 'fable/tst_equivalence.py'...
-  File "fable/tst_equivalence.py", line 80
-    except RuntimeError, e:
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'fable/tst_ext.py'...
-  File "fable/tst_ext.py", line 7
-    except TypeError, e: pass
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'fable/tst_read.py'...
-  File "fable/tst_read.py", line 60
-    except Error, e:
-                ^
-SyntaxError: invalid syntax
 
