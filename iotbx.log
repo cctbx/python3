@@ -245,7 +245,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Out
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/command_line/flip_symmetric_amino_acids.py'...
-  File "iotbx/command_line/flip_symmetric_amino_acids.py", line 39
+  File "iotbx/command_line/flip_symmetric_amino_acids.py", line 41
     print info
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t info)?
@@ -1115,7 +1115,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not available, skipping")?
 
 *** Error compiling 'iotbx/regression/tst_pdb_as_cif.py'...
-  File "iotbx/regression/tst_pdb_as_cif.py", line 95
+  File "iotbx/regression/tst_pdb_as_cif.py", line 94
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -1229,10 +1229,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/regression/tst_xray_scale.py'...
-  File "iotbx/regression/tst_xray_scale.py", line 100
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+  File "iotbx/regression/tst_xray_scale.py", line 91
+    print xrs_cif.sites_cart()[0], xrs_pdb.sites_cart()[0]
+                ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/scalepack/merge.py'...
   File "iotbx/scalepack/merge.py", line 31

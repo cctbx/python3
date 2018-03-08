@@ -573,7 +573,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'libtbx/phil/__init__.py'...
-  File "libtbx/phil/__init__.py", line 726
+  File "libtbx/phil/__init__.py", line 740
     except python_tokenize.TokenError, e:
                                      ^
 SyntaxError: invalid syntax
