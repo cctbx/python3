@@ -266,7 +266,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-'*80
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\nPeptide triplet class : %s" % working_params.cdl_lookup.residue_group_class)?
 
 *** Error compiling 'mmtbx/command_line/cif_as_mtz.py'...
-  File "mmtbx/command_line/cif_as_mtz.py", line 101
+  File "mmtbx/command_line/cif_as_mtz.py", line 102
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

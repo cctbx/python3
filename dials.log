@@ -1439,7 +1439,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "R
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing mask to %s" % self.params.output.mask)?
 
 *** Error compiling 'dials/util/image_viewer/spotfinder_frame.py'...
-  File "dials/util/image_viewer/spotfinder_frame.py", line 940
+  File "dials/util/image_viewer/spotfinder_frame.py", line 995
     print "Circles: center of foreground masks for the %d spots actually integrated"%(len(vertices)//5)
                                                                                    ^
 SyntaxError: invalid syntax
