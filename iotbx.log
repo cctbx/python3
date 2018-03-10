@@ -1229,10 +1229,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/regression/tst_xray_scale.py'...
-  File "iotbx/regression/tst_xray_scale.py", line 91
-    print xrs_cif.sites_cart()[0], xrs_pdb.sites_cart()[0]
-                ^
-SyntaxError: invalid syntax
+  File "iotbx/regression/tst_xray_scale.py", line 92
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/scalepack/merge.py'...
   File "iotbx/scalepack/merge.py", line 31

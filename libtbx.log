@@ -5,7 +5,7 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'libtbx/auto_build/bootstrap.py'...
-  File "libtbx/auto_build/bootstrap.py", line 75
+  File "libtbx/auto_build/bootstrap.py", line 73
     tarinfo.mode = 0700
                       ^
 SyntaxError: invalid token
