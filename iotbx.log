@@ -1012,6 +1012,12 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t str_sel)?
 
+*** Error compiling 'iotbx/regression/ncs/tst_ncs_search_broken_chain.py'...
+  File "iotbx/regression/ncs/tst_ncs_search_broken_chain.py", line 290
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'iotbx/regression/ncs/tst_ncs_user_selections.py'...
   File "iotbx/regression/ncs/tst_ncs_user_selections.py", line 1229
     print "Time: %6.4f"%(time.time()-t0)

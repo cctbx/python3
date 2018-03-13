@@ -5,67 +5,67 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'libtbx/auto_build/bootstrap.py'...
-  File "libtbx/auto_build/bootstrap.py", line 73
+  File "libtbx/auto_build/bootstrap.py", line 77
     tarinfo.mode = 0700
                       ^
 SyntaxError: invalid token
 
 *** Error compiling 'libtbx/auto_build/create_cctbx_bundle_for_installer.py'...
-  File "libtbx/auto_build/create_cctbx_bundle_for_installer.py", line 40
+  File "libtbx/auto_build/create_cctbx_bundle_for_installer.py", line 42
     print "Using '%s' as repository directory" % repositories
                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Using '%s' as repository directory" % repositories)?
 
 *** Error compiling 'libtbx/auto_build/create_installer.py'...
-  File "libtbx/auto_build/create_installer.py", line 76
+  File "libtbx/auto_build/create_installer.py", line 78
     print "Directory already exists: %s"%path
                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Directory already exists: %s"%path)?
 
 *** Error compiling 'libtbx/auto_build/create_mac_pkg.py'...
-  File "libtbx/auto_build/create_mac_pkg.py", line 22
+  File "libtbx/auto_build/create_mac_pkg.py", line 25
     print "ERROR: this program can only be run on Macintosh systems."
                                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "ERROR: this program can only be run on Macintosh systems.")?
 
 *** Error compiling 'libtbx/auto_build/create_windows_installer.py'...
-  File "libtbx/auto_build/create_windows_installer.py", line 73
+  File "libtbx/auto_build/create_windows_installer.py", line 78
     print "Creating windows installer in", options.outdir
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Creating windows installer in", options.outdir)?
 
 *** Error compiling 'libtbx/auto_build/install_base_packages.py'...
-  File "libtbx/auto_build/install_base_packages.py", line 422
+  File "libtbx/auto_build/install_base_packages.py", line 426
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/auto_build/install_distribution.py'...
-  File "libtbx/auto_build/install_distribution.py", line 375
+  File "libtbx/auto_build/install_distribution.py", line 376
     print self.build_dir
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.build_dir)?
 
 *** Error compiling 'libtbx/auto_build/installer_utils.py'...
-  File "libtbx/auto_build/installer_utils.py", line 18
-    print '\nChecking python version of %s' % sys.executable
-                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '\nChecking python version of %s' % sys.executable)?
+  File "libtbx/auto_build/installer_utils.py", line 46
+    print ": " + line.strip()
+             ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/auto_build/make_bundle.py'...
-  File "libtbx/auto_build/make_bundle.py", line 32
+  File "libtbx/auto_build/make_bundle.py", line 33
     print libtbx_path
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t libtbx_path)?
 
 *** Error compiling 'libtbx/auto_build/rpath.py'...
-  File "libtbx/auto_build/rpath.py", line 49
+  File "libtbx/auto_build/rpath.py", line 50
     print "Running:",
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Running:", end=" ")?
 
 *** Error compiling 'libtbx/auto_build/setup_installer.py'...
-  File "libtbx/auto_build/setup_installer.py", line 79
+  File "libtbx/auto_build/setup_installer.py", line 80
     print "Installer will be %s" % installer_dir
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Installer will be %s" % installer_dir)?

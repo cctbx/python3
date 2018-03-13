@@ -1492,12 +1492,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
                   ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials/util/procrunner.py'...
-  File "dials/util/procrunner.py", line 32
-    print to_print
-                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print to_print)?
-
 *** Error compiling 'dials/util/pycbf_extra.py'...
   File "dials/util/pycbf_extra.py", line 37
     print "Category:", i, category_name

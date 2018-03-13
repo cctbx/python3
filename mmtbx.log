@@ -1251,7 +1251,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1160
+  File "mmtbx/model/model.py", line 1164
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1321,7 +1321,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/linking_setup.py'...
-  File "mmtbx/monomer_library/linking_setup.py", line 147
+  File "mmtbx/monomer_library/linking_setup.py", line 151
     print skip_if_both
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_if_both)?
