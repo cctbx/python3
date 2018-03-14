@@ -1048,6 +1048,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phe
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Testing guess_chain_types ...", end=" ")?
 
+*** Error compiling 'iotbx/regression/tst_box_around_molecule.py'...
+  File "iotbx/regression/tst_box_around_molecule.py", line 28
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'iotbx/regression/tst_crystal_symmetry_from_any.py'...
   File "iotbx/regression/tst_crystal_symmetry_from_any.py", line 52
     print "OK"
