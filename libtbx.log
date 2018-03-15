@@ -46,12 +46,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.build_dir)?
 
-*** Error compiling 'libtbx/auto_build/installer_utils.py'...
-  File "libtbx/auto_build/installer_utils.py", line 46
-    print ": " + line.strip()
-             ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/auto_build/make_bundle.py'...
   File "libtbx/auto_build/make_bundle.py", line 33
     print libtbx_path

@@ -40,20 +40,8 @@ SyntaxError: invalid syntax
             ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'mmtbx/building/alternate_conformations/tst_backrub_density.py'...
-  File "mmtbx/building/alternate_conformations/tst_backrub_density.py", line 100
-    print len(confs)
-            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/building/alternate_conformations/tst_partial_omit_map.py'...
   File "mmtbx/building/alternate_conformations/tst_partial_omit_map.py", line 21
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/building/alternate_conformations/tst_shear_backrub_density.py'...
-  File "mmtbx/building/alternate_conformations/tst_shear_backrub_density.py", line 175
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -63,12 +51,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/building/alternate_conformations/tst_sliding_window.py'...
-  File "mmtbx/building/alternate_conformations/tst_sliding_window.py", line 95
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'mmtbx/building/loop_closure/berkeley_ramalyze.py'...
   File "mmtbx/building/loop_closure/berkeley_ramalyze.py", line 13
@@ -312,12 +294,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
     print help_msg
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
-
-*** Error compiling 'mmtbx/command_line/interpolate.py'...
-  File "mmtbx/command_line/interpolate.py", line 85
-    print "Loading CIF file %s" % cif_file
-                              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Loading CIF file %s" % cif_file)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
   File "mmtbx/command_line/map_box.py", line 116
@@ -614,7 +590,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/conformation_dependent_library/test_omega_cdl.py'...
-  File "mmtbx/conformation_dependent_library/test_omega_cdl.py", line 102
+  File "mmtbx/conformation_dependent_library/test_omega_cdl.py", line 112
     print key, filenames[filename][1]
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int key, filenames[filename][1])?
@@ -842,6 +818,18 @@ The mock model is supposed to be in the same unit cell/spacegroup (this is enfor
     ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/examples/tardy_eval.py'...
+  File "mmtbx/examples/tardy_eval.py", line 15
+    print "Skipping generation of plots: reportlab not available."
+                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Skipping generation of plots: reportlab not available.")?
+
+*** Error compiling 'mmtbx/examples/tardy_pdb.py'...
+  File "mmtbx/examples/tardy_pdb.py", line 76
+    print "geo_energies:"
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "geo_energies:")?
+
 *** Error compiling 'mmtbx/geometry/topology.py'...
   File "mmtbx/geometry/topology.py", line 136
     raise ValueError, "Unknown atom: %s" % atom
@@ -1017,7 +1005,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 952
+  File "mmtbx/hydrogens/tst_validate_H.py", line 999
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1051,12 +1039,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "C
     print "Could not load SVM classifier"
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Could not load SVM classifier")?
-
-*** Error compiling 'mmtbx/ions/svm/tst_dump_sites.py'...
-  File "mmtbx/ions/svm/tst_dump_sites.py", line 42
-    print "Error: chem_env.{} is not set".format(name)
-                                        ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ions/svm/tst_vector.py'...
   File "mmtbx/ions/svm/tst_vector.py", line 78
@@ -1138,12 +1120,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/ions/tst_validate_mg.py'...
   File "mmtbx/ions/tst_validate_mg.py", line 24
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/ions/tst_validate_zn.py'...
-  File "mmtbx/ions/tst_validate_zn.py", line 25
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -1243,12 +1219,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print format_cpu_times()
                          ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/max_lik/tst_maxlik_comprehensive.py'...
-  File "mmtbx/max_lik/tst_maxlik_comprehensive.py", line 19
-    print ">>> FRACTION MISSING = ", fraction_missing
-                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(nt ">>> FRACTION MISSING = ", fraction_missing)?
 
 *** Error compiling 'mmtbx/model/model.py'...
   File "mmtbx/model/model.py", line 1166
@@ -1367,12 +1337,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/monomer_library/tst_conformation_dependent_restraints.py'...
-  File "mmtbx/monomer_library/tst_conformation_dependent_restraints.py", line 179
-    print 'Starting cycle', x
-                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Starting cycle', x)?
 
 *** Error compiling 'mmtbx/monomer_library/tst_correct_hydrogens.py'...
   File "mmtbx/monomer_library/tst_correct_hydrogens.py", line 46
@@ -1746,6 +1710,12 @@ SyntaxError: invalid syntax
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int d_min, "-"*69)?
 
+*** Error compiling 'mmtbx/refinement/tardy_comprehensive_test_helper.py'...
+  File "mmtbx/refinement/tardy_comprehensive_test_helper.py", line 15
+    print ">Begin exception"
+                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t ">Begin exception")?
+
 *** Error compiling 'mmtbx/refinement/tst_fit_rotamers.py'...
   File "mmtbx/refinement/tst_fit_rotamers.py", line 24
     print "OK"
@@ -1764,18 +1734,6 @@ SyntaxError: invalid syntax
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'mmtbx/refinement/tst_group_biso.py'...
-  File "mmtbx/refinement/tst_group_biso.py", line 128
-    print "random_seed:", random_seed
-                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "random_seed:", random_seed)?
-
-*** Error compiling 'mmtbx/refinement/tst_group_occ.py'...
-  File "mmtbx/refinement/tst_group_occ.py", line 128
-    print "random_seed:", random_seed
-                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "random_seed:", random_seed)?
-
 *** Error compiling 'mmtbx/refinement/tst_misc.py'...
   File "mmtbx/refinement/tst_misc.py", line 68
     print "OK"
@@ -1789,7 +1747,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/tst_real_space_simple.py'...
-  File "mmtbx/refinement/tst_real_space_simple.py", line 105
+  File "mmtbx/refinement/tst_real_space_simple.py", line 99
     print "d_min:", d_min
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "d_min:", d_min)?
@@ -1817,24 +1775,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/refinement/tst_tardy_comprehensive.py'...
-  File "mmtbx/refinement/tst_tardy_comprehensive.py", line 15
-    print ">Begin exception"
-                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t ">Begin exception")?
-
-*** Error compiling 'mmtbx/refinement/tst_tardy_eval.py'...
-  File "mmtbx/refinement/tst_tardy_eval.py", line 15
-    print "Skipping generation of plots: reportlab not available."
-                                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Skipping generation of plots: reportlab not available.")?
-
-*** Error compiling 'mmtbx/refinement/tst_tardy_pdb.py'...
-  File "mmtbx/refinement/tst_tardy_pdb.py", line 76
-    print "geo_energies:"
-                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "geo_energies:")?
 
 *** Error compiling 'mmtbx/refinement/wx_tardy_pdb.py'...
   File "mmtbx/refinement/wx_tardy_pdb.py", line 32
@@ -1963,7 +1903,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.target, target # XXX for debugging)?
 
 *** Error compiling 'mmtbx/regression/real_space_refine_chain/tst_01.py'...
-  File "mmtbx/regression/real_space_refine_chain/tst_01.py", line 88
+  File "mmtbx/regression/real_space_refine_chain/tst_01.py", line 95
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
@@ -2148,12 +2088,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cm
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'mmtbx/regression/tst_compare_ligands.py'...
-  File "mmtbx/regression/tst_compare_ligands.py", line 34
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'mmtbx/regression/tst_dssp.py'...
   File "mmtbx/regression/tst_dssp.py", line 175
     print "phenix_regression not available, skipping test"
@@ -2177,12 +2111,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phe
     print "Read ncs-spec file and write out text...",
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Read ncs-spec file and write out text...", end=" ")?
-
-*** Error compiling 'mmtbx/regression/tst_find_peaks_holes.py'...
-  File "mmtbx/regression/tst_find_peaks_holes.py", line 45
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_find_ss_structure.py'...
   File "mmtbx/regression/tst_find_ss_structure.py", line 465
@@ -2244,23 +2172,11 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
 
-*** Error compiling 'mmtbx/regression/tst_interpolation.py'...
-  File "mmtbx/regression/tst_interpolation.py", line 45
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'mmtbx/regression/tst_isomorphous_difference_misc.py'...
   File "mmtbx/regression/tst_isomorphous_difference_misc.py", line 142
     print " ".join(args_1)
             ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/regression/tst_ligand_ncs.py'...
-  File "mmtbx/regression/tst_ligand_ncs.py", line 238
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_loop_closure.py'...
   File "mmtbx/regression/tst_loop_closure.py", line 221
@@ -2364,12 +2280,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int thre
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int cmd)?
 
-*** Error compiling 'mmtbx/regression/tst_place_model.py'...
-  File "mmtbx/regression/tst_place_model.py", line 20
-    print "File: %s, CC to map: %5.2f " %(file_name,cc_to_map)
-                                      ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/regression/tst_polder.py'...
   File "mmtbx/regression/tst_polder.py", line 185
     print cmd
@@ -2467,7 +2377,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_table_one.py'...
-  File "mmtbx/regression/tst_table_one.py", line 86
+  File "mmtbx/regression/tst_table_one.py", line 83
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -3221,7 +3131,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "atom %d:"%i)?
 
 *** Error compiling 'mmtbx/tls/tools.py'...
-  File "mmtbx/tls/tools.py", line 555
+  File "mmtbx/tls/tools.py", line 556
     print "T1=" + format % (m1[0],m1[1],m1[2],m1[3],m1[4],m1[5])
               ^
 SyntaxError: invalid syntax
@@ -3373,7 +3283,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 446
+  File "mmtbx/validation/molprobity/__init__.py", line 449
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
@@ -3517,7 +3427,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "W
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Numpy not installed, will skip array conversion.")?
 
 *** Error compiling 'mmtbx/wwpdb/tst_rcsb_web_services.py'...
-  File "mmtbx/wwpdb/tst_rcsb_web_services.py", line 18
+  File "mmtbx/wwpdb/tst_rcsb_web_services.py", line 17
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
