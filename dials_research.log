@@ -16,9 +16,3 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials_research/cosym/coset.py'...
-  File "dials_research/cosym/coset.py", line 10
-    print t_op
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int t_op)?
-

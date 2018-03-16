@@ -494,7 +494,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose:
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'min_occ',min_occ)?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/cdl_database.py'...
-  File "mmtbx/conformation_dependent_library/cdl_database.py", line 10459
+  File "mmtbx/conformation_dependent_library/cdl_database.py", line 10471
     print cdl_database["Pro_nonxpro"][(-180,-180)]
                      ^
 SyntaxError: invalid syntax
@@ -818,18 +818,6 @@ The mock model is supposed to be in the same unit cell/spacegroup (this is enfor
     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'mmtbx/examples/tardy_eval.py'...
-  File "mmtbx/examples/tardy_eval.py", line 15
-    print "Skipping generation of plots: reportlab not available."
-                                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Skipping generation of plots: reportlab not available.")?
-
-*** Error compiling 'mmtbx/examples/tardy_pdb.py'...
-  File "mmtbx/examples/tardy_pdb.py", line 76
-    print "geo_energies:"
-                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "geo_energies:")?
-
 *** Error compiling 'mmtbx/geometry/topology.py'...
   File "mmtbx/geometry/topology.py", line 136
     raise ValueError, "Unknown atom: %s" % atom
@@ -1040,12 +1028,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "C
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Could not load SVM classifier")?
 
-*** Error compiling 'mmtbx/ions/svm/tst_vector.py'...
-  File "mmtbx/ions/svm/tst_vector.py", line 78
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'mmtbx/ions/tst_environment.py'...
   File "mmtbx/ions/tst_environment.py", line 21
     print "Skipping {}".format(os.path.split(__file__)[1])
@@ -1221,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1166
+  File "mmtbx/model/model.py", line 1173
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1709,12 +1691,6 @@ SyntaxError: invalid syntax
     print d_min, "-"*69
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int d_min, "-"*69)?
-
-*** Error compiling 'mmtbx/refinement/tardy_comprehensive_test_helper.py'...
-  File "mmtbx/refinement/tardy_comprehensive_test_helper.py", line 15
-    print ">Begin exception"
-                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t ">Begin exception")?
 
 *** Error compiling 'mmtbx/refinement/tst_fit_rotamers.py'...
   File "mmtbx/refinement/tst_fit_rotamers.py", line 24
