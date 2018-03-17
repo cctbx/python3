@@ -31,4 +31,4 @@ spotfinder | :red_circle:&nbsp; [33 files](spotfinder.log) violate python3 synta
 tbxx | :white_check_mark:&nbsp; all OK
 ucif | :white_check_mark:&nbsp; all OK
 xfel | :red_circle:&nbsp; [176 files](xfel.log) violate python3 syntax
-xia2 | :red_circle:&nbsp; [119 files](xia2.log) violate python3 syntax
+xia2 | :red_circle:&nbsp; [118 files](xia2.log) violate python3 syntax

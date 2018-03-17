@@ -302,7 +302,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_m
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
 
 *** Error compiling 'mmtbx/command_line/map_model_cc.py'...
-  File "mmtbx/command_line/map_model_cc.py", line 187
+  File "mmtbx/command_line/map_model_cc.py", line 200
     print fmt%(r.chain_id, r.cc, r.b_iso_mean, r.occ_mean, r.n_atoms)
             ^
 SyntaxError: invalid syntax
@@ -993,7 +993,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 999
+  File "mmtbx/hydrogens/tst_validate_H.py", line 1011
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1149,7 +1149,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 108
+  File "mmtbx/maps/mtriage.py", line 107
     print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
                             ^
 SyntaxError: invalid syntax
@@ -2167,7 +2167,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_map_model_cc.py'...
-  File "mmtbx/regression/tst_map_model_cc.py", line 91
+  File "mmtbx/regression/tst_map_model_cc.py", line 90
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
@@ -3259,7 +3259,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 449
+  File "mmtbx/validation/molprobity/__init__.py", line 446
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

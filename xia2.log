@@ -232,12 +232,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '#' * 
                            ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xia2/Modules/Resolutionizer.py'...
-  File "xia2/Modules/Resolutionizer.py", line 40
-    print "[%7.3f] %s" % (time.time() - start_time, message)
-                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xia2/Modules/Scaler/CCP4ScalerHelpers.py'...
   File "xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 628
     print '%s: %.3f %.3f' % (os.path.split(arg)[-1], df_f, di_sigdi)
