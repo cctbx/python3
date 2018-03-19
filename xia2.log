@@ -5,7 +5,7 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print line)?
 
 *** Error compiling 'xia2/Applications/xia2ccp4i.py'...
-  File "xia2/Applications/xia2ccp4i.py", line 249
+  File "xia2/Applications/xia2ccp4i.py", line 247
     print str(err)
             ^
 SyntaxError: invalid syntax
@@ -17,31 +17,31 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Driver/DefaultDriver.py'...
-  File "xia2/Driver/DefaultDriver.py", line 506
+  File "xia2/Driver/DefaultDriver.py", line 505
     print 'You should never see this message'
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'You should never see this message')?
 
 *** Error compiling 'xia2/Driver/DriverHelper.py'...
-  File "xia2/Driver/DriverHelper.py", line 395
+  File "xia2/Driver/DriverHelper.py", line 388
     print '"%s"' % generate_random_name()
                ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Driver/PythonDriver.py'...
-  File "xia2/Driver/PythonDriver.py", line 122
+  File "xia2/Driver/PythonDriver.py", line 120
     print record[:-1]
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int record[:-1])?
 
 *** Error compiling 'xia2/Driver/QSubDriver.py'...
-  File "xia2/Driver/QSubDriver.py", line 269
+  File "xia2/Driver/QSubDriver.py", line 263
     print line.strip()
              ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Driver/SunGridEngineClusterDriver.py'...
-  File "xia2/Driver/SunGridEngineClusterDriver.py", line 121
+  File "xia2/Driver/SunGridEngineClusterDriver.py", line 119
     print line.strip()
              ^
 SyntaxError: invalid syntax
@@ -53,13 +53,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Experts/LatticeExpert.py'...
-  File "xia2/Experts/LatticeExpert.py", line 177
+  File "xia2/Experts/LatticeExpert.py", line 176
     print cell, dist
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cell, dist)?
 
 *** Error compiling 'xia2/Experts/MatrixExpert.py'...
-  File "xia2/Experts/MatrixExpert.py", line 526
+  File "xia2/Experts/MatrixExpert.py", line 525
     print r[:-1]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int r[:-1])?
@@ -77,7 +77,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Experts/SymmetryExpert.py'...
-  File "xia2/Experts/SymmetryExpert.py", line 120
+  File "xia2/Experts/SymmetryExpert.py", line 118
     print i,
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i, end=" ")?
@@ -89,7 +89,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i, e
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int gr)?
 
 *** Error compiling 'xia2/GUI/dataset.py'...
-  File "xia2/GUI/dataset.py", line 94
+  File "xia2/GUI/dataset.py", line 89
     print self.stack_ctrl.GetSelections()
              ^
 SyntaxError: invalid syntax
@@ -113,13 +113,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/Syminfo.py'...
-  File "xia2/Handlers/Syminfo.py", line 214
+  File "xia2/Handlers/Syminfo.py", line 211
     print Syminfo.get_pointgroup(arg)
                 ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Handlers/XInfo.py'...
-  File "xia2/Handlers/XInfo.py", line 442
+  File "xia2/Handlers/XInfo.py", line 435
     print xi
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?
@@ -131,19 +131,19 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t xi)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s %s' % s)?
 
 *** Error compiling 'xia2/Modules/CctbxFrenchWilson.py'...
-  File "xia2/Modules/CctbxFrenchWilson.py", line 22
-    print 'Reading reflections from %s' %mtz_file
+  File "xia2/Modules/CctbxFrenchWilson.py", line 20
+    print 'Reading reflections from %s' % mtz_file
                                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Reading reflections from %s' %mtz_file)?
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Reading reflections from %s' % mtz_file)?
 
 *** Error compiling 'xia2/Modules/DeltaCcHalf.py'...
-  File "xia2/Modules/DeltaCcHalf.py", line 190
-    print 'Saving histogram to %s' %hist_filename
+  File "xia2/Modules/DeltaCcHalf.py", line 182
+    print 'Saving histogram to %s' % hist_filename
                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Saving histogram to %s' %hist_filename)?
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Saving histogram to %s' % hist_filename)?
 
 *** Error compiling 'xia2/Modules/DoseAccumulate.py'...
-  File "xia2/Modules/DoseAccumulate.py", line 168
+  File "xia2/Modules/DoseAccumulate.py", line 166
     print 'batch %d time %f dose %f' % \
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'batch %d time %f dose %f' % \)?
@@ -155,25 +155,25 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'bat
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/GainEstimater.py'...
-  File "xia2/Modules/GainEstimater.py", line 56
+  File "xia2/Modules/GainEstimater.py", line 55
     print gain(os.path.join(directory, '12287_1_E1_001.img'))
              ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/IndexerFactory.py'...
-  File "xia2/Modules/Indexer/IndexerFactory.py", line 206
+  File "xia2/Modules/Indexer/IndexerFactory.py", line 204
     print 'Refined beam is: %6.2f %6.2f' % i.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/MosflmCheckIndexerSolution.py'...
-  File "xia2/Modules/Indexer/MosflmCheckIndexerSolution.py", line 296
+  File "xia2/Modules/Indexer/MosflmCheckIndexerSolution.py", line 291
     print 'Refined beam is: %6.2f %6.2f' % i.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/MosflmIndexer.py'...
-  File "xia2/Modules/Indexer/MosflmIndexer.py", line 195
+  File "xia2/Modules/Indexer/MosflmIndexer.py", line 191
     print str(e) #XXX this should disappear!
             ^
 SyntaxError: invalid syntax
@@ -185,13 +185,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/XDSIndexer.py'...
-  File "xia2/Modules/Indexer/XDSIndexer.py", line 736
+  File "xia2/Modules/Indexer/XDSIndexer.py", line 730
     print 'Refined beam is: %6.2f %6.2f' % xi.get_indexer_beam_centre()
                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Indexer/XDSIndexerSum.py'...
-  File "xia2/Modules/Indexer/XDSIndexerSum.py", line 140
+  File "xia2/Modules/Indexer/XDSIndexerSum.py", line 136
     print " ".join(tokens)
             ^
 SyntaxError: invalid syntax
@@ -203,19 +203,19 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Mtzdump.py'...
-  File "xia2/Modules/Mtzdump.py", line 169
+  File "xia2/Modules/Mtzdump.py", line 166
     print m.get_spacegroup()
           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/PyChef/PyChef.py'...
-  File "xia2/Modules/PyChef/PyChef.py", line 243
+  File "xia2/Modules/PyChef/PyChef.py", line 241
     print 'Reading in data from %s/%s' % (crystal_name, dataset_name)
                                      ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/PyChef/PyChefHelpers.py'...
-  File "xia2/Modules/PyChef/PyChefHelpers.py", line 66
+  File "xia2/Modules/PyChef/PyChefHelpers.py", line 64
     print crystal.name(), dataset.name()
                 ^
 SyntaxError: invalid syntax
@@ -227,25 +227,25 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '#' * 60)?
 
 *** Error compiling 'xia2/Modules/PyChef2/PyChef.py'...
-  File "xia2/Modules/PyChef2/PyChef.py", line 432
+  File "xia2/Modules/PyChef2/PyChef.py", line 425
     print table_completeness.format_loggraph()
                            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Scaler/CCP4ScalerHelpers.py'...
-  File "xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 628
+  File "xia2/Modules/Scaler/CCP4ScalerHelpers.py", line 620
     print '%s: %.3f %.3f' % (os.path.split(arg)[-1], df_f, di_sigdi)
                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Scaler/CommonScaler.py'...
-  File "xia2/Modules/Scaler/CommonScaler.py", line 733
+  File "xia2/Modules/Scaler/CommonScaler.py", line 731
     print 'Change of basis to reference setting: %s' % cb_op
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Change of basis to reference setting: %s' % cb_op)?
 
 *** Error compiling 'xia2/Modules/Scaler/rebatch.py'...
-  File "xia2/Modules/Scaler/rebatch.py", line 174
+  File "xia2/Modules/Scaler/rebatch.py", line 175
     print column.label()
                ^
 SyntaxError: invalid syntax
@@ -269,7 +269,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Xia2html/Canary.py'...
-  File "xia2/Modules/Xia2html/Canary.py", line 1289
+  File "xia2/Modules/Xia2html/Canary.py", line 1288
     print d.render()
           ^
 SyntaxError: invalid syntax
@@ -282,18 +282,18 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.__v
 
 *** Error compiling 'xia2/Modules/Xia2html/baubles.py'...
   File "xia2/Modules/Xia2html/baubles.py", line 442
-    print "len(fragment)="+str(len(fragment))
+    print "len(fragment)=" + str(len(fragment))
                          ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Modules/Xia2html/smartie.py'...
-  File "xia2/Modules/Xia2html/smartie.py", line 1220
+  File "xia2/Modules/Xia2html/smartie.py", line 1217
     print "Unable to parse table - too many data items (or not enough)?"
                                                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xia2/Schema/Interfaces/FrameProcessor.py'...
-  File "xia2/Schema/Interfaces/FrameProcessor.py", line 385
+  File "xia2/Schema/Interfaces/FrameProcessor.py", line 383
     print fp.get_beam_centre()
            ^
 SyntaxError: invalid syntax
@@ -317,7 +317,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Cell:
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py'...
-  File "xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py", line 70
+  File "xia2/Test/Modules/Indexer/TstDialsMultiIndexer.py", line 67
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
