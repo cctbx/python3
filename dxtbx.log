@@ -112,12 +112,6 @@ SyntaxError: invalid syntax
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py'...
-  File "dxtbx/data/beamline_defs/PILATUS_2M_S_N_24_0107_Diamond.py", line 21
-    if self._timestamp >= self._date_to_epoch(2015, 11, 01):
-                                                         ^
-SyntaxError: invalid token
-
 *** Error compiling 'dxtbx/datablock.py'...
   File "dxtbx/datablock.py", line 322
     print 'Using %s for %s' % (self._format_class.__name__, filename)

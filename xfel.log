@@ -245,7 +245,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print help_str)?
 
 *** Error compiling 'xfel/command_line/detector_residuals.py'...
-  File "xfel/command_line/detector_residuals.py", line 229
+  File "xfel/command_line/detector_residuals.py", line 235
     print "Setting up stats..."
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Setting up stats...")?
@@ -431,7 +431,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?
 
 *** Error compiling 'xfel/command_line/striping.py'...
-  File "xfel/command_line/striping.py", line 264
+  File "xfel/command_line/striping.py", line 269
     print "processing trial %s" % trial
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "processing trial %s" % trial)?

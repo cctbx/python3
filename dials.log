@@ -41,7 +41,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WAR
 SyntaxError: invalid syntax
 
 *** Error compiling 'dials/algorithms/refinement/parameterisation/detector_parameters.py'...
-  File "dials/algorithms/refinement/parameterisation/detector_parameters.py", line 848
+  File "dials/algorithms/refinement/parameterisation/detector_parameters.py", line 849
     print "This detector does not have a hierarchy"
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "This detector does not have a hierarchy")?
@@ -334,12 +334,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "I
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-' * 80)?
 
-*** Error compiling 'dials/command_line/reciprocal_lattice_viewer.py'...
-  File "dials/command_line/reciprocal_lattice_viewer.py", line 715
-    def draw_cross_at(self, (x,y,z), color=(1,1,1), f=None):
-                            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dials/command_line/refine.py'...
   File "dials/command_line/refine.py", line 217
     print "No Experiments found in the input"
@@ -537,12 +531,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
     print ' Adding %s to dials extension folders' % path
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int ' Adding %s to dials extension folders' % path)?
-
-*** Error compiling 'dials/installer/dials_installer.py'...
-  File "dials/installer/dials_installer.py", line 65
-    print "Skipping", " " * 26, subdir
-                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Skipping", " " * 26, subdir)?
 
 *** Error compiling 'dials/test/algorithms/background/simulate.py'...
   File "dials/test/algorithms/background/simulate.py", line 63
@@ -977,7 +965,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'dials/test/algorithms/scaling/tst_scale_parameterisation.py'...
-  File "dials/test/algorithms/scaling/tst_scale_parameterisation.py", line 41
+  File "dials/test/algorithms/scaling/tst_scale_parameterisation.py", line 42
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -1167,12 +1155,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAI
     print 'Skipping exercise_export_bitmaps(): dials_regression not available'
                                                                              ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'dials/test/command_line/tst_export_mosflm.py'...
-  File "dials/test/command_line/tst_export_mosflm.py", line 13
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
 
 *** Error compiling 'dials/test/command_line/tst_export_xds.py'...
   File "dials/test/command_line/tst_export_xds.py", line 33
@@ -1395,132 +1377,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Ski
     print 'OK'
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dials/util/add_hash.py'...
-  File "dials/util/add_hash.py", line 65
-    print flex.min(hash_value), flex.max(hash_value)
-             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/ascii_art.py'...
-  File "dials/util/ascii_art.py", line 88
-    print arg
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int arg)?
-
-*** Error compiling 'dials/util/cluster_map.py'...
-  File "dials/util/cluster_map.py", line 146
-    print x
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x)?
-
-*** Error compiling 'dials/util/export_text.py'...
-  File "dials/util/export_text.py", line 21
-    print '%4d %4d %4d %f %f' % (_h, _k, _l, _i, _v)
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/export_xds_ascii.py'...
-  File "dials/util/export_xds_ascii.py", line 144
-    print 'Coordinate change:'
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Coordinate change:')?
-
-*** Error compiling 'dials/util/idials.py'...
-  File "dials/util/idials.py", line 1623
-    print "Recovered state from %s" % state_filename
-                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Recovered state from %s" % state_filename)?
-
-*** Error compiling 'dials/util/image_viewer/mask_frame.py'...
-  File "dials/util/image_viewer/mask_frame.py", line 582
-    print "Writing mask to %s" % self.params.output.mask
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing mask to %s" % self.params.output.mask)?
-
-*** Error compiling 'dials/util/image_viewer/spotfinder_frame.py'...
-  File "dials/util/image_viewer/spotfinder_frame.py", line 1002
-    print "Circles: center of foreground masks for the %d spots actually integrated"%(len(vertices)//5)
-                                                                                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/mosflm.py'...
-  File "dials/util/mosflm.py", line 69
-    print "Exporting experiment to %s and %s" %(index_mat, mosflm_in)
-                                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/mp.py'...
-  File "dials/util/mp.py", line 274
-    print x
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int x)?
-
-*** Error compiling 'dials/util/nexus/nx_mx.py'...
-  File "dials/util/nexus/nx_mx.py", line 658
-    print "Dumping NXmx"
-                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Dumping NXmx")?
-
-*** Error compiling 'dials/util/nexus/nx_reflections.py'...
-  File "dials/util/nexus/nx_reflections.py", line 272
-    print "Dumping NXreflections"
-                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Dumping NXreflections")?
-
-*** Error compiling 'dials/util/nexus_old.py'...
-  File "dials/util/nexus_old.py", line 172
-    print reflections['shoebox'][i].data.all()
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/options.py'...
-  File "dials/util/options.py", line 814
-    print self.phil.as_str(
-             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/picklez.py'...
-  File "dials/util/picklez.py", line 104
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dials/util/pprint.py'...
-  File "dials/util/pprint.py", line 96
-    print profile3d(a)
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/pycbf_extra.py'...
-  File "dials/util/pycbf_extra.py", line 37
-    print "Category:", i, category_name
-                    ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Category:", i, category_name)?
-
-*** Error compiling 'dials/util/rebin_images.py'...
-  File "dials/util/rebin_images.py", line 89
-    print "Reading %s" % i
-                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reading %s" % i)?
-
-*** Error compiling 'dials/util/show_version.py'...
-  File "dials/util/show_version.py", line 19
-    print "%s-%d" % (BASE_VERSION, n_days)
-                ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/util/stream.py'...
-  File "dials/util/stream.py", line 124
-    print conf
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int conf)?
-
-*** Error compiling 'dials/util/xds.py'...
-  File "dials/util/xds.py", line 50
-    print "Exporting experiment to %s and %s" %(xds_inp, xparm_xds)
-                                            ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'dials/viewer/boost_tst.py'...
   File "dials/viewer/boost_tst.py", line 41
