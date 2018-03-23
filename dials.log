@@ -251,7 +251,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Writing mask to %s" % params.output.mask)?
 
 *** Error compiling 'dials/command_line/generate_tutorial_text.py'...
-  File "dials/command_line/generate_tutorial_text.py", line 26
+  File "dials/command_line/generate_tutorial_text.py", line 27
     print self.cmd
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.cmd)?
