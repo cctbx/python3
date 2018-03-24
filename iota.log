@@ -17,7 +17,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WAR
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_run.py'...
-  File "iota/command_line/iota_run.py", line 84
+  File "iota/command_line/iota_run.py", line 86
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -53,10 +53,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_gui_init.py'...
-  File "iota/components/iota_gui_init.py", line 196
-    print self.input_window.input.all_data_images
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.input_window.input.all_data_images)?
+  File "iota/components/iota_gui_init.py", line 263
+    except Sorry, e:
+                ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_image.py'...
   File "iota/components/iota_image.py", line 146
@@ -65,7 +65,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_init.py'...
-  File "iota/components/iota_init.py", line 105
+  File "iota/components/iota_init.py", line 106
     print "\nERROR: No data found!"
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nERROR: No data found!")?

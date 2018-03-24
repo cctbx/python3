@@ -3253,7 +3253,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'filen
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print name)?
 
 *** Error compiling 'mmtbx/validation/experimental.py'...
-  File "mmtbx/validation/experimental.py", line 244
+  File "mmtbx/validation/experimental.py", line 246
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
