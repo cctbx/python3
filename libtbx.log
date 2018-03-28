@@ -620,12 +620,6 @@ SyntaxError: invalid syntax
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/queuing_system_utils/__init__.py'...
-  File "libtbx/queuing_system_utils/__init__.py", line 85
-    print "\n".join(qdel_out)
-             ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/queuing_system_utils/communication.py'...
   File "libtbx/queuing_system_utils/communication.py", line 32
     except Exception, e:
