@@ -53,7 +53,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_gui_init.py'...
-  File "iota/components/iota_gui_init.py", line 263
+  File "iota/components/iota_gui_init.py", line 261
     except Sorry, e:
                 ^
 SyntaxError: invalid syntax
@@ -89,7 +89,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entr
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 423
+  File "iota/components/iota_tracker.py", line 446
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?

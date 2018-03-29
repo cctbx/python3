@@ -10,7 +10,7 @@ cctbx | :red_circle:&nbsp; [286 files](cctbx.log) violate python3 syntax
 chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
 crys3d | :red_circle:&nbsp; [11 files](crys3d.log) violate python3 syntax
-dials | :red_circle:&nbsp; [95 files](dials.log) violate python3 syntax
+dials | :red_circle:&nbsp; [76 files](dials.log) violate python3 syntax
 dials_research | :white_check_mark:&nbsp; all OK
 dlstbx | :white_check_mark:&nbsp; all OK
 dxtbx | :red_circle:&nbsp; [132 files](dxtbx.log) violate python3 syntax
