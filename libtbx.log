@@ -644,12 +644,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'test 
           ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/queuing_system_utils/pbs_utils.py'...
-  File "libtbx/queuing_system_utils/pbs_utils.py", line 94
-    print "n,i:", n,i
-               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "n,i:", n,i)?
-
 *** Error compiling 'libtbx/queuing_system_utils/processing/__init__.py'...
   File "libtbx/queuing_system_utils/processing/__init__.py", line 25
     raise QueueEmptyException, "No data found in queue"
@@ -690,12 +684,6 @@ SyntaxError: invalid syntax
   File "libtbx/queuing_system_utils/scheduling_helpers.py", line 18
     except Exception, e:
                     ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/sge_utils.py'...
-  File "libtbx/queuing_system_utils/sge_utils.py", line 186
-    print "\n".join(qdel_out)
-             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/queuing_system_utils/tst.py'...

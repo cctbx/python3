@@ -19,7 +19,7 @@ gltbx | :red_circle:&nbsp; [13 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK
 iota | :red_circle:&nbsp; [17 files](iota.log) violate python3 syntax
 iotbx | :red_circle:&nbsp; [224 files](iotbx.log) violate python3 syntax
-libtbx | :red_circle:&nbsp; [151 files](libtbx.log) violate python3 syntax
+libtbx | :red_circle:&nbsp; [149 files](libtbx.log) violate python3 syntax
 mmtbx | :red_circle:&nbsp; [468 files](mmtbx.log) violate python3 syntax
 omptbx | :red_circle:&nbsp; [1 files](omptbx.log) violate python3 syntax
 prime | :red_circle:&nbsp; [31 files](prime.log) violate python3 syntax

@@ -1423,7 +1423,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1593
+  File "mmtbx/ncs/ncs.py", line 1600
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
