@@ -52,12 +52,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print se
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t libtbx_path)?
 
-*** Error compiling 'libtbx/auto_build/rpath.py'...
-  File "libtbx/auto_build/rpath.py", line 50
-    print "Running:",
-                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Running:", end=" ")?
-
 *** Error compiling 'libtbx/auto_build/setup_installer.py'...
   File "libtbx/auto_build/setup_installer.py", line 80
     print "Installer will be %s" % installer_dir
@@ -559,12 +553,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print "Graph written to objects.dot (%d nodes)" % nodes
                                                   ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/option_parser.py'...
-  File "libtbx/option_parser.py", line 29
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'libtbx/phil/__init__.py'...
   File "libtbx/phil/__init__.py", line 747

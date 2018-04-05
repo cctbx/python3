@@ -4,30 +4,6 @@
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dxtbx/example/resolution_corners.py'...
-  File "dxtbx/example/resolution_corners.py", line 34
-    print '%.3f' % (beam.get_wavelength() / (2 * math.sin(theta)))
-               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/example/to_xds.py'...
-  File "dxtbx/example/to_xds.py", line 75
-    print 'DETECTOR=%s MINIMUM_VALID_PIXEL_VALUE=%d OVERLOAD=%d' % \
-                                                               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'DETECTOR=%s MINIMUM_VALID_PIXEL_VALUE=%d OVERLOAD=%d' % \)?
-
-*** Error compiling 'dxtbx/filecache.py'...
-  File "dxtbx/filecache.py", line 90
-    print "%s: %s" % (format(id(self), '#x'), string)
-                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/filecache_controller.py'...
-  File "dxtbx/filecache_controller.py", line 83
-    print "Caching disabled for", tag
-                               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Caching disabled for", tag)?
-
 *** Error compiling 'dxtbx/format/FormatBruker.py'...
   File "dxtbx/format/FormatBruker.py", line 138
     print FormatBruker.understand(arg)
@@ -585,36 +561,6 @@ SyntaxError: invalid syntax
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "")?
-
-*** Error compiling 'dxtbx/model/crystal.py'...
-  File "dxtbx/model/crystal.py", line 34
-    print "Warning, two kinds of mosaicity found. Using Sauter2014 model"
-                                                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
-
-*** Error compiling 'dxtbx/model/detector.py'...
-  File "dxtbx/model/detector.py", line 510
-    print e
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?
-
-*** Error compiling 'dxtbx/model/detector_helpers_types.py'...
-  File "dxtbx/model/detector_helpers_types.py", line 93
-    print detector_helpers_types.get(sensor, fast, slow, df, ds)
-                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/model/experiment_list.py'...
-  File "dxtbx/model/experiment_list.py", line 575
-    if verbose: print 'Loaded experiments from %s' % filename
-                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose: print 'Loaded experiments from %s' % filename)?
-
-*** Error compiling 'dxtbx/model/scan_helpers.py'...
-  File "dxtbx/model/scan_helpers.py", line 208
-    print "Format %s may not be supported--contact Nick Sauter"%format
-                                                              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Format %s may not be supported--contact Nick Sauter"%format)?
 
 *** Error compiling 'dxtbx/tests/command_line/tst_to_xds.py'...
   File "dxtbx/tests/command_line/tst_to_xds.py", line 16

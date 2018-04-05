@@ -10,16 +10,16 @@ cctbx | :red_circle:&nbsp; [286 files](cctbx.log) violate python3 syntax
 chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
 crys3d | :red_circle:&nbsp; [11 files](crys3d.log) violate python3 syntax
-dials | :red_circle:&nbsp; [72 files](dials.log) violate python3 syntax
+dials | :red_circle:&nbsp; [69 files](dials.log) violate python3 syntax
 dials_research | :white_check_mark:&nbsp; all OK
 dlstbx | :white_check_mark:&nbsp; all OK
-dxtbx | :red_circle:&nbsp; [132 files](dxtbx.log) violate python3 syntax
+dxtbx | :red_circle:&nbsp; [123 files](dxtbx.log) violate python3 syntax
 fable | :red_circle:&nbsp; [10 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [13 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK
 iota | :red_circle:&nbsp; [17 files](iota.log) violate python3 syntax
 iotbx | :red_circle:&nbsp; [224 files](iotbx.log) violate python3 syntax
-libtbx | :red_circle:&nbsp; [149 files](libtbx.log) violate python3 syntax
+libtbx | :red_circle:&nbsp; [147 files](libtbx.log) violate python3 syntax
 mmtbx | :red_circle:&nbsp; [468 files](mmtbx.log) violate python3 syntax
 omptbx | :red_circle:&nbsp; [1 files](omptbx.log) violate python3 syntax
 prime | :red_circle:&nbsp; [31 files](prime.log) violate python3 syntax
