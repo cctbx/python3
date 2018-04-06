@@ -3253,13 +3253,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'filen
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print name)?
 
 *** Error compiling 'mmtbx/validation/experimental.py'...
-  File "mmtbx/validation/experimental.py", line 246
+  File "mmtbx/validation/experimental.py", line 228
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 446
+  File "mmtbx/validation/molprobity/__init__.py", line 448
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
