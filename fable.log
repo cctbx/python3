@@ -28,18 +28,6 @@ SyntaxError: invalid syntax
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print out.name)?
 
-*** Error compiling 'fable/cout.py'...
-  File "fable/cout.py", line 171
-    print traceback.format_exc(limit=None)
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'fable/read.py'...
-  File "fable/read.py", line 2155
-    print O.name.value
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int O.name.value)?
-
 *** Error compiling 'fable/simple_compilation.py'...
   File "fable/simple_compilation.py", line 159
     print cmd

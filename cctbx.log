@@ -1480,12 +1480,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'cctbx/source_generators/eltbx/generate_henke_cpp.py'...
-  File "cctbx/source_generators/eltbx/generate_henke_cpp.py", line 167
-    print "points %d==%d" % (i+1,j+1)
-                        ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'cctbx/symmetry_search/tests/tst_from_map.py'...
   File "cctbx/symmetry_search/tests/tst_from_map.py", line 28
     print elements

@@ -832,18 +832,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Pre
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'scitbx/source_generators/array_family/generate_all.py'...
-  File "scitbx/source_generators/array_family/generate_all.py", line 14
-    print '  Generating C++ header files in:\n    "%s"' % array_family
-                                                      ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '  Generating C++ header files in:\n    "%s"' % array_family)?
-
-*** Error compiling 'scitbx/source_generators/utils.py'...
-  File "scitbx/source_generators/utils.py", line 11
-    print "     ", path2
-                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "     ", path2)?
-
 *** Error compiling 'scitbx/sparse/tests/tst_lu_factorization.py'...
   File "scitbx/sparse/tests/tst_lu_factorization.py", line 69
     print 'OK'

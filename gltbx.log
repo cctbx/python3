@@ -10,12 +10,6 @@ SyntaxError: Missing parentheses in call to 'exec'
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int define)?
 
-*** Error compiling 'gltbx/generate_fonts_ucs_cpp.py'...
-  File "gltbx/generate_fonts_ucs_cpp.py", line 237
-    print "      Info: Re-using existing font cpp files."
-                                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "      Info: Re-using existing font cpp files.")?
-
 *** Error compiling 'gltbx/gl_managed.py'...
   File "gltbx/gl_managed.py", line 13
     except RuntimeError, e:

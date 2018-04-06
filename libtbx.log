@@ -160,12 +160,6 @@ SyntaxError: invalid syntax
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print fp)?
 
-*** Error compiling 'libtbx/command_line/find_in_repositories.py'...
-  File "libtbx/command_line/find_in_repositories.py", line 19
-    print result
-               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t result)?
-
 *** Error compiling 'libtbx/command_line/find_non_ascii.py'...
   File "libtbx/command_line/find_non_ascii.py", line 21
     print '-'*80
@@ -256,12 +250,6 @@ SyntaxError: invalid syntax
                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "command:", cmd_info.cmd)?
 
-*** Error compiling 'libtbx/command_line/path_utility.py'...
-  File "libtbx/command_line/path_utility.py", line 57
-    print run(sys.argv[1:])
-            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/command_line/phil.py'...
   File "libtbx/command_line/phil.py", line 61
     print prefix.rstrip()
@@ -307,12 +295,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print di
 *** Error compiling 'libtbx/command_line/show_bin_path.py'...
   File "libtbx/command_line/show_bin_path.py", line 5
     print abs(libtbx.env.bin_path)
-            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/command_line/show_build_path.py'...
-  File "libtbx/command_line/show_build_path.py", line 5
-    print abs(libtbx.env.build_path)
             ^
 SyntaxError: invalid syntax
 
@@ -510,12 +492,6 @@ SyntaxError: invalid syntax
   File "libtbx/easy_mp.py", line 156
     print "CAUGHT EXCEPTION: (argument #%d)" % index
                                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/easy_run.py'...
-  File "libtbx/easy_run.py", line 219
-    if (verbose): print result.stdout_lines
-                             ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/file_clutter.py'...

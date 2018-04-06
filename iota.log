@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_analysis.py'...
-  File "iota/components/iota_analysis.py", line 119
+  File "iota/components/iota_analysis.py", line 127
     except IOError, e:
                   ^
 SyntaxError: invalid syntax
@@ -47,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "col
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 832
+  File "iota/components/iota_frames.py", line 830
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
@@ -71,7 +71,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nERROR: No data found!")?
 
 *** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 377
+  File "iota/components/iota_input.py", line 386
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax

@@ -949,7 +949,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
-  File "xfel/ui/components/run_stats_plotter.py", line 189
+  File "xfel/ui/components/run_stats_plotter.py", line 207
     print "Minimalist mode activated."
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
@@ -961,7 +961,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Min
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 612
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 637
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?
@@ -976,12 +976,6 @@ SyntaxError: invalid syntax
   File "xfel/ui/db/__init__.py", line 6
     except ImportError, e:
                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/ui/db/dxtbx_db.py'...
-  File "xfel/ui/db/dxtbx_db.py", line 24
-    print "Only logging first of %d experiments"%len(experiments)
-                                               ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/job.py'...
