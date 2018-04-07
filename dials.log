@@ -16,29 +16,11 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'F
                                                                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials/test/algorithms/peak_finding/tst_merge_spot_lists.py'...
-  File "dials/test/algorithms/peak_finding/tst_merge_spot_lists.py", line 12
-    print "Skipping exercise_spotfinder: dials_regression not present"
-                                                                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
-
 *** Error compiling 'dials/test/algorithms/refinement/tst_detector_parameters.py'...
   File "dials/test/algorithms/refinement/tst_detector_parameters.py", line 226
     print "for try", i
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
-
-*** Error compiling 'dials/test/algorithms/refinement/tst_goniometer_parameters.py'...
-  File "dials/test/algorithms/refinement/tst_goniometer_parameters.py", line 63
-    print "for try", i
-                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "for try", i)?
-
-*** Error compiling 'dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py'...
-  File "dials/test/algorithms/refinement/tst_hierarchical_detector_refinement.py", line 223
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
 
 *** Error compiling 'dials/test/algorithms/refinement/tst_orientation_refinement.py'...
   File "dials/test/algorithms/refinement/tst_orientation_refinement.py", line 167
@@ -76,12 +58,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Skipped: dials_regression not configured')?
 
-*** Error compiling 'dials/test/algorithms/refinement/tst_restraints_parameterisation.py'...
-  File "dials/test/algorithms/refinement/tst_restraints_parameterisation.py", line 273
-    print "Skipping test2 in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test2 in " + __file__ + " as dials_regression not present")?
-
 *** Error compiling 'dials/test/algorithms/refinement/tst_scan_varying_model_parameters.py'...
   File "dials/test/algorithms/refinement/tst_scan_varying_model_parameters.py", line 90
     print "pyplot not available", e
@@ -106,74 +82,8 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'T
                                              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dials/test/algorithms/refinement/tst_sv_multi_panel_refinement.py'...
-  File "dials/test/algorithms/refinement/tst_sv_multi_panel_refinement.py", line 86
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
-
-*** Error compiling 'dials/test/algorithms/refinement/tst_xfel_metrology.py'...
-  File "dials/test/algorithms/refinement/tst_xfel_metrology.py", line 87
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
-
-*** Error compiling 'dials/test/algorithms/reflection_basis/tst_coordinate_system.py'...
-  File "dials/test/algorithms/reflection_basis/tst_coordinate_system.py", line 430
-    print phi_dash
-                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print phi_dash)?
-
-*** Error compiling 'dials/test/algorithms/reflection_basis/tst_map_frames.py'...
-  File "dials/test/algorithms/reflection_basis/tst_map_frames.py", line 336
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/algorithms/reflection_basis/tst_transform.py'...
-  File "dials/test/algorithms/reflection_basis/tst_transform.py", line 344
-    print "Failed for: ", (x, y, z)
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/test/algorithms/shoebox/tst_mask_foreground.py'...
-  File "dials/test/algorithms/shoebox/tst_mask_foreground.py", line 16
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/algorithms/shoebox/tst_mask_overlapping.py'...
-  File "dials/test/algorithms/shoebox/tst_mask_overlapping.py", line 12
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/algorithms/shoebox/tst_partiality_calculator.py'...
-  File "dials/test/algorithms/shoebox/tst_partiality_calculator.py", line 12
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/algorithms/spot_prediction/tst_index_generator.py'...
-  File "dials/test/algorithms/spot_prediction/tst_index_generator.py", line 14
-    print "Skipping test: dials_regression not available."
-                                                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available.")?
-
-*** Error compiling 'dials/test/algorithms/spot_prediction/tst_pixel_to_miller_index.py'...
-  File "dials/test/algorithms/spot_prediction/tst_pixel_to_miller_index.py", line 13
-    print 'SKIP: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'SKIP: dials_regression not configured')?
-
 *** Error compiling 'dials/test/algorithms/spot_prediction/tst_ray_predictor.py'...
   File "dials/test/algorithms/spot_prediction/tst_ray_predictor.py", line 296
-    print "Skipping test: dials_regression not available."
-                                                         ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available.")?
-
-*** Error compiling 'dials/test/algorithms/spot_prediction/tst_rotation_angles.py'...
-  File "dials/test/algorithms/spot_prediction/tst_rotation_angles.py", line 14
     print "Skipping test: dials_regression not available."
                                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials_regression not available.")?
@@ -196,134 +106,14 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'S
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print xds_xy, gen_xy[hkl])?
 
-*** Error compiling 'dials/test/command_line/tst_apply_mask.py'...
-  File "dials/test/command_line/tst_apply_mask.py", line 14
-    print 'SKIP: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SKIP: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_check_indexing_symmetry.py'...
-  File "dials/test/command_line/tst_check_indexing_symmetry.py", line 52
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
-
-*** Error compiling 'dials/test/command_line/tst_combine_experiments.py'...
-  File "dials/test/command_line/tst_combine_experiments.py", line 221
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
-
-*** Error compiling 'dials/test/command_line/tst_combine_found_spots.py'...
-  File "dials/test/command_line/tst_combine_found_spots.py", line 10
-    print "Skipping exercise_spotfinder: dials_regression not present"
-                                                                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
-
-*** Error compiling 'dials/test/command_line/tst_compare.py'...
-  File "dials/test/command_line/tst_compare.py", line 11
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_create_profile_model.py'...
-  File "dials/test/command_line/tst_create_profile_model.py", line 11
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_estimate_gain.py'...
-  File "dials/test/command_line/tst_estimate_gain.py", line 12
-    print 'SKIP: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SKIP: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_export.py'...
-  File "dials/test/command_line/tst_export.py", line 13
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_export_best.py'...
-  File "dials/test/command_line/tst_export_best.py", line 11
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_export_bitmaps.py'...
-  File "dials/test/command_line/tst_export_bitmaps.py", line 12
-    print 'Skipping exercise_export_bitmaps(): dials_regression not available'
-                                                                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dials/test/command_line/tst_export_xds.py'...
-  File "dials/test/command_line/tst_export_xds.py", line 33
-    print command
-                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t command)?
-
-*** Error compiling 'dials/test/command_line/tst_filter_reflections.py'...
-  File "dials/test/command_line/tst_filter_reflections.py", line 47
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'dials/test/command_line/tst_find_hot_pixels.py'...
-  File "dials/test/command_line/tst_find_hot_pixels.py", line 15
-    print "Skipping: dials_regression not present"
-                                                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Skipping: dials_regression not present")?
-
-*** Error compiling 'dials/test/command_line/tst_generate_mask.py'...
-  File "dials/test/command_line/tst_generate_mask.py", line 12
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_hot_pixel_mask_to_xy.py'...
-  File "dials/test/command_line/tst_hot_pixel_mask_to_xy.py", line 17
-    print "Skipping exercise_hot_pixel_mask_to_xy(): dials_regression not available."
-                                                                                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dials/test/command_line/tst_idials.py'...
   File "dials/test/command_line/tst_idials.py", line 13
     print 'SKIP: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SKIP: dials_regression not configured')?
 
-*** Error compiling 'dials/test/command_line/tst_import.py'...
-  File "dials/test/command_line/tst_import.py", line 12
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
 *** Error compiling 'dials/test/command_line/tst_import_xds.py'...
   File "dials/test/command_line/tst_import_xds.py", line 12
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_integrate.py'...
-  File "dials/test/command_line/tst_integrate.py", line 13
-    print 'SKIP: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SKIP: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_kapton_correction.py'...
-  File "dials/test/command_line/tst_kapton_correction.py", line 13
-    print 'SKIP: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SKIP: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_merge_cbf.py'...
-  File "dials/test/command_line/tst_merge_cbf.py", line 20
-    print tmp_dir
-                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t tmp_dir)?
-
-*** Error compiling 'dials/test/command_line/tst_merge_reflection_lists.py'...
-  File "dials/test/command_line/tst_merge_reflection_lists.py", line 14
     print 'FAIL: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
@@ -334,47 +124,17 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'F
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
 
-*** Error compiling 'dials/test/command_line/tst_predict.py'...
-  File "dials/test/command_line/tst_predict.py", line 14
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
 *** Error compiling 'dials/test/command_line/tst_refine.py'...
   File "dials/test/command_line/tst_refine.py", line 48
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
-*** Error compiling 'dials/test/command_line/tst_rs_mapper.py'...
-  File "dials/test/command_line/tst_rs_mapper.py", line 61
-    print "Skipping tests in " + __file__ + " as dials_regression not present"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tests in " + __file__ + " as dials_regression not present")?
-
 *** Error compiling 'dials/test/command_line/tst_sort_reflections.py'...
   File "dials/test/command_line/tst_sort_reflections.py", line 12
     print 'FAIL: dials_regression not configured'
                                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_spot_counts_per_image.py'...
-  File "dials/test/command_line/tst_spot_counts_per_image.py", line 11
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
-
-*** Error compiling 'dials/test/command_line/tst_spotfinder.py'...
-  File "dials/test/command_line/tst_spotfinder.py", line 12
-    print "Skipping exercise_spotfinder: dials_regression not present"
-                                                                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping exercise_spotfinder: dials_regression not present")?
-
-*** Error compiling 'dials/test/command_line/tst_stereographic_projections.py'...
-  File "dials/test/command_line/tst_stereographic_projections.py", line 10
-    print 'FAIL: dials_regression not configured'
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'FAIL: dials_regression not configured')?
 
 *** Error compiling 'dials/test/command_line/tst_stills_detector_hybrid_refine.py'...
   File "dials/test/command_line/tst_stills_detector_hybrid_refine.py", line 108

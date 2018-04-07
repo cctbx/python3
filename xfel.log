@@ -251,7 +251,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print he
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Setting up stats...")?
 
 *** Error compiling 'xfel/command_line/experiment_json_to_cbf_def.py'...
-  File "xfel/command_line/experiment_json_to_cbf_def.py", line 36
+  File "xfel/command_line/experiment_json_to_cbf_def.py", line 41
     print "Done"
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done")?
@@ -269,7 +269,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Adm
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/filter_experiments_by_rmsd.py'...
-  File "xfel/command_line/filter_experiments_by_rmsd.py", line 89
+  File "xfel/command_line/filter_experiments_by_rmsd.py", line 96
     print "Found", len(reflections), "reflections", "and", len(experiments), "experiments"
                 ^
 SyntaxError: invalid syntax
@@ -976,6 +976,12 @@ SyntaxError: invalid syntax
   File "xfel/ui/db/__init__.py", line 6
     except ImportError, e:
                       ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/ui/db/frame_logging.py'...
+  File "xfel/ui/db/frame_logging.py", line 19
+    except Exception, e:
+                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/job.py'...

@@ -497,7 +497,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTC.py'...
-  File "dxtbx/format/FormatXTC.py", line 51
+  File "dxtbx/format/FormatXTC.py", line 63
     print 'This is an XTC file and can be read by PSANA'
                                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'This is an XTC file and can be read by PSANA')?
