@@ -949,10 +949,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
-  File "xfel/ui/components/run_stats_plotter.py", line 207
-    print "Minimalist mode activated."
-                                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
+  File "xfel/ui/components/run_stats_plotter.py", line 112
+    print ""
+           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
 
 *** Error compiling 'xfel/ui/components/submission_tracker.py'...
   File "xfel/ui/components/submission_tracker.py", line 11
