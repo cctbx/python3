@@ -616,12 +616,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
-*** Error compiling 'dxtbx/tests/model/tst_profile.py'...
-  File "dxtbx/tests/model/tst_profile.py", line 36
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
 *** Error compiling 'dxtbx/tests/model/tst_ray_intersection.py'...
   File "dxtbx/tests/model/tst_ray_intersection.py", line 18
     print "OK"

@@ -1025,10 +1025,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/secondary_structure/tst_annotation.py'...
-  File "iotbx/regression/secondary_structure/tst_annotation.py", line 1436
-    print "Skipped: required module ksdssp not present"
-                                                      ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipped: required module ksdssp not present")?
+  File "iotbx/regression/secondary_structure/tst_annotation.py", line 703
+    print "\"%s\"" % v
+                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\"%s\"" % v)?
 
 *** Error compiling 'iotbx/regression/secondary_structure/tst_sheet.py'...
   File "iotbx/regression/secondary_structure/tst_sheet.py", line 32

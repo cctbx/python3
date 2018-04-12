@@ -1,6 +1,0 @@
-*** Error compiling 'dials/framework/env.py'...
-  File "dials/framework/env.py", line 36
-    print ' Adding %s to dials extension folders' % path
-                                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int ' Adding %s to dials extension folders' % path)?
-
