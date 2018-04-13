@@ -13,7 +13,7 @@ crys3d | :red_circle:&nbsp; [11 files](crys3d.log) violate python3 syntax
 dials | :white_check_mark:&nbsp; all OK
 dials_research | :white_check_mark:&nbsp; all OK
 dlstbx | :white_check_mark:&nbsp; all OK
-dxtbx | :red_circle:&nbsp; [122 files](dxtbx.log) violate python3 syntax
+dxtbx | :red_circle:&nbsp; [38 files](dxtbx.log) violate python3 syntax
 fable | :red_circle:&nbsp; [8 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [12 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK

@@ -4,232 +4,16 @@
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dxtbx/format/FormatBruker.py'...
-  File "dxtbx/format/FormatBruker.py", line 138
-    print FormatBruker.understand(arg)
-                     ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatBrukerFixedChi.py'...
-  File "dxtbx/format/FormatBrukerFixedChi.py", line 137
-    print FormatBrukerFixedChi.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatBrukerPhotonII.py'...
-  File "dxtbx/format/FormatBrukerPhotonII.py", line 188
-    print FormatBrukerPhotonII.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBF.py'...
-  File "dxtbx/format/FormatCBF.py", line 90
-    print FormatCBF.understand(arg)
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFull.py'...
-  File "dxtbx/format/FormatCBFFull.py", line 205
-    print FormatCBFFull.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFullPilatus.py'...
-  File "dxtbx/format/FormatCBFFullPilatus.py", line 191
-    print FormatCBFFullPilatus.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFullPilatusCdTe300K.py'...
-  File "dxtbx/format/FormatCBFFullPilatusCdTe300K.py", line 157
-    print FormatCBFFullPilatus.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py'...
-  File "dxtbx/format/FormatCBFFullPilatusDLS300KSN104.py", line 110
-    print FormatCBFFullPilatusDLS300KSN104.understand(arg)
-                                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py'...
-  File "dxtbx/format/FormatCBFFullPilatusDLS6MSN100.py", line 124
-    print FormatCBFFullPilatus.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFFullPilatusDLS6MSN126.py'...
-  File "dxtbx/format/FormatCBFFullPilatusDLS6MSN126.py", line 95
-    print FormatCBFFullPilatus.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMini.py'...
-  File "dxtbx/format/FormatCBFMini.py", line 375
-    print FormatCBFMini.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniADSCHF4M.py'...
-  File "dxtbx/format/FormatCBFMiniADSCHF4M.py", line 226
-    print FormatCBFMiniADSCHF4M.understand(arg)
-                              ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniEiger.py'...
-  File "dxtbx/format/FormatCBFMiniEiger.py", line 284
-    print FormatCBFMiniEiger.understand(arg)
-                           ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniEigerPhotonFactory.py'...
-  File "dxtbx/format/FormatCBFMiniEigerPhotonFactory.py", line 155
-    print FormatCBFMiniEigerPhotonFactory.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatus.py'...
-  File "dxtbx/format/FormatCBFMiniPilatus.py", line 139
-    print FormatCBFMiniPilatus.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py'...
-  File "dxtbx/format/FormatCBFMiniPilatus3APS19ID6MSN132.py", line 52
-    print FormatCBFMiniPilatus3AOS19ID6MSN132.understand(arg)
-                                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDESY6MSN115.py", line 48
-    print FormatCBFMiniPilatusDESY6MSN115.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS12M.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS12M.py", line 361
-    print FormatCBFMiniPilatusDLS12M.understand(arg)
-                                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN100.py", line 359
-    print FormatCBFMiniPilatusDLS6MSN100.understand(arg)
-                                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN100F.py", line 199
-    print FormatCBFMiniPilatusDLS6MSN100F.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN114.py", line 98
-    print FormatCBFMiniPilatusDLS6MSN114.understand(arg)
-                                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN114DMM.py", line 60
-    print FormatCBFMiniPilatusDLS6MSN114DMM.understand(arg)
-                                          ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN119.py", line 111
-    print FormatCBFMiniPilatusDLS6MSN119.understand(arg)
-                                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusDLS6MSN126.py", line 303
-    print FormatCBFMiniPilatusDLS6MSN126.understand(arg)
-                                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusSOLEILPX16MSN106.py", line 126
-    print FormatCBFMiniPilatusSOLEILPX16MSN106.understand(arg)
-                                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatCBFMiniPilatusXXX.py'...
-  File "dxtbx/format/FormatCBFMiniPilatusXXX.py", line 62
-    print FormatCBFMiniPilatusDLS6MSN100F.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/format/FormatCBFMultiTile.py'...
   File "dxtbx/format/FormatCBFMultiTile.py", line 157
     print "hLL"
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "hLL")?
 
-*** Error compiling 'dxtbx/format/FormatCBFMultiTileHierarchy.py'...
-  File "dxtbx/format/FormatCBFMultiTileHierarchy.py", line 358
-    print FormatCBFMultiTileHierarchy.understand(arg)
-                                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatDIP2030b.py'...
-  File "dxtbx/format/FormatDIP2030b.py", line 83
-    print FormatDIP2030b.understand(arg)
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatEDFALS733.py'...
-  File "dxtbx/format/FormatEDFALS733.py", line 83
-    print FormatEDFALS733.understand(arg)
-                        ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/format/FormatGatanDM4.py'...
   File "dxtbx/format/FormatGatanDM4.py", line 251
     print prefix + "DIR: {0}".format(name)
                ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDF5.py'...
-  File "dxtbx/format/FormatHDF5.py", line 30
-    print FormatHDF5.understand(arg)
-                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDF5Dectris.py'...
-  File "dxtbx/format/FormatHDF5Dectris.py", line 102
-    print FormatHDF5Dectris.understand(arg)
-                          ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDF5Lambda.py'...
-  File "dxtbx/format/FormatHDF5Lambda.py", line 166
-    print FormatHDF5Lambda.understand(arg)
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDF5RawData.py'...
-  File "dxtbx/format/FormatHDF5RawData.py", line 36
-    print FormatRawData.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDF5SaclaMPCCD.py'...
-  File "dxtbx/format/FormatHDF5SaclaMPCCD.py", line 301
-    print FormatHDF5SaclaMPCCD.understand(sys.argv[1])
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatHDFEigerNearlyNexus.py'...
-  File "dxtbx/format/FormatHDFEigerNearlyNexus.py", line 396
-    print f.get_raw_data(i)
-          ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatMarIP.py'...
-  File "dxtbx/format/FormatMarIP.py", line 83
-    print FormatMarIP.understand(arg)
-                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatNexus.py'...
@@ -238,214 +22,16 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print beam)?
 
-*** Error compiling 'dxtbx/format/FormatPY.py'...
-  File "dxtbx/format/FormatPY.py", line 35
-    print FormatPY.understand(arg)
-                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatPYmultitile.py'...
-  File "dxtbx/format/FormatPYmultitile.py", line 190
-    print FormatPYmultitile.understand(arg)
-                          ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/format/FormatPYunspecified.py'...
   File "dxtbx/format/FormatPYunspecified.py", line 87
     print "This is not a file; assume the data are in the defined dictionary format"
                                                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "This is not a file; assume the data are in the defined dictionary format")?
 
-*** Error compiling 'dxtbx/format/FormatPYunspecifiedStill.py'...
-  File "dxtbx/format/FormatPYunspecifiedStill.py", line 70
-    print FormatPYunspecifiedStill.understand(arg)
-                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatRAXISII.py'...
-  File "dxtbx/format/FormatRAXISII.py", line 86
-    print FormatRAXISII.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSER.py'...
-  File "dxtbx/format/FormatSER.py", line 191
-    print FormatSER.understand(arg)
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSEReBIC.py'...
-  File "dxtbx/format/FormatSEReBIC.py", line 99
-    print FormatSEReBIC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSC.py'...
-  File "dxtbx/format/FormatSMVADSC.py", line 250
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCDBG.py'...
-  File "dxtbx/format/FormatSMVADSCDBG.py", line 67
-    print FormatSMVADSCDBG.understand(arg)
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCNoDateStamp.py'...
-  File "dxtbx/format/FormatSMVADSCNoDateStamp.py", line 75
-    print FormatSMVADSCNoDateStamp.understand(arg)
-                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN.py'...
-  File "dxtbx/format/FormatSMVADSCSN.py", line 90
-    print FormatSMVADSCSN.understand(arg)
-                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN445.py'...
-  File "dxtbx/format/FormatSMVADSCSN445.py", line 103
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN457.py'...
-  File "dxtbx/format/FormatSMVADSCSN457.py", line 54
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN905.py'...
-  File "dxtbx/format/FormatSMVADSCSN905.py", line 102
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN915.py'...
-  File "dxtbx/format/FormatSMVADSCSN915.py", line 110
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN920.py'...
-  File "dxtbx/format/FormatSMVADSCSN920.py", line 102
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSN926.py'...
-  File "dxtbx/format/FormatSMVADSCSN926.py", line 88
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/format/FormatSMVADSCSN928.py'...
   File "dxtbx/format/FormatSMVADSCSN928.py", line 67
     print FormatSMVADSCSN928.understand(arg)
                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCSNAPSID19.py'...
-  File "dxtbx/format/FormatSMVADSCSNAPSID19.py", line 95
-    print FormatSMVADSCSN.understand(arg)
-                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVADSCmlfsom.py'...
-  File "dxtbx/format/FormatSMVADSCmlfsom.py", line 52
-    print FormatSMVADSCmlfsom.understand(arg)
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVCMOS1.py'...
-  File "dxtbx/format/FormatSMVCMOS1.py", line 203
-    print FormatSMVCMOS1.understand(arg)
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVHamamatsu.py'...
-  File "dxtbx/format/FormatSMVHamamatsu.py", line 35
-    print FormatSMVADSC.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVJHSim.py'...
-  File "dxtbx/format/FormatSMVJHSim.py", line 190
-    print FormatSMVJHSim.understand(arg)
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVNOIR.py'...
-  File "dxtbx/format/FormatSMVNOIR.py", line 226
-    print FormatSMVNOIR.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigaku.py'...
-  File "dxtbx/format/FormatSMVRigaku.py", line 123
-    print FormatSMVRigaku.understand(arg)
-                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuA200.py'...
-  File "dxtbx/format/FormatSMVRigakuA200.py", line 210
-    print FormatSMVRigakuA200.understand(arg)
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuEiger1M.py'...
-  File "dxtbx/format/FormatSMVRigakuEiger1M.py", line 197
-    print FormatSMVRigakuEiger1M.understand(arg)
-                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuEiger4M.py'...
-  File "dxtbx/format/FormatSMVRigakuEiger4M.py", line 197
-    print FormatSMVRigakuEiger4M.understand(arg)
-                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuPilatus200K.py'...
-  File "dxtbx/format/FormatSMVRigakuPilatus200K.py", line 194
-    print FormatSMVRigakuPilatus200K.understand(arg)
-                                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuPilatus300K.py'...
-  File "dxtbx/format/FormatSMVRigakuPilatus300K.py", line 194
-    print FormatSMVRigakuPilatus300K.understand(arg)
-                                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuSaturn.py'...
-  File "dxtbx/format/FormatSMVRigakuSaturn.py", line 215
-    print FormatSMVRigakuSaturn.understand(arg)
-                              ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuSaturnNoTS.py'...
-  File "dxtbx/format/FormatSMVRigakuSaturnNoTS.py", line 241
-    print FormatSMVRigakuSaturn.understand(arg)
-                              ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuSaturnSN07400090.py'...
-  File "dxtbx/format/FormatSMVRigakuSaturnSN07400090.py", line 123
-    print FormatSMVRigakuSaturnSN07400090.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuSaturnSN09040159.py'...
-  File "dxtbx/format/FormatSMVRigakuSaturnSN09040159.py", line 118
-    print FormatSMVRigakuSaturnSN07400090.understand(arg)
-                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatSMVRigakuSaturnSN11480296.py'...
-  File "dxtbx/format/FormatSMVRigakuSaturnSN11480296.py", line 122
-    print FormatSMVRigakuSaturnSN07400090.understand(arg)
-                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatSMVTimePix_SU.py'...
@@ -454,46 +40,10 @@ SyntaxError: invalid syntax
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'dxtbx/format/FormatTIFFBruker.py'...
-  File "dxtbx/format/FormatTIFFBruker.py", line 328
-    print FormatTIFFBruker.understand(arg)
-                         ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'dxtbx/format/FormatTIFFHelpers.py'...
   File "dxtbx/format/FormatTIFFHelpers.py", line 143
     print '(%d x %d) @ %d + %d' % (width, height, depth, header)
                               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatTIFFRayonix.py'...
-  File "dxtbx/format/FormatTIFFRayonix.py", line 324
-    print FormatTIFFRayonix.understand(arg)
-                          ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatTIFFRayonixESRF.py'...
-  File "dxtbx/format/FormatTIFFRayonixESRF.py", line 100
-    print FormatTIFFRayonixESRF.understand(arg)
-                              ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatTIFFRayonixSPring8.py'...
-  File "dxtbx/format/FormatTIFFRayonixSPring8.py", line 127
-    print FormatTIFFRayonixSPring8.understand(arg)
-                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatTIFFRayonixXPP.py'...
-  File "dxtbx/format/FormatTIFFRayonixXPP.py", line 118
-    print FormatTIFFRayonixXPP.understand(arg)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/FormatXDS.py'...
-  File "dxtbx/format/FormatXDS.py", line 146
-    print FormatXDS.understand(arg)
-                  ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTC.py'...
@@ -503,58 +53,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'This is an XTC file and can be read by PSANA')?
 
 *** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
-  File "dxtbx/format/FormatXTCCspad.py", line 154
+  File "dxtbx/format/FormatXTCCspad.py", line 155
     print 'No beam object initialized. Returning CSPAD detector without parallax corrections'
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No beam object initialized. Returning CSPAD detector without parallax corrections')?
-
-*** Error compiling 'dxtbx/format/FormatXTCRayonix.py'...
-  File "dxtbx/format/FormatXTCRayonix.py", line 95
-    print FormatXTCRayonix.understand(arg)
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI31.py'...
-  File "dxtbx/format/TemplatePYCXI31.py", line 22
-    print FormatPYCXI31.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI32.py'...
-  File "dxtbx/format/TemplatePYCXI32.py", line 22
-    print FormatPYCXI32.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI41.py'...
-  File "dxtbx/format/TemplatePYCXI41.py", line 22
-    print FormatPYCXI41.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI51.py'...
-  File "dxtbx/format/TemplatePYCXI51.py", line 22
-    print FormatPYCXI51.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI61.py'...
-  File "dxtbx/format/TemplatePYCXI61.py", line 22
-    print FormatPYCXI61.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI71.py'...
-  File "dxtbx/format/TemplatePYCXI71.py", line 22
-    print FormatPYCXI71.understand(arg)
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'dxtbx/format/TemplatePYCXI7d.py'...
-  File "dxtbx/format/TemplatePYCXI7d.py", line 22
-    print FormatPYCXI7d.understand(arg)
-                      ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/nexus.py'...
   File "dxtbx/format/nexus.py", line 861
@@ -567,12 +69,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ""
     print "Skipping test: dials not present"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
-
-*** Error compiling 'dxtbx/tests/model/experiment/tst_experiment_list.py'...
-  File "dxtbx/tests/model/experiment/tst_experiment_list.py", line 55
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'dxtbx/tests/model/tst_beam.py'...
   File "dxtbx/tests/model/tst_beam.py", line 29
