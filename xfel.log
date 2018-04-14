@@ -197,7 +197,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_mpi_submit.py'...
-  File "xfel/command_line/cxi_mpi_submit.py", line 192
+  File "xfel/command_line/cxi_mpi_submit.py", line 198
     print help_str
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print help_str)?
@@ -473,7 +473,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print st
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Event #",i," has id:",id)?
 
 *** Error compiling 'xfel/command_line/xtc_process.py'...
-  File "xfel/command_line/xtc_process.py", line 430
+  File "xfel/command_line/xtc_process.py", line 418
     print string
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int string)?
@@ -936,6 +936,12 @@ SyntaxError: invalid syntax
                        ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'xfel/ui/command_line/plot_spotfinder_stats_in_gui.py'...
+  File "xfel/ui/command_line/plot_spotfinder_stats_in_gui.py", line 12
+    print plot_spotfinder_stats(stats_tuple, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
+                              ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/ui/command_line/plot_uc_cloud.py'...
   File "xfel/ui/command_line/plot_uc_cloud.py", line 33
     except Exception, e:
@@ -949,10 +955,16 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
-  File "xfel/ui/components/run_stats_plotter.py", line 112
+  File "xfel/ui/components/run_stats_plotter.py", line 125
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
+
+*** Error compiling 'xfel/ui/components/spotfinder_plotter.py'...
+  File "xfel/ui/components/spotfinder_plotter.py", line 56
+    print "Minimalist mode activated."
+                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
 
 *** Error compiling 'xfel/ui/components/submission_tracker.py'...
   File "xfel/ui/components/submission_tracker.py", line 11
@@ -976,12 +988,6 @@ SyntaxError: invalid syntax
   File "xfel/ui/db/__init__.py", line 6
     except ImportError, e:
                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/ui/db/frame_logging.py'...
-  File "xfel/ui/db/frame_logging.py", line 19
-    except Exception, e:
-                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/job.py'...

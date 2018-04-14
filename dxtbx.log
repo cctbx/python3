@@ -53,7 +53,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'This is an XTC file and can be read by PSANA')?
 
 *** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
-  File "dxtbx/format/FormatXTCCspad.py", line 155
+  File "dxtbx/format/FormatXTCCspad.py", line 149
     print 'No beam object initialized. Returning CSPAD detector without parallax corrections'
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No beam object initialized. Returning CSPAD detector without parallax corrections')?

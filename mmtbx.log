@@ -434,7 +434,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Input
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/secondary_structure_restraints.py'...
-  File "mmtbx/command_line/secondary_structure_restraints.py", line 61
+  File "mmtbx/command_line/secondary_structure_restraints.py", line 62
     print help_msg
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
@@ -849,7 +849,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/geometry_restraints/tst_c_beta_restraints.py'...
-  File "mmtbx/geometry_restraints/tst_c_beta_restraints.py", line 223
+  File "mmtbx/geometry_restraints/tst_c_beta_restraints.py", line 218
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -861,13 +861,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'mmtbx/geometry_restraints/tst_ramachandran.py'...
-  File "mmtbx/geometry_restraints/tst_ramachandran.py", line 186
+  File "mmtbx/geometry_restraints/tst_ramachandran.py", line 181
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "")?
 
 *** Error compiling 'mmtbx/geometry_restraints/tst_reference_coordinate.py'...
-  File "mmtbx/geometry_restraints/tst_reference_coordinate.py", line 211
+  File "mmtbx/geometry_restraints/tst_reference_coordinate.py", line 201
     print "distance start (use_reference: %s): %6.4f"%(str(use_reference), d1)
                                                     ^
 SyntaxError: invalid syntax
@@ -1203,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1171
+  File "mmtbx/model/model.py", line 1173
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1837,7 +1837,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
 *** Error compiling 'mmtbx/regression/ncs/tst_minimization_ncs_constraints.py'...
-  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 190
+  File "mmtbx/regression/ncs/tst_minimization_ncs_constraints.py", line 156
     print "start r_factor: %6.4f" % r_start
                                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "start r_factor: %6.4f" % r_start)?
@@ -2197,10 +2197,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1276
-    print format_cpu_times()
-                         ^
-SyntaxError: invalid syntax
+  File "mmtbx/regression/tst_model.py", line 1265
+    print es1.residual_sum
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
 
 *** Error compiling 'mmtbx/regression/tst_model_2.py'...
   File "mmtbx/regression/tst_model_2.py", line 115
