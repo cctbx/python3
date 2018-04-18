@@ -1203,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1173
+  File "mmtbx/model/model.py", line 1174
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1453,7 +1453,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\n#
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/polygon/__init__.py'...
-  File "mmtbx/polygon/__init__.py", line 238
+  File "mmtbx/polygon/__init__.py", line 107
     print "%8.4f %8.4f %d" % (l, r, s)
                          ^
 SyntaxError: invalid syntax
@@ -1465,7 +1465,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print stat_name, value)?
 
 *** Error compiling 'mmtbx/polygon/tst.py'...
-  File "mmtbx/polygon/tst.py", line 72
+  File "mmtbx/polygon/tst.py", line 43
     print "Skip POLYGON test: database file is not available."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skip POLYGON test: database file is not available.")?

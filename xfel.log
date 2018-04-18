@@ -955,7 +955,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
-  File "xfel/ui/components/run_stats_plotter.py", line 125
+  File "xfel/ui/components/run_stats_plotter.py", line 104
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
@@ -994,6 +994,12 @@ SyntaxError: invalid syntax
   File "xfel/ui/db/job.py", line 23
     print "Job is not finished (status = %s)"%self.status
                                             ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/ui/db/stats.py'...
+  File "xfel/ui/db/stats.py", line 201
+    print "HitrateStats took %s" % duration(t1, t2)
+                               ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/xfel_db.py'...

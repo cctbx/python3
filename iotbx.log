@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file_name)?
 
 *** Error compiling 'iotbx/cif/__init__.py'...
-  File "iotbx/cif/__init__.py", line 434
+  File "iotbx/cif/__init__.py", line 433
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
@@ -281,7 +281,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int run.
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Processing:", file_name)?
 
 *** Error compiling 'iotbx/command_line/mtz_as_cif.py'...
-  File "iotbx/command_line/mtz_as_cif.py", line 199
+  File "iotbx/command_line/mtz_as_cif.py", line 127
     print key
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print key)?
