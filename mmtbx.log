@@ -77,7 +77,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t args)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Strange input to starting conformations!!!")?
 
 *** Error compiling 'mmtbx/building/loop_idealization.py'...
-  File "mmtbx/building/loop_idealization.py", line 137
+  File "mmtbx/building/loop_idealization.py", line 146
     print "n_bad_omegas", n_bad_omegas
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "n_bad_omegas", n_bad_omegas)?
@@ -1423,7 +1423,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1625
+  File "mmtbx/ncs/ncs.py", line 1626
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -1757,6 +1757,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print "New iso-level: %.2f" % O.iso_level
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "New iso-level: %.2f" % O.iso_level)?
+
+*** Error compiling 'mmtbx/regression/fix_cablam/tst_basic_cl_operations.py'...
+  File "mmtbx/regression/fix_cablam/tst_basic_cl_operations.py", line 32
+    print "checking %s" % (in_fname[:-4]+prfx+'.pdb')
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/model_idealization/tst_ext_map_01.py'...
   File "mmtbx/regression/model_idealization/tst_ext_map_01.py", line 137
