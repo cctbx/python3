@@ -1203,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1174
+  File "mmtbx/model/model.py", line 1201
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1549,7 +1549,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/__init__.py'...
-  File "mmtbx/refinement/real_space/__init__.py", line 229
+  File "mmtbx/refinement/real_space/__init__.py", line 225
     print cl.axis, ",".join([an[i].strip() for i in cl.axis]), \
            ^
 SyntaxError: invalid syntax
