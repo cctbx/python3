@@ -70,71 +70,17 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ""
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
-*** Error compiling 'dxtbx/tests/model/tst_beam.py'...
-  File "dxtbx/tests/model/tst_beam.py", line 29
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'dxtbx/tests/model/tst_crystal_model.py'...
-  File "dxtbx/tests/model/tst_crystal_model.py", line 356
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dxtbx/tests/model/tst_detector.py'...
-  File "dxtbx/tests/model/tst_detector.py", line 10
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dxtbx/tests/model/tst_detector2.py'...
-  File "dxtbx/tests/model/tst_detector2.py", line 59
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
 *** Error compiling 'dxtbx/tests/model/tst_parallax_correction.py'...
-  File "dxtbx/tests/model/tst_parallax_correction.py", line 34
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dxtbx/tests/model/tst_pickle.py'...
-  File "dxtbx/tests/model/tst_pickle.py", line 26
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+  File "dxtbx/tests/model/tst_parallax_correction.py", line 70
+    print "Skipping test: dials not present"
+                                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
 *** Error compiling 'dxtbx/tests/model/tst_pixel_to_millimeter.py'...
-  File "dxtbx/tests/model/tst_pixel_to_millimeter.py", line 45
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
-
-*** Error compiling 'dxtbx/tests/model/tst_ray_intersection.py'...
-  File "dxtbx/tests/model/tst_ray_intersection.py", line 18
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'dxtbx/tests/model/tst_scan_data.py'...
-  File "dxtbx/tests/model/tst_scan_data.py", line 14
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'dxtbx/tests/model/tst_scan_helpers.py'...
-  File "dxtbx/tests/model/tst_scan_helpers.py", line 57
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'dxtbx/tests/model/tst_to_from_dict.py'...
-  File "dxtbx/tests/model/tst_to_from_dict.py", line 23
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+  File "dxtbx/tests/model/tst_pixel_to_millimeter.py", line 174
+    print "Skipping test: dials not present"
+                                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
 *** Error compiling 'dxtbx/tests/serialize/tst_crystal_model_serialize.py'...
   File "dxtbx/tests/serialize/tst_crystal_model_serialize.py", line 47
@@ -154,24 +100,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK'
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
-*** Error compiling 'dxtbx/tests/test_beam.py'...
-  File "dxtbx/tests/test_beam.py", line 24
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dxtbx/tests/test_detector.py'...
-  File "dxtbx/tests/test_detector.py", line 36
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
-*** Error compiling 'dxtbx/tests/test_goniometer.py'...
-  File "dxtbx/tests/test_goniometer.py", line 105
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
 *** Error compiling 'dxtbx/tests/test_scan.py'...
   File "dxtbx/tests/test_scan.py", line 70
     print sum(xscans[1:], xscans[0])
@@ -184,17 +112,11 @@ SyntaxError: invalid syntax
                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tstFormatCBFFull.py: dials not present")?
 
-*** Error compiling 'dxtbx/tests/tst_beamline_definitions.py'...
-  File "dxtbx/tests/tst_beamline_definitions.py", line 21
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
-
 *** Error compiling 'dxtbx/tests/tst_datablock.py'...
-  File "dxtbx/tests/tst_datablock.py", line 111
-    print 'OK'
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
+  File "dxtbx/tests/tst_datablock.py", line 257
+    print "Skipping test: dials not present"
+                                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
 
 *** Error compiling 'dxtbx/tests/tst_dials_226.py'...
   File "dxtbx/tests/tst_dials_226.py", line 11

@@ -47,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "col
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 831
+  File "iota/components/iota_frames.py", line 874
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
