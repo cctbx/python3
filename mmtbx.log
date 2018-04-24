@@ -404,10 +404,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/ramalyze.py'...
-  File "mmtbx/command_line/ramalyze.py", line 69
-    except ImportError, e :
-                      ^
-SyntaxError: invalid syntax
+  File "mmtbx/command_line/ramalyze.py", line 70
+    print '\nmodel  : %s' % model
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '\nmodel  : %s' % model)?
 
 *** Error compiling 'mmtbx/command_line/rank_scale_map.py'...
   File "mmtbx/command_line/rank_scale_map.py", line 13
