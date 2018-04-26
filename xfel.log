@@ -245,7 +245,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print help_str)?
 
 *** Error compiling 'xfel/command_line/detector_residuals.py'...
-  File "xfel/command_line/detector_residuals.py", line 235
+  File "xfel/command_line/detector_residuals.py", line 242
     print "Setting up stats..."
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Setting up stats...")?
@@ -383,7 +383,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int message)?
 
 *** Error compiling 'xfel/command_line/quadrants_cbf.py'...
-  File "xfel/command_line/quadrants_cbf.py", line 35
+  File "xfel/command_line/quadrants_cbf.py", line 39
     print "Usage: %s [-p] files"%libtbx.env.dispatcher_name
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Usage: %s [-p] files"%libtbx.env.dispatcher_name)?
@@ -932,13 +932,13 @@ SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/plot_run_stats_in_gui.py'...
   File "xfel/ui/command_line/plot_run_stats_in_gui.py", line 12
-    print plot_run_stats(stats_tuple, d_min, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
+    print plot_run_stats(stats_tuple, d_min, n_multiples, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/plot_spotfinder_stats_in_gui.py'...
   File "xfel/ui/command_line/plot_spotfinder_stats_in_gui.py", line 12
-    print plot_spotfinder_stats(stats_tuple, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
+    print plot_spotfinder_stats(stats_tuple, spot_length_stats_tuple, run_tags=run_tags, run_statuses=run_statuses, minimalist=minimalist,
                               ^
 SyntaxError: invalid syntax
 
@@ -955,13 +955,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
-  File "xfel/ui/components/run_stats_plotter.py", line 104
+  File "xfel/ui/components/run_stats_plotter.py", line 105
     print ""
            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
 
 *** Error compiling 'xfel/ui/components/spotfinder_plotter.py'...
-  File "xfel/ui/components/spotfinder_plotter.py", line 56
+  File "xfel/ui/components/spotfinder_plotter.py", line 62
     print "Minimalist mode activated."
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
@@ -1025,6 +1025,12 @@ SyntaxError: invalid syntax
     raise Sorry, "No value found for %s" % marker
                ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/util/reflection_length.py'...
+  File "xfel/util/reflection_length.py", line 58
+    print "Unable to handle one or more files:", importer.unhandled
+                                              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Unable to handle one or more files:", importer.unhandled)?
 
 *** Error compiling 'xfel/vonHamos/fit_3_gaussian.py'...
   File "xfel/vonHamos/fit_3_gaussian.py", line 106

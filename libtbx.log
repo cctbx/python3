@@ -310,12 +310,6 @@ SyntaxError: invalid syntax
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t s)?
 
-*** Error compiling 'libtbx/command_line/show_dist_paths.py'...
-  File "libtbx/command_line/show_dist_paths.py", line 16
-    print path
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int path)?
-
 *** Error compiling 'libtbx/command_line/show_environ_usage.py'...
   File "libtbx/command_line/show_environ_usage.py", line 38
     print """
@@ -410,12 +404,6 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print indent, "Dependency not found", root)?
 
-*** Error compiling 'libtbx/command_line/show_number_of_processors.py'...
-  File "libtbx/command_line/show_number_of_processors.py", line 16
-    print n
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int n)?
-
 *** Error compiling 'libtbx/command_line/show_numeric_version.py'...
   File "libtbx/command_line/show_numeric_version.py", line 4
     except ImportError: print "None"
@@ -427,12 +415,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(pt Impor
     except ImportError: print "None"
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(pt ImportError: print "None")?
-
-*** Error compiling 'libtbx/command_line/show_python_sys_executable.py'...
-  File "libtbx/command_line/show_python_sys_executable.py", line 6
-    print os.path.normpath(sys.executable)
-           ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/command_line/show_pythonpath.py'...
   File "libtbx/command_line/show_pythonpath.py", line 5
