@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 368
+  File "xfel/command_line/cxi_merge.py", line 372
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -691,7 +691,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "N
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/cxi/util.py'...
-  File "xfel/cxi/util.py", line 24
+  File "xfel/cxi/util.py", line 28
     print is_odd_numbered("int_fake_19989.img")
                         ^
 SyntaxError: invalid syntax

@@ -35,7 +35,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "ERR
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Creating windows installer in", options.outdir)?
 
 *** Error compiling 'libtbx/auto_build/install_base_packages.py'...
-  File "libtbx/auto_build/install_base_packages.py", line 435
+  File "libtbx/auto_build/install_base_packages.py", line 439
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
@@ -262,12 +262,6 @@ SyntaxError: invalid syntax
                                ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/command_line/run_tests_parallel.py'...
-  File "libtbx/command_line/run_tests_parallel.py", line 58
-    print 'Running tests in %s' % run_dir
-                              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Running tests in %s' % run_dir)?
-
 *** Error compiling 'libtbx/command_line/seconds_since_the_epoch.py'...
   File "libtbx/command_line/seconds_since_the_epoch.py", line 5
     print " ".join(show)
@@ -488,12 +482,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ms
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'libtbx/introspection.py'...
-  File "libtbx/introspection.py", line 22
-    print caller_location(frames_back=frames_back+1)
-                        ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/log.py'...
   File "libtbx/log.py", line 130
     print "Check set_debug"
@@ -510,12 +498,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
   File "libtbx/objgraph.py", line 333
     print "Graph written to objects.dot (%d nodes)" % nodes
                                                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/phil/__init__.py'...
-  File "libtbx/phil/__init__.py", line 747
-    except python_tokenize.TokenError, e:
-                                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/phil/command_line.py'...
@@ -748,18 +730,6 @@ SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/table_utils.py'...
   File "libtbx/table_utils.py", line 385
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'libtbx/test_utils/__init__.py'...
-  File "libtbx/test_utils/__init__.py", line 110
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
-
-*** Error compiling 'libtbx/test_utils/parallel.py'...
-  File "libtbx/test_utils/parallel.py", line 482
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
