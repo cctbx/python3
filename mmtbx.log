@@ -1203,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1210
+  File "mmtbx/model/model.py", line 1217
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3229,7 +3229,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 375
+  File "mmtbx/validation/chain_comparison.py", line 388
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
