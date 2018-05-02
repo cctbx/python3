@@ -112,12 +112,6 @@ SyntaxError: invalid syntax
                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping tstFormatCBFFull.py: dials not present")?
 
-*** Error compiling 'dxtbx/tests/tst_datablock.py'...
-  File "dxtbx/tests/tst_datablock.py", line 257
-    print "Skipping test: dials not present"
-                                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping test: dials not present")?
-
 *** Error compiling 'dxtbx/tests/tst_dials_226.py'...
   File "dxtbx/tests/tst_dials_226.py", line 11
     print "Skipping tst_dials_226.py: dials_regression not present"
