@@ -1203,7 +1203,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1217
+  File "mmtbx/model/model.py", line 1248
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1415,12 +1415,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
     except KeyError, e :
                    ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/ncs/cartesian_restraints.py'...
-  File "mmtbx/ncs/cartesian_restraints.py", line 253
-    print n_excessive
-                    ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print n_excessive)?
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
   File "mmtbx/ncs/ncs.py", line 1632

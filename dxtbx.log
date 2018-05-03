@@ -137,7 +137,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'SKIP: dials_regression not configured')?
 
 *** Error compiling 'dxtbx/tests/tst_imageset.py'...
-  File "dxtbx/tests/tst_imageset.py", line 91
+  File "dxtbx/tests/tst_imageset.py", line 92
     print image
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print image)?
