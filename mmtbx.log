@@ -301,12 +301,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_m
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
 
-*** Error compiling 'mmtbx/command_line/map_model_cc.py'...
-  File "mmtbx/command_line/map_model_cc.py", line 200
-    print fmt%(r.chain_id, r.cc, r.b_iso_mean, r.occ_mean, r.n_atoms)
-            ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/command_line/map_to_model_histogram.py'...
   File "mmtbx/command_line/map_to_model_histogram.py", line 48
     print flex.min(data), flex.max(data), flex.mean(data)
@@ -1149,7 +1143,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 107
+  File "mmtbx/maps/mtriage.py", line 128
     print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
                             ^
 SyntaxError: invalid syntax
@@ -1203,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1248
+  File "mmtbx/model/model.py", line 1254
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2022,12 +2016,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
 
-*** Error compiling 'mmtbx/regression/tst_b_factor_statistics.py'...
-  File "mmtbx/regression/tst_b_factor_statistics.py", line 21
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
 *** Error compiling 'mmtbx/regression/tst_cablam.py'...
   File "mmtbx/regression/tst_cablam.py", line 179
     print "Skipping exercise_cablam(): input pdb (pdb103l.ent) not available"
@@ -2197,7 +2185,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1265
+  File "mmtbx/regression/tst_model.py", line 1218
     print es1.residual_sum
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
@@ -3211,7 +3199,7 @@ file or the model will be used.
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/utils/__init__.py'...
-  File "mmtbx/utils/__init__.py", line 370
+  File "mmtbx/utils/__init__.py", line 369
     except reflection_file_utils.Sorry_No_array_of_the_required_type, e:
                                                                     ^
 SyntaxError: invalid syntax

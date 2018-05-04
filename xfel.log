@@ -71,7 +71,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/clustering/singleframe.py'...
-  File "xfel/clustering/singleframe.py", line 346
+  File "xfel/clustering/singleframe.py", line 349
     raise Exception("unable to process:"), importer.unhandled
                                          ^
 SyntaxError: invalid syntax

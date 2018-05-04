@@ -1,5 +1,5 @@
 *** Error compiling 'dxtbx/datablock.py'...
-  File "dxtbx/datablock.py", line 322
+  File "dxtbx/datablock.py", line 303
     print 'Using %s for %s' % (self._format_class.__name__, filename)
                           ^
 SyntaxError: invalid syntax
