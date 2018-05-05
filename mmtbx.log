@@ -1197,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1254
+  File "mmtbx/model/model.py", line 1259
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2045,6 +2045,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
+
+*** Error compiling 'mmtbx/regression/tst_clashes.py'...
+  File "mmtbx/regression/tst_clashes.py", line 76
+    print "\n","-"*79
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\n","-"*79)?
 
 *** Error compiling 'mmtbx/regression/tst_command_line_input.py'...
   File "mmtbx/regression/tst_command_line_input.py", line 175
