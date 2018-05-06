@@ -821,7 +821,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/__init__.py'...
-  File "iotbx/pdb/__init__.py", line 69
+  File "iotbx/pdb/__init__.py", line 70
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

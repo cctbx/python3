@@ -653,7 +653,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refined results:")?
 
 *** Error compiling 'scitbx/matrix/__init__.py'...
-  File "scitbx/matrix/__init__.py", line 921
+  File "scitbx/matrix/__init__.py", line 925
     def cross_product_matrix((v0, v1, v2)):
                              ^
 SyntaxError: invalid syntax
