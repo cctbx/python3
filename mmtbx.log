@@ -2161,7 +2161,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_map_model_cc.py'...
-  File "mmtbx/regression/tst_map_model_cc.py", line 90
+  File "mmtbx/regression/tst_map_model_cc.py", line 91
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
