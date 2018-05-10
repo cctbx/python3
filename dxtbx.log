@@ -47,13 +47,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/FormatXTC.py'...
-  File "dxtbx/format/FormatXTC.py", line 68
+  File "dxtbx/format/FormatXTC.py", line 77
     print 'This is an XTC file and can be read by PSANA'
                                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'This is an XTC file and can be read by PSANA')?
 
 *** Error compiling 'dxtbx/format/FormatXTCCspad.py'...
-  File "dxtbx/format/FormatXTCCspad.py", line 149
+  File "dxtbx/format/FormatXTCCspad.py", line 148
     print 'No beam object initialized. Returning CSPAD detector without parallax corrections'
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No beam object initialized. Returning CSPAD detector without parallax corrections')?

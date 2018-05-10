@@ -949,7 +949,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/print_run_stats.py'...
-  File "xfel/ui/command_line/print_run_stats.py", line 22
+  File "xfel/ui/command_line/print_run_stats.py", line 23
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -996,12 +996,6 @@ SyntaxError: invalid syntax
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xfel/ui/db/stats.py'...
-  File "xfel/ui/db/stats.py", line 201
-    print "HitrateStats took %s" % duration(t1, t2)
-                               ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/ui/db/xfel_db.py'...
   File "xfel/ui/db/xfel_db.py", line 146
     print 'Creating experiment tables...'
@@ -1027,7 +1021,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/util/reflection_length.py'...
-  File "xfel/util/reflection_length.py", line 58
+  File "xfel/util/reflection_length.py", line 79
     print "Unable to handle one or more files:", importer.unhandled
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Unable to handle one or more files:", importer.unhandled)?
