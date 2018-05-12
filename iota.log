@@ -40,12 +40,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tm
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
-*** Error compiling 'iota/components/iota_dialogs.py'...
-  File "iota/components/iota_dialogs.py", line 384
-    print "DEBUG: RANDOM SAMPLE ON? ", self.random_subset
-                                    ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "DEBUG: RANDOM SAMPLE ON? ", self.random_subset)?
-
 *** Error compiling 'iota/components/iota_dials.py'...
   File "iota/components/iota_dials.py", line 53
     except Exception, e:
@@ -53,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "DEB
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 877
+  File "iota/components/iota_frames.py", line 881
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
