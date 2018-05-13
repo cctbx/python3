@@ -281,7 +281,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/frame_extractor.py'...
-  File "xfel/command_line/frame_extractor.py", line 222
+  File "xfel/command_line/frame_extractor.py", line 229
     print "unable to process:", importer.unhandled
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "unable to process:", importer.unhandled)?
