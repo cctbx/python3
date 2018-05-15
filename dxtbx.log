@@ -17,7 +17,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print beam)?
 
 *** Error compiling 'dxtbx/format/FormatPYunspecified.py'...
-  File "dxtbx/format/FormatPYunspecified.py", line 87
+  File "dxtbx/format/FormatPYunspecified.py", line 88
     print "This is not a file; assume the data are in the defined dictionary format"
                                                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "This is not a file; assume the data are in the defined dictionary format")?
