@@ -2377,7 +2377,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "=====
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t i,j,k,s,f)?
 
 *** Error compiling 'mmtbx/ringer/tst_emringer.py'...
-  File "mmtbx/ringer/tst_emringer.py", line 93
+  File "mmtbx/ringer/tst_emringer.py", line 107
     print list
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t list)?
