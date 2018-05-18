@@ -1114,6 +1114,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phe
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
+*** Error compiling 'iotbx/regression/tst_mmcif_segids.py'...
+  File "iotbx/regression/tst_mmcif_segids.py", line 61
+    print "Original:"
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Original:")?
+
 *** Error compiling 'iotbx/regression/tst_mtz_as_cif.py'...
   File "iotbx/regression/tst_mtz_as_cif.py", line 18
     print "Skipping iotbx/regression/tst_mtz_as_cif.py: ccp4io not available"
