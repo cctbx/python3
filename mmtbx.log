@@ -2322,12 +2322,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Regul
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'mmtbx/regression/tst_ringer.py'...
-  File "mmtbx/regression/tst_ringer.py", line 23
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
 *** Error compiling 'mmtbx/regression/tst_sequence_validation.py'...
   File "mmtbx/regression/tst_sequence_validation.py", line 11
     print "multiprocessing not available, skipping this test"
@@ -2375,12 +2369,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "=====
     print i,j,k,s,f
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t i,j,k,s,f)?
-
-*** Error compiling 'mmtbx/ringer/tst_emringer.py'...
-  File "mmtbx/ringer/tst_emringer.py", line 107
-    print list
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t list)?
 
 *** Error compiling 'mmtbx/rotamer/graphics.py'...
   File "mmtbx/rotamer/graphics.py", line 33
@@ -3265,7 +3253,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/regression/tst_cablam.py'...
-  File "mmtbx/validation/regression/tst_cablam.py", line 184
+  File "mmtbx/validation/regression/tst_cablam.py", line 186
     print "Skipping exercise_cablam(): input pdb (pdb103l.ent) not available"
                                                                             ^
 SyntaxError: invalid syntax
