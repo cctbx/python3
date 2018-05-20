@@ -574,12 +574,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Finis
                                                                  ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iotbx/detectors/tst_cbf_comp_read_meth.py'...
-  File "iotbx/detectors/tst_cbf_comp_read_meth.py", line 39
-    if timer: print os.path.basename(file)
-                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iotbx/detectors/tst_debug_write.py'...
   File "iotbx/detectors/tst_debug_write.py", line 54
     print x,moddata[x],a.linearintdata[x]
