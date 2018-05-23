@@ -191,7 +191,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 372
+  File "xfel/command_line/cxi_merge.py", line 375
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
