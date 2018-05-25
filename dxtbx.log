@@ -1,5 +1,5 @@
 *** Error compiling 'dxtbx/format/FormatCBFMultiTile.py'...
-  File "dxtbx/format/FormatCBFMultiTile.py", line 157
+  File "dxtbx/format/FormatCBFMultiTile.py", line 158
     print "hLL"
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "hLL")?
@@ -51,6 +51,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'T
     print 'No beam object initialized. Returning CSPAD detector without parallax corrections'
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No beam object initialized. Returning CSPAD detector without parallax corrections')?
+
+*** Error compiling 'dxtbx/format/cbf_writer.py'...
+  File "dxtbx/format/cbf_writer.py", line 308
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'dxtbx/format/nexus.py'...
   File "dxtbx/format/nexus.py", line 861
