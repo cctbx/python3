@@ -3211,7 +3211,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/clashscore.py'...
-  File "mmtbx/validation/clashscore.py", line 93
+  File "mmtbx/validation/clashscore.py", line 94
     print "\nUsing electron cloud x-H distances and vdW radii"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
@@ -3241,7 +3241,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 448
+  File "mmtbx/validation/molprobity/__init__.py", line 451
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

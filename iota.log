@@ -35,7 +35,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tmppath)?
 
 *** Error compiling 'iota/components/iota_controls.py'...
-  File "iota/components/iota_controls.py", line 185
+  File "iota/components/iota_controls.py", line 187
     print "column clicked"
                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?

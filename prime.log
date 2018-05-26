@@ -125,7 +125,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use p
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Error reading input pickle.')?
 
 *** Error compiling 'prime/postrefine/mod_gui_frames.py'...
-  File "prime/postrefine/mod_gui_frames.py", line 622
+  File "prime/postrefine/mod_gui_frames.py", line 574
     print 'killing PID {}'.format(i)
                          ^
 SyntaxError: invalid syntax
