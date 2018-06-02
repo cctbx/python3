@@ -22,6 +22,12 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iota/command_line/iota_single_image.py'...
+  File "iota/command_line/iota_single_image.py", line 171
+    print 'RESULT: ', img_path, no_spots, sg_info, uc_info, '---> ', elapsed
+                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'RESULT: ', img_path, no_spots, sg_info, uc_info, '---> ', elapsed)?
+
 *** Error compiling 'iota/components/iota_analysis.py'...
   File "iota/components/iota_analysis.py", line 127
     except IOError, e:
@@ -41,7 +47,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tm
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
 *** Error compiling 'iota/components/iota_dials.py'...
-  File "iota/components/iota_dials.py", line 53
+  File "iota/components/iota_dials.py", line 52
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

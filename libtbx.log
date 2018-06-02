@@ -191,7 +191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "  Num
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'In file %s:' % filename)?
 
 *** Error compiling 'libtbx/command_line/find_unused_imports_crude.py'...
-  File "libtbx/command_line/find_unused_imports_crude.py", line 94
+  File "libtbx/command_line/find_unused_imports_crude.py", line 95
     print "%s: %s" % (file_name, ", ".join(unused_imports))
                  ^
 SyntaxError: invalid syntax
