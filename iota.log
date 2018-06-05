@@ -23,10 +23,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 171
-    print 'RESULT: ', img_path, no_spots, sg_info, uc_info, '---> ', elapsed
-                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'RESULT: ', img_path, no_spots, sg_info, uc_info, '---> ', elapsed)?
+  File "iota/command_line/iota_single_image.py", line 75
+    print 'DEBUG: VERBOSE = ', self.verbose
+                            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'DEBUG: VERBOSE = ', self.verbose)?
 
 *** Error compiling 'iota/components/iota_analysis.py'...
   File "iota/components/iota_analysis.py", line 127
@@ -83,7 +83,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_misc.py'...
-  File "iota/components/iota_misc.py", line 93
+  File "iota/components/iota_misc.py", line 97
     print entry
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entry)?
@@ -95,10 +95,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entr
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 451
-    print "column clicked"
+  File "iota/components/iota_tracker.py", line 344
+    except AttributeError, e:
                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
+SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_utils.py'...
   File "iota/components/iota_utils.py", line 339

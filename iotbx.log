@@ -233,7 +233,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/command_line/emma.py'...
-  File "iotbx/command_line/emma.py", line 166
+  File "iotbx/command_line/emma.py", line 167
     print "Output pdb:",output_pdb
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Output pdb:",output_pdb)?
