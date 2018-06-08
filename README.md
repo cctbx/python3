@@ -11,7 +11,7 @@ chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
 crys3d | :red_circle:&nbsp; [11 files](crys3d.log) violate python3 syntax
 dials | :white_check_mark:&nbsp; all OK
-dials_research | :red_circle:&nbsp; [1 files](dials_research.log) violate python3 syntax
+dials_research | :white_check_mark:&nbsp; all OK
 dlstbx | :white_check_mark:&nbsp; all OK
 dxtbx | :white_check_mark:&nbsp; all OK
 fable | :red_circle:&nbsp; [8 files](fable.log) violate python3 syntax

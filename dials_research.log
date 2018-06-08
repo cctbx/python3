@@ -1,6 +1,0 @@
-*** Error compiling 'dials_research/papers/how-best-to-use-photons/diminishing-returns-from-multiplicity/analyse-peaks.py'...
-  File "dials_research/papers/how-best-to-use-photons/diminishing-returns-from-multiplicity/analyse-peaks.py", line 5
-    print s[1].occupancy
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(s[1].occupancy)?
-
