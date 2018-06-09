@@ -409,12 +409,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '\
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t header)?
 
-*** Error compiling 'mmtbx/command_line/rebuild_rotarama_cache.py'...
-  File "mmtbx/command_line/rebuild_rotarama_cache.py", line 15
-    print '  Rebuilding rotarama library skipped. Needs rotamer library.'
-                                                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '  Rebuilding rotarama library skipped. Needs rotamer library.')?
-
 *** Error compiling 'mmtbx/command_line/reciprocal_space_arrays.py'...
   File "mmtbx/command_line/reciprocal_space_arrays.py", line 178
     print "Input data:"
@@ -1747,10 +1741,22 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "New iso-level: %.2f" % O.iso_level)?
 
 *** Error compiling 'mmtbx/regression/fix_cablam/tst_basic_cl_operations.py'...
-  File "mmtbx/regression/fix_cablam/tst_basic_cl_operations.py", line 32
+  File "mmtbx/regression/fix_cablam/tst_basic_cl_operations.py", line 33
     print "checking %s" % (in_fname[:-4]+prfx+'.pdb')
                       ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/fix_cablam/tst_one_resid_rotation.py'...
+  File "mmtbx/regression/fix_cablam/tst_one_resid_rotation.py", line 79
+    print "Skipping: probe not configured"
+                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
+
+*** Error compiling 'mmtbx/regression/fix_cablam/tst_single_outliers_surroundings.py'...
+  File "mmtbx/regression/fix_cablam/tst_single_outliers_surroundings.py", line 254
+    print "Skipping: probe not configured"
+                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
 
 *** Error compiling 'mmtbx/regression/model_idealization/tst_ext_map_01.py'...
   File "mmtbx/regression/model_idealization/tst_ext_map_01.py", line 137
