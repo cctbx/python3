@@ -497,10 +497,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "B.ven
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/context/endstation.py'...
-  File "iotbx/detectors/context/endstation.py", line 74
-    print "BRUKER rotation", endstation.rot_axi
-                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "BRUKER rotation", endstation.rot_axi)?
+  File "iotbx/detectors/context/endstation.py", line 77
+    print "MAX-IV Eiger 16M"
+                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "MAX-IV Eiger 16M")?
 
 *** Error compiling 'iotbx/detectors/detectorbase.py'...
   File "iotbx/detectors/detectorbase.py", line 274
