@@ -1746,6 +1746,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "New
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/regression/fix_cablam/tst_insertion_codes.py'...
+  File "mmtbx/regression/fix_cablam/tst_insertion_codes.py", line 158
+    print "Skipping: probe not configured"
+                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
+
 *** Error compiling 'mmtbx/regression/fix_cablam/tst_one_resid_rotation.py'...
   File "mmtbx/regression/fix_cablam/tst_one_resid_rotation.py", line 79
     print "Skipping: probe not configured"
