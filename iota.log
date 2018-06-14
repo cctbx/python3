@@ -23,10 +23,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 75
-    print 'DEBUG: VERBOSE = ', self.verbose
-                            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'DEBUG: VERBOSE = ', self.verbose)?
+  File "iota/command_line/iota_single_image.py", line 139
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_analysis.py'...
   File "iota/components/iota_analysis.py", line 127

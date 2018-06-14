@@ -781,7 +781,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.params.postrefinement.algorithm)?
 
 *** Error compiling 'xfel/merging/general_fcalc.py'...
-  File "xfel/merging/general_fcalc.py", line 98
+  File "xfel/merging/general_fcalc.py", line 97
     print "Sorry, can't include bulk solvent for randomly-generated sites."
                                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Sorry, can't include bulk solvent for randomly-generated sites.")?

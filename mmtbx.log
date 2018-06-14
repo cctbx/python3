@@ -296,7 +296,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 222
+  File "mmtbx/command_line/map_box.py", line 238
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -350,7 +350,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/molprobity.py'...
-  File "mmtbx/command_line/molprobity.py", line 270
+  File "mmtbx/command_line/molprobity.py", line 271
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
@@ -398,7 +398,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/ramalyze.py'...
-  File "mmtbx/command_line/ramalyze.py", line 70
+  File "mmtbx/command_line/ramalyze.py", line 71
     print '\nmodel  : %s' % model
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '\nmodel  : %s' % model)?
@@ -416,7 +416,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t header
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Input data:")?
 
 *** Error compiling 'mmtbx/command_line/rotalyze.py'...
-  File "mmtbx/command_line/rotalyze.py", line 58
+  File "mmtbx/command_line/rotalyze.py", line 59
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
@@ -1191,7 +1191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1298
+  File "mmtbx/model/model.py", line 1301
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
