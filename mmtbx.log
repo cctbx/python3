@@ -2424,6 +2424,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
                        ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/run_tests.py'...
+  File "mmtbx/run_tests.py", line 395
+    print "Skipping %d probe tests: probe not configured"%len(probe_tests)
+                                                        ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'mmtbx/scaling/absence_likelihood.py'...
   File "mmtbx/scaling/absence_likelihood.py", line 133
     print "OK"

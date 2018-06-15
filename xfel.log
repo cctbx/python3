@@ -1003,7 +1003,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/util/reflection_length.py'...
-  File "xfel/util/reflection_length.py", line 79
+  File "xfel/util/reflection_length.py", line 86
     print "Unable to handle one or more files:", importer.unhandled
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Unable to handle one or more files:", importer.unhandled)?

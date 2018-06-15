@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 139
+  File "iota/command_line/iota_single_image.py", line 160
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
