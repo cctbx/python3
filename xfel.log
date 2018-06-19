@@ -907,7 +907,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "#
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/plot_run_stats_from_experiments.py'...
-  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 60
+  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 61
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
