@@ -308,7 +308,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int defa
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/map_to_structure_factors.py'...
-  File "mmtbx/command_line/map_to_structure_factors.py", line 203
+  File "mmtbx/command_line/map_to_structure_factors.py", line 228
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

@@ -471,7 +471,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/file_clutter.py'...
-  File "libtbx/file_clutter.py", line 146
+  File "libtbx/file_clutter.py", line 163
     print msg
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print msg)?
