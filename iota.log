@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 161
+  File "iota/command_line/iota_single_image.py", line 162
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -95,7 +95,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entr
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 341
+  File "iota/components/iota_tracker.py", line 343
     except AttributeError, e:
                          ^
 SyntaxError: invalid syntax
