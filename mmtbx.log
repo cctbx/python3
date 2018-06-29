@@ -326,7 +326,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 841
+  File "mmtbx/command_line/model_idealization.py", line 846
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -360,6 +360,12 @@ SyntaxError: invalid syntax
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling 'mmtbx/command_line/mtriage.py'...
+  File "mmtbx/command_line/mtriage.py", line 149
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/pdb_interpretation.py'...
   File "mmtbx/command_line/pdb_interpretation.py", line 50
@@ -1191,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1321
+  File "mmtbx/model/model.py", line 1317
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2425,7 +2431,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 395
+  File "mmtbx/run_tests.py", line 396
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
@@ -2993,7 +2999,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/__init__.py'...
-  File "mmtbx/secondary_structure/build/__init__.py", line 143
+  File "mmtbx/secondary_structure/build/__init__.py", line 146
     print "min, max, mean, sd hbond lenghts", hbondlen.min_max_mean().as_tuple(),\
                                            ^
 SyntaxError: invalid syntax
@@ -3005,7 +3011,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/tst_2.py'...
-  File "mmtbx/secondary_structure/build/tst_2.py", line 1079
+  File "mmtbx/secondary_structure/build/tst_2.py", line 1082
     print "minmaxmean sd", dmmm, abs(d2-d1).standard_deviation_of_the_sample()
                         ^
 SyntaxError: invalid syntax
@@ -3281,6 +3287,12 @@ SyntaxError: invalid syntax
     print "Skipping exercise_cablam(): input pdb (pdb103l.ent) not available"
                                                                             ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/validation/regression/tst_cablam_2.py'...
+  File "mmtbx/validation/regression/tst_cablam_2.py", line 13
+    print "Skipping: probe not configured"
+                                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
 
 *** Error compiling 'mmtbx/validation/regression/tst_cbetadev.py'...
   File "mmtbx/validation/regression/tst_cbetadev.py", line 14
