@@ -403,7 +403,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "D
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/slip_viewer/tile_generation.py'...
-  File "rstbx/slip_viewer/tile_generation.py", line 109
+  File "rstbx/slip_viewer/tile_generation.py", line 110
     except RuntimeError, e: # catch DXTBX_ASSERT for no intersection
                        ^
 SyntaxError: invalid syntax
