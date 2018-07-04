@@ -1411,7 +1411,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/ncs/ncs.py'...
-  File "mmtbx/ncs/ncs.py", line 1632
+  File "mmtbx/ncs/ncs.py", line 3224
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -2095,7 +2095,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not found, skipping")?
 
 *** Error compiling 'mmtbx/regression/tst_find_ncs.py'...
-  File "mmtbx/regression/tst_find_ncs.py", line 73
+  File "mmtbx/regression/tst_find_ncs.py", line 74
     print "Read ncs-spec file and write out text...",
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Read ncs-spec file and write out text...", end=" ")?
@@ -2431,7 +2431,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 396
+  File "mmtbx/run_tests.py", line 398
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
