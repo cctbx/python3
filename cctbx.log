@@ -779,7 +779,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "N
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/segment_and_split_map.py'...
-  File "cctbx/maptbx/segment_and_split_map.py", line 2481
+  File "cctbx/maptbx/segment_and_split_map.py", line 2488
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
