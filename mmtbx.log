@@ -71,7 +71,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "i
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t args)?
 
 *** Error compiling 'mmtbx/building/loop_closure/starting_conformations.py'...
-  File "mmtbx/building/loop_closure/starting_conformations.py", line 103
+  File "mmtbx/building/loop_closure/starting_conformations.py", line 106
     print "Strange input to starting conformations!!!"
                                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Strange input to starting conformations!!!")?
@@ -386,7 +386,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-'*80)?
 
 *** Error compiling 'mmtbx/command_line/polder.py'...
-  File "mmtbx/command_line/polder.py", line 320
+  File "mmtbx/command_line/polder.py", line 338
     print params.model_file_name
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t params.model_file_name)?
