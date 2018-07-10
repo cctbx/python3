@@ -851,7 +851,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/secondary_structure.py'...
-  File "iotbx/pdb/secondary_structure.py", line 78
+  File "iotbx/pdb/secondary_structure.py", line 84
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

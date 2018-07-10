@@ -2101,7 +2101,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phe
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Read ncs-spec file and write out text...", end=" ")?
 
 *** Error compiling 'mmtbx/regression/tst_find_ss_structure.py'...
-  File "mmtbx/regression/tst_find_ss_structure.py", line 465
+  File "mmtbx/regression/tst_find_ss_structure.py", line 671
     print "Finding sheets, splitting and merging...",
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Finding sheets, splitting and merging...", end=" ")?
@@ -3035,7 +3035,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/secondary_structure/find_ss_from_ca.py'...
-  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 680
+  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 711
     except Exception,e: # the helix needs to be deleted
                     ^
 SyntaxError: invalid syntax
@@ -3053,7 +3053,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "War
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "limit: %.2f" % limit)?
 
 *** Error compiling 'mmtbx/secondary_structure/regularize_from_pdb.py'...
-  File "mmtbx/secondary_structure/regularize_from_pdb.py", line 427
+  File "mmtbx/secondary_structure/regularize_from_pdb.py", line 458
     print "Model numbers: %d  Segments: %d " %(
                                            ^
 SyntaxError: invalid syntax
