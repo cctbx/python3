@@ -2215,7 +2215,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
 *** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1218
+  File "mmtbx/regression/tst_model.py", line 1221
     print es1.residual_sum
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
@@ -3241,7 +3241,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/clashscore.py'...
-  File "mmtbx/validation/clashscore.py", line 94
+  File "mmtbx/validation/clashscore.py", line 97
     print "\nUsing electron cloud x-H distances and vdW radii"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
