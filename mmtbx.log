@@ -1197,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1317
+  File "mmtbx/model/model.py", line 1330
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1537,16 +1537,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/__init__.py'...
-  File "mmtbx/refinement/real_space/__init__.py", line 225
-    print cl.axis, ",".join([an[i].strip() for i in cl.axis]), \
-           ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/refinement/real_space/fit_residues.py'...
-  File "mmtbx/refinement/real_space/fit_residues.py", line 160
-    print r.residue.resseq, i_res
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print r.residue.resseq, i_res)?
+  File "mmtbx/refinement/real_space/__init__.py", line 84
+    print dist, tol
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist, tol)?
 
 *** Error compiling 'mmtbx/refinement/real_space/flipbase.py'...
   File "mmtbx/refinement/real_space/flipbase.py", line 64
@@ -1567,67 +1561,91 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_0.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_0.py", line 95
+  File "mmtbx/refinement/real_space/tst_fit_residue_0.py", line 66
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_0H.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residue_0H.py", line 85
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_1.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_1.py", line 149
-    print dist
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist)?
+  File "mmtbx/refinement/real_space/tst_fit_residue_1.py", line 136
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_1H.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residue_1H.py", line 192
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_2.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_2.py", line 143
+  File "mmtbx/refinement/real_space/tst_fit_residue_2.py", line 117
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_3.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_3.py", line 113
-    print "Test disabled since current protocol cannot do what test asks for."
-                                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Test disabled since current protocol cannot do what test asks for.")?
+  File "mmtbx/refinement/real_space/tst_fit_residue_3.py", line 95
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_4.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_4.py", line 98
-    print "Test disabled since current protocol cannot do what test asks for."
-                                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Test disabled since current protocol cannot do what test asks for.")?
+  File "mmtbx/refinement/real_space/tst_fit_residue_4.py", line 82
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_6.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_6.py", line 121
-    print dist
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist)?
-
-*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residue_7.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residue_7.py", line 109
-    print dist
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist)?
+  File "mmtbx/refinement/real_space/tst_fit_residue_6.py", line 101
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_1.py'...
   File "mmtbx/refinement/real_space/tst_fit_residues_1.py", line 802
-    print "start:", dist
-                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "start:", dist)?
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_1H.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residues_1H.py", line 1509
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_2.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residues_2.py", line 127
-    print "-"*10
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "-"*10)?
+  File "mmtbx/refinement/real_space/tst_fit_residues_2.py", line 119
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_3.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residues_3.py", line 155
-    print "-"*10
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "-"*10)?
+  File "mmtbx/refinement/real_space/tst_fit_residues_3.py", line 143
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_4.py'...
-  File "mmtbx/refinement/real_space/tst_fit_residues_4.py", line 199
+  File "mmtbx/refinement/real_space/tst_fit_residues_4.py", line 169
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_5.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residues_5.py", line 100
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_6.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residues_6.py", line 87
     print "Time: %6.4f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
