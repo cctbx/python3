@@ -308,7 +308,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int defa
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/map_to_structure_factors.py'...
-  File "mmtbx/command_line/map_to_structure_factors.py", line 233
+  File "mmtbx/command_line/map_to_structure_factors.py", line 246
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -1197,7 +1197,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1330
+  File "mmtbx/model/model.py", line 1329
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2449,7 +2449,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 398
+  File "mmtbx/run_tests.py", line 403
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
