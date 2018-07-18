@@ -296,7 +296,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 273
+  File "mmtbx/command_line/map_box.py", line 279
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -326,7 +326,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 846
+  File "mmtbx/command_line/model_idealization.py", line 847
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -360,12 +360,6 @@ SyntaxError: invalid syntax
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'mmtbx/command_line/mtriage.py'...
-  File "mmtbx/command_line/mtriage.py", line 149
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/pdb_interpretation.py'...
   File "mmtbx/command_line/pdb_interpretation.py", line 50
@@ -1143,7 +1137,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print si
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "  %d"%it)?
 
 *** Error compiling 'mmtbx/maps/mtriage.py'...
-  File "mmtbx/maps/mtriage.py", line 130
+  File "mmtbx/maps/mtriage.py", line 162
     print "%6.2f %8.2f %15s:"%(delta, self.time_cumulative, sa), msg
                             ^
 SyntaxError: invalid syntax
@@ -2772,12 +2766,6 @@ SyntaxError: invalid syntax
   File "mmtbx/scaling/tst_xtriage_twin_analyses.py", line 132
     print out.getvalue()
             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/scaling/twin_analyses.py'...
-  File "mmtbx/scaling/twin_analyses.py", line 1027
-    except ValueError, e :
-                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/scaling/twmad_scale.py'...
