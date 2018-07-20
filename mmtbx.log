@@ -326,7 +326,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 847
+  File "mmtbx/command_line/model_idealization.py", line 868
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -1644,6 +1644,12 @@ SyntaxError: invalid syntax
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/refinement/real_space/tst_fit_residues_selection.py'...
+  File "mmtbx/refinement/real_space/tst_fit_residues_selection.py", line 174
+    print "Time: %6.4f"%(time.time()-t0)
+                      ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'mmtbx/refinement/real_space/tst_fit_water.py'...
   File "mmtbx/refinement/real_space/tst_fit_water.py", line 204
     print "Time: %6.4f"%(time.time()-t0)
@@ -2443,7 +2449,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 404
+  File "mmtbx/run_tests.py", line 405
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
