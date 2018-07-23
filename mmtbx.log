@@ -296,7 +296,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 284
+  File "mmtbx/command_line/map_box.py", line 289
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -308,7 +308,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int defa
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/map_to_structure_factors.py'...
-  File "mmtbx/command_line/map_to_structure_factors.py", line 246
+  File "mmtbx/command_line/map_to_structure_factors.py", line 251
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
