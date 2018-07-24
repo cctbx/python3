@@ -191,7 +191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'P
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '\nAtom names')?
 
 *** Error compiling 'mmtbx/command_line/__init__.py'...
-  File "mmtbx/command_line/__init__.py", line 484
+  File "mmtbx/command_line/__init__.py", line 490
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -296,7 +296,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 289
+  File "mmtbx/command_line/map_box.py", line 287
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -350,7 +350,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/molprobity.py'...
-  File "mmtbx/command_line/molprobity.py", line 271
+  File "mmtbx/command_line/molprobity.py", line 272
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
