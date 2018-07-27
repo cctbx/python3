@@ -70,17 +70,11 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "i
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t args)?
 
-*** Error compiling 'mmtbx/building/loop_closure/starting_conformations.py'...
-  File "mmtbx/building/loop_closure/starting_conformations.py", line 106
-    print "Strange input to starting conformations!!!"
-                                                     ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Strange input to starting conformations!!!")?
-
 *** Error compiling 'mmtbx/building/loop_idealization.py'...
-  File "mmtbx/building/loop_idealization.py", line 150
+  File "mmtbx/building/loop_idealization.py", line 151
     print "n_bad_omegas", n_bad_omegas
                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "n_bad_omegas", n_bad_omegas)?
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "n_bad_omegas", n_bad_omegas)?
 
 *** Error compiling 'mmtbx/building/make_library.py'...
   File "mmtbx/building/make_library.py", line 92
@@ -3247,7 +3241,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 398
+  File "mmtbx/validation/chain_comparison.py", line 404
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
