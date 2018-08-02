@@ -3241,13 +3241,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 404
+  File "mmtbx/validation/chain_comparison.py", line 406
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/clashscore.py'...
-  File "mmtbx/validation/clashscore.py", line 97
+  File "mmtbx/validation/clashscore.py", line 100
     print "\nUsing electron cloud x-H distances and vdW radii"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
