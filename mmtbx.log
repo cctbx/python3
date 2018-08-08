@@ -1185,7 +1185,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1329
+  File "mmtbx/model/model.py", line 1375
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2244,6 +2244,12 @@ SyntaxError: invalid syntax
                             ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/regression/tst_model_cart_ref_restraints.py'...
+  File "mmtbx/regression/tst_model_cart_ref_restraints.py", line 352
+    print "Reduce not installed."
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed.")?
+
 *** Error compiling 'mmtbx/regression/tst_model_map.py'...
   File "mmtbx/regression/tst_model_map.py", line 111
     print cc1, cc2
@@ -2255,6 +2261,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cc1, c
     print format_cpu_times()
                          ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/tst_model_tors_ref_restraints.py'...
+  File "mmtbx/regression/tst_model_tors_ref_restraints.py", line 24
+    print "Reduce not installed"
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed")?
 
 *** Error compiling 'mmtbx/regression/tst_model_vs_map.py'...
   File "mmtbx/regression/tst_model_vs_map.py", line 136
@@ -2443,7 +2455,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 405
+  File "mmtbx/run_tests.py", line 407
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
