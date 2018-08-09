@@ -1185,7 +1185,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1375
+  File "mmtbx/model/model.py", line 1390
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2263,7 +2263,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cc1, c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_model_tors_ref_restraints.py'...
-  File "mmtbx/regression/tst_model_tors_ref_restraints.py", line 24
+  File "mmtbx/regression/tst_model_tors_ref_restraints.py", line 179
     print "Reduce not installed"
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed")?
