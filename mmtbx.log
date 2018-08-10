@@ -1782,6 +1782,42 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
 
+*** Error compiling 'mmtbx/regression/model/tst_model.py'...
+  File "mmtbx/regression/model/tst_model.py", line 1221
+    print es1.residual_sum
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
+
+*** Error compiling 'mmtbx/regression/model/tst_model_2.py'...
+  File "mmtbx/regression/model/tst_model_2.py", line 115
+    print "Reduce not installed, needed for model.idealize_h(). skipping"
+                                                                        ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/model/tst_model_biomt_mtrix.py'...
+  File "mmtbx/regression/model/tst_model_biomt_mtrix.py", line 406
+    print "Total time: %8.3f"%(time.time() - t0)
+                            ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/model/tst_model_cart_ref_restraints.py'...
+  File "mmtbx/regression/model/tst_model_cart_ref_restraints.py", line 352
+    print "Reduce not installed."
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed.")?
+
+*** Error compiling 'mmtbx/regression/model/tst_model_mtrix.py'...
+  File "mmtbx/regression/model/tst_model_mtrix.py", line 132
+    print format_cpu_times()
+                         ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/model/tst_model_tors_ref_restraints.py'...
+  File "mmtbx/regression/model/tst_model_tors_ref_restraints.py", line 179
+    print "Reduce not installed"
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed")?
+
 *** Error compiling 'mmtbx/regression/model_idealization/tst_ext_map_01.py'...
   File "mmtbx/regression/model_idealization/tst_ext_map_01.py", line 137
     print fmodel_cmd
@@ -2226,47 +2262,11 @@ SyntaxError: invalid syntax
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting merge_model\n")?
 
-*** Error compiling 'mmtbx/regression/tst_model.py'...
-  File "mmtbx/regression/tst_model.py", line 1221
-    print es1.residual_sum
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
-
-*** Error compiling 'mmtbx/regression/tst_model_2.py'...
-  File "mmtbx/regression/tst_model_2.py", line 115
-    print "Reduce not installed, needed for model.idealize_h(). skipping"
-                                                                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/regression/tst_model_biomt_mtrix.py'...
-  File "mmtbx/regression/tst_model_biomt_mtrix.py", line 406
-    print "Total time: %8.3f"%(time.time() - t0)
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/regression/tst_model_cart_ref_restraints.py'...
-  File "mmtbx/regression/tst_model_cart_ref_restraints.py", line 352
-    print "Reduce not installed."
-                                ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed.")?
-
 *** Error compiling 'mmtbx/regression/tst_model_map.py'...
   File "mmtbx/regression/tst_model_map.py", line 111
     print cc1, cc2
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cc1, cc2)?
-
-*** Error compiling 'mmtbx/regression/tst_model_mtrix.py'...
-  File "mmtbx/regression/tst_model_mtrix.py", line 132
-    print format_cpu_times()
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/regression/tst_model_tors_ref_restraints.py'...
-  File "mmtbx/regression/tst_model_tors_ref_restraints.py", line 179
-    print "Reduce not installed"
-                               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reduce not installed")?
 
 *** Error compiling 'mmtbx/regression/tst_model_vs_map.py'...
   File "mmtbx/regression/tst_model_vs_map.py", line 136
