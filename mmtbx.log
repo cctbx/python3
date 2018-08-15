@@ -824,6 +824,12 @@ SyntaxError: invalid syntax
                                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping KSDSSP tests: ksdssp module not available.")?
 
+*** Error compiling 'mmtbx/geometry_restraints/torsion_restraints/tst_reference_model_ligands.py'...
+  File "mmtbx/geometry_restraints/torsion_restraints/tst_reference_model_ligands.py", line 120
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
+
 *** Error compiling 'mmtbx/geometry_restraints/torsion_restraints/tst_torsion_ncs.py'...
   File "mmtbx/geometry_restraints/torsion_restraints/tst_torsion_ncs.py", line 172
     print "OK"
@@ -2455,7 +2461,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 407
+  File "mmtbx/run_tests.py", line 409
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax

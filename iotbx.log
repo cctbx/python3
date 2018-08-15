@@ -983,7 +983,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/reflection_file_utils.py'...
-  File "iotbx/reflection_file_utils.py", line 744
+  File "iotbx/reflection_file_utils.py", line 747
     except Sorry_Not_a_suitable_array, e:
                                      ^
 SyntaxError: invalid syntax
