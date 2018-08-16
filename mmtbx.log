@@ -1233,7 +1233,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/glyco_utils.py'...
-  File "mmtbx/monomer_library/glyco_utils.py", line 126
+  File "mmtbx/monomer_library/glyco_utils.py", line 125
     print '''
   self.anomeric_carbon %s
   self.link_oxygen     %s
@@ -1796,8 +1796,8 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.
 
 *** Error compiling 'mmtbx/regression/model/tst_model_2.py'...
   File "mmtbx/regression/model/tst_model_2.py", line 115
-    print "Reduce not installed, needed for model.idealize_h(). skipping"
-                                                                        ^
+    print "Reduce not installed, needed for model.idealize_h_minimization(). skipping"
+                                                                                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/model/tst_model_biomt_mtrix.py'...
