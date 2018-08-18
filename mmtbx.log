@@ -1404,6 +1404,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
                    ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/ncs/ligands.py'...
+  File "mmtbx/ncs/ligands.py", line 166
+    print 'best_group',best_group
+                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'best_group',best_group)?
+
 *** Error compiling 'mmtbx/ncs/ncs.py'...
   File "mmtbx/ncs/ncs.py", line 3224
     except Exception,e:
@@ -2364,6 +2370,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
                                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not found, skipping test")?
 
+*** Error compiling 'mmtbx/regression/tst_reduce_timeout.py'...
+  File "mmtbx/regression/tst_reduce_timeout.py", line 51
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'mmtbx/regression/tst_regularize_from_pdb.py'...
   File "mmtbx/regression/tst_regularize_from_pdb.py", line 41
     print "Regularizing allowing insertions...",
@@ -2461,7 +2473,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 409
+  File "mmtbx/run_tests.py", line 410
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
@@ -3247,7 +3259,7 @@ file or the model will be used.
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/utils/__init__.py'...
-  File "mmtbx/utils/__init__.py", line 369
+  File "mmtbx/utils/__init__.py", line 370
     except reflection_file_utils.Sorry_No_array_of_the_required_type, e:
                                                                     ^
 SyntaxError: invalid syntax
