@@ -272,7 +272,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/fake_f_obs.py'...
-  File "mmtbx/command_line/fake_f_obs.py", line 112
+  File "mmtbx/command_line/fake_f_obs.py", line 113
     print "  %s err=%8.3f rmsd: bonds=%6.3f angles=%6.3f"%(prefix, self.error,
                                                         ^
 SyntaxError: invalid syntax
@@ -3277,7 +3277,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/clashscore.py'...
-  File "mmtbx/validation/clashscore.py", line 100
+  File "mmtbx/validation/clashscore.py", line 101
     print "\nUsing electron cloud x-H distances and vdW radii"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
