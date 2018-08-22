@@ -2371,7 +2371,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not found, skipping test")?
 
 *** Error compiling 'mmtbx/regression/tst_reduce_timeout.py'...
-  File "mmtbx/regression/tst_reduce_timeout.py", line 52
+  File "mmtbx/regression/tst_reduce_timeout.py", line 53
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?

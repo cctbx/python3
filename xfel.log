@@ -125,10 +125,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Parsi
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/cspad_detector_congruence.py'...
-  File "xfel/command_line/cspad_detector_congruence.py", line 195
-    print "Please provide two experiments and or datablocks for comparison"
-                                                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Please provide two experiments and or datablocks for comparison")?
+  File "xfel/command_line/cspad_detector_congruence.py", line 172
+    print "no values"
+                    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "no values")?
 
 *** Error compiling 'xfel/command_line/cspad_detector_congruence2.py'...
   File "xfel/command_line/cspad_detector_congruence2.py", line 212

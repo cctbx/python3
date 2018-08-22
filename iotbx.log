@@ -1066,12 +1066,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'iotbx/regression/tst_expand_ncs.py'...
-  File "iotbx/regression/tst_expand_ncs.py", line 14
-    print "phenix_regression not configured, skipping test"
-                                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not configured, skipping test")?
-
 *** Error compiling 'iotbx/regression/tst_export_scalepack_unmerged.py'...
   File "iotbx/regression/tst_export_scalepack_unmerged.py", line 120
     print "OK"
