@@ -290,7 +290,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 287
+  File "mmtbx/command_line/map_box.py", line 289
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -981,7 +981,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "refinement.minimization step: f,iter,nfun:", end=" ")?
 
 *** Error compiling 'mmtbx/hydrogens/tst_validate_H.py'...
-  File "mmtbx/hydrogens/tst_validate_H.py", line 1011
+  File "mmtbx/hydrogens/tst_validate_H.py", line 1015
     print "OK. Time: %8.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -1191,7 +1191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1390
+  File "mmtbx/model/model.py", line 1388
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3047,7 +3047,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/build/tst_2.py'...
-  File "mmtbx/secondary_structure/build/tst_2.py", line 1082
+  File "mmtbx/secondary_structure/build/tst_2.py", line 1081
     print "minmaxmean sd", dmmm, abs(d2-d1).standard_deviation_of_the_sample()
                         ^
 SyntaxError: invalid syntax
