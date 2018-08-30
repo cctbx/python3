@@ -104,7 +104,7 @@ Three mandatory arguments:
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/core_toolbox/boost_python/tst_small_image.py'...
-  File "spotfinder/core_toolbox/boost_python/tst_small_image.py", line 149
+  File "spotfinder/core_toolbox/boost_python/tst_small_image.py", line 157
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?

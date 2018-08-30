@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 162
+  File "iota/command_line/iota_single_image.py", line 163
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -35,7 +35,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_cctbx.py'...
-  File "iota/components/iota_cctbx.py", line 268
+  File "iota/components/iota_cctbx.py", line 267
     print tmppath
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tmppath)?
@@ -53,7 +53,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "col
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 881
+  File "iota/components/iota_frames.py", line 870
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
@@ -77,7 +77,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nERROR: No data found!")?
 
 *** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 394
+  File "iota/components/iota_input.py", line 391
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
@@ -89,13 +89,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entry)?
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 112
+  File "iota/components/iota_threads.py", line 118
     except IOTATermination, e:
                           ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 343
+  File "iota/components/iota_tracker.py", line 337
     except AttributeError, e:
                          ^
 SyntaxError: invalid syntax
