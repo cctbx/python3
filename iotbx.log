@@ -1019,7 +1019,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/secondary_structure/tst_annotation.py'...
-  File "iotbx/regression/secondary_structure/tst_annotation.py", line 703
+  File "iotbx/regression/secondary_structure/tst_annotation.py", line 710
     print "\"%s\"" % v
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\"%s\"" % v)?
