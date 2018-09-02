@@ -101,8 +101,8 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 342
-    print 'ERROR: Need image or datablock for Radial Average Calculator'
-                                                                       ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'ERROR: Need image or datablock for Radial Average Calculator')?
+  File "iota/components/iota_utils.py", line 394
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
