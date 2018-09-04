@@ -137,10 +137,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?
 
 *** Error compiling 'prime/postrefine/mod_merge_data.py'...
-  File "prime/postrefine/mod_merge_data.py", line 95
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "prime/postrefine/mod_merge_data.py", line 96
+    print "Warning: R_split calculation failed."
+                                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning: R_split calculation failed.")?
 
 *** Error compiling 'prime/postrefine/mod_misc.py'...
   File "prime/postrefine/mod_misc.py", line 193
@@ -173,10 +173,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done. You can view your results and log file in ", iparams.run_no)?
 
 *** Error compiling 'prime/postrefine/mod_util.py'...
-  File "prime/postrefine/mod_util.py", line 333
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "prime/postrefine/mod_util.py", line 334
+    print "Warning: outlier rejection by bins failed because of floating point."
+                                                                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning: outlier rejection by bins failed because of floating point.")?
 
 *** Error compiling 'prime/postrefine/postrefine.py'...
   File "prime/postrefine/postrefine.py", line 79

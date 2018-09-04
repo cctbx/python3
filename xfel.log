@@ -41,10 +41,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if j%10=
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cent)?
 
 *** Error compiling 'xfel/cftbx/detector/cspad_cbf_tbx.py'...
-  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 202
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 581
+    print "Validating transofmation matrices set up correctly"
+                                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Validating transofmation matrices set up correctly")?
 
 *** Error compiling 'xfel/clustering/cluster.py'...
   File "xfel/clustering/cluster.py", line 159
@@ -83,10 +83,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/auto_submit.py'...
-  File "xfel/command_line/auto_submit.py", line 119
-    except ValueError, e :
-                     ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/auto_submit.py", line 162
+    print "Note, it is not recommended that you run this program while you have new jobs pending."
+                                                                                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Note, it is not recommended that you run this program while you have new jobs pending.")?
 
 *** Error compiling 'xfel/command_line/beamcenter.py'...
   File "xfel/command_line/beamcenter.py", line 44
@@ -119,10 +119,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "pic
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Parsing input...")?
 
 *** Error compiling 'xfel/command_line/cspad_circular_gain_mask.py'...
-  File "xfel/command_line/cspad_circular_gain_mask.py", line 47
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cspad_circular_gain_mask.py", line 62
+    print "Generating annular gain mask between %f and %f angstroms, assuming a distance %s mm and wavelength %s angstroms" % \
+                                                                                                                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Generating annular gain mask between %f and %f angstroms, assuming a distance %s mm and wavelength %s angstroms" % \)?
 
 *** Error compiling 'xfel/command_line/cspad_detector_congruence.py'...
   File "xfel/command_line/cspad_detector_congruence.py", line 172
@@ -149,16 +149,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "F
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "*"*80)?
 
 *** Error compiling 'xfel/command_line/cxi_apply_metrology.py'...
-  File "xfel/command_line/cxi_apply_metrology.py", line 34
-    except RuntimeError, e :
+  File "xfel/command_line/cxi_apply_metrology.py", line 45
+    print "Source file:", params.source_cbf
                        ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/command_line/cxi_calibdir2cbfheader.py'...
-  File "xfel/command_line/cxi_calibdir2cbfheader.py", line 50
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Source file:", params.source_cbf)?
 
 *** Error compiling 'xfel/command_line/cxi_cbfheader2slaccalib.py'...
   File "xfel/command_line/cxi_cbfheader2slaccalib.py", line 38
@@ -173,28 +167,28 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.pbi
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%14s "%version, "%17s"%_detector_format_version_dict[version]['address'], end=" ")?
 
 *** Error compiling 'xfel/command_line/cxi_display_metrology.py'...
-  File "xfel/command_line/cxi_display_metrology.py", line 31
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cxi_display_metrology.py", line 78
+    print "Ginn metrology file"
+                              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Ginn metrology file")?
 
 *** Error compiling 'xfel/command_line/cxi_generate_circular_gain_mask.py'...
-  File "xfel/command_line/cxi_generate_circular_gain_mask.py", line 55
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cxi_generate_circular_gain_mask.py", line 70
+    print "Generating annular gain mask using %s metrology between %f and %f angstroms, assuming a distance %s mm and wavelength %s angstroms" % \
+                                                                                                                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Generating annular gain mask using %s metrology between %f and %f angstroms, assuming a distance %s mm and wavelength %s angstroms" % \)?
 
 *** Error compiling 'xfel/command_line/cxi_index.py'...
-  File "xfel/command_line/cxi_index.py", line 79
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cxi_index.py", line 81
+    print e.classname, "for %s:"%file,
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e.classname, "for %s:"%file, end=" ")?
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 379
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cxi_merge.py", line 382
+    print "Step 1.  Get a list of all files"
+                                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?
 
 *** Error compiling 'xfel/command_line/cxi_mpi_submit.py'...
   File "xfel/command_line/cxi_mpi_submit.py", line 198
@@ -203,16 +197,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print help_str)?
 
 *** Error compiling 'xfel/command_line/cxi_optical2cbfheader.py'...
-  File "xfel/command_line/cxi_optical2cbfheader.py", line 44
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/command_line/cxi_pickle2cbf.py'...
-  File "xfel/command_line/cxi_pickle2cbf.py", line 46
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/cxi_optical2cbfheader.py", line 55
+    print params.metrology_file, params.detector
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t params.metrology_file, params.detector)?
 
 *** Error compiling 'xfel/command_line/cxi_psana.py'...
   File "xfel/command_line/cxi_psana.py", line 17
@@ -263,9 +251,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Don
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Administering experiment", self.params.experiment, "using tag", self.params.experiment_tag)?
 
 *** Error compiling 'xfel/command_line/fee_view.py'...
-  File "xfel/command_line/fee_view.py", line 46
-    except Exception, e:
-                    ^
+  File "xfel/command_line/fee_view.py", line 47
+    print str(e)
+            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/filter_experiments_by_rmsd.py'...
@@ -275,10 +263,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/find_highres_shots.py'...
-  File "xfel/command_line/find_highres_shots.py", line 86
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/find_highres_shots.py", line 87
+    print "Couldn't read", filepath
+                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Couldn't read", filepath)?
 
 *** Error compiling 'xfel/command_line/frame_extractor.py'...
   File "xfel/command_line/frame_extractor.py", line 229
@@ -309,12 +297,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Outpu
     print "Checking for new jobs to submit"
                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Checking for new jobs to submit")?
-
-*** Error compiling 'xfel/command_line/list_db_metadata.py'...
-  File "xfel/command_line/list_db_metadata.py", line 31
-    except RuntimeError, e :
-                       ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/make_dials_mask.py'...
   File "xfel/command_line/make_dials_mask.py", line 117
@@ -389,16 +371,16 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int mess
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Usage: %s [-p] files"%libtbx.env.dispatcher_name)?
 
 *** Error compiling 'xfel/command_line/radial_average.py'...
-  File "xfel/command_line/radial_average.py", line 77
-    except ValueError, e :
-                     ^
+  File "xfel/command_line/radial_average.py", line 287
+    print "tile %d, x1 %d, y1 %d, x2 %d, y2 %d, w %d, h %d, cx %s, cy %s"%(tile, x1, y1, x2, y2, w, h, cx, cy)
+                                                                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/recompute_mosaicity.py'...
-  File "xfel/command_line/recompute_mosaicity.py", line 84
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/recompute_mosaicity.py", line 93
+    print "Saving new experiments as %s"%params.output.experiments
+                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Saving new experiments as %s"%params.output.experiments)?
 
 *** Error compiling 'xfel/command_line/riso.py'...
   File "xfel/command_line/riso.py", line 90
@@ -407,16 +389,16 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%6d indices in common in the range %.2f-%.2f Angstroms"%\)?
 
 *** Error compiling 'xfel/command_line/runs_sentinel.py'...
-  File "xfel/command_line/runs_sentinel.py", line 65
-    except Exception, e:
-                    ^
+  File "xfel/command_line/runs_sentinel.py", line 92
+    print "%d new runs"%len(unknown_runs)
+                      ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/small_cell_index.py'...
-  File "xfel/command_line/small_cell_index.py", line 127
-    except ImportError, e:
-                      ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/small_cell_index.py", line 128
+    print "MPI not found, multiprocessing disabled"
+                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "MPI not found, multiprocessing disabled")?
 
 *** Error compiling 'xfel/command_line/smooth_spectrum.py'...
   File "xfel/command_line/smooth_spectrum.py", line 60
@@ -443,9 +425,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "proce
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Reading data from: %s" %filename)?
 
 *** Error compiling 'xfel/command_line/trial_stats.py'...
-  File "xfel/command_line/trial_stats.py", line 51
-    except ValueError, e :
-                     ^
+  File "xfel/command_line/trial_stats.py", line 108
+    print "Run: %3d, number of hits: %6d, number of frames: %6d, hitrate: %4.1f%%. Number indexed: %6d (%4.1f%%)"%(run,numhits,numframes,hitrate,numindexed,indexingrate)
+                                                                                                                ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/view_pixel_histograms.py'...
@@ -521,16 +503,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print pa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print hist_min, hist_max)?
 
 *** Error compiling 'xfel/cxi/cspad_ana/common_mode.py'...
-  File "xfel/cxi/cspad_ana/common_mode.py", line 406
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/cxi/cspad_ana/cspad_tbx.py'...
-  File "xfel/cxi/cspad_ana/cspad_tbx.py", line 831
-    except AttributeError, e:
-                         ^
-SyntaxError: invalid syntax
+  File "xfel/cxi/cspad_ana/common_mode.py", line 553
+    print self.sum_common_mode, self.sumsq_common_mode
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.sum_common_mode, self.sumsq_common_mode)?
 
 *** Error compiling 'xfel/cxi/cspad_ana/display_calib.py'...
   File "xfel/cxi/cspad_ana/display_calib.py", line 73
@@ -557,9 +533,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "END
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No image to save for %s"%self.timestamp)?
 
 *** Error compiling 'xfel/cxi/cspad_ana/mod_hitfind.py'...
-  File "xfel/cxi/cspad_ana/mod_hitfind.py", line 178
-    except Exception,e:
-                    ^
+  File "xfel/cxi/cspad_ana/mod_hitfind.py", line 383
+    print "Not logging %s, wrong bravais setting (expecting %d, got %d)" % (
+                                                                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/cxi/cspad_ana/mod_onecolor_spectrum_filter.py'...
@@ -593,10 +569,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.nmemb)?
 
 *** Error compiling 'xfel/cxi/cspad_ana/rayonix_tbx.py'...
-  File "xfel/cxi/cspad_ana/rayonix_tbx.py", line 323
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/cxi/cspad_ana/rayonix_tbx.py", line 348
+    print "Compressing tiles...",
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Compressing tiles...", end=" ")?
 
 *** Error compiling 'xfel/cxi/cspad_ana/xes_faster_histograms.py'...
   File "xfel/cxi/cspad_ana/xes_faster_histograms.py", line 53
@@ -637,10 +613,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int beam
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "This is not a file; assume the data are in the defined dictionary format")?
 
 *** Error compiling 'xfel/cxi/gfx/status_plot.py'...
-  File "xfel/cxi/gfx/status_plot.py", line 64
-    except ValueError, e :
-                     ^
-SyntaxError: invalid syntax
+  File "xfel/cxi/gfx/status_plot.py", line 65
+    print "error plotting det_z:", e
+                                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "error plotting det_z:", e)?
 
 *** Error compiling 'xfel/cxi/gfx/trials_plot.py'...
   File "xfel/cxi/gfx/trials_plot.py", line 195
@@ -685,21 +661,15 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No data")?
 
 *** Error compiling 'xfel/cxi/strong_zulu.py'...
-  File "xfel/cxi/strong_zulu.py", line 37
-    except NoAutoIndex,e:
+  File "xfel/cxi/strong_zulu.py", line 38
+    print "NoAutoIndex"
                       ^
-SyntaxError: invalid syntax
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "NoAutoIndex")?
 
 *** Error compiling 'xfel/cxi/util.py'...
   File "xfel/cxi/util.py", line 28
     print is_odd_numbered("int_fake_19989.img")
                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/euxfel/agipd_cxigeom2nexus.py'...
-  File "xfel/euxfel/agipd_cxigeom2nexus.py", line 49
-    except Exception, e:
-                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/euxfel/read_geom.py'...
@@ -721,10 +691,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...
-  File "xfel/merging/command_line/dev_cxi_merge.py", line 121
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/merging/command_line/dev_cxi_merge.py", line 122
+    print "ERROR: can't show plots"
+                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "ERROR: can't show plots")?
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge_refltable.py'...
   File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 77
@@ -811,10 +781,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "HATTNE entering mark1.compute_functional_and_gradients")?
 
 *** Error compiling 'xfel/metrology/mark10.py'...
-  File "xfel/metrology/mark10.py", line 35
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/metrology/mark10.py", line 36
+    print "Exception from picture",e
+                                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Exception from picture",e)?
 
 *** Error compiling 'xfel/metrology/mark3.py'...
   File "xfel/metrology/mark3.py", line 75
@@ -846,17 +816,11 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "pos_n
                                             ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xfel/phil_preferences.py'...
-  File "xfel/phil_preferences.py", line 38
-    except Sorry,e:
-                ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/sacla/dump_sacla_data.py'...
-  File "xfel/sacla/dump_sacla_data.py", line 39
-    except KeyError, ValueError:
-                   ^
-SyntaxError: invalid syntax
+  File "xfel/sacla/dump_sacla_data.py", line 41
+    print "Fail to read, attempt number", n_fails
+                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Fail to read, attempt number", n_fails)?
 
 *** Error compiling 'xfel/sacla/mpccd_geom2json.py'...
   File "xfel/sacla/mpccd_geom2json.py", line 27
@@ -871,10 +835,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Loading %s"%path)?
 
 *** Error compiling 'xfel/small_cell/solve_orientation.py'...
-  File "xfel/small_cell/solve_orientation.py", line 41
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/small_cell/solve_orientation.py", line 42
+    print "Exception while calculating basis vectors: %s"%e.message
+                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Exception while calculating basis vectors: %s"%e.message)?
 
 *** Error compiling 'xfel/small_cell/write_orientation_arrows.py'...
   File "xfel/small_cell/write_orientation_arrows.py", line 21
@@ -883,16 +847,16 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/get_hit_timestamps.py'...
-  File "xfel/ui/command_line/get_hit_timestamps.py", line 31
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/ui/command_line/get_hit_timestamps.py", line 59
+    print "%04d"%run.run, ts
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%04d"%run.run, ts)?
 
 *** Error compiling 'xfel/ui/command_line/plot_isoform_cloud.py'...
-  File "xfel/ui/command_line/plot_isoform_cloud.py", line 28
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/ui/command_line/plot_isoform_cloud.py", line 56
+    print "Reading data..."
+                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Reading data...")?
 
 *** Error compiling 'xfel/ui/command_line/plot_reflection_stats.py'...
   File "xfel/ui/command_line/plot_reflection_stats.py", line 100
@@ -900,17 +864,11 @@ SyntaxError: invalid syntax
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "# 2theta Res N dXY IsigI")?
 
-*** Error compiling 'xfel/ui/command_line/plot_run_stats.py'...
-  File "xfel/ui/command_line/plot_run_stats.py", line 57
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/ui/command_line/plot_run_stats_from_experiments.py'...
-  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 61
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 110
+    print filename
+                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print filename)?
 
 *** Error compiling 'xfel/ui/command_line/plot_run_stats_in_gui.py'...
   File "xfel/ui/command_line/plot_run_stats_in_gui.py", line 12
@@ -925,16 +883,16 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/command_line/plot_uc_cloud.py'...
-  File "xfel/ui/command_line/plot_uc_cloud.py", line 33
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/ui/command_line/plot_uc_cloud.py", line 63
+    print "Reading data..."
+                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Reading data...")?
 
 *** Error compiling 'xfel/ui/command_line/print_run_stats.py'...
-  File "xfel/ui/command_line/print_run_stats.py", line 23
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/ui/command_line/print_run_stats.py", line 26
+    print "Printing results for trial", params.trial, "using a hit cutoff of", params.n_strong_cutoff, "reflections"
+                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Printing results for trial", params.trial, "using a hit cutoff of", params.n_strong_cutoff, "reflections")?
 
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
   File "xfel/ui/components/run_stats_plotter.py", line 106
@@ -967,10 +925,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Sub
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/__init__.py'...
-  File "xfel/ui/db/__init__.py", line 6
-    except ImportError, e:
-                      ^
-SyntaxError: invalid syntax
+  File "xfel/ui/db/__init__.py", line 30
+    print "Too many connections, retry", retry_count
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Too many connections, retry", retry_count)?
 
 *** Error compiling 'xfel/ui/db/job.py'...
   File "xfel/ui/db/job.py", line 23
@@ -1021,10 +979,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/xpp/isoform.py'...
-  File "xfel/xpp/isoform.py", line 40
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
+  File "xfel/xpp/isoform.py", line 41
+    print e
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?
 
 *** Error compiling 'xfel/xpp/progress_support.py'...
   File "xfel/xpp/progress_support.py", line 63

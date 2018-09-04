@@ -5,10 +5,10 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.original_binning: print legend)?
 
 *** Error compiling 'spotfinder/applications/practical_heuristics.py'...
-  File "spotfinder/applications/practical_heuristics.py", line 298
-    except Sorry, e:
-                ^
-SyntaxError: invalid syntax
+  File "spotfinder/applications/practical_heuristics.py", line 343
+    if VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total']
+                                              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total'])?
 
 *** Error compiling 'spotfinder/applications/signal_strength.py'...
   File "spotfinder/applications/signal_strength.py", line 43
@@ -98,9 +98,9 @@ Three mandatory arguments:
 """)?
 
 *** Error compiling 'spotfinder/core_toolbox/__init__.py'...
-  File "spotfinder/core_toolbox/__init__.py", line 58
-    except Exception, e:
-                    ^
+  File "spotfinder/core_toolbox/__init__.py", line 59
+    if str(e).find("cannot distinguish signal")>0: print e
+                                                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/core_toolbox/boost_python/tst_small_image.py'...
@@ -157,12 +157,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "lengt
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image: %s"%params.distl.image)?
 
-*** Error compiling 'spotfinder/servers/apache_bcsb.py'...
-  File "spotfinder/servers/apache_bcsb.py", line 77
-    except Exception,e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'spotfinder/servers/apache_dials.py'...
   File "spotfinder/servers/apache_dials.py", line 45
     print "Image: %s\n"%params.file_name
@@ -170,15 +164,15 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image: %s\n"%params.file_name)?
 
 *** Error compiling 'spotfinder/servers/bcsb_client_example.py'...
-  File "spotfinder/servers/bcsb_client_example.py", line 17
-    except Exception,e:
-                    ^
+  File "spotfinder/servers/bcsb_client_example.py", line 31
+    print do_main_apache(filepath, host, port)
+                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/servers/general_client_example.py'...
-  File "spotfinder/servers/general_client_example.py", line 15
-    except Exception,e:
-                    ^
+  File "spotfinder/servers/general_client_example.py", line 22
+    print do_main_apache(filepath, host, port)
+                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/servers/mp_spotfinder_server_is_alive.py'...
@@ -194,9 +188,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t Respon
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "length of data in ints",stop_index)?
 
 *** Error compiling 'spotfinder/servers/specific_client_example.py'...
-  File "spotfinder/servers/specific_client_example.py", line 17
-    except Exception,e:
-                    ^
+  File "spotfinder/servers/specific_client_example.py", line 31
+    print do_main_apache(filepath, host, port)
+                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/servers/spotfinder_server_client_push.py'...

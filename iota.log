@@ -1,9 +1,3 @@
-*** Error compiling 'iota/command_line/iota_bulletproof.py'...
-  File "iota/command_line/iota_bulletproof.py", line 32
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iota/command_line/iota_filter_pickles.py'...
   File "iota/command_line/iota_filter_pickles.py", line 62
     print "WARNING: Problem creating folder. If the folder exists, it will get overwritten."
@@ -11,28 +5,22 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "WARNING: Problem creating folder. If the folder exists, it will get overwritten.")?
 
 *** Error compiling 'iota/command_line/iota_process.py'...
-  File "iota/command_line/iota_process.py", line 64
-    except IOTATermination, e:
-                          ^
-SyntaxError: invalid syntax
+  File "iota/command_line/iota_process.py", line 73
+    print 'ABORTING ... NOW!!'
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'ABORTING ... NOW!!')?
 
 *** Error compiling 'iota/command_line/iota_run.py'...
-  File "iota/command_line/iota_run.py", line 86
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "iota/command_line/iota_run.py", line 191
+    print 'No images successfully integrated!'
+                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No images successfully integrated!')?
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 163
-    except Exception, e:
+  File "iota/command_line/iota_single_image.py", line 219
+    print experiments
                     ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'iota/components/iota_analysis.py'...
-  File "iota/components/iota_analysis.py", line 127
-    except IOError, e:
-                  ^
-SyntaxError: invalid syntax
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print experiments)?
 
 *** Error compiling 'iota/components/iota_cctbx.py'...
   File "iota/components/iota_cctbx.py", line 267
@@ -47,40 +35,34 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print tm
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
 *** Error compiling 'iota/components/iota_dials.py'...
-  File "iota/components/iota_dials.py", line 52
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "iota/components/iota_dials.py", line 97
+    print "Old crystal:"
+                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Old crystal:")?
 
 *** Error compiling 'iota/components/iota_frames.py'...
-  File "iota/components/iota_frames.py", line 870
-    except ValueError, e:
-                     ^
-SyntaxError: invalid syntax
+  File "iota/components/iota_frames.py", line 871
+    print 'SUMMARY PLOT ERROR: ', e
+                               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'SUMMARY PLOT ERROR: ', e)?
 
 *** Error compiling 'iota/components/iota_gui_init.py'...
-  File "iota/components/iota_gui_init.py", line 261
-    except Sorry, e:
-                ^
-SyntaxError: invalid syntax
+  File "iota/components/iota_gui_init.py", line 274
+    print self.input_window.input.all_data_images
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.input_window.input.all_data_images)?
 
 *** Error compiling 'iota/components/iota_image.py'...
-  File "iota/components/iota_image.py", line 145
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "iota/components/iota_image.py", line 146
+    print 'IOTA IMPORT ERROR:', e
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'IOTA IMPORT ERROR:', e)?
 
 *** Error compiling 'iota/components/iota_init.py'...
   File "iota/components/iota_init.py", line 106
     print "\nERROR: No data found!"
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nERROR: No data found!")?
-
-*** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 391
-    except Sorry,e:
-                ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_misc.py'...
   File "iota/components/iota_misc.py", line 97
@@ -89,16 +71,16 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int entry)?
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 118
-    except IOTATermination, e:
-                          ^
-SyntaxError: invalid syntax
+  File "iota/components/iota_threads.py", line 120
+    print e
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?
 
 *** Error compiling 'iota/components/iota_tracker.py'...
-  File "iota/components/iota_tracker.py", line 337
-    except AttributeError, e:
+  File "iota/components/iota_tracker.py", line 466
+    print "column clicked"
                          ^
-SyntaxError: invalid syntax
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "column clicked")?
 
 *** Error compiling 'iota/components/iota_utils.py'...
   File "iota/components/iota_utils.py", line 394

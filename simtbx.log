@@ -17,10 +17,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(for i in self.input_list: print i)?
 
 *** Error compiling 'simtbx/nanoBragg/nanoBragg_input.py'...
-  File "simtbx/nanoBragg/nanoBragg_input.py", line 113
-    except TypeError, e:
-                    ^
-SyntaxError: invalid syntax
+  File "simtbx/nanoBragg/nanoBragg_input.py", line 114
+    print i, e
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i, e)?
 
 *** Error compiling 'simtbx/nanoBragg/nanoBragg_threads.py'...
   File "simtbx/nanoBragg/nanoBragg_threads.py", line 77

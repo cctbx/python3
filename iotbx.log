@@ -502,6 +502,12 @@ SyntaxError: invalid syntax
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "MAX-IV Eiger 16M")?
 
+*** Error compiling 'iotbx/detectors/context/endstation_max_iv_trial.py'...
+  File "iotbx/detectors/context/endstation_max_iv_trial.py", line 77
+    print "MAX-IV Eiger 16M"
+                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "MAX-IV Eiger 16M")?
+
 *** Error compiling 'iotbx/detectors/detectorbase.py'...
   File "iotbx/detectors/detectorbase.py", line 274
     print "beam center convention: %d" % bc
@@ -521,10 +527,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbo
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/eiger_minicbf.py'...
-  File "iotbx/detectors/eiger_minicbf.py", line 46
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "iotbx/detectors/eiger_minicbf.py", line 156
+    print a
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
 
 *** Error compiling 'iotbx/detectors/mar.py'...
   File "iotbx/detectors/mar.py", line 204

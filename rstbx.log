@@ -203,10 +203,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Test autoindexing on synthetic reciprocal space positions")?
 
 *** Error compiling 'rstbx/indexing_api/basis_choice.py'...
-  File "rstbx/indexing_api/basis_choice.py", line 78
-    except (FewSpots),f:
-                     ^
-SyntaxError: invalid syntax
+  File "rstbx/indexing_api/basis_choice.py", line 91
+    print "Report this problem to DIALS developers:"
+                                                   ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Report this problem to DIALS developers:")?
 
 *** Error compiling 'rstbx/indexing_api/force_cell.py'...
   File "rstbx/indexing_api/force_cell.py", line 40
@@ -288,18 +288,6 @@ SyntaxError: invalid syntax
                                                                                                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'rstbx/phil/phil_preferences.py'...
-  File "rstbx/phil/phil_preferences.py", line 366
-    except Sorry,e:
-                ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'rstbx/phil/preferences.py'...
-  File "rstbx/phil/preferences.py", line 63
-    except Sorry,e:
-                ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'rstbx/run_tests.py'...
   File "rstbx/run_tests.py", line 19
     print "OK"
@@ -313,10 +301,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/simage/refine_uc_cr.py'...
-  File "rstbx/simage/refine_uc_cr.py", line 39
-    except RuntimeError, e:
-                       ^
-SyntaxError: invalid syntax
+  File "rstbx/simage/refine_uc_cr.py", line 95
+    print "refinement target:"
+                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "refinement target:")?
 
 *** Error compiling 'rstbx/simage/run_labelit_index.py'...
   File "rstbx/simage/run_labelit_index.py", line 21
@@ -379,10 +367,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/slip_viewer/pyslip.py'...
-  File "rstbx/slip_viewer/pyslip.py", line 444
-    except IOError, e:
-                  ^
-SyntaxError: invalid syntax
+  File "rstbx/slip_viewer/pyslip.py", line 1500
+    exec self.point_view_placement[place]
+            ^
+SyntaxError: Missing parentheses in call to 'exec'
 
 *** Error compiling 'rstbx/slip_viewer/ring_frame.py'...
   File "rstbx/slip_viewer/ring_frame.py", line 187
@@ -396,22 +384,10 @@ SyntaxError: invalid syntax
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Dumped scores to", path)?
 
-*** Error compiling 'rstbx/slip_viewer/slip_viewer_image_factory.py'...
-  File "rstbx/slip_viewer/slip_viewer_image_factory.py", line 10
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'rstbx/slip_viewer/tile_generation.py'...
-  File "rstbx/slip_viewer/tile_generation.py", line 110
-    except RuntimeError, e: # catch DXTBX_ASSERT for no intersection
-                       ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'rstbx/slip_viewer/uc_frame.py'...
-  File "rstbx/slip_viewer/uc_frame.py", line 280
-    except Exception, e:
-                    ^
+  File "rstbx/slip_viewer/uc_frame.py", line 287
+    print "Printing spacings, len: %s"%len(spacings)
+                                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/symmetry/constraints/parameter_reduction.py'...
@@ -420,16 +396,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'rstbx/symmetry/subgroup.py'...
-  File "rstbx/symmetry/subgroup.py", line 104
-    except RuntimeError, e:
-                       ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'rstbx/viewer/__init__.py'...
-  File "rstbx/viewer/__init__.py", line 235
-    except ImageException, e :
-                         ^
+  File "rstbx/viewer/__init__.py", line 276
+    print "%d spot predictions loaded" % mp.size()
+                                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/viewer/calibration.py'...
@@ -451,21 +421,15 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/viewer/display.py'...
-  File "rstbx/viewer/display.py", line 187
-    except IndexError, e :
-                     ^
-SyntaxError: invalid syntax
+  File "rstbx/viewer/display.py", line 189
+    print e
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e)?
 
 *** Error compiling 'rstbx/viewer/drivers.py'...
   File "rstbx/viewer/drivers.py", line 42
     print "Will index on images %d and %d..." % (start, frame2)
                                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'rstbx/viewer/frame.py'...
-  File "rstbx/viewer/frame.py", line 134
-    except TypeError, e: pass
-                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/viewer/results_base.py'...
