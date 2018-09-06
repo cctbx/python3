@@ -1849,10 +1849,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/xray/observations/tst_observations.py'...
-  File "cctbx/xray/observations/tst_observations.py", line 73
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+  File "cctbx/xray/observations/tst_observations.py", line 72
+    except RuntimeError, e:
+                       ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/xray/structure.py'...
   File "cctbx/xray/structure.py", line 2481
