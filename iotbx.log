@@ -851,7 +851,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/pdb/mmcif.py'...
-  File "iotbx/pdb/mmcif.py", line 83
+  File "iotbx/pdb/mmcif.py", line 82
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
