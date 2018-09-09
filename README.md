@@ -30,5 +30,5 @@ smtbx | :red_circle:&nbsp; [22 files](smtbx.log) violate python3 syntax
 spotfinder | :red_circle:&nbsp; [32 files](spotfinder.log) violate python3 syntax
 tbxx | :white_check_mark:&nbsp; all OK
 ucif | :white_check_mark:&nbsp; all OK
-xfel | :red_circle:&nbsp; [169 files](xfel.log) violate python3 syntax
+xfel | :red_circle:&nbsp; [170 files](xfel.log) violate python3 syntax
 xia2 | :white_check_mark:&nbsp; all OK

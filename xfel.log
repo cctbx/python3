@@ -678,6 +678,12 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help_str)?
 
+*** Error compiling 'xfel/euxfel/write_composite_image.py'...
+  File "xfel/euxfel/write_composite_image.py", line 42
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/merging/algorithms/error_model/sdfac_propagate.py'...
   File "xfel/merging/algorithms/error_model/sdfac_propagate.py", line 314
     print "Showing finite differences and derivatives for each parameter (first few reflections only)"
