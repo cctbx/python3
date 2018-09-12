@@ -185,7 +185,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "G
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e.classname, "for %s:"%file, end=" ")?
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 382
+  File "xfel/command_line/cxi_merge.py", line 388
     print "Step 1.  Get a list of all files"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?

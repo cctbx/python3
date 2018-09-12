@@ -1043,7 +1043,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not available, skipping test.")?
 
 *** Error compiling 'iotbx/regression/tst_bioinformatics.py'...
-  File "iotbx/regression/tst_bioinformatics.py", line 1785
+  File "iotbx/regression/tst_bioinformatics.py", line 1798
     print "Testing guess_chain_types ...",
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Testing guess_chain_types ...", end=" ")?
