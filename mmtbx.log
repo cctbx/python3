@@ -392,10 +392,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/ramalyze.py'...
-  File "mmtbx/command_line/ramalyze.py", line 71
-    print '\nmodel  : %s' % model
-                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '\nmodel  : %s' % model)?
+  File "mmtbx/command_line/ramalyze.py", line 67
+    print "Cannot find '%s', skipping." % model
+                                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Cannot find '%s', skipping." % model)?
 
 *** Error compiling 'mmtbx/command_line/rank_scale_map.py'...
   File "mmtbx/command_line/rank_scale_map.py", line 13
