@@ -65,7 +65,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s image_filename [parameter=value ...]" % command_name)?
 
 *** Error compiling 'spotfinder/command_line/sweep_strength.py'...
-  File "spotfinder/command_line/sweep_strength.py", line 176
+  File "spotfinder/command_line/sweep_strength.py", line 177
     print "usage:   %s image_prefix_*.img [parameter=value ...]" % command_name
                                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "usage:   %s image_prefix_*.img [parameter=value ...]" % command_name)?

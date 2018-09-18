@@ -455,7 +455,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print st
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Event #",i," has id:",id)?
 
 *** Error compiling 'xfel/command_line/xtc_process.py'...
-  File "xfel/command_line/xtc_process.py", line 463
+  File "xfel/command_line/xtc_process.py", line 472
     print string
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int string)?

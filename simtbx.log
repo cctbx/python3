@@ -29,9 +29,9 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i,
 SyntaxError: invalid syntax
 
 *** Error compiling 'simtbx/nanoBragg/tst_gaussian_mosaicity.py'...
-  File "simtbx/nanoBragg/tst_gaussian_mosaicity.py", line 55
-    print "%27s"%(str(RLP.elems)),"Vector length:%8.6f"%(RLP.length()),
-               ^
+  File "simtbx/nanoBragg/tst_gaussian_mosaicity.py", line 58
+    print "(%7.5f %7.5f %7.5f)"%(RLP.elems),"Vector length:%8.6f"%(RLP.length()),
+                              ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_basic.py'...
