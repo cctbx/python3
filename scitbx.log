@@ -107,7 +107,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "+++
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'scitbx/examples/bevington/silver.py'...
-  File "scitbx/examples/bevington/silver.py", line 109
+  File "scitbx/examples/bevington/silver.py", line 110
     print "%s %10.4f"%(message,target),
                     ^
 SyntaxError: invalid syntax

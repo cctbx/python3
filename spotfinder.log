@@ -1,11 +1,11 @@
 *** Error compiling 'spotfinder/applications/heuristic_tbx/spotreporter.py'...
-  File "spotfinder/applications/heuristic_tbx/spotreporter.py", line 206
+  File "spotfinder/applications/heuristic_tbx/spotreporter.py", line 207
     if self.original_binning: print legend
                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.original_binning: print legend)?
 
 *** Error compiling 'spotfinder/applications/practical_heuristics.py'...
-  File "spotfinder/applications/practical_heuristics.py", line 343
+  File "spotfinder/applications/practical_heuristics.py", line 344
     if VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total']
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total'])?
@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%25s : None"%item[1])?
 
 *** Error compiling 'spotfinder/applications/xfel/correction_vector_plot.py'...
-  File "spotfinder/applications/xfel/correction_vector_plot.py", line 26
+  File "spotfinder/applications/xfel/correction_vector_plot.py", line 27
     print "Plotting all %d spots one graph."%len(x)
                                            ^
 SyntaxError: invalid syntax
@@ -35,13 +35,13 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/applications/xfel/cxi_run3.py'...
-  File "spotfinder/applications/xfel/cxi_run3.py", line 70
+  File "spotfinder/applications/xfel/cxi_run3.py", line 71
     print "The center is %7.2f %7.2f; "%(self.x[0],self.x[1]),
                                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/command_line/find_active_area.py'...
-  File "spotfinder/command_line/find_active_area.py", line 40
+  File "spotfinder/command_line/find_active_area.py", line 41
     print len(sources),len(sinks)
             ^
 SyntaxError: invalid syntax
@@ -98,7 +98,7 @@ Three mandatory arguments:
 """)?
 
 *** Error compiling 'spotfinder/core_toolbox/__init__.py'...
-  File "spotfinder/core_toolbox/__init__.py", line 59
+  File "spotfinder/core_toolbox/__init__.py", line 60
     if str(e).find("cannot distinguish signal")>0: print e
                                                          ^
 SyntaxError: invalid syntax
@@ -110,7 +110,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'spotfinder/core_toolbox/close_spots_detail.py'...
-  File "spotfinder/core_toolbox/close_spots_detail.py", line 65
+  File "spotfinder/core_toolbox/close_spots_detail.py", line 66
     print "all maxima:",self.pmax
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "all maxima:",self.pmax)?
@@ -122,13 +122,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "all
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'spotfinder/diffraction/imagefiles.py'...
-  File "spotfinder/diffraction/imagefiles.py", line 89
+  File "spotfinder/diffraction/imagefiles.py", line 90
     if self.ext.lower() in FileName.exts: print self.template;return 1
                                                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/dxtbx_toolbox/__init__.py'...
-  File "spotfinder/dxtbx_toolbox/__init__.py", line 34
+  File "spotfinder/dxtbx_toolbox/__init__.py", line 35
     print special_vendortype
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print special_vendortype)?
@@ -140,13 +140,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print sp
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int scan)?
 
 *** Error compiling 'spotfinder/math_support/sphere_formulae.py'...
-  File "spotfinder/math_support/sphere_formulae.py", line 85
+  File "spotfinder/math_support/sphere_formulae.py", line 86
     print "R     K      Vsph  Vewld     D      S      V    Xroid  Vobs   o/s    S/V  Xroid/R"
                                                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "R     K      Vsph  Vewld     D      S      V    Xroid  Vobs   o/s    S/V  Xroid/R")?
 
 *** Error compiling 'spotfinder/servers/adsc_client.py'...
-  File "spotfinder/servers/adsc_client.py", line 36
+  File "spotfinder/servers/adsc_client.py", line 37
     print "length of data in ints",stop_index
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "length of data in ints",stop_index)?
@@ -164,13 +164,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Image: %s\n"%params.file_name)?
 
 *** Error compiling 'spotfinder/servers/bcsb_client_example.py'...
-  File "spotfinder/servers/bcsb_client_example.py", line 31
+  File "spotfinder/servers/bcsb_client_example.py", line 32
     print do_main_apache(filepath, host, port)
                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/servers/general_client_example.py'...
-  File "spotfinder/servers/general_client_example.py", line 22
+  File "spotfinder/servers/general_client_example.py", line 23
     print do_main_apache(filepath, host, port)
                        ^
 SyntaxError: invalid syntax
@@ -182,13 +182,13 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t Response.status,Response.reason)?
 
 *** Error compiling 'spotfinder/servers/pilatus_client.py'...
-  File "spotfinder/servers/pilatus_client.py", line 34
+  File "spotfinder/servers/pilatus_client.py", line 35
     print "length of data in ints",stop_index
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "length of data in ints",stop_index)?
 
 *** Error compiling 'spotfinder/servers/specific_client_example.py'...
-  File "spotfinder/servers/specific_client_example.py", line 31
+  File "spotfinder/servers/specific_client_example.py", line 32
     print do_main_apache(filepath, host, port)
                        ^
 SyntaxError: invalid syntax

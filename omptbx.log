@@ -1,5 +1,5 @@
 *** Error compiling 'omptbx/tst.py'...
-  File "omptbx/tst.py", line 5
+  File "omptbx/tst.py", line 6
     if (omptbx.have_omp_h): print "omptbx.have_omp_h"
                                                     ^
 SyntaxError: invalid syntax

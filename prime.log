@@ -35,7 +35,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use p
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning:", e)?
 
 *** Error compiling 'prime/command_line/frame_extractor_by_scan.py'...
-  File "prime/command_line/frame_extractor_by_scan.py", line 56
+  File "prime/command_line/frame_extractor_by_scan.py", line 57
     print scan_no, len(self.reflections)
                 ^
 SyntaxError: invalid syntax
@@ -47,7 +47,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print data, ' - no pickle file found.')?
 
 *** Error compiling 'prime/command_line/mpi_run.py'...
-  File "prime/command_line/mpi_run.py", line 46
+  File "prime/command_line/mpi_run.py", line 47
     print "Merging with %d batch size"%(n_batch)
                                      ^
 SyntaxError: invalid syntax
@@ -71,7 +71,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Usa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.plotstats to view different stats along post-refinement cycles.')?
 
 *** Error compiling 'prime/command_line/postrefine.py'...
-  File "prime/command_line/postrefine.py", line 103
+  File "prime/command_line/postrefine.py", line 104
     print txt_merge_mean_table
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_merge_mean_table)?
@@ -131,7 +131,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'E
 SyntaxError: invalid syntax
 
 *** Error compiling 'prime/postrefine/mod_input.py'...
-  File "prime/postrefine/mod_input.py", line 402
+  File "prime/postrefine/mod_input.py", line 403
     print txt_help
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?
@@ -173,7 +173,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done. You can view your results and log file in ", iparams.run_no)?
 
 *** Error compiling 'prime/postrefine/mod_util.py'...
-  File "prime/postrefine/mod_util.py", line 334
+  File "prime/postrefine/mod_util.py", line 335
     print "Warning: outlier rejection by bins failed because of floating point."
                                                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning: outlier rejection by bins failed because of floating point.")?

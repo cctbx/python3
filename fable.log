@@ -35,7 +35,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ou
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
 
 *** Error compiling 'fable/test/sf_times.py'...
-  File "fable/test/sf_times.py", line 187
+  File "fable/test/sf_times.py", line 188
     print build_cmd
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?

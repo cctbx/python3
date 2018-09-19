@@ -467,7 +467,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a.linearintdata)?
 
 *** Error compiling 'iotbx/detectors/adsc_minicbf.py'...
-  File "iotbx/detectors/adsc_minicbf.py", line 145
+  File "iotbx/detectors/adsc_minicbf.py", line 146
     print a
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
@@ -479,7 +479,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/beam_center_convention.py'...
-  File "iotbx/detectors/beam_center_convention.py", line 142
+  File "iotbx/detectors/beam_center_convention.py", line 143
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -509,7 +509,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "MA
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(rint "MAX-IV Eiger 16M")?
 
 *** Error compiling 'iotbx/detectors/detectorbase.py'...
-  File "iotbx/detectors/detectorbase.py", line 274
+  File "iotbx/detectors/detectorbase.py", line 275
     print "beam center convention: %d" % bc
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "beam center convention: %d" % bc)?
@@ -521,13 +521,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "b
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose: print match, end=" ")?
 
 *** Error compiling 'iotbx/detectors/edf.py'...
-  File "iotbx/detectors/edf.py", line 76
+  File "iotbx/detectors/edf.py", line 77
     print "".join(P.header)
            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/eiger_minicbf.py'...
-  File "iotbx/detectors/eiger_minicbf.py", line 156
+  File "iotbx/detectors/eiger_minicbf.py", line 157
     print a
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
@@ -539,13 +539,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/npy.py'...
-  File "iotbx/detectors/npy.py", line 138
+  File "iotbx/detectors/npy.py", line 139
     print "CXI 2x2 size",self.size1,self.size2, self.linearintdata.focus()
                        ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/pilatus_minicbf.py'...
-  File "iotbx/detectors/pilatus_minicbf.py", line 61
+  File "iotbx/detectors/pilatus_minicbf.py", line 62
     raise RuntimeError, 'bz2 file provided without bz2 module'
                       ^
 SyntaxError: invalid syntax
@@ -563,7 +563,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a.linearintdata)?
 
 *** Error compiling 'iotbx/detectors/raxisbase.py'...
-  File "iotbx/detectors/raxisbase.py", line 84
+  File "iotbx/detectors/raxisbase.py", line 85
     if verbose:print item[0],self.head[item[0]]
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose:print item[0],self.head[item[0]])?
@@ -581,7 +581,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Finis
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/tst_debug_write.py'...
-  File "iotbx/detectors/tst_debug_write.py", line 54
+  File "iotbx/detectors/tst_debug_write.py", line 55
     print x,moddata[x],a.linearintdata[x]
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print x,moddata[x],a.linearintdata[x])?
@@ -593,13 +593,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print x,
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'bpcx_regression not configured, skipping test')?
 
 *** Error compiling 'iotbx/detectors/tst_py_cbf.py'...
-  File "iotbx/detectors/tst_py_cbf.py", line 57
+  File "iotbx/detectors/tst_py_cbf.py", line 58
     print self.header_dic
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.header_dic)?
 
 *** Error compiling 'iotbx/detectors/util/filters.py'...
-  File "iotbx/detectors/util/filters.py", line 133
+  File "iotbx/detectors/util/filters.py", line 134
     print "Working on block",prime_asic
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Working on block",prime_asic)?

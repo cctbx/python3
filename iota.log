@@ -17,7 +17,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'A
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'No images successfully integrated!')?
 
 *** Error compiling 'iota/command_line/iota_single_image.py'...
-  File "iota/command_line/iota_single_image.py", line 219
+  File "iota/command_line/iota_single_image.py", line 220
     print experiments
                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print experiments)?

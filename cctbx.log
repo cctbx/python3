@@ -455,37 +455,37 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "fud
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/data_subset.py'...
-  File "cctbx/examples/merging/data_subset.py", line 75
+  File "cctbx/examples/merging/data_subset.py", line 76
     print "DONE UNMAPPING HERE"
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "DONE UNMAPPING HERE")?
 
 *** Error compiling 'cctbx/examples/merging/data_utilities.py'...
-  File "cctbx/examples/merging/data_utilities.py", line 52
+  File "cctbx/examples/merging/data_utilities.py", line 53
     print message,LC.coefficient(),"on %d values"%LC.n()
                 ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/samosa/join.py'...
-  File "cctbx/examples/merging/samosa/join.py", line 111
+  File "cctbx/examples/merging/samosa/join.py", line 112
     print "Allocating intensities"
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Allocating intensities")?
 
 *** Error compiling 'cctbx/examples/merging/samosa/scale.py'...
-  File "cctbx/examples/merging/samosa/scale.py", line 26
+  File "cctbx/examples/merging/samosa/scale.py", line 27
     print "Read in %d observations"%(len(obs["observed_intensity"]))
                                   ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/sigma_correction.py'...
-  File "cctbx/examples/merging/sigma_correction.py", line 32
+  File "cctbx/examples/merging/sigma_correction.py", line 33
     print "\nA mean %7.4f std %7.4f"%(stats_a.mean(),stats_a.unweighted_sample_standard_deviation())
                                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/task4.py'...
-  File "cctbx/examples/merging/task4.py", line 41
+  File "cctbx/examples/merging/task4.py", line 42
     print "<I> / <sigma>", (mean_signal/ mean_sigma)
                         ^
 SyntaxError: invalid syntax
@@ -503,13 +503,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK"
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "OK")?
 
 *** Error compiling 'cctbx/examples/merging/test_levenberg_sparse.py'...
-  File "cctbx/examples/merging/test_levenberg_sparse.py", line 83
+  File "cctbx/examples/merging/test_levenberg_sparse.py", line 84
     print "# structure factors:",self.N_I, "# frames:",self.N_G, "(Visited set; refined parameters)"
                                ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/tst_permutations.py'...
-  File "cctbx/examples/merging/tst_permutations.py", line 11
+  File "cctbx/examples/merging/tst_permutations.py", line 12
     print trial(x,y),
               ^
 SyntaxError: invalid syntax
