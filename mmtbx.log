@@ -320,7 +320,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 885
+  File "mmtbx/command_line/model_idealization.py", line 897
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -1077,7 +1077,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/ions/tst_utils.py'...
-  File "mmtbx/ions/tst_utils.py", line 60
+  File "mmtbx/ions/tst_utils.py", line 59
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -1191,7 +1191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1389
+  File "mmtbx/model/model.py", line 1391
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2473,7 +2473,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 411
+  File "mmtbx/run_tests.py", line 414
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
@@ -3307,7 +3307,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 451
+  File "mmtbx/validation/molprobity/__init__.py", line 452
     except Exception, e :
                     ^
 SyntaxError: invalid syntax

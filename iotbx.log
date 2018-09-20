@@ -1217,7 +1217,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/tst_sort_atoms.py'...
-  File "iotbx/regression/tst_sort_atoms.py", line 826
+  File "iotbx/regression/tst_sort_atoms.py", line 825
     print cmd
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
