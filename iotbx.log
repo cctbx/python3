@@ -958,12 +958,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'iotbx/phil.py'...
-  File "iotbx/phil.py", line 212
-    except ValueError, e :
-                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iotbx/ranges.py'...
   File "iotbx/ranges.py", line 131
     print "OK"

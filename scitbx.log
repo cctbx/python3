@@ -46,12 +46,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'scitbx/array_family/flex.py'...
-  File "scitbx/array_family/flex.py", line 45
-    print as_scitbx_matrix(a).mathematica_form(one_row_per_line=True)
-                         ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'scitbx/command_line/apply_tapenade_hints.py'...
   File "scitbx/command_line/apply_tapenade_hints.py", line 49
     print "\n".join(output_lines)
@@ -381,12 +375,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "I
     print "L-M: %i iterations" % iterations.n_iterations
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "L-M: %i iterations" % iterations.n_iterations)?
-
-*** Error compiling 'scitbx/math/__init__.py'...
-  File "scitbx/math/__init__.py", line 91
-    raise TypeError, "Average of empty sequence"
-                   ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'scitbx/math/besselk.py'...
   File "scitbx/math/besselk.py", line 56
@@ -723,12 +711,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
-
-*** Error compiling 'scitbx/random/__init__.py'...
-  File "scitbx/random/__init__.py", line 60
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'scitbx/rigid_body/essence/tst_basic.py'...
   File "scitbx/rigid_body/essence/tst_basic.py", line 12

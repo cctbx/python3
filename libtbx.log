@@ -710,12 +710,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '-
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Failed to find running server')?
 
-*** Error compiling 'libtbx/smart_open.py'...
-  File "libtbx/smart_open.py", line 22
-    except IOError, e:
-                  ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/sphinx/phil.py'...
   File "libtbx/sphinx/phil.py", line 62
     except Exception, e:
