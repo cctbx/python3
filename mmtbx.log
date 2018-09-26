@@ -818,6 +818,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "AFI
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/geometry_restraints/ramachandran.py'...
+  File "mmtbx/geometry_restraints/ramachandran.py", line 254
+    print "n_emsley_proxies", n_emsley_proxies
+                           ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "n_emsley_proxies", n_emsley_proxies)?
+
 *** Error compiling 'mmtbx/geometry_restraints/torsion_restraints/tst_reference_model.py'...
   File "mmtbx/geometry_restraints/torsion_restraints/tst_reference_model.py", line 249
     print "Skipping KSDSSP tests: ksdssp module not available."
