@@ -320,7 +320,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 897
+  File "mmtbx/command_line/model_idealization.py", line 900
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
@@ -817,12 +817,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "AFI
     except ImportError, e: sander = False
                       ^
 SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/geometry_restraints/ramachandran.py'...
-  File "mmtbx/geometry_restraints/ramachandran.py", line 254
-    print "n_emsley_proxies", n_emsley_proxies
-                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "n_emsley_proxies", n_emsley_proxies)?
 
 *** Error compiling 'mmtbx/geometry_restraints/torsion_restraints/tst_reference_model.py'...
   File "mmtbx/geometry_restraints/torsion_restraints/tst_reference_model.py", line 249
