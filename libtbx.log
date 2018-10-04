@@ -771,7 +771,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "dumps/loads")?
 
 *** Error compiling 'libtbx/tst_fully_buffered_timeout.py'...
-  File "libtbx/tst_fully_buffered_timeout.py", line 18
+  File "libtbx/tst_fully_buffered_timeout.py", line 22
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
