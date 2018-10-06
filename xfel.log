@@ -696,12 +696,6 @@ SyntaxError: invalid syntax
              ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xfel/merging/application/merging/merger_mpi.py'...
-  File "xfel/merging/application/merging/merger_mpi.py", line 182
-    for step, value in sorted(self.timing_table.iteritems(), key=lambda (k,v): (v,k)):
-                                                                        ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge.py'...
   File "xfel/merging/command_line/dev_cxi_merge.py", line 122
     print "ERROR: can't show plots"
