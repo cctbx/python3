@@ -35,7 +35,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use p
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning:", e)?
 
 *** Error compiling 'prime/command_line/frame_extractor_by_scan.py'...
-  File "prime/command_line/frame_extractor_by_scan.py", line 57
+  File "prime/command_line/frame_extractor_by_scan.py", line 56
     print scan_no, len(self.reflections)
                 ^
 SyntaxError: invalid syntax
@@ -47,7 +47,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print data, ' - no pickle file found.')?
 
 *** Error compiling 'prime/command_line/mpi_run.py'...
-  File "prime/command_line/mpi_run.py", line 47
+  File "prime/command_line/mpi_run.py", line 46
     print "Merging with %d batch size"%(n_batch)
                                      ^
 SyntaxError: invalid syntax
@@ -71,7 +71,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'Usa
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.plotstats to view different stats along post-refinement cycles.')?
 
 *** Error compiling 'prime/command_line/postrefine.py'...
-  File "prime/command_line/postrefine.py", line 104
+  File "prime/command_line/postrefine.py", line 103
     print txt_merge_mean_table
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_merge_mean_table)?
@@ -119,7 +119,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ple
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.viewstats to view convergence of post-refined parameters.')?
 
 *** Error compiling 'prime/index_ambiguity/mod_indexing_ambiguity.py'...
-  File "prime/index_ambiguity/mod_indexing_ambiguity.py", line 57
+  File "prime/index_ambiguity/mod_indexing_ambiguity.py", line 56
     print 'Error reading input pickle.'
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Error reading input pickle.')?
@@ -131,7 +131,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'E
 SyntaxError: invalid syntax
 
 *** Error compiling 'prime/postrefine/mod_input.py'...
-  File "prime/postrefine/mod_input.py", line 403
+  File "prime/postrefine/mod_input.py", line 402
     print txt_help
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print txt_help)?
@@ -172,8 +172,14 @@ SyntaxError: invalid syntax
                                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done. You can view your results and log file in ", iparams.run_no)?
 
+*** Error compiling 'prime/postrefine/mod_threads.py'...
+  File "prime/postrefine/mod_threads.py", line 91
+    print cmd
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
+
 *** Error compiling 'prime/postrefine/mod_util.py'...
-  File "prime/postrefine/mod_util.py", line 335
+  File "prime/postrefine/mod_util.py", line 334
     print "Warning: outlier rejection by bins failed because of floating point."
                                                                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning: outlier rejection by bins failed because of floating point.")?
