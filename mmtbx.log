@@ -374,7 +374,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-'*80)?
 
 *** Error compiling 'mmtbx/command_line/polder.py'...
-  File "mmtbx/command_line/polder.py", line 338
+  File "mmtbx/command_line/polder.py", line 350
     print params.model_file_name
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t params.model_file_name)?
@@ -2334,42 +2334,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i, t
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int cmd)?
 
-*** Error compiling 'mmtbx/regression/tst_polder.py'...
-  File "mmtbx/regression/tst_polder.py", line 185
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'mmtbx/regression/tst_polder_1.py'...
-  File "mmtbx/regression/tst_polder_1.py", line 186
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'mmtbx/regression/tst_polder_2.py'...
-  File "mmtbx/regression/tst_polder_2.py", line 87
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'mmtbx/regression/tst_polder_3.py'...
-  File "mmtbx/regression/tst_polder_3.py", line 188
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'mmtbx/regression/tst_polder_box.py'...
-  File "mmtbx/regression/tst_polder_box.py", line 154
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
-*** Error compiling 'mmtbx/regression/tst_polder_ccs.py'...
-  File "mmtbx/regression/tst_polder_ccs.py", line 138
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t cmd)?
-
 *** Error compiling 'mmtbx/regression/tst_prune_model.py'...
   File "mmtbx/regression/tst_prune_model.py", line 15
     print "Input files not found, skipping test"
@@ -3326,12 +3290,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print na
 
 *** Error compiling 'mmtbx/validation/experimental.py'...
   File "mmtbx/validation/experimental.py", line 228
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'mmtbx/validation/molprobity/__init__.py'...
-  File "mmtbx/validation/molprobity/__init__.py", line 452
     except Exception, e :
                     ^
 SyntaxError: invalid syntax
