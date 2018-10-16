@@ -373,12 +373,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int file
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t '-'*80)?
 
-*** Error compiling 'mmtbx/command_line/polder.py'...
-  File "mmtbx/command_line/polder.py", line 350
-    print params.model_file_name
-               ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t params.model_file_name)?
-
 *** Error compiling 'mmtbx/command_line/prune_model.py'...
   File "mmtbx/command_line/prune_model.py", line 312
     print "candidate:", resseq
