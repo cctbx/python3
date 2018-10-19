@@ -10,12 +10,6 @@ SyntaxError: invalid syntax
                           ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iota/command_line/iota_run.py'...
-  File "iota/command_line/iota_run.py", line 88
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iota/command_line/iota_single_image.py'...
   File "iota/command_line/iota_single_image.py", line 164
     except Exception, e:
@@ -35,19 +29,19 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 373
+  File "iota/components/iota_input.py", line 368
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 460
+  File "iota/components/iota_threads.py", line 461
     os.chmod(autoindex_filename, 0755)
                                     ^
 SyntaxError: invalid token
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 589
+  File "iota/components/iota_utils.py", line 837
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

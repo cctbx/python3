@@ -4,40 +4,10 @@
                       ^
 SyntaxError: invalid token
 
-*** Error compiling 'libtbx/auto_build/create_installer.py'...
-  File "libtbx/auto_build/create_installer.py", line 117
-    raise Exception, err
-                   ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/auto_build/create_windows_installer.py'...
-  File "libtbx/auto_build/create_windows_installer.py", line 100
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/bundle/copy_runtime_sources.py'...
   File "libtbx/bundle/copy_runtime_sources.py", line 10
     def copy_dist_files((exclude_from_binary_bundle, dist_copy), dirname, names):
                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/cli.py'...
-  File "libtbx/cli.py", line 8
-    raise Sorry, "The argparse module is not available. Check Python version >= 2.7"
-               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/cluster.py'...
-  File "libtbx/cluster.py", line 438
-    raise ValueError, 'distance method must be one of single, complete, average of uclus'
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/command_line/find_old_style_classes.py'...
-  File "libtbx/command_line/find_old_style_classes.py", line 22
-    except Exception, e:
-                    ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/command_line/show_env.py'...
@@ -52,207 +22,15 @@ SyntaxError: from __future__ imports must occur at the beginning of the file
                                 ^
 SyntaxError: invalid token
 
-*** Error compiling 'libtbx/crossmingw.py'...
-  File "libtbx/crossmingw.py", line 56
-    raise SCons.Errors.UserError, "A shared library should have exactly one target with the suffix: %s" % env.subst("$SHLIBSUFFIX")
-                                ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/easy_mp.py'...
   File "libtbx/easy_mp.py", line 257
     def __init__(O, sub_name_format="mp%03d", makedirs_mode=0777):
                                                                ^
 SyntaxError: invalid token
 
-*** Error compiling 'libtbx/phil/gui_objects.py'...
-  File "libtbx/phil/gui_objects.py", line 174
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/phil/interface.py'...
-  File "libtbx/phil/interface.py", line 145
-    except IOError, e :
-                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/phil/tst.py'...
-  File "libtbx/phil/tst.py", line 408
-    except RuntimeError, e:
-                       ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/phil/tst_interface.py'...
-  File "libtbx/phil/tst_interface.py", line 186
-    except AssertionError, e :
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/progress.py'...
-  File "libtbx/progress.py", line 67
-    raise TimeoutError, "Timeout (%s s) exceeded" % timeout
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/communication.py'...
-  File "libtbx/queuing_system_utils/communication.py", line 32
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/generic.py'...
-  File "libtbx/queuing_system_utils/generic.py", line 28
-    raise QueueEmptyException, "No data found in queue"
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/processing/__init__.py'...
-  File "libtbx/queuing_system_utils/processing/__init__.py", line 26
-    raise QueueEmptyException, "No data found in queue"
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/processing/polling.py'...
-  File "libtbx/queuing_system_utils/processing/polling.py", line 21
-    raise errors.AbnormalExitError, "SGE error:\n%s" % err
-                                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/processing/status.py'...
-  File "libtbx/queuing_system_utils/processing/status.py", line 50
-    raise RuntimeError, "job has not been submitted yet"
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/processing/submission.py'...
-  File "libtbx/queuing_system_utils/processing/submission.py", line 144
-    raise errors.AbnormalExitError, message
-                                  ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/remote.py'...
-  File "libtbx/queuing_system_utils/remote.py", line 213
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/scheduling.py'...
-  File "libtbx/queuing_system_utils/scheduling.py", line 123
-    raise ProcessingException, "Timeout on %s" % self.queue
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/queuing_system_utils/scheduling_helpers.py'...
-  File "libtbx/queuing_system_utils/scheduling_helpers.py", line 18
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/runtime_utils.py'...
-  File "libtbx/runtime_utils.py", line 183
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/cluster_handler.py'...
-  File "libtbx/scheduling/cluster_handler.py", line 18
-    except errors.BatchQueueError, e:
-                                 ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/file_queue.py'...
-  File "libtbx/scheduling/file_queue.py", line 20
-    raise Empty, "No data found in queue"
-               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/job_scheduler.py'...
-  File "libtbx/scheduling/job_scheduler.py", line 66
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/mainthread.py'...
-  File "libtbx/scheduling/mainthread.py", line 102
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/parallel_for.py'...
-  File "libtbx/scheduling/parallel_for.py", line 51
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/philgen.py'...
-  File "libtbx/scheduling/philgen.py", line 591
-    raise ConfigurationError, "option does not allow unlimited capacity (ncpus=None)"
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/process_pool.py'...
-  File "libtbx/scheduling/process_pool.py", line 54
-    raise SchedulingError, "Existing worker with identical processID"
-                         ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'libtbx/scheduling/stacktrace.py'...
   File "libtbx/scheduling/stacktrace.py", line 132
     raise exception, None, self.traceback
                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/scheduling/thread_handler.py'...
-  File "libtbx/scheduling/thread_handler.py", line 33
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/sphinx/phil.py'...
-  File "libtbx/sphinx/phil.py", line 62
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/thread_utils.py'...
-  File "libtbx/thread_utils.py", line 131
-    except Exception, e :
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/tst_easy_mp.py'...
-  File "libtbx/tst_easy_mp.py", line 192
-    except ZeroDivisionError, e:
-                            ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/tst_object_oriented_patterns.py'...
-  File "libtbx/tst_object_oriented_patterns.py", line 40
-    except AssertionError, err:
-                         ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/tst_scheduling.py'...
-  File "libtbx/tst_scheduling.py", line 15
-    raise RuntimeError, message
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/tst_thread_utils.py'...
-  File "libtbx/tst_thread_utils.py", line 349
-    except ImportError, e:
-                      ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/tst_utils.py'...
-  File "libtbx/tst_utils.py", line 38
-    except ValueError, e:
-                     ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'libtbx/xmlrpc_utils.py'...
-  File "libtbx/xmlrpc_utils.py", line 101
-    raise IOError, "unsupported XML-RPC protocol"
-                 ^
 SyntaxError: invalid syntax
 
