@@ -1,9 +1,3 @@
-*** Error compiling 'libtbx/auto_build/bootstrap.py'...
-  File "libtbx/auto_build/bootstrap.py", line 78
-    tarinfo.mode = 0700
-                      ^
-SyntaxError: invalid token
-
 *** Error compiling 'libtbx/bundle/copy_runtime_sources.py'...
   File "libtbx/bundle/copy_runtime_sources.py", line 10
     def copy_dist_files((exclude_from_binary_bundle, dist_copy), dirname, names):
