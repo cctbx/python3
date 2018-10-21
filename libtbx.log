@@ -17,7 +17,7 @@ SyntaxError: from __future__ imports must occur at the beginning of the file
 SyntaxError: invalid token
 
 *** Error compiling 'libtbx/easy_mp.py'...
-  File "libtbx/easy_mp.py", line 257
+  File "libtbx/easy_mp.py", line 258
     def __init__(O, sub_name_format="mp%03d", makedirs_mode=0777):
                                                                ^
 SyntaxError: invalid token
