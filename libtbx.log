@@ -28,9 +28,3 @@ SyntaxError: invalid token
                    ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/tst_str_utils.py'...
-  File "libtbx/tst_str_utils.py", line 270
-    run(args=sy
-              ^
-SyntaxError: unexpected EOF while parsing
-

@@ -194,13 +194,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "lengt
 SyntaxError: invalid syntax
 
 *** Error compiling 'spotfinder/servers/spotfinder_server_client_push.py'...
-  File "spotfinder/servers/spotfinder_server_client_push.py", line 40
+  File "spotfinder/servers/spotfinder_server_client_push.py", line 41
     print "%63s : None"%item[1]
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%63s : None"%item[1])?
 
 *** Error compiling 'spotfinder/servers/spotfinder_server_read_file.py'...
-  File "spotfinder/servers/spotfinder_server_read_file.py", line 45
+  File "spotfinder/servers/spotfinder_server_read_file.py", line 46
     print "%63s : None"%item[1]
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%63s : None"%item[1])?

@@ -485,7 +485,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/examples/merging/task4.py'...
-  File "cctbx/examples/merging/task4.py", line 42
+  File "cctbx/examples/merging/task4.py", line 39
     print "<I> / <sigma>", (mean_signal/ mean_sigma)
                         ^
 SyntaxError: invalid syntax

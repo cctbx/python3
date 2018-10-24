@@ -29,7 +29,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/apps/stills/stills_integration.py'...
-  File "rstbx/apps/stills/stills_integration.py", line 90
+  File "rstbx/apps/stills/stills_integration.py", line 88
     print "Deltaphi is",float(inputpd['deltaphi'])
                       ^
 SyntaxError: invalid syntax
@@ -179,7 +179,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/dps_core/tst_iotbx_converter.py'...
-  File "rstbx/dps_core/tst_iotbx_converter.py", line 771
+  File "rstbx/dps_core/tst_iotbx_converter.py", line 768
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -253,7 +253,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print co
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Importing DISTL")?
 
 *** Error compiling 'rstbx/new_horizons/oscillation_shots.py'...
-  File "rstbx/new_horizons/oscillation_shots.py", line 26
+  File "rstbx/new_horizons/oscillation_shots.py", line 28
     print A
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int A)?
@@ -367,7 +367,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/slip_viewer/pyslip.py'...
-  File "rstbx/slip_viewer/pyslip.py", line 1500
+  File "rstbx/slip_viewer/pyslip.py", line 1497
     exec self.point_view_placement[place]
             ^
 SyntaxError: Missing parentheses in call to 'exec'
@@ -391,7 +391,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "D
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/symmetry/constraints/parameter_reduction.py'...
-  File "rstbx/symmetry/constraints/parameter_reduction.py", line 109
+  File "rstbx/symmetry/constraints/parameter_reduction.py", line 106
     print orient,cs,symmetry.space_group().type().lookup_symbol()
                ^
 SyntaxError: invalid syntax
@@ -403,7 +403,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/viewer/calibration.py'...
-  File "rstbx/viewer/calibration.py", line 76
+  File "rstbx/viewer/calibration.py", line 73
     print self.hkl_list[rev_order[x]], spacings[rev_order[x]]
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.hkl_list[rev_order[x]], spacings[rev_order[x]])?

@@ -551,7 +551,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/pilatus_slice.py'...
-  File "iotbx/detectors/pilatus_slice.py", line 125
+  File "iotbx/detectors/pilatus_slice.py", line 126
     print a
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
