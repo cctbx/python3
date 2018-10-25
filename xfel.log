@@ -394,12 +394,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%6d i
                       ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xfel/command_line/small_cell_index.py'...
-  File "xfel/command_line/small_cell_index.py", line 125
-    print "MPI not found, multiprocessing disabled"
-                                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "MPI not found, multiprocessing disabled")?
-
 *** Error compiling 'xfel/command_line/smooth_spectrum.py'...
   File "xfel/command_line/smooth_spectrum.py", line 60
     print filename
@@ -834,6 +828,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "F
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help_str)?
 
+*** Error compiling 'xfel/small_cell/command_line/small_cell_index.py'...
+  File "xfel/small_cell/command_line/small_cell_index.py", line 125
+    print "MPI not found, multiprocessing disabled"
+                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "MPI not found, multiprocessing disabled")?
+
 *** Error compiling 'xfel/small_cell/small_cell.py'...
   File "xfel/small_cell/small_cell.py", line 302
     print "Loading %s"%path
@@ -919,7 +919,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Min
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 638
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 651
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?

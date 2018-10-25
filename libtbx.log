@@ -4,12 +4,6 @@
                         ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'libtbx/command_line/show_env.py'...
-  File "libtbx/command_line/show_env.py", line 13
-    from __future__ import print_function
-                                        ^
-SyntaxError: from __future__ imports must occur at the beginning of the file
-
 *** Error compiling 'libtbx/command_line/start_binary_bundle.py'...
   File "libtbx/command_line/start_binary_bundle.py", line 41
     os.chmod(install_script, 0755)

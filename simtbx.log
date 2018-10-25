@@ -5,7 +5,7 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "SPEEDING UP! ")?
 
 *** Error compiling 'simtbx/nanoBragg/nanoBragg_gui_frames.py'...
-  File "simtbx/nanoBragg/nanoBragg_gui_frames.py", line 259
+  File "simtbx/nanoBragg/nanoBragg_gui_frames.py", line 258
     print 'TOTAL TIME = ', time.time() - self.start_timer
                         ^
 SyntaxError: invalid syntax
