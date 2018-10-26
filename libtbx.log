@@ -1,17 +1,17 @@
 *** Error compiling 'libtbx/bundle/copy_runtime_sources.py'...
-  File "libtbx/bundle/copy_runtime_sources.py", line 10
+  File "libtbx/bundle/copy_runtime_sources.py", line 9
     def copy_dist_files((exclude_from_binary_bundle, dist_copy), dirname, names):
                         ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'libtbx/command_line/start_binary_bundle.py'...
-  File "libtbx/command_line/start_binary_bundle.py", line 41
+  File "libtbx/command_line/start_binary_bundle.py", line 40
     os.chmod(install_script, 0755)
                                 ^
 SyntaxError: invalid token
 
 *** Error compiling 'libtbx/easy_mp.py'...
-  File "libtbx/easy_mp.py", line 258
+  File "libtbx/easy_mp.py", line 257
     def __init__(O, sub_name_format="mp%03d", makedirs_mode=0777):
                                                                ^
 SyntaxError: invalid token
