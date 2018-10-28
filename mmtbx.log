@@ -3253,10 +3253,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 406
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
+  File "mmtbx/validation/chain_comparison.py", line 962
+    print "Need phenix for applying NCS"
+                                       ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Need phenix for applying NCS")?
 
 *** Error compiling 'mmtbx/validation/clashscore.py'...
   File "mmtbx/validation/clashscore.py", line 101
