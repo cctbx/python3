@@ -16,9 +16,3 @@ SyntaxError: invalid token
                                                                ^
 SyntaxError: invalid token
 
-*** Error compiling 'libtbx/scheduling/stacktrace.py'...
-  File "libtbx/scheduling/stacktrace.py", line 132
-    raise exception, None, self.traceback
-                   ^
-SyntaxError: invalid syntax
-
