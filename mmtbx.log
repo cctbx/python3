@@ -434,7 +434,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t txt_ou
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "File saved: %s" % out_fname)?
 
 *** Error compiling 'mmtbx/command_line/ssm_rmsd_for_chains.py'...
-  File "mmtbx/command_line/ssm_rmsd_for_chains.py", line 42
+  File "mmtbx/command_line/ssm_rmsd_for_chains.py", line 30
     print "### SSM RMSD for chains"
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "### SSM RMSD for chains")?
