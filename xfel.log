@@ -113,7 +113,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "pickle may not be an integration pickle! skipping...")?
 
 *** Error compiling 'xfel/command_line/cspad_cbf_metrology.py'...
-  File "xfel/command_line/cspad_cbf_metrology.py", line 114
+  File "xfel/command_line/cspad_cbf_metrology.py", line 115
     print "Parsing input..."
                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Parsing input...")?
