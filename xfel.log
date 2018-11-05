@@ -70,12 +70,6 @@ SyntaxError: invalid syntax
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'xfel/clustering/singleframe.py'...
-  File "xfel/clustering/singleframe.py", line 349
-    raise Exception("unable to process:"), importer.unhandled
-                                         ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/command_line/FEE_average_plot.py'...
   File "xfel/command_line/FEE_average_plot.py", line 120
     print len(mytimes)
@@ -275,10 +269,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "C
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "unable to process:", importer.unhandled)?
 
 *** Error compiling 'xfel/command_line/frame_unpickler.py'...
-  File "xfel/command_line/frame_unpickler.py", line 34
-    raise Sorry, "Cannot find matching image for NoneType in place of pickle"
-               ^
-SyntaxError: invalid syntax
+  File "xfel/command_line/frame_unpickler.py", line 127
+    print "Warning, two kinds of mosaicity found. Using Sauter2014 model"
+                                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Warning, two kinds of mosaicity found. Using Sauter2014 model")?
 
 *** Error compiling 'xfel/command_line/get_next_trial_id.py'...
   File "xfel/command_line/get_next_trial_id.py", line 9
@@ -630,24 +624,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Cur
                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "XFEL processing: %s"%path)?
 
-*** Error compiling 'xfel/cxi/postrefinement_hybrid_rs.py'...
-  File "xfel/cxi/postrefinement_hybrid_rs.py", line 169
-    raise ValueError, "< 3 near-fulls after refinement"
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/cxi/postrefinement_legacy_rs.py'...
-  File "xfel/cxi/postrefinement_legacy_rs.py", line 150
-    raise ValueError, "< 3 near-fulls after refinement"
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/cxi/postrefinement_updated_rs.py'...
-  File "xfel/cxi/postrefinement_updated_rs.py", line 171
-    raise ValueError, "< 3 near-fulls after refinement"
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'xfel/cxi/spectra_filter.py'...
   File "xfel/cxi/spectra_filter.py", line 82
     print "No data"
@@ -913,10 +889,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
 
 *** Error compiling 'xfel/ui/components/submission_tracker.py'...
-  File "xfel/ui/components/submission_tracker.py", line 11
-    raise NotImplementedError, "job stopper not implemented for %s queueing system" \
-                             ^
-SyntaxError: invalid syntax
+  File "xfel/ui/components/submission_tracker.py", line 18
+    print status
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int status)?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
   File "xfel/ui/components/xfel_gui_dialogs.py", line 651
@@ -953,18 +929,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'C
     print "unable to find experiment list"
                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "unable to find experiment list")?
-
-*** Error compiling 'xfel/util/image_pickle_locator.py'...
-  File "xfel/util/image_pickle_locator.py", line 30
-    raise Sorry, "either image name or integration pickle name must be specified"
-               ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'xfel/util/mp.py'...
-  File "xfel/util/mp.py", line 131
-    raise Sorry, "No value found for %s" % marker
-               ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/util/reflection_length.py'...
   File "xfel/util/reflection_length.py", line 87

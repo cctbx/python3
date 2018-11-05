@@ -41,22 +41,22 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/bpcx/compare_mosflm_xds.py'...
-  File "rstbx/bpcx/compare_mosflm_xds.py", line 111
-    raise RuntimeError, 'spacegroup missing'
-                      ^
+  File "rstbx/bpcx/compare_mosflm_xds.py", line 142
+    print 'Read %d observations from %s' % (len(mos_hkl_xyz_isigi), mtz_file)
+                                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/bpcx/detector_model/detector.py'...
-  File "rstbx/bpcx/detector_model/detector.py", line 68
-    raise RuntimeError, 'overload me'
-                      ^
-SyntaxError: invalid syntax
+  File "rstbx/bpcx/detector_model/detector.py", line 139
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'OK')?
 
 *** Error compiling 'rstbx/bpcx/detector_model/instrument_specifics.py'...
-  File "rstbx/bpcx/detector_model/instrument_specifics.py", line 106
-    raise RuntimeError, '%s configuration-file' % sys.argv[0]
-                      ^
-SyntaxError: invalid syntax
+  File "rstbx/bpcx/detector_model/instrument_specifics.py", line 121
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'rstbx/bpcx/detector_model/tst_detector_model.py'...
   File "rstbx/bpcx/detector_model/tst_detector_model.py", line 23
@@ -101,16 +101,16 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print ob
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/cftbx/coordinate_frame_converter.py'...
-  File "rstbx/cftbx/coordinate_frame_converter.py", line 46
-    raise RuntimeError, 'unknown configuration file %s' % \
-                      ^
+  File "rstbx/cftbx/coordinate_frame_converter.py", line 267
+    print 'Maximum resolution: %.2f' % cfc.derive_detector_highest_resolution()
+                                   ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'rstbx/cftbx/coordinate_frame_helpers.py'...
-  File "rstbx/cftbx/coordinate_frame_helpers.py", line 93
-    raise RuntimeError, 'no parameter %s' % parameter_name
-                      ^
-SyntaxError: invalid syntax
+  File "rstbx/cftbx/coordinate_frame_helpers.py", line 756
+    print R * pa
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int R * pa)?
 
 *** Error compiling 'rstbx/cftbx/tst_coordinate_frame_converter.py'...
   File "rstbx/cftbx/tst_coordinate_frame_converter.py", line 15
@@ -149,16 +149,16 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping some tests: annlib not available.")?
 
 *** Error compiling 'rstbx/diffraction/tst_ewald_sphere.py'...
-  File "rstbx/diffraction/tst_ewald_sphere.py", line 46
-    raise RuntimeError, 'length error for %d %d %d' % hkl
-                      ^
-SyntaxError: invalid syntax
+  File "rstbx/diffraction/tst_ewald_sphere.py", line 167
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'rstbx/diffraction/tst_partial_derivatives.py'...
-  File "rstbx/diffraction/tst_partial_derivatives.py", line 38
-    raise RuntimeError, 'length error for %d %d %d' % hkl
-                      ^
-SyntaxError: invalid syntax
+  File "rstbx/diffraction/tst_partial_derivatives.py", line 97
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'rstbx/diffraction/tst_predict.py'...
   File "rstbx/diffraction/tst_predict.py", line 2001

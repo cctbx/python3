@@ -16,6 +16,12 @@ SyntaxError: invalid syntax
                       ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iotbx/ccp4_map/__init__.py'...
+  File "iotbx/ccp4_map/__init__.py", line 37
+    except Exception,e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'iotbx/ccp4_map/tst.py'...
   File "iotbx/ccp4_map/tst.py", line 45
     print file_name
@@ -545,10 +551,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/pilatus_minicbf.py'...
-  File "iotbx/detectors/pilatus_minicbf.py", line 62
-    raise RuntimeError, 'bz2 file provided without bz2 module'
-                      ^
-SyntaxError: invalid syntax
+  File "iotbx/detectors/pilatus_minicbf.py", line 201
+    print a
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
 
 *** Error compiling 'iotbx/detectors/pilatus_slice.py'...
   File "iotbx/detectors/pilatus_slice.py", line 126

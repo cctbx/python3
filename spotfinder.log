@@ -5,7 +5,7 @@
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(self.original_binning: print legend)?
 
 *** Error compiling 'spotfinder/applications/practical_heuristics.py'...
-  File "spotfinder/applications/practical_heuristics.py", line 344
+  File "spotfinder/applications/practical_heuristics.py", line 345
     if VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total']
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(VERBOSE_COUNT: print "total DISTL spots",fstats['N_spots_total'])?
