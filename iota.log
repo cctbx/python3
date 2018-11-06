@@ -10,32 +10,32 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iota/components/iota_cctbx.py'...
-  File "iota/components/iota_cctbx.py", line 286
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'iota/components/iota_dials.py'...
-  File "iota/components/iota_dials.py", line 54
+*** Error compiling 'iota/components/iota_cctbx_ha14.py'...
+  File "iota/components/iota_cctbx_ha14.py", line 491
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 384
+  File "iota/components/iota_input.py", line 387
     except Sorry,e:
                 ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iota/components/iota_processing.py'...
+  File "iota/components/iota_processing.py", line 54
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 1102
+  File "iota/components/iota_threads.py", line 1116
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 610
+  File "iota/components/iota_utils.py", line 620
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
