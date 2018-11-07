@@ -344,7 +344,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/molprobity.py'...
-  File "mmtbx/command_line/molprobity.py", line 272
+  File "mmtbx/command_line/molprobity.py", line 283
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
