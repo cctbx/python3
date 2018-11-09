@@ -1,6 +1,0 @@
-*** Error compiling 'dials_research/screen/screen.py'...
-  File "dials_research/screen/screen.py", line 442
-    xlabel="'1/d\U+00B2 (\U+212B\U+207B\U+00B2)'",
-          ^
-SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 4-5: truncated \UXXXXXXXX escape
-
