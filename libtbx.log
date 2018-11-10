@@ -10,9 +10,3 @@ SyntaxError: invalid syntax
                                 ^
 SyntaxError: invalid token
 
-*** Error compiling 'libtbx/easy_mp.py'...
-  File "libtbx/easy_mp.py", line 257
-    def __init__(O, sub_name_format="mp%03d", makedirs_mode=0777):
-                                                               ^
-SyntaxError: invalid token
-
