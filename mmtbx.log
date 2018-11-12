@@ -1524,12 +1524,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Remov
                                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print '\nERROR: Please supply at least 2 seletions')?
 
-*** Error compiling 'mmtbx/refinement/group.py'...
-  File "mmtbx/refinement/group.py", line 301
-    print a, f
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print a, f)?
-
 *** Error compiling 'mmtbx/refinement/inspect_tardy_trajectory.py'...
   File "mmtbx/refinement/inspect_tardy_trajectory.py", line 26
     print "rms difference start vs. final: %.3f" % \
