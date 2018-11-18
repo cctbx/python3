@@ -1,48 +1,6 @@
-*** Error compiling 'fable/command_line/cout.py'...
-  File "fable/command_line/cout.py", line 97
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
-
-*** Error compiling 'fable/command_line/insert_write_at_start_of_each_procedure.py'...
-  File "fable/command_line/insert_write_at_start_of_each_procedure.py", line 17
-    print "WARNING: no executable statements in %s" % fproc.name.value
-                                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "WARNING: no executable statements in %s" % fproc.name.value)?
-
-*** Error compiling 'fable/command_line/read.py'...
-  File "fable/command_line/read.py", line 15
-    print "FAILING:", file_name
-                   ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "FAILING:", file_name)?
-
-*** Error compiling 'fable/command_line/show_calls.py'...
-  File "fable/command_line/show_calls.py", line 20
-    print "Dependency cycles:", len(dep_cycles)
-                             ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'fable/command_line/split.py'...
-  File "fable/command_line/split.py", line 18
-    print out.name
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print out.name)?
-
-*** Error compiling 'fable/simple_compilation.py'...
-  File "fable/simple_compilation.py", line 159
-    print cmd
-            ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cmd)?
-
 *** Error compiling 'fable/test/sf_times.py'...
-  File "fable/test/sf_times.py", line 188
+  File "fable/test/sf_times.py", line 187
     print build_cmd
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
-
-*** Error compiling 'fable/test/test_cout_compile.py'...
-  File "fable/test/test_cout_compile.py", line 59
-    print "Unexpected output:"
-                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Unexpected output:")?
 
