@@ -41,7 +41,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if j%10=
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cent)?
 
 *** Error compiling 'xfel/cftbx/detector/cspad_cbf_tbx.py'...
-  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 580
+  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 585
     print "Validating transofmation matrices set up correctly"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Validating transofmation matrices set up correctly")?
@@ -437,7 +437,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Outpu
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print stats)?
 
 *** Error compiling 'xfel/command_line/xtc_dump.py'...
-  File "xfel/command_line/xtc_dump.py", line 206
+  File "xfel/command_line/xtc_dump.py", line 207
     print "Event #",i," has id:",id
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Event #",i," has id:",id)?
@@ -557,7 +557,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.nmemb)?
 
 *** Error compiling 'xfel/cxi/cspad_ana/rayonix_tbx.py'...
-  File "xfel/cxi/cspad_ana/rayonix_tbx.py", line 352
+  File "xfel/cxi/cspad_ana/rayonix_tbx.py", line 348
     print "Compressing tiles...",
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Compressing tiles...", end=" ")?
