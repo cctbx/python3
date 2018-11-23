@@ -29,7 +29,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 1116
+  File "iota/components/iota_threads.py", line 1129
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
