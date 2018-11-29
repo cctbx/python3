@@ -1103,7 +1103,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "b
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
 
 *** Error compiling 'cctbx/regression/tst_grm_modifications.py'...
-  File "cctbx/regression/tst_grm_modifications.py", line 314
+  File "cctbx/regression/tst_grm_modifications.py", line 470
     print "Can not initialize monomer_library, skipping test."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
