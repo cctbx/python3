@@ -41,7 +41,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'gltbx/util.py'...
-  File "gltbx/util.py", line 14
+  File "gltbx/util.py", line 29
     print "GL_VENDOR:", gl.glGetString(gl.GL_VENDOR)
                      ^
 SyntaxError: invalid syntax
