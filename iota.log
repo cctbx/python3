@@ -1,9 +1,3 @@
-*** Error compiling 'iota/command_line/iota_bulletproof.py'...
-  File "iota/command_line/iota_bulletproof.py", line 32
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iota/command_line/iota_single_image.py'...
   File "iota/command_line/iota_single_image.py", line 163
     except Exception, e:
@@ -11,31 +5,25 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_cctbx_ha14.py'...
-  File "iota/components/iota_cctbx_ha14.py", line 491
+  File "iota/components/iota_cctbx_ha14.py", line 535
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iota/components/iota_input.py'...
-  File "iota/components/iota_input.py", line 387
-    except Sorry,e:
-                ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iota/components/iota_processing.py'...
-  File "iota/components/iota_processing.py", line 54
+  File "iota/components/iota_processing.py", line 112
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_threads.py'...
-  File "iota/components/iota_threads.py", line 1129
+  File "iota/components/iota_threads.py", line 1113
     except ValueError, e:
                      ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 620
+  File "iota/components/iota_utils.py", line 649
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
