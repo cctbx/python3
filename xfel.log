@@ -371,7 +371,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Usa
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/command_line/recompute_mosaicity.py'...
-  File "xfel/command_line/recompute_mosaicity.py", line 94
+  File "xfel/command_line/recompute_mosaicity.py", line 93
     print "Saving new experiments as %s"%params.output.experiments
                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Saving new experiments as %s"%params.output.experiments)?
