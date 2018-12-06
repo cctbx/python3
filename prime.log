@@ -119,7 +119,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ple
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'Use prime.viewstats to view convergence of post-refined parameters.')?
 
 *** Error compiling 'prime/index_ambiguity/mod_indexing_ambiguity.py'...
-  File "prime/index_ambiguity/mod_indexing_ambiguity.py", line 56
+  File "prime/index_ambiguity/mod_indexing_ambiguity.py", line 57
     print 'Error reading input pickle.'
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Error reading input pickle.')?

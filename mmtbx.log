@@ -1251,19 +1251,9 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/glyco_utils.py'...
-  File "mmtbx/monomer_library/glyco_utils.py", line 125
-    print '''
-  self.anomeric_carbon %s
-  self.link_oxygen     %s
-  self.ring_carbon     %s
-  self.link_carbon     %s
-''' % (self.anomeric_carbon.quote(),
-             
-                         
-                         
-                         
-                         
-  ^
+  File "mmtbx/monomer_library/glyco_utils.py", line 129
+    print '  %-15s : %s' % (attr, atom)
+                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/hydrogen_restrictions.py'...
