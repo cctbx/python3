@@ -5,7 +5,7 @@
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_cctbx_ha14.py'...
-  File "iota/components/iota_cctbx_ha14.py", line 535
+  File "iota/components/iota_cctbx_ha14.py", line 542
     except Exception, e:
                     ^
 SyntaxError: invalid syntax

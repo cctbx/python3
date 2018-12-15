@@ -290,7 +290,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 310
+  File "mmtbx/command_line/map_box.py", line 315
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -1209,10 +1209,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1401
-    except ValueError, e :
-                     ^
-SyntaxError: invalid syntax
+  File "mmtbx/model/model.py", line 818
+    print 'writing mmCIF without restraints for %s' % ag.resname
+                                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'writing mmCIF without restraints for %s' % ag.resname)?
 
 *** Error compiling 'mmtbx/model_vs_data.py'...
   File "mmtbx/model_vs_data.py", line 135
@@ -1263,7 +1263,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/linking_mixins.py'...
-  File "mmtbx/monomer_library/linking_mixins.py", line 222
+  File "mmtbx/monomer_library/linking_mixins.py", line 234
     print atom1.quote(),atom2.quote()
               ^
 SyntaxError: invalid syntax
@@ -1335,7 +1335,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "%5s"%aac_, "bonds     : %5.3f %5.3f %5.3f"%b, \)?
 
 *** Error compiling 'mmtbx/monomer_library/tst_linking.py'...
-  File "mmtbx/monomer_library/tst_linking.py", line 2347
+  File "mmtbx/monomer_library/tst_linking.py", line 2376
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
@@ -2305,6 +2305,12 @@ SyntaxError: invalid syntax
     print i, threes
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int i, threes)?
+
+*** Error compiling 'mmtbx/regression/tst_origin_ids.py'...
+  File "mmtbx/regression/tst_origin_ids.py", line 125
+    print 'OK'
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'mmtbx/regression/tst_pdbtools.py'...
   File "mmtbx/regression/tst_pdbtools.py", line 125

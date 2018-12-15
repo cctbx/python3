@@ -358,12 +358,6 @@ SyntaxError: invalid syntax
                        ^
 SyntaxError: invalid syntax
 
-*** Error compiling 'iotbx/command_line/pdb_as_cif.py'...
-  File "iotbx/command_line/pdb_as_cif.py", line 31
-    except Exception, e:
-                    ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'iotbx/command_line/pdb_as_fasta.py'...
   File "iotbx/command_line/pdb_as_fasta.py", line 52
     print "\n".join(fasta_seqs)
@@ -621,12 +615,6 @@ SyntaxError: invalid syntax
     print "Sorry: CIF does not contain an appropriate miller array"
                                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Sorry: CIF does not contain an appropriate miller array")?
-
-*** Error compiling 'iotbx/examples/iotbx_cif.py'...
-  File "iotbx/examples/iotbx_cif.py", line 77
-    print "%s:" % scatterer.label, "%8.4f %8.4f %8.4f" % scatterer.site
-              ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "%s:" % scatterer.label, "%8.4f %8.4f %8.4f" % scatterer.site)?
 
 *** Error compiling 'iotbx/examples/libtbx_phil_examples.py'...
   File "iotbx/examples/libtbx_phil_examples.py", line 45
@@ -1127,10 +1115,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "phenix_regression not available, skipping")?
 
 *** Error compiling 'iotbx/regression/tst_pdb_as_cif.py'...
-  File "iotbx/regression/tst_pdb_as_cif.py", line 94
-    print "OK"
-             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+  File "iotbx/regression/tst_pdb_as_cif.py", line 63
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/regression/tst_pdb_as_fasta.py'...
   File "iotbx/regression/tst_pdb_as_fasta.py", line 82
