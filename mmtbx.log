@@ -458,7 +458,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "-"*79
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/__init__.py'...
-  File "mmtbx/conformation_dependent_library/__init__.py", line 95
+  File "mmtbx/conformation_dependent_library/__init__.py", line 96
     if verbose: print 'model: "%s"' % model.id
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print 'model: "%s"' % model.id)?
