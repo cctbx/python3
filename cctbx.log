@@ -701,10 +701,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/geometry_restraints/manager.py'...
-  File "cctbx/geometry_restraints/manager.py", line 1802
-    print origin_id_info
+  File "cctbx/geometry_restraints/manager.py", line 1810
+    print origin_id_info[0]
                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print origin_id_info)?
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print origin_id_info[0])?
 
 *** Error compiling 'cctbx/geometry_restraints/nonbonded_overlaps.py'...
   File "cctbx/geometry_restraints/nonbonded_overlaps.py", line 96

@@ -518,7 +518,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'WAR
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/conformation_dependent_library/multi_residue_cdl_class.py'...
-  File "mmtbx/conformation_dependent_library/multi_residue_cdl_class.py", line 79
+  File "mmtbx/conformation_dependent_library/multi_residue_cdl_class.py", line 82
     if verbose: print backbone_i
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print backbone_i)?

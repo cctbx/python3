@@ -703,7 +703,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/merging/command_line/dev_mpi_cluster_two_merge_cs.py'...
-  File "xfel/merging/command_line/dev_mpi_cluster_two_merge_cs.py", line 126
+  File "xfel/merging/command_line/dev_mpi_cluster_two_merge_cs.py", line 129
     if timing: print "~SETUP START RANK=%d TIME=%f;"%(rank,tt())
                                                    ^
 SyntaxError: invalid syntax
