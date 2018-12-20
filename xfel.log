@@ -41,7 +41,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if j%10=
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print cent)?
 
 *** Error compiling 'xfel/cftbx/detector/cspad_cbf_tbx.py'...
-  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 585
+  File "xfel/cftbx/detector/cspad_cbf_tbx.py", line 597
     print "Validating transofmation matrices set up correctly"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Validating transofmation matrices set up correctly")?
