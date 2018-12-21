@@ -811,7 +811,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "MPI not found, multiprocessing disabled")?
 
 *** Error compiling 'xfel/small_cell/small_cell.py'...
-  File "xfel/small_cell/small_cell.py", line 302
+  File "xfel/small_cell/small_cell.py", line 315
     print "Loading %s"%path
                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Loading %s"%path)?

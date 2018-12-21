@@ -23,10 +23,10 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ccp4_map/tst.py'...
-  File "iotbx/ccp4_map/tst.py", line 85
-    print m.data.origin(),m.data.all()
-          ^
-SyntaxError: invalid syntax
+  File "iotbx/ccp4_map/tst.py", line 31
+    print "\nTesting read of input map with axis order 3 1 2 "+\
+                                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting read of input map with axis order 3 1 2 "+\)?
 
 *** Error compiling 'iotbx/cif/__init__.py'...
   File "iotbx/cif/__init__.py", line 437
