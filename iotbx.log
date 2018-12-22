@@ -23,7 +23,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ccp4_map/tst.py'...
-  File "iotbx/ccp4_map/tst.py", line 31
+  File "iotbx/ccp4_map/tst.py", line 32
     print "\nTesting read of input map with axis order 3 1 2 "+\
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "\nTesting read of input map with axis order 3 1 2 "+\)?
@@ -771,6 +771,12 @@ SyntaxError: invalid syntax
     print "n_real:", n_real
                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "n_real:", n_real)?
+
+*** Error compiling 'iotbx/mrcfile/__init__.py'...
+  File "iotbx/mrcfile/__init__.py", line 61
+    print text
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print text)?
 
 *** Error compiling 'iotbx/mtz/__init__.py'...
   File "iotbx/mtz/__init__.py", line 541

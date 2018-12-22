@@ -701,7 +701,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/geometry_restraints/manager.py'...
-  File "cctbx/geometry_restraints/manager.py", line 1810
+  File "cctbx/geometry_restraints/manager.py", line 1814
     print origin_id_info[0]
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print origin_id_info[0])?
