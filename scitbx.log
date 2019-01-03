@@ -394,6 +394,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "f
                        ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'scitbx/math/gumbel.py'...
+  File "scitbx/math/gumbel.py", line 68
+    print "\nN=",n," expected maximum Z:",bn
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "\nN=",n," expected maximum Z:",bn)?
+
 *** Error compiling 'scitbx/math/incremental_SO3_sampling.py'...
   File "scitbx/math/incremental_SO3_sampling.py", line 58
     print "OK"
