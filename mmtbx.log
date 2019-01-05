@@ -1209,7 +1209,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 818
+  File "mmtbx/model/model.py", line 820
     print 'writing mmCIF without restraints for %s' % ag.resname
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'writing mmCIF without restraints for %s' % ag.resname)?
@@ -1797,13 +1797,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Skipping: probe not configured")?
 
 *** Error compiling 'mmtbx/regression/model/tst_model.py'...
-  File "mmtbx/regression/model/tst_model.py", line 1221
+  File "mmtbx/regression/model/tst_model.py", line 1219
     print es1.residual_sum
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int es1.residual_sum)?
 
 *** Error compiling 'mmtbx/regression/model/tst_model_2.py'...
-  File "mmtbx/regression/model/tst_model_2.py", line 115
+  File "mmtbx/regression/model/tst_model_2.py", line 113
     print "Reduce not installed, needed for model.idealize_h_minimization(). skipping"
                                                                                      ^
 SyntaxError: invalid syntax
@@ -2265,7 +2265,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/regression/tst_metal_link_1.py'...
-  File "mmtbx/regression/tst_metal_link_1.py", line 131
+  File "mmtbx/regression/tst_metal_link_1.py", line 129
     print "Time: %6.3f"%(time.time()-t0)
                       ^
 SyntaxError: invalid syntax
