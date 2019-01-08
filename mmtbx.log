@@ -3254,8 +3254,8 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Nee
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
 
-*** Error compiling 'mmtbx/validation/compare_rama.py'...
-  File "mmtbx/validation/compare_rama.py", line 83
+*** Error compiling 'mmtbx/validation/comparama.py'...
+  File "mmtbx/validation/comparama.py", line 83
     print dir(self.rama1.results[0])
             ^
 SyntaxError: invalid syntax
