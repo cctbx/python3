@@ -179,7 +179,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "G
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e.classname, "for %s:"%file, end=" ")?
 
 *** Error compiling 'xfel/command_line/cxi_merge.py'...
-  File "xfel/command_line/cxi_merge.py", line 389
+  File "xfel/command_line/cxi_merge.py", line 395
     print "Step 1.  Get a list of all files"
                                            ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?
@@ -673,7 +673,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "ERROR: can't show plots")?
 
 *** Error compiling 'xfel/merging/command_line/dev_cxi_merge_refltable.py'...
-  File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 78
+  File "xfel/merging/command_line/dev_cxi_merge_refltable.py", line 73
     print "Miller %20s n-obs=%4d  sum-I=%10.0f"%(index, N, m)
                                               ^
 SyntaxError: invalid syntax
