@@ -3231,7 +3231,13 @@ file or the model will be used.
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/utils/__init__.py'...
-  File "mmtbx/utils/__init__.py", line 370
+  File "mmtbx/utils/__init__.py", line 373
+    except reflection_file_utils.Sorry_No_array_of_the_required_type, e:
+                                                                    ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/utils/extract_xtal_data.py'...
+  File "mmtbx/utils/extract_xtal_data.py", line 261
     except reflection_file_utils.Sorry_No_array_of_the_required_type, e:
                                                                     ^
 SyntaxError: invalid syntax
