@@ -527,7 +527,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbo
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/detectors/eiger_minicbf.py'...
-  File "iotbx/detectors/eiger_minicbf.py", line 157
+  File "iotbx/detectors/eiger_minicbf.py", line 159
     print a
           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t a)?
