@@ -64,9 +64,3 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print [p
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "HELLO")?
 
-*** Error compiling 'gltbx/wx_viewer.py'...
-  File "gltbx/wx_viewer.py", line 17
-    except ImportError, e:
-                      ^
-SyntaxError: invalid syntax
-

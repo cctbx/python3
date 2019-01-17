@@ -354,42 +354,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int text
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
-*** Error compiling 'rstbx/slip_viewer/calibration_frame.py'...
-  File "rstbx/slip_viewer/calibration_frame.py", line 97
-    print "Not implemented"
-                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Not implemented")?
-
-*** Error compiling 'rstbx/slip_viewer/frame.py'...
-  File "rstbx/slip_viewer/frame.py", line 70
-    print "Loaded plugins: " + ", ".join(plugin_names)
-                           ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'rstbx/slip_viewer/pyslip.py'...
-  File "rstbx/slip_viewer/pyslip.py", line 1497
-    exec self.point_view_placement[place]
-            ^
-SyntaxError: Missing parentheses in call to 'exec'
-
-*** Error compiling 'rstbx/slip_viewer/ring_frame.py'...
-  File "rstbx/slip_viewer/ring_frame.py", line 187
-    print "r: % 3.1f, i: % 3.1f, j: % 3.1f, best: %f"%(r, i, j, best)
-                                                    ^
-SyntaxError: invalid syntax
-
-*** Error compiling 'rstbx/slip_viewer/score_frame.py'...
-  File "rstbx/slip_viewer/score_frame.py", line 126
-    print "Dumped scores to", path
-                           ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Dumped scores to", path)?
-
-*** Error compiling 'rstbx/slip_viewer/uc_frame.py'...
-  File "rstbx/slip_viewer/uc_frame.py", line 287
-    print "Printing spacings, len: %s"%len(spacings)
-                                     ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'rstbx/symmetry/constraints/parameter_reduction.py'...
   File "rstbx/symmetry/constraints/parameter_reduction.py", line 106
     print orient,cs,symmetry.space_group().type().lookup_symbol()
