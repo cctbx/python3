@@ -290,7 +290,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "M
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t help_msg)?
 
 *** Error compiling 'mmtbx/command_line/map_box.py'...
-  File "mmtbx/command_line/map_box.py", line 323
+  File "mmtbx/command_line/map_box.py", line 334
     print default_message
                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int default_message)?
@@ -3259,12 +3259,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Nee
     print "\nUsing electron cloud x-H distances and vdW radii"
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "\nUsing electron cloud x-H distances and vdW radii")?
-
-*** Error compiling 'mmtbx/validation/comparama.py'...
-  File "mmtbx/validation/comparama.py", line 87
-    print dir(self.rama1.results[0])
-            ^
-SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/comprehensive_residue.py'...
   File "mmtbx/validation/comprehensive_residue.py", line 72
