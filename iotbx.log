@@ -773,7 +773,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "n_real:", n_real)?
 
 *** Error compiling 'iotbx/mrcfile/__init__.py'...
-  File "iotbx/mrcfile/__init__.py", line 79
+  File "iotbx/mrcfile/__init__.py", line 81
     print text
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print text)?
