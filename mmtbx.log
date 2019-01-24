@@ -320,7 +320,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/model_idealization.py'...
-  File "mmtbx/command_line/model_idealization.py", line 948
+  File "mmtbx/command_line/model_idealization.py", line 963
     print map_cs.space_group().type().number()
                ^
 SyntaxError: invalid syntax
