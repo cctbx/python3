@@ -884,6 +884,12 @@ SyntaxError: invalid syntax
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Using external DA...")?
 
+*** Error compiling 'mmtbx/hydrogens/__init__.py'...
+  File "mmtbx/hydrogens/__init__.py", line 27
+    if 0: print ag.resname, missing_h
+                 ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if 0: print ag.resname, missing_h)?
+
 *** Error compiling 'mmtbx/hydrogens/build_hydrogens.py'...
   File "mmtbx/hydrogens/build_hydrogens.py", line 281
     print "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
