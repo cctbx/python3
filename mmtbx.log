@@ -885,7 +885,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Using external DA...")?
 
 *** Error compiling 'mmtbx/hydrogens/__init__.py'...
-  File "mmtbx/hydrogens/__init__.py", line 27
+  File "mmtbx/hydrogens/__init__.py", line 79
     if 0: print ag.resname, missing_h
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if 0: print ag.resname, missing_h)?
@@ -1215,7 +1215,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 820
+  File "mmtbx/model/model.py", line 823
     print 'writing mmCIF without restraints for %s' % ag.resname
                                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'writing mmCIF without restraints for %s' % ag.resname)?
@@ -3283,6 +3283,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'filen
     print name
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print name)?
+
+*** Error compiling 'mmtbx/validation/evalurama.py'...
+  File "mmtbx/validation/evalurama.py", line 33
+    print self.low_left, self.high_right, self.probability, self.n_points, self.prob_points
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.low_left, self.high_right, self.probability, self.n_points, self.prob_points)?
 
 *** Error compiling 'mmtbx/validation/experimental.py'...
   File "mmtbx/validation/experimental.py", line 228
