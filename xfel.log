@@ -876,6 +876,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Readi
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Printing results for trial", params.trial, "using a hit cutoff of", params.n_strong_cutoff, "reflections")?
 
+*** Error compiling 'xfel/ui/command_line/ui_server.py'...
+  File "xfel/ui/command_line/ui_server.py", line 127
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
+
 *** Error compiling 'xfel/ui/components/run_stats_plotter.py'...
   File "xfel/ui/components/run_stats_plotter.py", line 107
     print ""
@@ -895,7 +901,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Min
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int status)?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 651
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 661
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?
@@ -919,10 +925,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "T
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/xfel_db.py'...
-  File "xfel/ui/db/xfel_db.py", line 146
-    print 'Creating experiment tables...'
-                                        ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'Creating experiment tables...')?
+  File "xfel/ui/db/xfel_db.py", line 158
+    print 'Query % 6d SQLTime Taken = % 10.6f seconds' % (self.query_count, et), query[:min(len(query),145)]
+                                                     ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/util/dials_pickle_reader.py'...
   File "xfel/util/dials_pickle_reader.py", line 44
