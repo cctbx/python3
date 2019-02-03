@@ -3231,10 +3231,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/validation/regression/tst_find_region_max_value.py'...
-  File "mmtbx/validation/regression/tst_find_region_max_value.py", line 17
-    print find_region_max_value(RAMA_GENERAL, -120, -179) == ((-115.0, 131.0), 0.57068)
-                              ^
-SyntaxError: invalid syntax
+  File "mmtbx/validation/regression/tst_find_region_max_value.py", line 30
+    print "=================================================="
+                                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "==================================================")?
 
 *** Error compiling 'mmtbx/validation/regression/tst_keep_hydrogens.py'...
   File "mmtbx/validation/regression/tst_keep_hydrogens.py", line 62
