@@ -386,7 +386,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "c
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/command_line/ramalyze.py'...
-  File "mmtbx/command_line/ramalyze.py", line 87
+  File "mmtbx/command_line/ramalyze.py", line 89
     print "Cannot find '%s', skipping." % model
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Cannot find '%s', skipping." % model)?
@@ -3183,7 +3183,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'filen
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print name)?
 
 *** Error compiling 'mmtbx/validation/evalurama.py'...
-  File "mmtbx/validation/evalurama.py", line 33
+  File "mmtbx/validation/evalurama.py", line 42
     print self.low_left, self.high_right, self.probability, self.n_points, self.prob_points
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int self.low_left, self.high_right, self.probability, self.n_points, self.prob_points)?
@@ -3231,10 +3231,10 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/validation/regression/tst_find_region_max_value.py'...
-  File "mmtbx/validation/regression/tst_find_region_max_value.py", line 30
-    print "=================================================="
-                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "==================================================")?
+  File "mmtbx/validation/regression/tst_find_region_max_value.py", line 9
+    print find_region_max_value(RAMA_GENERAL, -100,0)
+                              ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/validation/regression/tst_keep_hydrogens.py'...
   File "mmtbx/validation/regression/tst_keep_hydrogens.py", line 62
