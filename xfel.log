@@ -907,13 +907,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int stat
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_init.py'...
-  File "xfel/ui/components/xfel_gui_init.py", line 106
+  File "xfel/ui/components/xfel_gui_init.py", line 111
     print "%d new runs" % len(unknown_runs)
                       ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/__init__.py'...
-  File "xfel/ui/db/__init__.py", line 30
+  File "xfel/ui/db/__init__.py", line 33
     print "Too many connections, retry", retry_count
                                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Too many connections, retry", retry_count)?
@@ -925,10 +925,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "T
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/xfel_db.py'...
-  File "xfel/ui/db/xfel_db.py", line 158
-    print 'Query % 6d SQLTime Taken = % 10.6f seconds' % (self.query_count, et), query[:min(len(query),145)]
-                                                     ^
-SyntaxError: invalid syntax
+  File "xfel/ui/db/xfel_db.py", line 128
+    print "Upgrading to version 4 of mysql database schema"
+                                                          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Upgrading to version 4 of mysql database schema")?
 
 *** Error compiling 'xfel/util/dials_pickle_reader.py'...
   File "xfel/util/dials_pickle_reader.py", line 44
