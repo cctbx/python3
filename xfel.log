@@ -901,7 +901,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Min
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int status)?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 661
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 831
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?

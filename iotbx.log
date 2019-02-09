@@ -856,6 +856,10 @@ SyntaxError: invalid syntax
                      ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iotbx/pdb/modified_aa_names.py'...
+Sorry: IndentationError: unexpected indent (modified_aa_names.py, line 2)
+*** Error compiling 'iotbx/pdb/modified_rna_dna_names.py'...
+Sorry: IndentationError: unexpected indent (modified_rna_dna_names.py, line 2)
 *** Error compiling 'iotbx/pdb/secondary_structure.py'...
   File "iotbx/pdb/secondary_structure.py", line 84
     except Exception, e:
