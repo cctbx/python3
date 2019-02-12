@@ -901,14 +901,14 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Min
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int status)?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 831
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 827
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_init.py'...
-  File "xfel/ui/components/xfel_gui_init.py", line 111
-    print "%d new runs" % len(unknown_runs)
+  File "xfel/ui/components/xfel_gui_init.py", line 118
+    print "%d new runs" % len(unknown_run_runs)
                       ^
 SyntaxError: invalid syntax
 
@@ -925,7 +925,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "T
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/ui/db/xfel_db.py'...
-  File "xfel/ui/db/xfel_db.py", line 128
+  File "xfel/ui/db/xfel_db.py", line 130
     print "Upgrading to version 4 of mysql database schema"
                                                           ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Upgrading to version 4 of mysql database schema")?

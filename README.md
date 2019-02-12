@@ -18,7 +18,7 @@ fable | :red_circle:&nbsp; [1 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [11 files](gltbx.log) violate python3 syntax
 i19 | :white_check_mark:&nbsp; all OK
 iota | :red_circle:&nbsp; [4 files](iota.log) violate python3 syntax
-iotbx | :red_circle:&nbsp; [225 files](iotbx.log) violate python3 syntax
+iotbx | :red_circle:&nbsp; [223 files](iotbx.log) violate python3 syntax
 libtbx | :red_circle:&nbsp; [2 files](libtbx.log) violate python3 syntax
 mmtbx | :red_circle:&nbsp; [460 files](mmtbx.log) violate python3 syntax
 omptbx | :red_circle:&nbsp; [1 files](omptbx.log) violate python3 syntax
