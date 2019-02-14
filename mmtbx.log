@@ -2415,7 +2415,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print self.file_name)?
 
 *** Error compiling 'mmtbx/scaling/plan_sad_experiment.py'...
-  File "mmtbx/scaling/plan_sad_experiment.py", line 660
+  File "mmtbx/scaling/plan_sad_experiment.py", line 669
     except AttributeError, e:
                          ^
 SyntaxError: invalid syntax
