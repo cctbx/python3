@@ -185,7 +185,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print e.
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Step 1.  Get a list of all files")?
 
 *** Error compiling 'xfel/command_line/cxi_mpi_submit.py'...
-  File "xfel/command_line/cxi_mpi_submit.py", line 199
+  File "xfel/command_line/cxi_mpi_submit.py", line 212
     print help_str
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print help_str)?
@@ -279,6 +279,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "W
     print db.get_next_trial_id()
            ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'xfel/command_line/h5_average.py'...
+  File "xfel/command_line/h5_average.py", line 63
+    print "Wrote", writefile_name
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Wrote", writefile_name)?
 
 *** Error compiling 'xfel/command_line/histogram_finalise.py'...
   File "xfel/command_line/histogram_finalise.py", line 27
@@ -895,13 +901,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Minimalist mode activated.")?
 
 *** Error compiling 'xfel/ui/components/submission_tracker.py'...
-  File "xfel/ui/components/submission_tracker.py", line 18
+  File "xfel/ui/components/submission_tracker.py", line 20
     print status
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int status)?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_dialogs.py'...
-  File "xfel/ui/components/xfel_gui_dialogs.py", line 860
+  File "xfel/ui/components/xfel_gui_dialogs.py", line 871
     print "Submitting metrology refinement. Command:"
                                                     ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?

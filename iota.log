@@ -17,7 +17,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_utils.py'...
-  File "iota/components/iota_utils.py", line 722
+  File "iota/components/iota_utils.py", line 731
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
