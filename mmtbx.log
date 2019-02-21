@@ -1113,10 +1113,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 821
-    print 'writing mmCIF without restraints for %s' % ag.resname
-                                                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print 'writing mmCIF without restraints for %s' % ag.resname)?
+  File "mmtbx/model/model.py", line 1472
+    except ValueError, e :
+                     ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model_vs_data.py'...
   File "mmtbx/model_vs_data.py", line 135
@@ -1965,7 +1965,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/tst_alignment.py'...
-  File "mmtbx/regression/tst_alignment.py", line 65
+  File "mmtbx/regression/tst_alignment.py", line 21
     print "score=%.1f" % obj.score()
                      ^
 SyntaxError: invalid syntax
