@@ -883,7 +883,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Readi
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Printing results for trial", params.trial, "using a hit cutoff of", params.n_strong_cutoff, "reflections")?
 
 *** Error compiling 'xfel/ui/command_line/ui_server.py'...
-  File "xfel/ui/command_line/ui_server.py", line 127
+  File "xfel/ui/command_line/ui_server.py", line 136
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -913,7 +913,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int stat
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Submitting metrology refinement. Command:")?
 
 *** Error compiling 'xfel/ui/components/xfel_gui_init.py'...
-  File "xfel/ui/components/xfel_gui_init.py", line 118
+  File "xfel/ui/components/xfel_gui_init.py", line 124
     print "%d new runs" % len(unknown_run_runs)
                       ^
 SyntaxError: invalid syntax
