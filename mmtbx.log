@@ -1389,7 +1389,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int r)?
 
 *** Error compiling 'mmtbx/real_space_correlation.py'...
-  File "mmtbx/real_space_correlation.py", line 285
+  File "mmtbx/real_space_correlation.py", line 289
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
