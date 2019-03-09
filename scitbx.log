@@ -359,19 +359,19 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "S
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t 'OK')?
 
 *** Error compiling 'scitbx/linalg/tests/tst_svd.py'...
-  File "scitbx/linalg/tests/tst_svd.py", line 103
+  File "scitbx/linalg/tests/tst_svd.py", line 117
     print "Scaling with m and m/n: ",
                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Scaling with m and m/n: ", end=" ")?
 
 *** Error compiling 'scitbx/lstbx/normal_eqns_solving.py'...
-  File "scitbx/lstbx/normal_eqns_solving.py", line 285
+  File "scitbx/lstbx/normal_eqns_solving.py", line 288
     print "Iteration      Objective        Mu     ||Gradient||       Step"
                                                                          ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Iteration      Objective        Mu     ||Gradient||       Step")?
 
 *** Error compiling 'scitbx/lstbx/tests/tst_normal_equations.py'...
-  File "scitbx/lstbx/tests/tst_normal_equations.py", line 161
+  File "scitbx/lstbx/tests/tst_normal_equations.py", line 174
     print "L-M: %i iterations" % iterations.n_iterations
                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "L-M: %i iterations" % iterations.n_iterations)?

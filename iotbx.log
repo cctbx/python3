@@ -17,7 +17,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ccp4_map/__init__.py'...
-  File "iotbx/ccp4_map/__init__.py", line 37
+  File "iotbx/ccp4_map/__init__.py", line 49
     except Exception,e:
                     ^
 SyntaxError: invalid syntax
@@ -83,7 +83,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/cif/tests/tst_restraints.py'...
-  File "iotbx/cif/tests/tst_restraints.py", line 148
+  File "iotbx/cif/tests/tst_restraints.py", line 184
     print "Skipping exercise_adp_restraints_as_cif(): smtbx not available"
                                                                          ^
 SyntaxError: invalid syntax
@@ -1259,7 +1259,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/shelx/parsers.py'...
-  File "iotbx/shelx/parsers.py", line 658
+  File "iotbx/shelx/parsers.py", line 659
     except TypeError, e:
                     ^
 SyntaxError: invalid syntax

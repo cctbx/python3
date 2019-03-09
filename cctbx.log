@@ -1,5 +1,5 @@
 *** Error compiling 'cctbx/adp_restraints/tst_ext.py'...
-  File "cctbx/adp_restraints/tst_ext.py", line 150
+  File "cctbx/adp_restraints/tst_ext.py", line 152
     print "Skipping exercise_rigid_bond_test(): input file not available"
                                                                         ^
 SyntaxError: invalid syntax
