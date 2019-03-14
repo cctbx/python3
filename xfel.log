@@ -125,13 +125,13 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "G
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "no values")?
 
 *** Error compiling 'xfel/command_line/cspad_detector_congruence2.py'...
-  File "xfel/command_line/cspad_detector_congruence2.py", line 213
-    print "Please provide two experiments and or datablocks for comparison"
-                                                                          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Please provide two experiments and or datablocks for comparison")?
+  File "xfel/command_line/cspad_detector_congruence2.py", line 207
+    print "Please provide two experiments for comparison"
+                                                        ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Please provide two experiments for comparison")?
 
 *** Error compiling 'xfel/command_line/cspad_detector_shifts.py'...
-  File "xfel/command_line/cspad_detector_shifts.py", line 95
+  File "xfel/command_line/cspad_detector_shifts.py", line 89
     print "Found", params.max_hierarchy_level+1, "hierarchy levels"
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Found", params.max_hierarchy_level+1, "hierarchy levels")?
@@ -233,7 +233,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print he
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Setting up stats...")?
 
 *** Error compiling 'xfel/command_line/experiment_json_to_cbf_def.py'...
-  File "xfel/command_line/experiment_json_to_cbf_def.py", line 41
+  File "xfel/command_line/experiment_json_to_cbf_def.py", line 36
     print "Done"
                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Done")?
@@ -943,7 +943,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "U
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "unable to find experiment list")?
 
 *** Error compiling 'xfel/util/reflection_length.py'...
-  File "xfel/util/reflection_length.py", line 87
+  File "xfel/util/reflection_length.py", line 82
     print "Unable to handle one or more files:", importer.unhandled
                                               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Unable to handle one or more files:", importer.unhandled)?

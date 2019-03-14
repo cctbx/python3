@@ -749,7 +749,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/maptbx/__init__.py'...
-  File "cctbx/maptbx/__init__.py", line 1435
+  File "cctbx/maptbx/__init__.py", line 1447
     print "d_fsc_model:", d_fsc_model
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "d_fsc_model:", d_fsc_model)?

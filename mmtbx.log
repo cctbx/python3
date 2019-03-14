@@ -1113,7 +1113,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1472
+  File "mmtbx/model/model.py", line 1503
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -2953,7 +2953,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/secondary_structure/nucleic_acids.py'...
-  File "mmtbx/secondary_structure/nucleic_acids.py", line 417
+  File "mmtbx/secondary_structure/nucleic_acids.py", line 423
     print "Warning, Cannot make NA restraints for %s residue" % resname
                                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Warning, Cannot make NA restraints for %s residue" % resname)?
