@@ -1107,7 +1107,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1503
+  File "mmtbx/model/model.py", line 1529
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3333,7 +3333,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/validation/sequence.py'...
-  File "mmtbx/validation/sequence.py", line 162
+  File "mmtbx/validation/sequence.py", line 163
     print "WARNING: can't find center of residue %s" % resid
                                                    ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "WARNING: can't find center of residue %s" % resid)?
