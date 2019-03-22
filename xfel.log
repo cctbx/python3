@@ -649,7 +649,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "NoA
 SyntaxError: invalid syntax
 
 *** Error compiling 'xfel/euxfel/read_geom.py'...
-  File "xfel/euxfel/read_geom.py", line 141
+  File "xfel/euxfel/read_geom.py", line 146
     print help_str
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int help_str)?
