@@ -701,7 +701,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/geometry_restraints/manager.py'...
-  File "cctbx/geometry_restraints/manager.py", line 1814
+  File "cctbx/geometry_restraints/manager.py", line 1822
     print origin_id_info[0]
                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print origin_id_info[0])?
@@ -1103,7 +1103,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "bond:", proxy.i_seqs, delta)?
 
 *** Error compiling 'cctbx/regression/tst_grm.py'...
-  File "cctbx/regression/tst_grm.py", line 140
+  File "cctbx/regression/tst_grm.py", line 156
     print "Can not initialize monomer_library, skipping test."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?

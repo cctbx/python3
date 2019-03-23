@@ -452,7 +452,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "-"*79
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "OK")?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/__init__.py'...
-  File "mmtbx/conformation_dependent_library/__init__.py", line 96
+  File "mmtbx/conformation_dependent_library/__init__.py", line 107
     if verbose: print 'model: "%s"' % model.id
                                   ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print 'model: "%s"' % model.id)?
@@ -470,7 +470,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'min
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/conformation_dependent_library/cdl_utils.py'...
-  File "mmtbx/conformation_dependent_library/cdl_utils.py", line 64
+  File "mmtbx/conformation_dependent_library/cdl_utils.py", line 66
     for atom in omega_atoms: print atom.quote()
                                       ^
 SyntaxError: invalid syntax
@@ -511,6 +511,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'WAR
                             ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'mmtbx/conformation_dependent_library/multi_base_class.py'...
+  File "mmtbx/conformation_dependent_library/multi_base_class.py", line 45
+    print omega, limits
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print omega, limits)?
+
 *** Error compiling 'mmtbx/conformation_dependent_library/multi_residue_cdl_class.py'...
   File "mmtbx/conformation_dependent_library/multi_residue_cdl_class.py", line 82
     if verbose: print backbone_i
@@ -518,7 +524,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print backbone_i)?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/multi_residue_class.py'...
-  File "mmtbx/conformation_dependent_library/multi_residue_class.py", line 230
+  File "mmtbx/conformation_dependent_library/multi_residue_class.py", line 187
     if verbose: print backbone_i
                                ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(verbose: print backbone_i)?
@@ -594,6 +600,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print i,
     print line
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print line)?
+
+*** Error compiling 'mmtbx/conformation_dependent_library/tst_rna_dna_fragments.py'...
+  File "mmtbx/conformation_dependent_library/tst_rna_dna_fragments.py", line 149
+    print k,j,threes
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print k,j,threes)?
 
 *** Error compiling 'mmtbx/conformation_dependent_library/utils.py'...
   File "mmtbx/conformation_dependent_library/utils.py", line 51
@@ -1369,6 +1381,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling 'mmtbx/programs/ntc_validation.py'...
+  File "mmtbx/programs/ntc_validation.py", line 92
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/programs/ramalyze.py'...
   File "mmtbx/programs/ramalyze.py", line 113
