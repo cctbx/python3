@@ -1102,12 +1102,6 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "bond:", proxy.i_seqs, delta)?
 
-*** Error compiling 'cctbx/regression/tst_grm.py'...
-  File "cctbx/regression/tst_grm.py", line 156
-    print "Can not initialize monomer_library, skipping test."
-                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
-
 *** Error compiling 'cctbx/regression/tst_grm_modifications.py'...
   File "cctbx/regression/tst_grm_modifications.py", line 470
     print "Can not initialize monomer_library, skipping test."

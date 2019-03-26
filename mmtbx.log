@@ -512,7 +512,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int 'WAR
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/conformation_dependent_library/multi_base_class.py'...
-  File "mmtbx/conformation_dependent_library/multi_base_class.py", line 45
+  File "mmtbx/conformation_dependent_library/multi_base_class.py", line 46
     print omega, limits
               ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print omega, limits)?
@@ -891,7 +891,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Using external DA...")?
 
 *** Error compiling 'mmtbx/hydrogens/__init__.py'...
-  File "mmtbx/hydrogens/__init__.py", line 123
+  File "mmtbx/hydrogens/__init__.py", line 121
     if 0: print ag.resname, missing_h
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if 0: print ag.resname, missing_h)?
@@ -1383,7 +1383,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Ski
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/programs/ntc_validation.py'...
-  File "mmtbx/programs/ntc_validation.py", line 92
+  File "mmtbx/programs/ntc_validation.py", line 91
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
@@ -1867,6 +1867,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_s
     except RuntimeError, e:
                        ^
 SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/regression/pdb_interpretation/tst_edits.py'...
+  File "mmtbx/regression/pdb_interpretation/tst_edits.py", line 244
+    print "Can not initialize monomer_library, skipping test."
+                                                             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
 
 *** Error compiling 'mmtbx/regression/real_space_refine_chain/tst_00.py'...
   File "mmtbx/regression/real_space_refine_chain/tst_00.py", line 211
@@ -2367,7 +2373,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 420
+  File "mmtbx/run_tests.py", line 421
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
