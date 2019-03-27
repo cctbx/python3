@@ -1191,7 +1191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_i
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t " !!! %-78s !!!" % s)?
 
 *** Error compiling 'mmtbx/monomer_library/pdb_interpretation.py'...
-  File "mmtbx/monomer_library/pdb_interpretation.py", line 719
+  File "mmtbx/monomer_library/pdb_interpretation.py", line 721
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1869,7 +1869,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_s
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/pdb_interpretation/tst_edits.py'...
-  File "mmtbx/regression/pdb_interpretation/tst_edits.py", line 244
+  File "mmtbx/regression/pdb_interpretation/tst_edits.py", line 302
     print "Can not initialize monomer_library, skipping test."
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?

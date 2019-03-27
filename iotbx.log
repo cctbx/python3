@@ -71,7 +71,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/cif/tests/tst_model.py'...
-  File "iotbx/cif/tests/tst_model.py", line 358
+  File "iotbx/cif/tests/tst_model.py", line 357
     except AssertionError, e: pass
                          ^
 SyntaxError: invalid syntax
