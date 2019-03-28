@@ -5,7 +5,7 @@
 SyntaxError: invalid syntax
 
 *** Error compiling 'iota/components/iota_processing.py'...
-  File "iota/components/iota_processing.py", line 196
+  File "iota/components/iota_processing.py", line 222
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
