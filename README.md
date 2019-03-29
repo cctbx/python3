@@ -16,7 +16,6 @@ dlstbx | :white_check_mark:&nbsp; all OK
 dxtbx | :white_check_mark:&nbsp; all OK
 fable | :red_circle:&nbsp; [1 files](fable.log) violate python3 syntax
 gltbx | :red_circle:&nbsp; [11 files](gltbx.log) violate python3 syntax
-i19 | :white_check_mark:&nbsp; all OK
 iota | :red_circle:&nbsp; [4 files](iota.log) violate python3 syntax
 iotbx | :red_circle:&nbsp; [223 files](iotbx.log) violate python3 syntax
 libtbx | :red_circle:&nbsp; [2 files](libtbx.log) violate python3 syntax
