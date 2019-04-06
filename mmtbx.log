@@ -542,7 +542,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/conformation_dependent_library/rdl_database.py'...
-  File "mmtbx/conformation_dependent_library/rdl_database.py", line 3651
+  File "mmtbx/conformation_dependent_library/rdl_database.py", line 3653
     if verbose: print "RDL update",resname, rotamer, dihedral, restraint
                                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(if verbose: print "RDL update",resname, rotamer, dihedral, restraint)?
@@ -1194,6 +1194,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t " !!! 
   File "mmtbx/monomer_library/pdb_interpretation.py", line 721
     except ValueError, e :
                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/monomer_library/populate_auto_linking_origin_ids.py'...
+  File "mmtbx/monomer_library/populate_auto_linking_origin_ids.py", line 24
+    print dir(list_cif)
+            ^
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/monomer_library/server.py'...
