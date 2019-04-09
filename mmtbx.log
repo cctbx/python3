@@ -1479,7 +1479,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist, 
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/rigid_body.py'...
-  File "mmtbx/refinement/real_space/rigid_body.py", line 289
+  File "mmtbx/refinement/real_space/rigid_body.py", line 290
     print "chain:", chain.id
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "chain:", chain.id)?
