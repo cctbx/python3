@@ -1191,7 +1191,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t skip_i
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t " !!! %-78s !!!" % s)?
 
 *** Error compiling 'mmtbx/monomer_library/pdb_interpretation.py'...
-  File "mmtbx/monomer_library/pdb_interpretation.py", line 721
+  File "mmtbx/monomer_library/pdb_interpretation.py", line 723
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1479,10 +1479,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t dist, 
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/rigid_body.py'...
-  File "mmtbx/refinement/real_space/rigid_body.py", line 290
-    print "chain:", chain.id
-                 ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "chain:", chain.id)?
+  File "mmtbx/refinement/real_space/rigid_body.py", line 273
+    except Exception, e:
+                    ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/refinement/real_space/tst_aa_residue_axes_and_clusters.py'...
   File "mmtbx/refinement/real_space/tst_aa_residue_axes_and_clusters.py", line 48

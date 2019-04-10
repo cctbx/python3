@@ -731,7 +731,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 
 *** Error compiling 'cctbx/geometry_restraints/tst_nonbonded_overlaps.py'...
-  File "cctbx/geometry_restraints/tst_nonbonded_overlaps.py", line 921
+  File "cctbx/geometry_restraints/tst_nonbonded_overlaps.py", line 952
     print 'current _dir',os.getcwd()
                        ^
 SyntaxError: invalid syntax

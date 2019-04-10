@@ -335,7 +335,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "P
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "refinement.geometry_restraints.edits {")?
 
 *** Error compiling 'iotbx/command_line/pdb.print_sequence.py'...
-  File "iotbx/command_line/pdb.print_sequence.py", line 57
+  File "iotbx/command_line/pdb.print_sequence.py", line 35
     except ImportError, e:
                       ^
 SyntaxError: invalid syntax
