@@ -1875,10 +1875,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t rmsd_s
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/regression/pdb_interpretation/tst_edits.py'...
-  File "mmtbx/regression/pdb_interpretation/tst_edits.py", line 302
-    print "Can not initialize monomer_library, skipping test."
-                                                             ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Can not initialize monomer_library, skipping test.")?
+  File "mmtbx/regression/pdb_interpretation/tst_edits.py", line 284
+    print geo
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t geo)?
 
 *** Error compiling 'mmtbx/regression/real_space_refine_chain/tst_00.py'...
   File "mmtbx/regression/real_space_refine_chain/tst_00.py", line 211
