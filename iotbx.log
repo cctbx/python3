@@ -10,6 +10,18 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t size,"
                     ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iotbx/bioinformatics/local_blast.py'...
+  File "iotbx/bioinformatics/local_blast.py", line 47
+    print '%s version is running...\n'%sysname
+                                     ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s version is running...\n'%sysname)?
+
+*** Error compiling 'iotbx/bioinformatics/test/tst_local_blast.py'...
+  File "iotbx/bioinformatics/test/tst_local_blast.py", line 18
+    print "OK"
+             ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
 *** Error compiling 'iotbx/bioinformatics/xmlbuild.py'...
   File "iotbx/bioinformatics/xmlbuild.py", line 46
     raise RuntimeError, "Element '%s' has no child '%s'" % (elem.tag, self.tag )
