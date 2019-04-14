@@ -17,7 +17,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s version is running...\n'%sysname)?
 
 *** Error compiling 'iotbx/bioinformatics/test/tst_local_blast.py'...
-  File "iotbx/bioinformatics/test/tst_local_blast.py", line 18
+  File "iotbx/bioinformatics/test/tst_local_blast.py", line 19
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
