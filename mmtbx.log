@@ -53,10 +53,10 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/building/ligands/__init__.py'...
-  File "mmtbx/building/ligands/__init__.py", line 17
-    print v, i
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print v, i)?
+  File "mmtbx/building/ligands/__init__.py", line 25
+    print volumes
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int volumes)?
 
 *** Error compiling 'mmtbx/building/ligands/tst.py'...
   File "mmtbx/building/ligands/tst.py", line 135
