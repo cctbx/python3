@@ -10,11 +10,23 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t size,"
                     ^
 SyntaxError: invalid syntax
 
+*** Error compiling 'iotbx/bioinformatics/homologues.py'...
+  File "iotbx/bioinformatics/homologues.py", line 26
+    print "Working with chain '%s'" % chain.id
+                                  ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Working with chain '%s'" % chain.id)?
+
 *** Error compiling 'iotbx/bioinformatics/local_blast.py'...
   File "iotbx/bioinformatics/local_blast.py", line 47
     print '%s version is running...\n'%sysname
                                      ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int '%s version is running...\n'%sysname)?
+
+*** Error compiling 'iotbx/bioinformatics/pdb_info.py'...
+  File "iotbx/bioinformatics/pdb_info.py", line 90
+    print get_all
+                ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t get_all)?
 
 *** Error compiling 'iotbx/bioinformatics/test/tst_local_blast.py'...
   File "iotbx/bioinformatics/test/tst_local_blast.py", line 19
