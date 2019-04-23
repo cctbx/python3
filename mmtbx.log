@@ -1364,6 +1364,18 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "deb
                                                              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "Find groups of chains related by translational NCS")?
 
+*** Error compiling 'mmtbx/pair_interaction/tst_01.py'...
+  File "mmtbx/pair_interaction/tst_01.py", line 87
+    print interaction_list
+                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t interaction_list)?
+
+*** Error compiling 'mmtbx/pair_interaction/tst_02.py'...
+  File "mmtbx/pair_interaction/tst_02.py", line 522
+    print interaction_list
+                         ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t interaction_list)?
+
 *** Error compiling 'mmtbx/pdb_distances.py'...
   File "mmtbx/pdb_distances.py", line 954
     print "\n##################################################\n##### SEQUENTIAL OUTPUT READOUT        BEGINNING"
