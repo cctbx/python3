@@ -23,7 +23,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "%s no
 SyntaxError: invalid syntax
 
 *** Error compiling 'crys3d/hklview/cmdlineframes.py'...
-  File "crys3d/hklview/cmdlineframes.py", line 182
+  File "crys3d/hklview/cmdlineframes.py", line 188
     print varname + " " + myvar
                 ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int varname + " " + myvar)?
