@@ -893,7 +893,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No systematic absences found!")?
 
 *** Error compiling 'cctbx/miller/display2.py'...
-  File "cctbx/miller/display2.py", line 440
+  File "cctbx/miller/display2.py", line 444
     print "No systematic absences found!"
                                         ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "No systematic absences found!")?
