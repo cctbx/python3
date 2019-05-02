@@ -1131,7 +1131,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1529
+  File "mmtbx/model/model.py", line 1535
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -3001,7 +3001,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'mmtbx/secondary_structure/find_ss_from_ca.py'...
-  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 740
+  File "mmtbx/secondary_structure/find_ss_from_ca.py", line 765
     except Exception,e: # the helix needs to be deleted
                     ^
 SyntaxError: invalid syntax
@@ -3207,7 +3207,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(0: print plane_atom_names)?
 
 *** Error compiling 'mmtbx/validation/chain_comparison.py'...
-  File "mmtbx/validation/chain_comparison.py", line 962
+  File "mmtbx/validation/chain_comparison.py", line 1011
     print "Need phenix for applying NCS"
                                        ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Need phenix for applying NCS")?
