@@ -1131,7 +1131,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1535
+  File "mmtbx/model/model.py", line 1538
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
