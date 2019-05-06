@@ -24,7 +24,7 @@ omptbx | :red_circle:&nbsp; [1 files](omptbx.log) violate python3 syntax
 prime | :red_circle:&nbsp; [32 files](prime.log) violate python3 syntax
 rstbx | :red_circle:&nbsp; [68 files](rstbx.log) violate python3 syntax
 scitbx | :red_circle:&nbsp; [148 files](scitbx.log) violate python3 syntax
-simtbx | :red_circle:&nbsp; [10 files](simtbx.log) violate python3 syntax
+simtbx | :red_circle:&nbsp; [11 files](simtbx.log) violate python3 syntax
 smtbx | :red_circle:&nbsp; [1 files](smtbx.log) violate python3 syntax
 spotfinder | :red_circle:&nbsp; [32 files](spotfinder.log) violate python3 syntax
 tbxx | :white_check_mark:&nbsp; all OK

@@ -46,6 +46,12 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "GOT
             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.missets_deg)?
 
+*** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_mosaic.py'...
+  File "simtbx/nanoBragg/tst_nanoBragg_mosaic.py", line 32
+    print SIM.beamcenter_convention
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(SIM.beamcenter_convention)?
+
 *** Error compiling 'simtbx/nanoBragg/tst_nanoBragg_multipanel.py'...
   File "simtbx/nanoBragg/tst_nanoBragg_multipanel.py", line 132
     print "OK"
