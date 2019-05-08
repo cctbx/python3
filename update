@@ -4,7 +4,7 @@ module load dials/nightly
 . /dls/science/groups/scisoft/DIALS/Python3/setup 
 
 cat <<EOF >README.md
-## Python3 compatibility tests
+## Python3 syntax compatibility tests
 
 module | result
 --- | ---
