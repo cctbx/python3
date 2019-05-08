@@ -3031,7 +3031,7 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Warning, Cannot make NA restraints for %s residue" % resname)?
 
 *** Error compiling 'mmtbx/secondary_structure/proteins.py'...
-  File "mmtbx/secondary_structure/proteins.py", line 243
+  File "mmtbx/secondary_structure/proteins.py", line 275
     print "limit: %.2f" % limit
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "limit: %.2f" % limit)?
