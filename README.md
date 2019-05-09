@@ -1,4 +1,4 @@
-## Python3 syntax compatibility tests
+## Python3 compatibility tests
 
 module | result
 --- | ---

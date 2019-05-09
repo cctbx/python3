@@ -853,7 +853,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Readi
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print "# 2theta Res N dXY IsigI")?
 
 *** Error compiling 'xfel/ui/command_line/plot_run_stats_from_experiments.py'...
-  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 110
+  File "xfel/ui/command_line/plot_run_stats_from_experiments.py", line 111
     print filename
                  ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print filename)?
