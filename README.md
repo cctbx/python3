@@ -9,7 +9,7 @@ ccp4io | :white_check_mark:&nbsp; all OK
 cctbx | :red_circle:&nbsp; [286 files](cctbx.log) violate python3 syntax
 chiltbx | :white_check_mark:&nbsp; all OK
 cma_es | :red_circle:&nbsp; [2 files](cma_es.log) violate python3 syntax
-crys3d | :red_circle:&nbsp; [12 files](crys3d.log) violate python3 syntax
+crys3d | :red_circle:&nbsp; [13 files](crys3d.log) violate python3 syntax
 dials | :white_check_mark:&nbsp; all OK
 dials_research | :white_check_mark:&nbsp; all OK
 dlstbx | :white_check_mark:&nbsp; all OK
