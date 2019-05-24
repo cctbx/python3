@@ -409,12 +409,6 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t header
                       ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "Input data:")?
 
-*** Error compiling 'mmtbx/command_line/rotalyze.py'...
-  File "mmtbx/command_line/rotalyze.py", line 59
-    except ImportError, e :
-                      ^
-SyntaxError: invalid syntax
-
 *** Error compiling 'mmtbx/command_line/secondary_structure_restraints.py'...
   File "mmtbx/command_line/secondary_structure_restraints.py", line 62
     print help_msg
@@ -1426,6 +1420,12 @@ SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/programs/ramalyze.py'...
   File "mmtbx/programs/ramalyze.py", line 113
+    except ImportError, e :
+                      ^
+SyntaxError: invalid syntax
+
+*** Error compiling 'mmtbx/programs/rotalyze.py'...
+  File "mmtbx/programs/rotalyze.py", line 54
     except ImportError, e :
                       ^
 SyntaxError: invalid syntax
