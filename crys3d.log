@@ -41,7 +41,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl,
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int hkl, value)?
 
 *** Error compiling 'crys3d/hklview/jsview_3d.py'...
-  File "crys3d/hklview/jsview_3d.py", line 48
+  File "crys3d/hklview/jsview_3d.py", line 50
     except Exception, e:
                     ^
 SyntaxError: invalid syntax
