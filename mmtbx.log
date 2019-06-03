@@ -1335,7 +1335,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/nci/tst_hbond.py'...
-  File "mmtbx/nci/tst_hbond.py", line 133
+  File "mmtbx/nci/tst_hbond.py", line 92
     print "OK. Time: %6.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
