@@ -935,7 +935,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 
 *** Error compiling 'iotbx/pdb/tst_mmcif_hierarchy.py'...
-  File "iotbx/pdb/tst_mmcif_hierarchy.py", line 136
+  File "iotbx/pdb/tst_mmcif_hierarchy.py", line 147
     except AssertionError, e: pass
                          ^
 SyntaxError: invalid syntax
@@ -981,6 +981,12 @@ SyntaxError: invalid syntax
     print "OK"
              ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
+
+*** Error compiling 'iotbx/pdb/utils.py'...
+  File "iotbx/pdb/utils.py", line 50
+    print '%7d %7d %7d %5s %0.3fs' % (l,p,len(rc), rc[-1], time.time()-t0)
+                                 ^
+SyntaxError: invalid syntax
 
 *** Error compiling 'iotbx/ranges.py'...
   File "iotbx/ranges.py", line 131

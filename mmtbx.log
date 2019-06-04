@@ -1125,7 +1125,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "OK")?
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/model/model.py'...
-  File "mmtbx/model/model.py", line 1538
+  File "mmtbx/model/model.py", line 1543
     except ValueError, e :
                      ^
 SyntaxError: invalid syntax
@@ -1335,7 +1335,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t "geo_t
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/nci/tst_hbond.py'...
-  File "mmtbx/nci/tst_hbond.py", line 92
+  File "mmtbx/nci/tst_hbond.py", line 294
     print "OK. Time: %6.3f"%(time.time()-t0)
                           ^
 SyntaxError: invalid syntax
@@ -2421,7 +2421,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(print re
 SyntaxError: invalid syntax
 
 *** Error compiling 'mmtbx/run_tests.py'...
-  File "mmtbx/run_tests.py", line 423
+  File "mmtbx/run_tests.py", line 424
     print "Skipping %d probe tests: probe not configured"%len(probe_tests)
                                                         ^
 SyntaxError: invalid syntax
