@@ -1,6 +1,0 @@
-*** Error compiling 'smtbx/command_line/benchmark_refinement.py'...
-  File "smtbx/command_line/benchmark_refinement.py", line 21
-    print "%16s%11s%7s%9s%8s" % ('Algorithms', 'resolution', '#atoms',
-                            ^
-SyntaxError: invalid syntax
-

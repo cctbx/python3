@@ -1,6 +1,0 @@
-*** Error compiling 'fable/test/sf_times.py'...
-  File "fable/test/sf_times.py", line 187
-    print build_cmd
-                  ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(t build_cmd)?
-
